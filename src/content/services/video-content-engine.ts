@@ -79,6 +79,37 @@ export const benefitsSection = {
   ]
 };
 
+export const faqSection = {
+  headline: "Frequently Asked Questions",
+  description: "Everything you need to know about our Video Content Engine service.",
+  questions: [
+    {
+      question: "What is the Video Content Engine?",
+      answer: "It's a system that turns your expertise into a scalable video series—podcast, masterclass, or webinar—fueling LinkedIn, YouTube, and your entire content engine to drive pipeline and build authority."
+    },
+    {
+      question: "How much time do I need to invest?",
+      answer: "Typically, just 2-4 hours per month of recording is enough. We handle the rest, turning each session into weeks of content and assets."
+    },
+    {
+      question: "Who should use the Video Content Engine?",
+      answer: "It's ideal for B2B founders, executives, and sales leaders who want to build relationships, drive demand, and position themselves as thought leaders in their category."
+    },
+    {
+      question: "How soon will I see results?",
+      answer: "Most clients see increased engagement and qualified meetings within the first few months, with pipeline impact compounding over time."
+    },
+    {
+      question: "Can the video series be customized for my industry?",
+      answer: "Yes, we tailor the video strategy, topics, and distribution to your specific industry, audience, and business goals."
+    },
+    {
+      question: "Do I need to have video experience?",
+      answer: "No prior video experience is required. We guide you through the process and provide all the support you need to create professional, impactful content."
+    }
+  ]
+};
+
 export const ctaSection = {
   headline: "Ready for a strategy call?",
   buttonText: "Talk with Manny"

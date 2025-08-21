@@ -79,6 +79,29 @@ export const benefitsSection = {
   ]
 };
 
+export const faqSection = {
+  headline: "Frequently Asked Questions",
+  description: "Everything you need to know about our services and process.",
+  questions: [
+    {
+      question: "How long until we should expect results?",
+      answer: "You will be able to generate 11-16 high-converting leads in your inbox every month after generating an initial realm of influence anywhere from 2-5 months and the client's product typical sales cycle plays a role."
+    },
+    {
+      question: "What is the difference between founder-led marketing & personal branding?",
+      answer: "Founder-led marketing focuses on building business value and driving pipeline through strategic content, while personal branding is more about individual reputation. We align your personal expertise with business goals."
+    },
+    {
+      question: "Why should we work with your agency for B2B content?",
+      answer: "We've built our own agency using the same SAUCE™ Recipe we share with clients. We understand the challenges of B2B growth and have proven systems that work across multiple industries."
+    },
+    {
+      question: "Can executive ghostwriting be tailored to my industry?",
+      answer: "Yes, our ghostwriting service is customized to your industry, audience, and business goals to ensure your content is relevant and impactful."
+    }
+  ]
+};
+
 export const ctaSection = {
   headline: "Ready for a strategy call?",
   buttonText: "Talk with Manny"

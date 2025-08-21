@@ -79,6 +79,37 @@ export const benefitsSection = {
   ]
 };
 
+export const faqSection = {
+  headline: "Frequently Asked Questions",
+  description: "Everything you need to know about our Content-led GTM Coaching service.",
+  questions: [
+    {
+      question: "What is Content-led GTM Coaching?",
+      answer: "It's a hands-on coaching program where we work directly with you to sharpen your messaging, build a demand-driven content engine, and accelerate your go-to-market strategy using proven systems."
+    },
+    {
+      question: "How is this different from traditional marketing consulting?",
+      answer: "Unlike traditional consulting, our approach is execution-focused. We workshop your messaging, content strategy, and GTM motions together in real time, so you leave each session with clarity and actionable steps."
+    },
+    {
+      question: "Who is this coaching for?",
+      answer: "This is ideal for B2B founders, executives, and teams who want to build a scalable content system, align sales and marketing, and become the go-to option in their category."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "Most clients start seeing clarity and improved content performance within the first few sessions. Pipeline impact typically builds over 2-5 months, depending on your sales cycle and execution."
+    },
+    {
+      question: "Do I need a big team to benefit?",
+      answer: "No. Our systems are designed to work for lean teams and even solo founders. We tailor the coaching to your bandwidth and resources."
+    },
+    {
+      question: "Can the coaching be customized for my industry?",
+      answer: "Yes, our coaching is tailored to your specific industry, business model, and goals to ensure you get relevant strategies and actionable results."
+    }
+  ]
+};
+
 export const ctaSection = {
   headline: "Ready for a strategy call?",
   buttonText: "Talk with Manny"
