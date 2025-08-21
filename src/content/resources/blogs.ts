@@ -8,8 +8,10 @@ import { marketingBlogPost } from "../blogposts/b2b-content-marketing";
 import { masterOnePlatformBlogPost } from "../blogposts/master-one-platform";
 import { b2bContentBlogPost} from "../blogposts/b2b-content-engine-win-buy-in";
 import { storytellingBlogPost} from "../blogposts/storytelling-in-b2b-marketing";
-import {b2bfoundersBlogPost} from "../blogposts/b2b-linkedin-strategy-for-founders";
-import {linkedinstrategyBlogPost} from "../blogposts/how-b2b-founders-grow-on-linkedin";
+import { b2bfoundersBlogPost} from "../blogposts/b2b-linkedin-strategy-for-founders";
+import { linkedinstrategyBlogPost} from "../blogposts/how-b2b-founders-grow-on-linkedin";
+import { fromOutboundToLinkedinGrowth } from "../blogposts/from-outbound-to-linkedin-growth";
+import { trustBuildingBlogPost} from "../blogposts/trust-building-for-b2b-founders";
 
 
 export interface BlogPost {
@@ -40,7 +42,9 @@ export const blogPosts: BlogPost[] = [
  b2bContentBlogPost,
  storytellingBlogPost,
  linkedinstrategyBlogPost,
- b2bfoundersBlogPost
+ b2bfoundersBlogPost,
+ fromOutboundToLinkedinGrowth,
+ trustBuildingBlogPost,
 ];
 
 
