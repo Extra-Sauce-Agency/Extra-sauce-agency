@@ -50,7 +50,7 @@ export const storytellingBlogPost = {
  date: "2024-06-10",
  category: "Leadership",
  tags: ["storytelling", "B2B", "content marketing", "brand affinity"],
- image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=900&q=80",
+ image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80",
  slug: "storytelling-in-b2b-marketing",
  featured: false,
  readTime: "5 min read",
