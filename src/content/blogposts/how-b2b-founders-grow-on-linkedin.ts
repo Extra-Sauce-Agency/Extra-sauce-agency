@@ -37,7 +37,7 @@ export const linkedinstrategyBlogPost = {
    date: "2025-03-29",
    category: "B2B Growth",
    tags: ["LinkedIn", "B2B", "Founder", "Content Marketing", "Leadership"],
-   image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+   image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
    slug: "b2b-linkedin-strategy-for-founders",
    featured: false,
    readTime: "4 min read"

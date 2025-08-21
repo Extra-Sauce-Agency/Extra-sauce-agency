@@ -96,7 +96,7 @@ export const b2bContentBlogPost = {
    "ABM",
    "thought leadership"
  ],
- image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+ image: "https://images.unsplash.com/photo-1465101178521-c1a96c13a36c?auto=format&fit=crop&w=800&q=80",
  slug: "toronto-b2b-content-engine-without-immediate-roi",
  featured: false,
  readTime: "6 min read"

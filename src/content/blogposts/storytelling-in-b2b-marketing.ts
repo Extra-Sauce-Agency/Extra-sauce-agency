@@ -48,7 +48,7 @@ export const storytellingBlogPost = {
  `,
  author: "The Sauce Team",
  date: "2024-06-10",
- category: "B2B Marketing",
+ category: "Leadership",
  tags: ["storytelling", "B2B", "content marketing", "brand affinity"],
  image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=900&q=80",
  slug: "storytelling-in-b2b-marketing",
