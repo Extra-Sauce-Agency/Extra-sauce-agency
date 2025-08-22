@@ -1,5 +1,5 @@
 export const howFoundersDriveBlogPost = {
-  id: "14-b2b-founder-touchpoints",
+  id: "15",
   title: "How Founders Drive B2B Buyers: The Essential Touchpoints",
   excerpt: "Explore the crucial touchpoints that founders must engage in to effectively drive B2B buyers through the modern purchasing journey.",
   content: `

@@ -76,8 +76,8 @@ export const newBlogPost = {
 </div>
 `,
  author: "The Sauce Team",
- date: "2025-08-05",
- category: "Strategy",
+ date: "2025-03-27",
+ category: "Leadership",
  tags: [
    "founder-led marketing",
    "B2B SaaS",

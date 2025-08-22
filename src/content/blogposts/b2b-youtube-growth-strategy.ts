@@ -1,5 +1,5 @@
 export const b2bYoutubeGrowthBlogPost = {
-  id: "16-b2b-youtube-growth-framework",
+  id: "19",
   title: "How B2B Companies Can Apply a YouTube Growth Framework to Their Content Strategy",
   excerpt: "Learn how B2B companies in Toronto and Canada can use a proven YouTube growth framework to drive inbound leads, build authority, and boost engagement.",
   content: `
