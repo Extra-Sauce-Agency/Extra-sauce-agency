@@ -13,6 +13,8 @@ import { linkedinstrategyBlogPost} from "../blogposts/how-b2b-founders-grow-on-l
 import { fromOutboundToLinkedinGrowth } from "../blogposts/from-outbound-to-linkedin-growth";
 import { trustBuildingBlogPost} from "../blogposts/trust-building-for-b2b-founders";
 import { socialMediaAgenciesDeadPost } from "../blogposts/social-media-agencies-dead";
+import { howFoundersDriveBlogPost } from "../blogposts/how-founders-drive-b2b-buyers";
+import { b2bYoutubeGrowthBlogPost } from "../blogposts/b2b-youtube-growth-strategy";
 
 
 export interface BlogPost {
@@ -46,7 +48,9 @@ export const blogPosts: BlogPost[] = [
  b2bfoundersBlogPost,
  fromOutboundToLinkedinGrowth,
  trustBuildingBlogPost,
- socialMediaAgenciesDeadPost
+ socialMediaAgenciesDeadPost,
+ howFoundersDriveBlogPost,
+ b2bYoutubeGrowthBlogPost
 ];
 
 
