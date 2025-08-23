@@ -15,6 +15,11 @@ import { trustBuildingBlogPost} from "../blogposts/trust-building-for-b2b-founde
 import { socialMediaAgenciesDeadPost } from "../blogposts/social-media-agencies-dead";
 import { howFoundersDriveBlogPost } from "../blogposts/how-founders-drive-b2b-buyers";
 import { b2bYoutubeGrowthBlogPost } from "../blogposts/b2b-youtube-growth-strategy";
+import { hubspotFounderBlogPost } from "../blogposts/hubspot-founder-led-marketing";
+import { founderLedMarketingCaseBlogPost } from "../blogposts/founder-led-marketing-case-study";
+import { extraSauceAgencyGrowthCaseStudy  } from "../blogposts/extra-sauce-agency-growth-case-study";
+import { founderLedContentEngineBlogPost} from "../blogposts/founder-led-content-engine-for-b2b-growth";
+import { clientFulfillmentPrinciplesBlogPost } from "../blogposts/b2b-client-fulfillment-principles-that-build-trust";
 
 
 export interface BlogPost {
@@ -50,7 +55,12 @@ export const blogPosts: BlogPost[] = [
  trustBuildingBlogPost,
  socialMediaAgenciesDeadPost,
  howFoundersDriveBlogPost,
- b2bYoutubeGrowthBlogPost
+ b2bYoutubeGrowthBlogPost,
+ hubspotFounderBlogPost,
+ founderLedMarketingCaseBlogPost,
+ extraSauceAgencyGrowthCaseStudy ,
+ founderLedContentEngineBlogPost,
+ clientFulfillmentPrinciplesBlogPost 
 ];
 
 
