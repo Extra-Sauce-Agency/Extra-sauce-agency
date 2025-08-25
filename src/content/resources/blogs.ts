@@ -26,6 +26,9 @@ import { linkedinGrowthStrategyBlogPost } from "../blogposts/linkedIn-growth-str
 import { sevenSignsFounderContentBlogPost } from "../blogposts/7-signs-you-should-create-founder-content";
 import { boostBDRrepliesWithfounderContentBlogPost } from "../blogposts/boost-bdr-replies-with-founder-content";
 import { howContentLowersB2BAcquisitionCostsBlogPost} from "../blogposts/how-content-lowers-b2b-acquisition-costs";
+import { LessonsFromFounderLedContentBlogPost } from "../blogposts/5-lessons-from-founder-led-content-in-b2b";
+import { contentCreationBlogPost} from "../blogposts/content-creation-expectations-vs-reality";
+import { whyB2BcontentBlogPost} from "../blogposts/why-b2b-needs-a-content-asset-bank";
 
 
 
@@ -74,7 +77,10 @@ export const blogPosts: BlogPost[] = [
  linkedinGrowthStrategyBlogPost,
  sevenSignsFounderContentBlogPost,
  boostBDRrepliesWithfounderContentBlogPost,
- howContentLowersB2BAcquisitionCostsBlogPost
+ howContentLowersB2BAcquisitionCostsBlogPost,
+ LessonsFromFounderLedContentBlogPost,
+ contentCreationBlogPost,
+ whyB2BcontentBlogPost
 ];
 
 
