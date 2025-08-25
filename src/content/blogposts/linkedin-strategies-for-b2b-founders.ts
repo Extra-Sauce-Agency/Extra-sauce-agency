@@ -1,4 +1,4 @@
-export const linkedinStrategiesForB2BFounders = {
+export const linkedinStrategiesForb2bBlogPost = {
   id: "14",
   title: "When Not to Do Founder-Led Marketing: Is It the Wrong Fit for Your Business?",
   excerpt: "Founder-led marketing isn't for every SaaS company. Learn when FLM may not be the right strategy and what to focus on instead.",

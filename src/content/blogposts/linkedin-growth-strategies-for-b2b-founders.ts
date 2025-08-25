@@ -1,4 +1,4 @@
-export const linkedinGrowthStrategyBlogPost = {
+export const linkedinGrowthStrategyBlogPost= {
   id: "26",
   title: "When Founders Say LinkedIn Doesn’t Work: How to Build a Growth Strategy That Delivers",
   excerpt: "Toronto founders: Discover why LinkedIn works for B2B growth if you commit to focus, consistency, and strategic refinement. FAQs included.",

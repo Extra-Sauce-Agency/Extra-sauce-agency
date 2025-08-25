@@ -11,18 +11,20 @@ import { storytellingBlogPost } from "../blogposts/storytelling-in-b2b-marketing
 import { b2bfoundersBlogPost } from "../blogposts/b2b-linkedin-strategy-for-founders";
 import { linkedinstrategyBlogPost } from "../blogposts/how-b2b-founders-grow-on-linkedin";
 import { fromOutboundToLinkedinGrowth } from "../blogposts/from-outbound-to-linkedin-growth";
-import { trustBuildingBlogPost } from "../blogposts/trust-building-for-b2b-founders";
-import { socialMediaAgenciesDeadPost } from "../blogposts/social-media-agencies-dead";
+import { linkedinStrategiesForb2bBlogPost } from "../blogposts/linkedin-strategies-for-b2b-founders";
 import { howFoundersDriveBlogPost } from "../blogposts/how-founders-drive-b2b-buyers";
+import { outboundevsBlogPost } from "../blogposts/outbound-vs-linkedin-b2b-growth";
+import { socialMediaAgenciesDeadPost } from "../blogposts/social-media-agencies-dead";
+import { trustBuildingBlogPost } from "../blogposts/trust-building-for-b2b-founders";
 import { b2bYoutubeGrowthBlogPost } from "../blogposts/b2b-youtube-growth-strategy";
 import { hubspotFounderBlogPost } from "../blogposts/hubspot-founder-led-marketing";
 import { founderLedMarketingCaseBlogPost } from "../blogposts/founder-led-marketing-case-study";
 import { extraSauceAgencyGrowthCaseStudy } from "../blogposts/extra-sauce-agency-growth-case-study";
 import { founderLedContentEngineBlogPost } from "../blogposts/founder-led-content-engine-for-b2b-growth";
 import { clientFulfillmentPrinciplesBlogPost } from "../blogposts/b2b-client-fulfillment-principles-that-build-trust";
-import { b2bMarketingBudgetPlanBlogPost } from "../blogposts/b2b-marketing-budget-plan";
 import { clientOnboardingSystemBlogPost } from "../blogposts/b2b-client-onboarding-system";
-import { linkedinGrowthStrategyBlogPost } from "../blogposts/linkedIn-growth-strategy-for-founders";
+import { linkedinGrowthStrategyBlogPost } from "../blogposts/linkedin-growth-strategies-for-b2b-founders";
+import { b2bMarketingBudgetPlanBlogPost } from "../blogposts/b2b-marketing-budget-plan";
 import { sevenSignsFounderContentBlogPost } from "../blogposts/7-signs-you-should-create-founder-content";
 import { boostBDRrepliesWithfounderContentBlogPost } from "../blogposts/boost-bdr-replies-with-founder-content";
 import { howContentLowersB2BAcquisitionCostsBlogPost } from "../blogposts/how-content-lowers-b2b-acquisition-costs";
@@ -31,8 +33,8 @@ import { contentCreationBlogPost } from "../blogposts/content-creation-expectati
 import { whyB2BcontentBlogPost } from "../blogposts/why-b2b-needs-a-content-asset-bank";
 import { b2bContentNeedsBlogPost } from "../blogposts/b2b-content-needs-strategic-narrative";
 import { whyDistinctionWinsBlogPost } from "../blogposts/why-distinction-wins-in-b2b-branding";
-import { founderLedAlignmentBlogPost } from "../blogposts/how-founder-led-marketing-aligns-sales-and-marketing";
 import { personalBrandingVsFounderLedBlogPost } from "../blogposts/personal-branding-vs-founder-led-marketing";
+import { founderLedAlignmentBlogPost } from "../blogposts/how-founder-led-marketing-aligns-sales-and-marketing";
 import { whyFoundersFailOnLinkedinEngagementBlogPost } from "../blogposts/why-founders-fail-on-linkedin-engagement";
 
 
@@ -55,42 +57,44 @@ export interface BlogPost {
 
 
 export const blogPosts: BlogPost[] = [
- futureBlogPost,
- executiveBlogPost,
- videoContentBlogPost,
- newBlogPost,
- trendBlogPost,
- insightBlogPost,
- marketingBlogPost,
- masterOnePlatformBlogPost,
- b2bContentBlogPost,
- storytellingBlogPost,
- linkedinstrategyBlogPost,
- b2bfoundersBlogPost,
- fromOutboundToLinkedinGrowth,
- trustBuildingBlogPost,
- socialMediaAgenciesDeadPost,
- howFoundersDriveBlogPost,
- b2bYoutubeGrowthBlogPost,
- hubspotFounderBlogPost,
- founderLedMarketingCaseBlogPost,
- extraSauceAgencyGrowthCaseStudy,
- founderLedContentEngineBlogPost,
- clientFulfillmentPrinciplesBlogPost,
- b2bMarketingBudgetPlanBlogPost,
- clientOnboardingSystemBlogPost,
- linkedinGrowthStrategyBlogPost,
- sevenSignsFounderContentBlogPost,
- boostBDRrepliesWithfounderContentBlogPost,
- howContentLowersB2BAcquisitionCostsBlogPost,
- LessonsFromFounderLedContentBlogPost,
- contentCreationBlogPost,
- whyB2BcontentBlogPost,
- b2bContentNeedsBlogPost,
- whyDistinctionWinsBlogPost,
- founderLedAlignmentBlogPost,
- personalBrandingVsFounderLedBlogPost,
- whyFoundersFailOnLinkedinEngagementBlogPost
+    futureBlogPost,
+    executiveBlogPost,
+    videoContentBlogPost,
+    newBlogPost,
+    trendBlogPost,
+    insightBlogPost,
+    marketingBlogPost,
+    masterOnePlatformBlogPost,
+    b2bContentBlogPost,
+    storytellingBlogPost,
+    b2bfoundersBlogPost,
+    linkedinstrategyBlogPost ,
+    fromOutboundToLinkedinGrowth,
+    linkedinStrategiesForb2bBlogPost,
+    howFoundersDriveBlogPost ,
+    outboundevsBlogPost,
+    socialMediaAgenciesDeadPost,
+    trustBuildingBlogPost, 
+    b2bYoutubeGrowthBlogPost,
+    hubspotFounderBlogPost,
+    founderLedMarketingCaseBlogPost,
+    extraSauceAgencyGrowthCaseStudy,
+    founderLedContentEngineBlogPost ,
+    clientFulfillmentPrinciplesBlogPost,
+    b2bMarketingBudgetPlanBlogPost,
+    clientOnboardingSystemBlogPost,
+    linkedinGrowthStrategyBlogPost,
+    sevenSignsFounderContentBlogPost,
+    boostBDRrepliesWithfounderContentBlogPost,
+    howContentLowersB2BAcquisitionCostsBlogPost,
+    LessonsFromFounderLedContentBlogPost,
+    contentCreationBlogPost,
+    whyB2BcontentBlogPost,
+    b2bContentNeedsBlogPost,
+    whyDistinctionWinsBlogPost,
+    founderLedAlignmentBlogPost,
+    personalBrandingVsFounderLedBlogPost,
+    whyFoundersFailOnLinkedinEngagementBlogPost
 ];
 
 

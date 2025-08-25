@@ -1,5 +1,5 @@
 export const whyFoundersFailOnLinkedinEngagementBlogPost = {
-  id: "39",
+  id: "38",
   title: "The Biggest Mistake in Founder-Led Marketing: Posting & Ghosting on LinkedIn",
   excerpt: "Learn why posting and ghosting kills your LinkedIn authority. Discover engagement strategies for B2B founders to build trust and drive pipeline.",
   content: `
