@@ -5,7 +5,7 @@ export const whyB2BcontentBlogPost = {
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>The Perks of Building a Content Asset Bank</h2>
-      <p>In today's competitive B2B landscape, paid ads alone won't fuel sustainable growth. The secret weapon? A content asset bank—a strategic library of reusable, high-impact content that powers your brand, sales, and pipeline for the long haul.</p>
+      <p>In today's competitive B2B landscape, paid ads alone won't fuel sustainable growth. The secret weapon? A content asset bank—a strategic library of reusable, high-impact content that powers your brand, sales, and pipeline for the long haul. Whether you’re a Toronto-based startup or a B2B company anywhere in Canada, this strategy gives you a local edge and global reach.</p>
       
       <h3>Why Building a Content Bank Is a Power Move</h3>
       <p>Most B2B startups struggle with rising ad costs, low outbound reply rates, and buyers who do 80% of their research before ever talking to sales. If you’re not showing up during that discovery window, you’re missing deals. A content asset bank solves this by:</p>
@@ -51,6 +51,6 @@ export const whyB2BcontentBlogPost = {
   tags: ["b2b", "content marketing", "asset bank", "startup growth", "pipeline"],
   image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
   slug: "why-b2b-needs-a-content-asset-bank",
-  featured: true,
+  featured: false,
   readTime: "5 min read"
 };

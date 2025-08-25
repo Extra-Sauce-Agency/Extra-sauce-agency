@@ -73,6 +73,6 @@ export const LessonsFromFounderLedContentBlogPost = {
   tags: ["founder-led content", "B2B marketing", "content strategy", "ghostwriting", "pipeline"],
   image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
   slug: "5-lessons-founder-led-content-b2b",
-  featured: true,
+  featured: false,
   readTime: "6 min read"
 };

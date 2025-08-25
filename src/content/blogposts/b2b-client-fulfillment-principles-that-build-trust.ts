@@ -79,6 +79,6 @@ export const clientFulfillmentPrinciplesBlogPost = {
   tags: ["Toronto", "Canada", "Client Fulfillment", "Trust", "B2B", "Content Engine", "Case Study"],
   image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
   slug: "client-fulfillment-principles-that-build-trust-toronto-canada",
-  featured: true,
+  featured: false,
   readTime: "6 min read"
 };

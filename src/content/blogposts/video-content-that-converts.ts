@@ -1,5 +1,5 @@
 export const videoContentBlogPost = {
-  id: "3",
+  id: "38",
   title: "Video Content That Converts",
   excerpt: "Stay tuned for expert insights and case studies on creating video content that drives real business results.",
   content: `
@@ -36,10 +36,11 @@ export const videoContentBlogPost = {
     </div>
   `,
   author: "The Sauce Team",
-  date: "2024-10-05",
+  date: "2025-03-27",
   category: "Video Marketing",
   tags: ["video", "conversion", "marketing"],
   image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
   slug: "video-content-that-converts",
+  featured: false,
   readTime: "3 min read"
 };

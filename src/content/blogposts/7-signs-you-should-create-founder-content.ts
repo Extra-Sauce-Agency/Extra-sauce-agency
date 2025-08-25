@@ -47,6 +47,6 @@ export const sevenSignsFounderContentBlogPost = {
   tags: ["founder content", "Toronto", "Canada", "startup marketing", "thought leadership"],
   image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
   slug: "7-signs-you-should-create-founder-content-toronto",
-  featured: true,
+  featured: false,
   readTime: "6 min read"
 };
