@@ -23,6 +23,9 @@ import { clientFulfillmentPrinciplesBlogPost } from "../blogposts/b2b-client-ful
 import { b2bMarketingBudgetPlanBlogPost } from "../blogposts/b2b-marketing-budget-plan";
 import { clientOnboardingSystemBlogPost } from "../blogposts/b2b-client-onboarding-system";
 import { linkedinGrowthStrategyBlogPost } from "../blogposts/linkedIn-growth-strategy-for-founders";
+import { sevenSignsFounderContentBlogPost } from "../blogposts/7-signs-you-should-create-founder-content";
+import { boostBDRrepliesWithfounderContentBlogPost } from "../blogposts/boost-bdr-replies-with-founder-content";
+import { howContentLowersB2BAcquisitionCostsBlogPost} from "../blogposts/how-content-lowers-b2b-acquisition-costs";
 
 
 
@@ -69,7 +72,9 @@ export const blogPosts: BlogPost[] = [
  b2bMarketingBudgetPlanBlogPost ,
  clientOnboardingSystemBlogPost,
  linkedinGrowthStrategyBlogPost,
-
+ sevenSignsFounderContentBlogPost,
+ boostBDRrepliesWithfounderContentBlogPost,
+ howContentLowersB2BAcquisitionCostsBlogPost
 ];
 
 

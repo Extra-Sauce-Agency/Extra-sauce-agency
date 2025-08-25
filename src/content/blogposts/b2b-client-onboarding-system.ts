@@ -62,7 +62,7 @@ export const clientOnboardingSystemBlogPost = {
     </div>
   `,
   author: "The Sauce Team",
-  date: "2024-06-10",
+  date: "2025-03-29",
   category: "Case Studies",
   tags: ["Toronto", "Canada", "Client Onboarding", "B2B", "Content Engine", "Case Study"],
   image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",

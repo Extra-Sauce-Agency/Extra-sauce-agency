@@ -36,7 +36,7 @@ export const b2bMarketingBudgetPlanBlogPost = {
       </ul>
       <p>Ready to revamp your marketing strategy? Start with founder-led content, build momentum, and spend smarter—not more.</p>
       
-      <h3>FAQs</h3>
+      <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
         <li><strong>Where is this strategy most effective?</strong><br/>Toronto, Canada, and for B2B startups globally.</li>
         <li><strong>How should a new CMO allocate a $10K/month budget?</strong><br/>Focus on founder-led content, organic influence, and paid ads on proven content.</li>
@@ -48,7 +48,7 @@ export const b2bMarketingBudgetPlanBlogPost = {
     </div>
   `,
   author: "The Sauce Team",
-  date: "2024-06-10",
+  date: "2025-03-29",
   category: "Case Studies",
   tags: ["Toronto", "Canada", "Marketing Budget", "CMO", "B2B", "Founder-led Content", "Case Study"],
   image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",

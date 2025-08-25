@@ -54,7 +54,7 @@ export const linkedinGrowthStrategyBlogPost = {
     </div>
   `,
   author: "The Sauce Team",
-  date: "2024-06-10",
+  date: "2025-03-29",
   category: "Case Studies",
   tags: ["Toronto", "Canada", "LinkedIn", "B2B", "Growth Strategy", "Founder-led Marketing", "Case Study"],
   image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
