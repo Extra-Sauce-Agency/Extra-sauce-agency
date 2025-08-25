@@ -20,6 +20,11 @@ import { founderLedMarketingCaseBlogPost } from "../blogposts/founder-led-market
 import { extraSauceAgencyGrowthCaseStudy  } from "../blogposts/extra-sauce-agency-growth-case-study";
 import { founderLedContentEngineBlogPost} from "../blogposts/founder-led-content-engine-for-b2b-growth";
 import { clientFulfillmentPrinciplesBlogPost } from "../blogposts/b2b-client-fulfillment-principles-that-build-trust";
+import { b2bMarketingBudgetPlanBlogPost } from "../blogposts/b2b-marketing-budget-plan";
+import { clientOnboardingSystemBlogPost } from "../blogposts/b2b-client-onboarding-system";
+import { linkedinGrowthStrategyBlogPost } from "../blogposts/linkedIn-growth-strategy-for-founders";
+
+
 
 
 export interface BlogPost {
@@ -60,7 +65,11 @@ export const blogPosts: BlogPost[] = [
  founderLedMarketingCaseBlogPost,
  extraSauceAgencyGrowthCaseStudy ,
  founderLedContentEngineBlogPost,
- clientFulfillmentPrinciplesBlogPost 
+ clientFulfillmentPrinciplesBlogPost,
+ b2bMarketingBudgetPlanBlogPost ,
+ clientOnboardingSystemBlogPost,
+ linkedinGrowthStrategyBlogPost,
+
 ];
 
 
