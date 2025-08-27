@@ -98,6 +98,14 @@ export const faqSection = {
     {
       question: "Can executive ghostwriting be tailored to my industry?",
       answer: "Yes, our ghostwriting service is customized to your industry, audience, and business goals to ensure your content is relevant and impactful."
+    },
+    {
+      question: "How do you capture my voice and expertise in ghostwritten content?",
+      answer: "We conduct in-depth interviews and use proprietary frameworks to ensure your unique insights, tone, and personality are reflected in every piece of content."
+    },
+    {
+      question: "What is the onboarding process for executive ghostwriting?",
+      answer: "Our onboarding includes a strategy session, content planning, and a collaborative review process to align on goals, messaging, and preferred content formats."
     }
   ]
 };
