@@ -180,6 +180,18 @@ export const faqSection = {
     {
       question: "Why should we work with your agency for B2B content?",
       answer: "We've built our own agency using the same SAUCE™ Recipe we share with clients. We understand the challenges of B2B growth and have proven systems that work across multiple industries."
+    },
+    {
+      question: "How do we get started with Extra Sauce?",
+      answer: "Simply book a demo or strategy call with our team. We'll assess your needs and guide you through our onboarding process to ensure a smooth start."
+    },
+    {
+      question: "Can your services be customized for our industry?",
+      answer: "Yes, our SAUCE™ Recipe is tailored to fit the unique needs and challenges of your industry, ensuring relevant and effective content strategies."
+    },
+    {
+      question: "What kind of reporting and analytics do you provide?",
+      answer: "We deliver monthly analytical reports that track content performance, audience engagement, and pipeline growth, so you can measure ROI and optimize your strategy."
     }
   ]
 };
