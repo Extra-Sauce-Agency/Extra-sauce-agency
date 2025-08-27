@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, Clock, User, Eye, BarChart3 } from "lucide-react";
 import { Link } from "react-router-dom";
 import CTASection from "@/components/sections/homepage/CTASection";
+import FAQSection from "@/components/sections/homepage/FAQSection";
+import { faqSection } from "@/content/services/executive-ghostwriting";
 
 const ExecutiveGhostwriting = () => {
   const systemSteps = [
@@ -216,6 +218,13 @@ const ExecutiveGhostwriting = () => {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection 
+        headline={faqSection.headline}
+        description={faqSection.description}
+        questions={faqSection.questions}
+      />
 
       {/* Full-width CTA Section */}
       <div className="mt-12">

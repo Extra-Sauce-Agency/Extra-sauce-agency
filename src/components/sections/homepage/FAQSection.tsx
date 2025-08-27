@@ -4,9 +4,24 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqSection } from "@/content/homepage";
+import { faqSection as homepageFaqSection } from "@/content/homepage";
 
-const FAQSection = () => {
+interface FAQ {
+  question: string;
+  answer: string;
+}
+
+interface FAQSectionProps {
+  headline?: string;
+  description?: string;
+  questions?: FAQ[];
+}
+
+const FAQSection = ({ 
+  headline = "Frequently Asked Questions",
+  description = "Everything you need to know about our services and process.",
+  questions = homepageFaqSection.questions 
+}: FAQSectionProps) => {
   return (
     <section className="section-padding bg-gradient-subtle relative overflow-hidden">
       {/* Enhanced Background */}
@@ -18,19 +33,25 @@ const FAQSection = () => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            Frequently Asked{" "}
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Questions
-            </span>
+            {headline === "Frequently Asked Questions" ? (
+              <>
+                Frequently Asked{" "}
+                <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+                  Questions
+                </span>
+              </>
+            ) : (
+              headline
+            )}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Everything you need to know about our services and process.
+            {description}
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="space-y-6">
-            {faqSection.questions.map((faq, index) => (
+            {questions.map((faq, index) => (
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`} 
