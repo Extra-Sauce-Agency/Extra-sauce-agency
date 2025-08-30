@@ -45,11 +45,11 @@ export const extraSauceAgencyGrowthCaseStudy = {
       
       <h3>FAQs</h3>
       <ul>
-        <li><strong>Where is Extra Sauce Agency located?</strong><br/>We are based in Toronto, Canada, serving clients across North America.</li>
+        <li><strong>Where is Extra Sauce Agency located?</strong><br/>We are based in Toronto, serving clients across North America.</li>
         <li><strong>What is a founder-led content engine?</strong><br/>It’s a system that leverages executive expertise to drive inbound leads and build authority through strategic content.</li>
-        <li><strong>Who is the ideal client?</strong><br/>B2B software or professional service companies with 10-150 employees, $1M+ ARR, and an internal expert.</li>
-        <li><strong>How does the Sauce™ Recipe work?</strong><br/>It’s a proprietary framework for booking 10-16 qualified meetings monthly via executive content.</li>
-        <li><strong>Can Extra Sauce Agency help companies outside Toronto?</strong><br/>Yes, we work with clients throughout Canada and internationally.</li>
+        <li><strong>Who is the ideal client?</strong><br/>Software or professional service companies with 10-150 employees, $1M+ ARR, and an internal expert.</li>
+        <li><strong>How does the Sauce™ Recipe work?</strong><br/>It’s a proprietary framework for booking qualified meetings monthly via executive content.</li>
+        <li><strong>Can Extra Sauce Agency help companies outside major cities?</strong><br/>Yes, we work with clients throughout North America and internationally.</li>
       </ul>
     </div>
   `,

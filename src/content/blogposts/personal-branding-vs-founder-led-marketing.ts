@@ -6,7 +6,6 @@ export const personalBrandingVsFounderLedBlogPost = {
     <div class="prose prose-lg max-w-none">
       <h2>Personal Branding vs. Founder-Led Marketing: What B2B Leaders Need to Know</h2>
       <p>Personal branding and founder-led marketing are often confused, but they serve distinct purposes for B2B startups and scaleups. Personal branding builds reputation and audience, while founder-led marketing turns that influence into pipeline and revenue. Here’s how to leverage both for maximum growth in Toronto, Canada, and beyond.</p>
-      
       <h3>Personal Branding: Building Authority & Trust</h3>
       <p>Personal branding is about creating a memorable identity around the founder’s expertise, insights, and personality. It attracts followers, builds credibility, and opens doors to new opportunities.</p>
       <ul>
@@ -14,7 +13,6 @@ export const personalBrandingVsFounderLedBlogPost = {
         <li><em>Educate your audience</em> with thought leadership content</li>
         <li>Build trust through authenticity and consistency</li>
       </ul>
-      
       <h3>Founder-Led Marketing: Driving Revenue & Growth</h3>
       <p>Founder-led marketing uses the founder’s brand strategically to drive inbound leads, close deals, and position the company as a market leader. It’s the bridge between influence and business outcomes.</p>
       <ol>
@@ -22,11 +20,9 @@ export const personalBrandingVsFounderLedBlogPost = {
         <li>Repurpose personal brand assets for sales and marketing</li>
         <li>Leverage the founder’s voice in campaigns, presentations, and outbound efforts</li>
       </ol>
-      
       <h3>Key Takeaways</h3>
-      <p>Personal branding builds audience and authority; founder-led marketing converts that influence into business growth. The most effective B2B leaders use both strategies to dominate their market, especially in competitive regions like Toronto and Canada.</p>
+      <p>Personal branding builds audience and authority; founder-led marketing converts that influence into business growth. The most effective B2B leaders use both strategies to dominate their market, especially in competitive regions.</p>
       <p>Ready to boost your inbound pipeline and brand authority? Start by strengthening your personal brand, then layer on founder-led marketing for predictable growth.</p>
-      
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
         <li><strong>Where is this strategy most effective?</strong><br/>Toronto, Canada, and for B2B startups globally.</li>

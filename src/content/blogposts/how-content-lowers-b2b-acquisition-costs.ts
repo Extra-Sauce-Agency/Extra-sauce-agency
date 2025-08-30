@@ -5,7 +5,7 @@ export const howContentLowersB2BAcquisitionCostsBlogPost = {
 	content: `
 		<div class="prose prose-lg max-w-none">
 			<h2>Why Content Is the Antidote to Rising B2B Acquisition Costs</h2>
-			<p>Customer acquisition costs (CAC) in B2B have spiked dramatically—up nearly 70% in some sectors. Traditional outbound sales and paid ads are getting pricier and less effective. The solution? Strategic, founder-led content that builds trust and shortens the sales cycle.</p>
+			<p>Customer acquisition costs (CAC) have spiked dramatically—up nearly 70% in some sectors. Traditional outbound sales and paid ads are getting pricier and less effective. The solution? Strategic, founder-led content that builds trust and shortens the sales cycle.</p>
 			<h3>The Problem: Acquisition Costs Are Rising Fast</h3>
 			<p>B2B leaders are feeling the squeeze: sales reps work harder for colder leads, cost-per-click is up, and conversions are down. Saturated ad markets, lower attention spans, and increased competition mean you’re spending more for less pipeline.</p>
 			<ul>
@@ -39,7 +39,7 @@ export const howContentLowersB2BAcquisitionCostsBlogPost = {
 
             <h3>Key Takeaways</h3>
 			<ul>
-				<li>Rising B2B acquisition costs demand a new approach</li>
+				<li>Rising acquisition costs demand a new approach</li>
 				<li>Founder-led content builds trust and shortens sales cycles</li>
 				<li>Consistent, strategic posting drives higher-quality leads and lowers CAC</li>
 				<li>Modern content systems outperform outdated tactics</li>
@@ -47,13 +47,13 @@ export const howContentLowersB2BAcquisitionCostsBlogPost = {
 
 			<h3>Frequently Asked Questions (FAQs)</h3>
 			<ul>
-				<li><strong>Where is this strategy most effective?</strong><br/>Toronto, Canada, and for B2B startups globally.</li>
+				<li><strong>Where is this strategy most effective?</strong><br/>For startups and brands globally.</li>
 				<li><strong>How should a new CMO allocate a $10K/month budget?</strong><br/>Focus on founder-led content, organic influence, and paid ads on proven content.</li>
 				<li><strong>Is this approach better than trade shows and cold ads?</strong><br/>Yes, it drives higher-quality leads and builds long-term brand authority.</li>
-				<li><strong>Can this work for companies outside Toronto?</strong><br/>Absolutely. The principles apply to B2B startups across Canada and internationally.</li>
+				<li><strong>Can this work for companies outside major cities?</strong><br/>Absolutely. The principles apply internationally.</li>
 				<li><strong>What’s the biggest mistake CMOs make?</strong><br/>Defaulting to outdated tactics instead of building a strategic content system.</li>
 			</ul>
-			<p>Want help building a modern marketing strategy? Contact Extra Sauce Agency in Toronto, Canada for founder-led content systems that drive pipeline.</p>
+			<p>Want help building a modern marketing strategy? Contact Extra Sauce Agency for founder-led content systems that drive pipeline.</p>
 			<p>Ready to boost your pipeline and lower acquisition costs? Start building your founder-led content system today.</p>
 		</div>
 	`,

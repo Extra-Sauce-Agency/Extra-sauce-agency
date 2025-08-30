@@ -4,9 +4,9 @@ export const b2bYoutubeGrowthBlogPost = {
   excerpt: "Learn how B2B companies in Toronto and Canada can use a proven YouTube growth framework to drive inbound leads, build authority, and boost engagement.",
   content: `
     <div class="prose prose-lg max-w-none">
-      <h2>How B2B Companies in Toronto and Canada Can Apply a YouTube Growth Framework</h2>
+      <h2>How B2B Companies Can Apply a YouTube Growth Framework</h2>
       <p>
-        YouTube is no longer just for consumer brands—B2B companies in Toronto and Canada are leveraging it to drive inbound leads, establish thought leadership, and build a content ecosystem. This guide shows how to apply a proven YouTube growth framework for maximum impact.
+        YouTube is no longer just for consumer brands—B2B companies are leveraging it to drive inbound leads, establish thought leadership, and build a content ecosystem. This guide shows how to apply a proven YouTube growth framework for maximum impact.
       </p>
       <h3>Step 1: Find Your Content-Market Fit</h3>
       <p>
@@ -19,7 +19,7 @@ export const b2bYoutubeGrowthBlogPost = {
       </ul>
       <h3>Step 2: Understand Your Audience on a Deeper Level</h3>
       <p>
-        Use social listening, competitor analysis, and customer interviews to discover what your audience truly wants. Engage in LinkedIn groups and Reddit forums popular in Toronto and Canada.
+        Use social listening, competitor analysis, and customer interviews to discover what your audience truly wants. Engage in LinkedIn groups and Reddit forums popular in your region.
       </p>
       <ol>
         <li>Study comments on competitor videos.</li>
@@ -35,11 +35,11 @@ export const b2bYoutubeGrowthBlogPost = {
         <li>Thumbnails: Design, colors, fonts, expressions.</li>
         <li>Titles: Curiosity-driven vs. keyword-heavy.</li>
         <li>Structure: Intros, calls-to-action, pacing.</li>
-        <li>Cadence: Best days and times for Toronto and Canada audiences.</li>
+        <li>Cadence: Best days and times for your audience.</li>
       </ul>
       <h3>Step 4: Stay Consistent—Build a Habitual Audience</h3>
       <p>
-        Consistency builds trust and increases recommendations from YouTube’s algorithm. B2B brands in Toronto and Canada should post regularly to become a familiar presence.
+        Consistency builds trust and increases recommendations from YouTube’s algorithm. B2B brands should post regularly to become a familiar presence.
       </p>
       <ol>
         <li>Post reliably to build audience habits.</li>
@@ -57,18 +57,18 @@ export const b2bYoutubeGrowthBlogPost = {
       </ul>
       <h3>Key Takeaways</h3>
       <p>
-        B2B companies in Toronto and Canada must treat YouTube as a strategic channel. High-quality, consistent, and audience-focused content will drive long-term growth and industry leadership.
+        B2B companies must treat YouTube as a strategic channel. High-quality, consistent, and audience-focused content will drive long-term growth and industry leadership.
       </p>
       <p>
         Now is the time to go all in—don’t let outdated tactics hold your brand back.
       </p>
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Why should B2B companies in Toronto and Canada use YouTube?</strong><br/>YouTube helps build authority, drive inbound leads, and reach decision-makers where they research solutions.</li>
+        <li><strong>Why should B2B companies use YouTube?</strong><br/>YouTube helps build authority, drive inbound leads, and reach decision-makers where they research solutions.</li>
         <li><strong>How often should B2B brands post on YouTube?</strong><br/>Consistency is key—aim for at least weekly uploads to build audience habits and algorithm momentum.</li>
         <li><strong>What types of content work best for B2B on YouTube?</strong><br/>How-to guides, expert interviews, case studies, and thought leadership videos perform well.</li>
         <li><strong>How do I measure success beyond views and subscribers?</strong><br/>Track engagement from target accounts, inbound leads, and mentions in sales conversations.</li>
-        <li><strong>Can small B2B companies compete on YouTube?</strong><br/>Yes, with a focused strategy and consistent effort, even small brands in Toronto and Canada can build authority and drive results.</li>
+        <li><strong>Can small B2B companies compete on YouTube?</strong><br/>Yes, with a focused strategy and consistent effort, even small brands can build authority and drive results.</li>
       </ul>
     </div>
   `,

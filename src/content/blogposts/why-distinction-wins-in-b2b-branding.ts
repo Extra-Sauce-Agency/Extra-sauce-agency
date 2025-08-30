@@ -5,7 +5,7 @@ export const whyDistinctionWinsBlogPost = {
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>Distinction vs. Differentiation: The Secret to Unforgettable B2B Brands</h2>
-      <p>Most B2B companies try to win with features and logic. But in a saturated market, buyers remember brands that make them feel something. Distinction is your emotional edge—think Deadpool in a Marvel world. Whether you’re a Toronto-based startup or a global B2B brand, distinction is the key to breaking through the noise and building lasting authority in your market. Here’s how to stand out and win mindshare.</p>
+      <p>Most B2B companies try to win with features and logic. But in a saturated market, buyers remember brands that make them feel something. Distinction is your emotional edge—think Deadpool in a Marvel world. Distinction is the key to breaking through the noise and building lasting authority in your market. Here’s how to stand out and win mindshare.</p>
       
       <h3>Why Distinction Beats Differentiation</h3>
       <p>Differentiation is about features. Distinction is about feelings. Buyers don’t always pick the “best” option—they pick the one they remember. Distinct brands carve out mental real estate and become unforgettable.</p>
@@ -35,7 +35,7 @@ export const whyDistinctionWinsBlogPost = {
         <li><strong>Can this work for companies outside Toronto?</strong><br/>Absolutely. Distinction is universal for B2B brands worldwide.</li>
         <li><strong>What’s the biggest mistake CMOs make?</strong><br/>Trying to out-feature competitors instead of building a distinct brand identity.</li>
       </ul>
-      <p>Want help building a distinct B2B brand? Contact Extra Sauce Agency in Toronto, Canada for founder-led content systems that drive pipeline.</p>
+      <p>Want help building a distinct B2B brand? Contact Extra Sauce Agency for founder-led content systems that drive pipeline.</p>
     </div>
   `,
   author: "The Sauce Team",

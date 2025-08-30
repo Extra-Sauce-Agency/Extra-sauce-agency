@@ -5,7 +5,7 @@ export const whyB2BcontentBlogPost = {
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>The Perks of Building a Content Asset Bank</h2>
-      <p>In today's competitive B2B landscape, paid ads alone won't fuel sustainable growth. The secret weapon? A content asset bank—a strategic library of reusable, high-impact content that powers your brand, sales, and pipeline for the long haul. Whether you’re a Toronto-based startup or a B2B company anywhere in Canada, this strategy gives you a local edge and global reach.</p>
+      <p>In today's competitive B2B landscape, paid ads alone won't fuel sustainable growth. The secret weapon? A content asset bank—a strategic library of reusable, high-impact content that powers your brand, sales, and pipeline for the long haul. This strategy gives you a local edge and global reach.</p>
       
       <h3>Why Building a Content Bank Is a Power Move</h3>
       <p>Most B2B startups struggle with rising ad costs, low outbound reply rates, and buyers who do 80% of their research before ever talking to sales. If you’re not showing up during that discovery window, you’re missing deals. A content asset bank solves this by:</p>
@@ -42,7 +42,7 @@ export const whyB2BcontentBlogPost = {
         <li><strong>Can this work for companies outside Toronto?</strong><br/>Absolutely. The principles apply to B2B startups across Canada and internationally.</li>
         <li><strong>What’s the biggest mistake CMOs make?</strong><br/>Defaulting to outdated tactics instead of building a strategic content system.</li>
       </ul>
-      <p>Want help building a modern marketing strategy? Contact Extra Sauce Agency in Toronto, Canada for founder-led content systems that drive pipeline.</p>
+      <p>Want help building a modern marketing strategy? Contact Extra Sauce Agency for founder-led content systems that drive pipeline.</p>
     </div>
   `,
   author: "The Sauce Team",

@@ -1,12 +1,12 @@
 export const linkedinGrowthStrategyBlogPost= {
   id: "26",
   title: "When Founders Say LinkedIn Doesn’t Work: How to Build a Growth Strategy That Delivers",
-  excerpt: "Toronto founders: Discover why LinkedIn works for B2B growth if you commit to focus, consistency, and strategic refinement. FAQs included.",
+  excerpt: "Discover why LinkedIn works for B2B growth if you commit to focus, consistency, and strategic refinement. FAQs included.",
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>When Founders Say LinkedIn Doesn’t Work: How to Build a Growth Strategy That Delivers</h2>
       <p><strong>Location:</strong> Toronto, Canada</p>
-      <p>Many founders in Toronto and across Canada give up on LinkedIn because they don’t see results, despite consistent posting and engagement. The real issue isn’t the platform—it’s the lack of strategic focus and refinement. This blog breaks down how going all-in on LinkedIn as a primary sales channel can drive pipeline growth for B2B founders.</p>
+      <p>Many founders give up on LinkedIn because they don’t see results, despite consistent posting and engagement. The real issue isn’t the platform—it’s the lack of strategic focus and refinement. This blog breaks down how going all-in on LinkedIn as a primary sales channel can drive pipeline growth for B2B founders.</p>
       
       <h3>TL;DR (Quick Summary)</h3>
       <ul>
@@ -44,13 +44,13 @@ export const linkedinGrowthStrategyBlogPost= {
       
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Is LinkedIn effective for B2B founders in Toronto?</strong><br/>Yes, LinkedIn is a proven channel for B2B growth in Toronto, Canada, and globally.</li>
-        <li><strong>How long should I commit to LinkedIn before evaluating results?</strong><br/>At least 3–6 months of consistent, focused effort.</li>
+        <li><strong>Is LinkedIn effective for B2B founders?</strong><br/>Yes, LinkedIn is a proven channel for B2B growth globally.</li>
+        <li><strong>How long should I commit before evaluating results?</strong><br/>At least 3–6 months of consistent, focused effort.</li>
         <li><strong>What’s the biggest mistake founders make?</strong><br/>Spreading attention across too many channels instead of mastering one.</li>
-        <li><strong>Can this strategy work outside Toronto?</strong><br/>Absolutely. The principles apply to B2B founders across Canada and internationally.</li>
+        <li><strong>Can this strategy work outside major cities?</strong><br/>Absolutely. The principles apply internationally.</li>
         <li><strong>When should I start redistributing content?</strong><br/>After building a strong core system and seeing results on LinkedIn first.</li>
       </ul>
-      <p>Want help building your LinkedIn growth strategy? Reach out to Extra Sauce Agency in Toronto, Canada for founder-led content systems that drive pipeline.</p>
+      <p>Want help building your LinkedIn growth strategy? Reach out to Extra Sauce Agency for founder-led content systems that drive pipeline.</p>
     </div>
   `,
   author: "The Sauce Team",

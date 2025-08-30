@@ -1,19 +1,19 @@
 export const clientOnboardingSystemBlogPost = {
   id: "25",
   title: "How We Transformed Client Onboarding into a Seamless, Scalable System",
-  excerpt: "Discover how Extra Sauce Agency in Toronto, Canada built a transparent, scalable onboarding system for B2B clients. Case study, FAQs, and more.",
+  excerpt: "Discover how Extra Sauce Agency built a transparent, scalable onboarding system for B2B clients. Case study, FAQs, and more.",
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>How We Transformed Client Onboarding into a Seamless, Scalable System</h2>
       <p><strong>Location:</strong> Toronto, Canada</p>
-      <p>Client onboarding should never feel like a handoff. At Extra Sauce Agency in Toronto, Canada, we built a system that makes every client feel like they've added a high-performance extension to their in-house team. This case study shares the key shifts we made to create happier clients, smoother execution, and long-term retention.</p>
+      <p>Client onboarding should never feel like a handoff. At Extra Sauce Agency, we built a system that makes every client feel like they've added a high-performance extension to their in-house team. This case study shares the key shifts we made to create happier clients, smoother execution, and long-term retention.</p>
       
       <h3>TL;DR (Quick Summary)</h3>
       <ul>
         <li>Instant communication through Slack channels</li>
         <li>Crystal-clear expectations and an 8-week roadmap</li>
         <li>Complete project transparency with a real-time Notion portal</li>
-        <li>Location: Toronto, Canada – serving B2B clients locally and nationwide</li>
+        <li>Serving B2B clients locally and nationwide</li>
       </ul>
       
       <h3>The Problem with Traditional Client Onboarding</h3>
@@ -45,19 +45,19 @@ export const clientOnboardingSystemBlogPost = {
       
       <h3>Key Takeaways</h3>
       <ul>
-        <li>Client experience is the differentiator in B2B agency partnerships</li>
+        <li>Client experience is the differentiator in agency partnerships</li>
         <li>Transparent onboarding builds trust and retention</li>
-        <li>Extra Sauce Agency is committed to these principles in Toronto and across Canada</li>
+        <li>Extra Sauce Agency is committed to these principles</li>
       </ul>
-      <p>Ready to experience seamless onboarding? We help B2B companies build founder-led content engines and deliver collaborative, transparent execution.</p>
+      <p>Ready to experience seamless onboarding? We help companies build founder-led content engines and deliver collaborative, transparent execution.</p>
       
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Where is Extra Sauce Agency located?</strong><br/>We are based in Toronto, Canada, serving B2B clients locally and nationwide.</li>
+        <li><strong>Where is Extra Sauce Agency located?</strong><br/>We are based in Toronto, serving clients locally and nationwide.</li>
         <li><strong>What makes your onboarding process different?</strong><br/>Instant communication, clear expectations, and total transparency with a Notion portal.</li>
         <li><strong>Do you lock clients into long-term contracts?</strong><br/>No. We focus on retention through results, not rigid contracts.</li>
-        <li><strong>Can you help companies outside Toronto?</strong><br/>Yes, we work with B2B clients across Canada and internationally.</li>
-        <li><strong>What is your specialty?</strong><br/>Building founder-led content engines and scalable onboarding systems for B2B companies.</li>
+        <li><strong>Can you help companies outside Toronto?</strong><br/>Yes, we work with clients across Canada and internationally.</li>
+        <li><strong>What is your specialty?</strong><br/>Building founder-led content engines and scalable onboarding systems for companies.</li>
       </ul>
     </div>
   `,

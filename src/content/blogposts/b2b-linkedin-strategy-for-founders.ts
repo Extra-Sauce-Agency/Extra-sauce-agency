@@ -1,12 +1,12 @@
 export const b2bfoundersBlogPost = {
  id: "11",
- title: "How B2B Founders Grow on LinkedIn: Proven Strategies for Toronto & Canadian Leaders",
- excerpt: "Discover actionable strategies for B2B founders to build influence, generate leads, and grow their business on LinkedIn in Toronto and across Canada.",
+ title: "How B2B Founders Grow on LinkedIn: Proven Strategies for Leaders",
+ excerpt: "Discover actionable strategies for B2B founders to build influence, generate leads, and grow their business on LinkedIn.",
  content: `
    <div class="prose prose-lg max-w-none">
      <h2>How B2B Founders Grow on LinkedIn</h2>
     
-     <p>LinkedIn is the #1 platform for B2B founders in Toronto and Canada to build authority, attract qualified leads, and drive business growth. This blog reveals proven strategies to help founders stand out and succeed.</p>
+     <p>LinkedIn is the #1 platform for B2B founders to build authority, attract qualified leads, and drive business growth. This blog reveals proven strategies to help founders stand out and succeed.</p>
     
      <h3>Why LinkedIn Matters for B2B Founders</h3>
     
@@ -24,23 +24,23 @@ export const b2bfoundersBlogPost = {
      <p>Follow these steps to maximize your LinkedIn presence:</p>
     
      <ol>
-       <li>Optimize your profile with a clear headline, professional photo, and Toronto/Canada location for local SEO.</li>
+       <li>Optimize your profile with a clear headline, professional photo, and location for local SEO.</li>
        <li>Post consistently—aim for 2-3 times per week with high-value content relevant to your audience.</li>
        <li>Share founder stories, case studies, and insights that showcase your expertise and build trust.</li>
-       <li>Engage with local LinkedIn groups and use Toronto/Canada hashtags to target your market.</li>
+       <li>Engage with LinkedIn groups and use relevant hashtags to target your market.</li>
        <li>Leverage LinkedIn’s publishing tools for long-form posts and video content to boost reach.</li>
      </ol>
     
      <h3>Key Takeaways</h3>
-     <p>Storytelling builds trust with the 95% of your audience not ready to buy. When they are, your brand is top of mind. You don’t need a massive budget—just authentic stories and a strategic content system.</p>
+     <p>Storytelling builds trust with the majority of your audience not ready to buy. When they are, your brand is top of mind. You don’t need a massive budget—just authentic stories and a strategic content system.</p>
      <p>Ready to boost your B2B marketing? Start sharing your story today.</p>
 
      <h3>Frequently Asked Questions (FAQ)</h3>
      <ul>
-       <li><strong>Q: How often should Toronto businesses post on LinkedIn?</strong><br/>A: Consistency is key. Aim for 2-3 times per week with high-value content.</li>
-       <li><strong>Q: What type of LinkedIn content works best for Toronto B2B companies?</strong><br/>A: Educational posts, local case studies, and video series tailored to Toronto’s market perform well.</li>
-       <li><strong>Q: How can I target Toronto leads specifically?</strong><br/>A: Use location-based hashtags, mention Toronto in your posts, and engage with local LinkedIn groups.</li>
-       <li><strong>Q: Should I use paid LinkedIn ads for Toronto lead generation?</strong><br/>A: Organic content is effective, but combining it with targeted LinkedIn ads can accelerate results in Toronto.</li>
+       <li><strong>Q: How often should businesses post on LinkedIn?</strong><br/>A: Consistency is key. Aim for 2-3 times per week with high-value content.</li>
+       <li><strong>Q: What type of LinkedIn content works best for B2B companies?</strong><br/>A: Educational posts, case studies, and video series tailored to your market perform well.</li>
+       <li><strong>Q: How can I target local leads specifically?</strong><br/>A: Use location-based hashtags, mention your city in posts, and engage with local LinkedIn groups.</li>
+       <li><strong>Q: Should I use paid LinkedIn ads for lead generation?</strong><br/>A: Organic content is effective, but combining it with targeted LinkedIn ads can accelerate results.</li>
      </ul>
    </div>
  `,

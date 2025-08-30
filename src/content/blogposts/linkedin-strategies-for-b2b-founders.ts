@@ -60,13 +60,12 @@ export const linkedinStrategiesForb2bBlogPost = {
       
       <h3>Key Takeaways</h3>
       <p>FLM works best when the founder is engaged, the company has clear positioning, and the audience is active on digital platforms. If those factors are missing, focus on refining your core business strategy first.</p>
-      
       <h3>Frequently Asked Questions (FAQ)</h3>
       <ul>
         <li><strong>Q: Is founder-led marketing suitable for every SaaS company?</strong><br/>A: No. Companies lacking an engaged founder or a digital-first audience may benefit more from traditional marketing approaches.</li>
         <li><strong>Q: What’s the biggest mistake companies make with FLM?</strong><br/>A: Treating it as a short-term tactic or outsourcing thought leadership without the founder’s input.</li>
-        <li><strong>Q: How much time should a founder dedicate to FLM?</strong><br/>A: Even 4 hours per month can be impactful if the founder is actively involved and authentic.</li>
-        <li><strong>Q: What should companies do before launching FLM?</strong><br/>A: Define your ICP, clarify your messaging, and ensure your audience is active on digital platforms.</li>
+        <li><strong>Q: How much time should a founder dedicate to FLM?</strong><br/>Even a few hours per month can be impactful if the founder is actively involved and authentic.</li>
+        <li><strong>Q: What should companies do before launching FLM?</strong><br/>Define your ICP, clarify your messaging, and ensure your audience is active on digital platforms.</li>
       </ul>
     </div>
   `,

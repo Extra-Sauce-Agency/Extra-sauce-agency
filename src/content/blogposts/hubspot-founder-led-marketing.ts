@@ -1,11 +1,11 @@
 export const hubspotFounderBlogPost = {
   id: "20",
   title: "How HubSpot Mastered Founder-Led Content to Dominate B2B Marketing",
-  excerpt: "Discover how HubSpot’s founder-led content strategy helped them dominate B2B marketing, with insights for Toronto and Canada businesses.",
+  excerpt: "Discover how HubSpot’s founder-led content strategy helped them dominate B2B marketing, with insights for businesses.",
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>How HubSpot Mastered Founder-Led Content to Dominate B2B Marketing</h2>
-      <p>HubSpot pioneered inbound marketing by investing in a content ecosystem that continues to generate inbound leads today. Their founder-led thought leadership helped differentiate HubSpot in a highly competitive CRM space, making them a trusted authority in B2B marketing across Toronto, Canada, and globally.</p>
+      <p>HubSpot pioneered inbound marketing by investing in a content ecosystem that continues to generate inbound leads today. Their founder-led thought leadership helped differentiate HubSpot in a highly competitive CRM space, making them a trusted authority in B2B marketing.</p>
       
       <h3>TL;DR (Quick Summary)</h3>
       <ul>
@@ -50,19 +50,17 @@ export const hubspotFounderBlogPost = {
       <ul>
         <li>Founder-led marketing is a long-term strategy that compounds over time.</li>
         <li>Get your founder involved in content and build a multi-platform engine.</li>
-        <li>Toronto and Canada B2B companies can leverage these strategies for growth.</li>
+        <li>Any B2B company can leverage these strategies for growth.</li>
       </ul>
-
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Why is founder-led content important for B2B companies in Toronto and Canada?</strong><br/>It builds trust, authority, and differentiates your brand in a competitive market.</li>
+        <li><strong>Why is founder-led content important for B2B companies?</strong><br/>It builds trust, authority, and differentiates your brand in a competitive market.</li>
         <li><strong>How can I start a founder-led content strategy?</strong><br/>Begin by sharing thought leadership on social media and building a content roadmap.</li>
-        <li><strong>Does video content matter for B2B marketing?</strong><br/>Yes, video content increases engagement and retention, especially for audiences in Toronto and Canada.</li>
+        <li><strong>Does video content matter for B2B marketing?</strong><br/>Yes, video content increases engagement and retention.</li>
         <li><strong>What platforms should I use for founder-led content?</strong><br/>LinkedIn, YouTube, and a company blog are essential for reaching B2B audiences.</li>
       </ul>
-
       <h3>Final Thoughts: Start Your Content Engine Now</h3>
-      <p>HubSpot proves that founder-led marketing works for all stages. If your Toronto or Canada-based company is relying on outbound sales and struggling with brand awareness, shift gears now. Get your founder involved, create a thought leadership roadmap, and build a multi-platform content engine. Your competitors are already investing—will you?</p>
+      <p>HubSpot proves that founder-led marketing works for all stages. If your company is relying on outbound sales and struggling with brand awareness, shift gears now. Get your founder involved, create a thought leadership roadmap, and build a multi-platform content engine. Your competitors are already investing—will you?</p>
     </div>
   `,
   author: "The Sauce Team",

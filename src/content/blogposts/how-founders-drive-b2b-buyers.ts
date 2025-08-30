@@ -6,7 +6,7 @@ export const howFoundersDriveBlogPost = {
     <div class="prose prose-lg max-w-none">
       <h2>The B2B Buyer Journey Has Changed—Are You Keeping Up?</h2>
       <p>
-        The traditional B2B sales process is no longer as linear or sales-driven as it once was. Buyers in Toronto, Canada, and globally are more self-reliant, conducting research on their own terms and consuming content long before ever speaking to a sales rep.
+        The traditional B2B sales process is no longer as linear or sales-driven as it once was. Buyers are more self-reliant, conducting research on their own terms and consuming content long before ever speaking to a sales rep.
       </p>
       <p>
         <strong>75% of the B2B buying journey is now done independently.</strong> Your company must be visible and influential <strong>before</strong> a prospect is even in-market. Without the right strategic touchpoints, you risk losing deals before they even start.
@@ -106,19 +106,18 @@ export const howFoundersDriveBlogPost = {
 
       <h3>Key Takeaways</h3>
       <p>
-        The modern B2B buying journey isn’t a straight path—it’s a <strong>dynamic, self-guided</strong> process where buyers come in and out as they gather information. The more <strong>founder-led touchpoints</strong> you create, the more likely your brand stays top of mind in Toronto, Canada, and beyond.
+        The modern B2B buying journey isn’t a straight path—it’s a <strong>dynamic, self-guided</strong> process where buyers come in and out as they gather information. The more <strong>founder-led touchpoints</strong> you create, the more likely your brand stays top of mind.
       </p>
       <p>
         The question isn’t <strong>"Should we invest in founder-led marketing?"</strong> It’s <strong>"Can we afford not to?"</strong>
       </p>
-
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Why is founder-led marketing important for B2B companies in Toronto and Canada?</strong><br/>Founder-led marketing builds trust and authority, helping companies stand out in competitive markets like Toronto and Canada.</li>
-        <li><strong>How do founder-led touchpoints improve the B2B buyer journey?</strong><br/>They create authentic connections, nurture leads, and keep your brand top of mind throughout the decision-making process.</li>
+        <li><strong>Why is founder-led marketing important for B2B companies?</strong><br/>It builds trust and authority, helping companies stand out in competitive markets.</li>
+        <li><strong>How do founder-led touchpoints improve the buyer journey?</strong><br/>They create authentic connections, nurture leads, and keep your brand top of mind throughout the decision-making process.</li>
         <li><strong>What are the best channels for founder-led marketing?</strong><br/>LinkedIn, podcasts, webinars, newsletters, and community engagement are highly effective.</li>
         <li><strong>Can founder-led marketing work for small businesses?</strong><br/>Yes, it’s especially powerful for small businesses looking to build credibility and trust quickly.</li>
-        <li><strong>How can I get started with founder-led marketing in Toronto?</strong><br/>Begin by optimizing your digital presence, sharing thought leadership content, and engaging with local industry communities.</li>
+        <li><strong>How can I get started?</strong><br/>Begin by optimizing your digital presence, sharing thought leadership content, and engaging with industry communities.</li>
       </ul>
     </div>
   `,
@@ -131,3 +130,4 @@ export const howFoundersDriveBlogPost = {
   featured: false,
   readTime: "6 min read"
 };
+

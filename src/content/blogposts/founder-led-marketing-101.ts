@@ -56,15 +56,15 @@ export const trendBlogPost = {
      <h3>Frequently Asked Questions (FAQ)</h3>
      <div>
        <h4>What is founder-led marketing?</h4>
-       <p>Founder-led marketing is a strategy where the founder’s story, expertise, and personality are central to brand messaging, helping build trust and differentiate the business.</p>
-       <h4>Does founder-led marketing work for small companies?</h4>
-       <p>Yes. Small companies can benefit greatly by leveraging the founder’s unique perspective to build credibility and connect with their audience.</p>
-       <h4>How do I start with founder-led marketing?</h4>
-       <p>Begin by defining your core message, optimizing digital profiles, and sharing authentic insights and stories from the founder across multiple channels.</p>
+       <p>It's a strategy where the founder’s story and expertise are central to brand messaging, helping build trust and differentiate the business.</p>
+       <h4>Does this work for small companies?</h4>
+       <p>Yes. Small companies can benefit by leveraging the founder’s perspective to build credibility and connect with their audience.</p>
+       <h4>How do I start?</h4>
+       <p>Define your core message, optimize digital profiles, and share authentic insights and stories from the founder across channels.</p>
        <h4>How do I measure success?</h4>
-       <p>Track KPIs such as engagement, inbound lead quality, and sales cycle length. Regularly review and adjust your strategy based on these metrics.</p>
-       <h4>Can founder-led marketing replace paid ads?</h4>
-       <p>While it can reduce reliance on paid ads, founder-led marketing works best as a long-term strategy alongside other marketing efforts.</p>
+       <p>Track engagement, inbound lead quality, and sales cycle length. Adjust your strategy based on these metrics.</p>
+       <h4>Can this replace paid ads?</h4>
+       <p>It can reduce reliance on paid ads, but works best as a long-term strategy alongside other marketing efforts.</p>
      </div>
 
 

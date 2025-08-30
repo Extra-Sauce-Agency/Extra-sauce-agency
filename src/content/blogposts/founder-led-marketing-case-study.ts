@@ -1,11 +1,11 @@
 export const founderLedMarketingCaseBlogPost = {
   id: "21",
   title: "How Founder-Led Marketing Revitalized a Payroll Software Company’s Brand",
-  excerpt: "Discover how founder-led marketing transformed a payroll software company’s brand and pipeline, with insights for Toronto and Canada B2B businesses.",
+  excerpt: "Discover how founder-led marketing transformed a payroll software company’s brand and pipeline, with insights for B2B businesses.",
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>How Founder-Led Marketing Revitalized a Payroll Software Company’s Brand</h2>
-      <p>A payroll software company in Toronto, Canada, transformed its market perception and attracted high-quality leads by leveraging founder-led marketing. This case study reveals the strategies that drove $400K in qualified pipeline and re-engaged old prospects.</p>
+      <p>A payroll software company transformed its market perception and attracted high-quality leads by leveraging founder-led marketing. This case study reveals the strategies that drove $400K in qualified pipeline and re-engaged old prospects.</p>
       
       <h3>TL;DR (Quick Summary)</h3>
       <ul>
@@ -56,20 +56,18 @@ export const founderLedMarketingCaseBlogPost = {
       <h3>Key Takeaways</h3>
       <ul>
         <li>Founder-led marketing builds trust, credibility, and long-term inbound growth.</li>
-        <li>Toronto and Canada B2B companies can leverage these strategies for brand transformation.</li>
+        <li>B2B companies can leverage these strategies for brand transformation.</li>
         <li>Align your founder’s vision with your company’s messaging for maximum impact.</li>
       </ul>
-
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Why is founder-led marketing effective for B2B companies in Toronto and Canada?</strong><br/>It builds trust, credibility, and helps differentiate your brand in a competitive market.</li>
+        <li><strong>Why is founder-led marketing effective for B2B companies?</strong><br/>It builds trust, credibility, and helps differentiate your brand in a competitive market.</li>
         <li><strong>How do I start a founder-led marketing strategy?</strong><br/>Begin by integrating your founder’s vision into your branding and creating thought leadership content.</li>
         <li><strong>Does podcasting help B2B marketing?</strong><br/>Yes, podcasts build authority, foster partnerships, and fuel multi-channel content marketing.</li>
-        <li><strong>What results can I expect?</strong><br/>Improved brand perception, re-engaged prospects, and increased qualified pipeline, as seen in Toronto and Canada case studies.</li>
+        <li><strong>What results can I expect?</strong><br/>Improved brand perception, re-engaged prospects, and increased qualified pipeline.</li>
       </ul>
-
       <h3>Final Thoughts: Why Every B2B Brand Should Invest in Founder-Led Marketing</h3>
-      <p>This case study proves that a well-positioned founder can change the trajectory of a business. If your company is struggling with low inbound lead quality or lack of differentiation, shift the focus from just product marketing to founder-led marketing. Your founder’s vision, experience, and authority are assets—use them to stand out in Toronto, Canada, and beyond.</p>
+      <p>This case study proves that a well-positioned founder can change the trajectory of a business. If your company is struggling with low inbound lead quality or lack of differentiation, shift the focus from just product marketing to founder-led marketing. Your founder’s vision, experience, and authority are assets—use them to stand out in your market and beyond.</p>
     </div>
   `,
   author: "The Sauce Team",

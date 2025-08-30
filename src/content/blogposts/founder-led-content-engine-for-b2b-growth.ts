@@ -72,10 +72,10 @@ export const founderLedContentEngineBlogPost = {
       <p>For software companies scaling from $500K to $5M ARR, this system delivers predictable, high-intent leads—without requiring excessive founder time.</p>
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Where is this strategy most effective?</strong><br/>Founder-led content engines are highly effective for B2B startups in Toronto, Canada, and globally.</li>
+        <li><strong>Where is this strategy most effective?</strong><br/>Founder-led content engines are highly effective for B2B startups globally.</li>
         <li><strong>How much time does a founder need to invest?</strong><br/>Just 4 hours per month using structured extraction and distribution systems.</li>
         <li><strong>What types of companies benefit most?</strong><br/>Software and professional service companies scaling from $500K to $5M ARR.</li>
-        <li><strong>Can this work for companies outside Toronto?</strong><br/>Yes, the system is proven for B2B startups across Canada and internationally.</li>
+        <li><strong>Can this work for companies outside major cities?</strong><br/>Yes, the system is proven for startups internationally.</li>
         <li><strong>What’s the main advantage?</strong><br/>Building trust and authority at scale, driving predictable pipeline growth.</li>
       </ul>
       <p>Ready to build your founder-led content engine? Start now before your competitors do.</p>

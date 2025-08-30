@@ -5,7 +5,7 @@ export const whyFoundersFailOnLinkedinEngagementBlogPost = {
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>Why Posting & Ghosting Is Hurting Your Founder-Led Marketing on LinkedIn</h2>
-      <p>Most B2B founders post content on LinkedIn and expect inbound leads to roll in. But visibility alone doesn’t build authority or pipeline. The real secret? Consistent engagement. In Toronto, Canada, and globally, founders who comment, debate, and interact with their audience build trust, credibility, and a stronger inbound pipeline.</p>
+      <p>Most B2B founders post content on LinkedIn and expect inbound leads to roll in. But visibility alone doesn’t build authority or pipeline. The real secret? Consistent engagement. Founders who comment, debate, and interact with their audience build trust, credibility, and a stronger inbound pipeline.</p>
       
       <h3>Why Engagement Matters More Than Ever</h3>
       <p>Social platforms reward active participation. If you only post and disappear, your content gets deprioritized by the algorithm. Founders need to engage with their ICP, thought leaders, and industry conversations to maximize reach and impact.</p>
@@ -24,7 +24,7 @@ export const whyFoundersFailOnLinkedinEngagementBlogPost = {
       </ol>
       
       <h3>Key Takeaways</h3>
-      <p>Founder-led marketing thrives on trust, authority, and engagement. Posting alone isn’t enough—consistent interaction is the key to building relationships and driving inbound leads. In Toronto and Canada, founders who engage are the ones who win mindshare and pipeline.</p>
+      <p>Founder-led marketing thrives on trust, authority, and engagement. Posting alone isn’t enough—consistent interaction is the key to building relationships and driving inbound leads. Founders who engage are the ones who win mindshare and pipeline.</p>
       <p>Ready to boost your LinkedIn strategy? Build a system for daily engagement and watch your authority and inbound pipeline grow.</p>
       
       <h3>Frequently Asked Questions (FAQs)</h3>

@@ -5,7 +5,7 @@ export const founderLedAlignmentBlogPost = {
   content: `
     <div class="prose prose-lg max-w-none">
       <h2>How Founder-Led Marketing Creates Stronger Sales & Marketing Alignment</h2>
-      <p>Most B2B companies struggle with fragmented messaging between sales and marketing. Founder-led marketing bridges this gap, creating a unified brand presence that drives engagement, trust, and revenue. Whether you’re a Toronto-based startup or a B2B company anywhere in Canada, aligning your teams around the founder’s vision is the ultimate growth lever.</p>
+      <p>Most companies struggle with fragmented messaging between sales and marketing. Founder-led marketing bridges this gap, creating a unified brand presence that drives engagement, trust, and revenue. Aligning your teams around the founder’s vision is the ultimate growth lever.</p>
       
       <h3>Why Sales & Marketing Struggle to Align</h3>
       <p>When sales and marketing operate in silos, prospects get mixed signals and conversion rates drop. Founder-led marketing integrates the founder’s voice into every touchpoint, ensuring consistency and clarity. This approach:</p>
@@ -29,13 +29,13 @@ export const founderLedAlignmentBlogPost = {
       
       <h3>Frequently Asked Questions (FAQs)</h3>
       <ul>
-        <li><strong>Where is this strategy most effective?</strong><br/>Toronto, Canada, and for B2B startups globally.</li>
+        <li><strong>Where is this strategy most effective?</strong><br/>For startups and brands globally.</li>
         <li><strong>How should a new CMO allocate a $10K/month budget?</strong><br/>Focus on founder-led content, organic influence, and paid ads on proven content.</li>
         <li><strong>Is this approach better than trade shows and cold ads?</strong><br/>Yes, it drives higher-quality leads and builds long-term brand authority.</li>
-        <li><strong>Can this work for companies outside Toronto?</strong><br/>Absolutely. The principles apply to B2B startups across Canada and internationally.</li>
+        <li><strong>Can this work for companies outside major cities?</strong><br/>Absolutely. The principles apply internationally.</li>
         <li><strong>What’s the biggest mistake CMOs make?</strong><br/>Defaulting to outdated tactics instead of building a strategic content system.</li>
       </ul>
-      <p>Want help building a modern marketing strategy? Contact Extra Sauce Agency in Toronto, Canada for founder-led content systems that drive pipeline.</p>
+      <p>Want help building a modern marketing strategy? Contact Extra Sauce Agency for founder-led content systems that drive pipeline.</p>
     </div>
   `,
   author: "The Sauce Team",
