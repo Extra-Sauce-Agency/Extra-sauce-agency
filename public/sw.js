@@ -3,14 +3,11 @@ const CACHE_NAME = 'extra-sauce-v1';
 const STATIC_CACHE = 'extra-sauce-static-v1';
 const DYNAMIC_CACHE = 'extra-sauce-dynamic-v1';
 
-// Assets to cache on install
+// Assets to cache on install (only include assets that actually exist in /public)
 const STATIC_ASSETS = [
   '/',
   '/sauce.png',
-  '/chili.png',
-  '/og-image.png',
-  '/favicon.ico',
-  '/manifest.json'
+  '/chili.png'
 ];
 
 // Install event - cache static assets
