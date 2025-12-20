@@ -19,16 +19,26 @@ const CompanyNews = () => {
     });
   };
 
-  const structuredData = [organizationSchema];
+  const collectionSchema = {
+    "@type": "CollectionPage",
+    "name": "Extra Sauce Agency News",
+    "description": "Announcements and updates from Extra Sauce as we help SaaS and B2B companies scale authority and inbound demand.",
+    "url": "https://www.extrasauceagency.com/resources/company-news"
+  };
+
+  const structuredData = [organizationSchema, collectionSchema];
 
   return (
     <>
       <EnhancedSEOHead
-        title="Company News | Extra Sauce Agency"
-        description="Follow the moves behind our mission. Inside stories, system launches, and growth moments that are shaping how we help B2B companies build pipeline through executive-led content."
-        keywords={["company news", "Extra Sauce", "announcements", "updates"]}
+        title="Extra Sauce Agency News | SaaS & B2B Updates"
+        description="Announcements and updates from Extra Sauce as we help SaaS and B2B companies scale authority and inbound demand."
+        keywords={["company news", "Extra Sauce", "announcements", "updates", "SaaS", "B2B"]}
+        ogTitle="Extra Sauce Agency News | SaaS & B2B Updates"
+        ogDescription="Announcements and updates from Extra Sauce as we help SaaS and B2B companies scale authority and inbound demand."
         canonicalUrl="https://www.extrasauceagency.com/resources/company-news"
         structuredData={structuredData}
+        type="website"
       />
       
       <div className="min-h-screen bg-background">
@@ -43,7 +53,7 @@ const CompanyNews = () => {
               </div>
               
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                The Wins, Experiments &<br />Industry Moves
+                Company News &amp; Updates
               </h1>
               
               <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">

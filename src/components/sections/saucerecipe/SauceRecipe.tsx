@@ -106,9 +106,16 @@ const SauceRecipe = () => {
   return (
     <section id="sauce-recipe" className="section-padding bg-background">
       <div className="container-premium">
+        {/* Page H1 */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl lg:text-6xl font-bold mb-4 max-w-4xl mx-auto leading-tight">
+            The Sauce Recipe Framework
+          </h1>
+        </div>
+
         {/* Mission Statement */}
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-4xl lg:text-6xl font-bold mb-8 max-w-4xl mx-auto leading-tight">
+          <h2 className="text-3xl lg:text-5xl font-bold mb-8 max-w-4xl mx-auto leading-tight">
             OUR MISSION IS TO HELP B2B COMPANIES{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               GROW PROFITABLY

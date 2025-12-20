@@ -68,16 +68,11 @@ const HeroSection = () => {
             </span>
           </div>
 
-          {/* Optimized Main Headline for LCP - Simplified for faster render */}
+          {/* Main H1 for homepage */}
           <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 tracking-tight hero-title">
-            Our{" "}
+            Founder-Led Growth for{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
-              SAUCE™ Recipe
-            </span>{" "}
-            helps B2B<br />
-            companies build profitable{" "}
-            <span className="text-secondary">
-              content engines
+              SaaS &amp; B2B Companies
             </span>
           </h1>
 

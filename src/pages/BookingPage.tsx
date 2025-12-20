@@ -3,6 +3,7 @@ import Footer from "@/components/shared/Footer";
 import { Check, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import { InlineWidget } from "react-calendly";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 
 const BookingPage = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -75,17 +76,25 @@ const BookingPage = () => {
   const allCompanies = [...companies, ...companies]; 
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      <div className="pt-20 sm:pt-32 pb-20">
+    <>
+      <EnhancedSEOHead
+        title="Book a Strategy Call | SaaS & B2B Growth Evaluation"
+        description="Ready to stop the acquisition hamster wheel? Book a strategy call to evaluate your founder-led growth system and predictable content engine opportunities today."
+        ogTitle="Book a Strategy Call | SaaS & B2B Growth Evaluation"
+        ogDescription="Book a strategy call to evaluate your founder-led growth system, narrative clarity, and content engine opportunities for SaaS or B2B teams."
+        canonicalUrl="https://www.extrasauceagency.com/book-strategy-call"
+        type="article"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        <div className="pt-20 sm:pt-32 pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col xl:grid xl:grid-cols-2 gap-6 sm:gap-8 xl:gap-16 items-start">
             {/* Left Content */}
             <div className="order-2 xl:order-1 w-full">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight">
-                Stop wasting your sales team's time with{" "}
-                <span className="text-primary">unqualified leads.</span>
+                Book Your <span className="text-primary">Strategy Call</span>
               </h1>
               
               <div className="mb-6 sm:mb-8">
@@ -234,9 +243,9 @@ const BookingPage = () => {
         </div>
       </div>
 
-      <Footer />
-      
-      <style>{`
+        <Footer />
+        
+        <style>{`
         .scrolling-logos-wrapper {
           overflow: hidden;
           width: 100%;
@@ -271,7 +280,8 @@ const BookingPage = () => {
           animation-play-state: paused;
         }
       `}</style>
-    </div>
+      </div>
+    </>
   );
 };
 

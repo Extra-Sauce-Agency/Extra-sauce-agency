@@ -16,17 +16,17 @@ const Blogs = () => {
     ? blogPosts 
     : blogPosts.filter(post => post.category === selectedCategory);
 
-  // Create structured data for blog listing
-  const blogListingSchema = {
-    "@type": "Blog",
+  // Create structured data for blog listing as a CollectionPage
+  const blogCollectionSchema = {
+    "@type": "CollectionPage",
     "name": "Extra Sauce Agency Blog",
     "description": "Insights, strategies, and stories from the world of content-led growth",
     "url": "https://www.extrasauceagency.com/resources/blogs",
     "publisher": {
-      "@type": "Organization", 
+      "@type": "Organization",
       "name": "Extra Sauce Agency"
     },
-    "blogPost": blogPosts.map(post => ({
+    "hasPart": blogPosts.map(post => ({
       "@type": "BlogPosting",
       "headline": post.title,
       "description": post.excerpt,
@@ -39,13 +39,15 @@ const Blogs = () => {
     }))
   };
 
-  const structuredData = [organizationSchema, blogListingSchema];
+  const structuredData = [organizationSchema, blogCollectionSchema];
 
   return (
     <>
       <EnhancedSEOHead
-        title="Blog | B2B Marketing Insights | Extra Sauce Agency"
-        description="Read the latest insights on B2B marketing, founder-led growth strategies, and content marketing best practices from Extra Sauce Agency."
+        title="Founder-Led Growth Insights for SaaS & B2B Companies | Extra Sauce Blog"
+        description="Insights on founder-led marketing, content engines, narrative strategy, and authority building for SaaS and B2B companies."
+        ogTitle="SaaS & B2B Marketing Insights | Founder-Led Growth"
+        ogDescription="Insights on founder-led marketing, content engines, narrative strategy, and authority building for SaaS and B2B companies."
         keywords={[
           "B2B marketing blog",
           "content marketing insights",
@@ -57,6 +59,7 @@ const Blogs = () => {
         ]}
         canonicalUrl="https://www.extrasauceagency.com/resources/blogs"
         structuredData={structuredData}
+        type="website"
       />
       
       <div className="min-h-screen bg-background">
@@ -69,10 +72,10 @@ const Blogs = () => {
           <div className="text-center mb-16 bg-gradient-to-br from-background via-background to-muted/30 py-16 -mt-8 border-b">
             <div className="container-premium">
               <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-                INSIDE THE MODERN B2B PIPELINE PLAYBOOK
+                INSIGHTS FOR MODERN SAAS &amp; B2B TEAMS
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 max-w-4xl mx-auto leading-tight">
-                Tried-and-true founder-led tactics that actually drive revenue.
+                Founder-Led Growth Insights for SaaS &amp; B2B Teams
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                 Get the frameworks, content plays, and narrative shifts B2B founders use to build trust and close pipeline. Turn your voice into a growth engine.

@@ -18,7 +18,7 @@ const TrustedBySection = () => {
             {trustedBySection.title}
           </h2>
           <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-secondary to-accent rounded-full mx-auto shadow-lg"></div>
-          <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground mt-4 max-w-4xl mx-auto">
             {trustedBySection.subtitle}
           </p>
         </div>

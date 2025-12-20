@@ -8,6 +8,8 @@ import { newsletterPageContent } from "@/content/resources/newsletters";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { organizationSchema } from "@/data/structured-data";
 
 interface FormData {
   email: string;
@@ -82,20 +84,37 @@ const Newsletters = () => {
     }
   };
 
+  const collectionSchema = {
+    "@type": "CollectionPage",
+    "name": "Founder-Led Marketing Newsletter for SaaS & B2B",
+    "description": "Weekly insights for SaaS founders and B2B teams on narrative clarity, authority content, and growth through founder-led marketing.",
+    "url": "https://www.extrasauceagency.com/resources/newsletters"
+  };
+
+  const structuredData = [organizationSchema, collectionSchema];
+
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      <main className="pt-20">
+    <>
+      <EnhancedSEOHead
+        title="Founder-Led Marketing Newsletter for SaaS & B2B"
+        description="Weekly insights for SaaS founders and B2B teams on narrative clarity, authority content, and growth through founder-led marketing."
+        ogTitle="Founder-Led Marketing Newsletter for SaaS & B2B"
+        ogDescription="Weekly insights for SaaS founders and B2B teams on narrative clarity, authority content, and growth through founder-led marketing."
+        canonicalUrl="https://www.extrasauceagency.com/resources/newsletters"
+        structuredData={structuredData}
+        type="website"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        <main className="pt-20">
         <div className="container-premium py-16">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               {/* Left Content */}
               <div>
                 <h1 className="text-4xl md:text-6xl font-bold mb-5">
-                  {hero.title.split('CONTENT-LED')[0]}
-                  <span className="text-primary">CONTENT-LED<br />
-                  GTM REPORT.</span>
+                  Founder-Led Marketing Newsletter
                 </h1>
                 
                 <div className="mb-8">
@@ -202,10 +221,11 @@ const Newsletters = () => {
             </div>
           </div>
         </div>
-      </main>
-      
-      <Footer />
-    </div>
+        </main>
+        
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import CTASection from "@/components/sections/homepage/CTASection";
 import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/content-led-gtm-coaching";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { organizationSchema } from "@/data/structured-data";
 
 const ContentLedGTMCoaching = () => {
   const systemSteps = [
@@ -54,17 +56,40 @@ const ContentLedGTMCoaching = () => {
     }
   ];
 
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Content-Led GTM Coaching for SaaS & B2B Founders",
+    "description": "1:1 coaching for SaaS and B2B founders on narrative clarity, positioning, and content-led GTM strategies that drive differentiation and growth.",
+    "url": "https://www.extrasauceagency.com/services/content-led-gtm-coaching",
+    "provider": {
+      "@id": "https://www.extrasauceagency.com/#organization"
+    }
+  };
+
+  const structuredData = [organizationSchema, serviceSchema];
+
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
+    <>
+      <EnhancedSEOHead
+        title="Content-Led GTM Coaching for SaaS & B2B Founders"
+        description="1:1 coaching for SaaS and B2B founders on narrative clarity, positioning, and content-led GTM strategies that drive differentiation and growth."
+        ogTitle="Content-Led GTM Coaching for SaaS & B2B Founders"
+        ogDescription="1:1 coaching for SaaS and B2B founders on narrative clarity, positioning, and content-led GTM strategies that drive differentiation and growth."
+        canonicalUrl="https://www.extrasauceagency.com/services/content-led-gtm-coaching"
+        type="article"
+        structuredData={structuredData}
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
       <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible
-       bg-gradient-subtle pt-20">
+       bg-gradient-subtle pt-28 md:pt-36">
         <div className="container-premium text-center relative z-10">
           <div className="max-w-4xl mx-auto animate-scale-in">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
-              Content Led <span className="text-primary">GTM Coaching</span>
+              GTM Coaching That Turns Your Content Into{" "}
+              <span className="text-primary">Pipeline</span>
             </h1>
             
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary mb-6">
@@ -235,7 +260,8 @@ const ContentLedGTMCoaching = () => {
       </div>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 

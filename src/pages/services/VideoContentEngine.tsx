@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import CTASection from "@/components/sections/homepage/CTASection";
 import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/video-content-engine";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { organizationSchema } from "@/data/structured-data";
 
 const VideoContentEngine = () => {
   const systemSteps = [
@@ -54,16 +56,39 @@ const VideoContentEngine = () => {
     }
   ];
 
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Video Content Engine for SaaS & B2B Growth Teams",
+    "description": "A video content engine that turns founder expertise into high-authority content designed for credibility, distribution, and inbound demand.",
+    "url": "https://www.extrasauceagency.com/services/video-content-engine",
+    "provider": {
+      "@id": "https://www.extrasauceagency.com/#organization"
+    }
+  };
+
+  const structuredData = [organizationSchema, serviceSchema];
+
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
-      <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible bg-gradient-subtle pt-20">
+    <>
+      <EnhancedSEOHead
+        title="Video Content Engine for SaaS & B2B Growth Teams"
+        description="A video content engine that turns founder expertise into high-authority content designed for credibility, distribution, and inbound demand."
+        ogTitle="Video Content Engine for SaaS & B2B Growth Teams"
+        ogDescription="A video content engine that turns founder expertise into high-authority content designed for credibility, distribution, and inbound demand."
+        canonicalUrl="https://www.extrasauceagency.com/services/video-content-engine"
+        type="article"
+        structuredData={structuredData}
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
+      <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible bg-gradient-subtle pt-28 md:pt-36">
         <div className="container-premium text-center relative z-10">
           <div className="max-w-4xl mx-auto animate-scale-in">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
-              Executive-Led Video <span className="text-primary">Engine</span>
+              Thought Leadership Video Engine That Builds Authority{" "}
+              <span className="text-primary">and Drives Inbound</span>
             </h1>
             
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary mb-6">
@@ -233,7 +258,8 @@ const VideoContentEngine = () => {
       </div>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 

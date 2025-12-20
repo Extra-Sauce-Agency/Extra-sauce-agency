@@ -1,12 +1,19 @@
 import Navigation from "@/components/shared/Navigation";
 import Footer from "@/components/shared/Footer";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
+    <>
+      <EnhancedSEOHead
+        title="Privacy Policy | Extra Sauce Agency"
+        description="Read Extra Sauce Agency's privacy policy and learn how we protect and manage your data across our B2B SaaS marketing services."
+        canonicalUrl="https://www.extrasauceagency.com/privacy-policy"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
       <section className="section-padding pt-32 bg-gradient-subtle">
         <div className="container-premium text-center">
           <div className="max-w-4xl mx-auto animate-fade-in">
@@ -170,8 +177,9 @@ const PrivacyPolicy = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

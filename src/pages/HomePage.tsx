@@ -10,14 +10,15 @@ import CTASection from "@/components/sections/homepage/CTASection";
 import Footer from "@/components/shared/Footer";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { homepageStructuredData } from "@/data/structured-data";
-import { siteConfig } from "@/content/global/site-config";
 
 const HomePage = () => {
   return (
     <>
       <EnhancedSEOHead
-        title={siteConfig.seo.defaultTitle}
-        description={siteConfig.seo.defaultDescription}
+        title="Founder-Led Growth Systems for SaaS & B2B Companies | Extra Sauce Agency"
+        description="Build predictable inbound demand with our founder-led content systems for SaaS & B2B. Sharpen your narrative and authority. Extra Sauce Agency. Toronto-based, serving across Canada and the U.S."
+        ogTitle="Founder-Led Growth Systems for SaaS & Modern B2B Companies"
+        ogDescription="We help SaaS and high-growth B2B companies build authority, sharpen their narrative, and create predictable inbound demand with founder-led content systems."
         keywords={[
           "B2B marketing",
           "founder-led marketing", 

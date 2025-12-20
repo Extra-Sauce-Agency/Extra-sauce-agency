@@ -4,6 +4,8 @@ import Footer from "@/components/shared/Footer";
 import { Button } from "@/components/ui/button";
 import { successStories, SuccessStory } from "@/content/success-stories";
 import { ChevronLeft, ChevronRight, ArrowDown } from "lucide-react";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { organizationSchema } from "@/data/structured-data";
 
 const SuccessStories: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -20,19 +22,40 @@ const SuccessStories: React.FC = () => {
     }
   };
 
+  const itemListSchema = {
+    "@type": "ItemList",
+    "itemListElement": successStories.map((story, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": story.title,
+      "url": `https://www.extrasauceagency.com/success-stories#${story.id}`
+    }))
+  };
+
+  const structuredData = [organizationSchema, itemListSchema];
+
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
+    <>
+      <EnhancedSEOHead
+        title="SaaS & B2B Success Stories | Founder-Led Growth Results"
+        description="Proof from SaaS and B2B companies who scaled authority and inbound pipeline using our founder-led growth system."
+        ogTitle="SaaS & B2B Success Stories | Founder-Led Growth Results"
+        ogDescription="Proof from SaaS and B2B companies who scaled authority and inbound pipeline using our founder-led growth system."
+        canonicalUrl="https://www.extrasauceagency.com/success-stories"
+        type="article"
+        structuredData={structuredData}
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted/30 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(234,88,12,0.15),rgba(255,255,255,0))]"></div>
         
         <div className="container-premium text-center relative z-10">
           <h1 className="text-5xl lg:text-8xl font-bold leading-tight mb-8 bg-gradient-to-br from-foreground to-foreground/60 bg-clip-text text-transparent">
-            What Happens<br />
-            When You Find<br />
-            Your Sauce
+            SaaS &amp; B2B Pipeline<br />
+            Success Stories
           </h1>
           
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -218,7 +241,8 @@ const SuccessStories: React.FC = () => {
         </div>
       )}
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 

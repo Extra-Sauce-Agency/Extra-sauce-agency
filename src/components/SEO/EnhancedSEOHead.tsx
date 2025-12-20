@@ -4,6 +4,8 @@ import { useLocation } from 'react-router-dom';
 interface EnhancedSEOHeadProps {
   title?: string;
   description?: string;
+  ogTitle?: string;
+  ogDescription?: string;
   keywords?: string[];
   ogImage?: string;
   canonicalUrl?: string;
@@ -21,6 +23,8 @@ interface EnhancedSEOHeadProps {
 const EnhancedSEOHead = ({
   title = "Extra Sauce Agency | Unleash Growth with Founder-Led Marketing for B2B SaaS",
   description = "Drive your B2B SaaS startup's growth with Extra Sauce Agency's unique Founder-Led Marketing strategy. Build authentic connections, enhance your brand's credibility, and generate demand by leveraging your founder's insights.",
+  ogTitle,
+  ogDescription,
   keywords = ["B2B marketing", "founder-led marketing", "content marketing", "SaaS growth", "thought leadership", "executive ghostwriting", "video content engine"],
   ogImage = "https://www.extrasauceagency.com/og-image.png",
   canonicalUrl = "https://www.extrasauceagency.com",
@@ -66,6 +70,10 @@ const EnhancedSEOHead = ({
       }
     };
 
+    // Resolve OG-specific values (fallback to main title/description)
+    const effectiveOgTitle = ogTitle || title;
+    const effectiveOgDescription = ogDescription || description;
+
     // Basic meta tags
     updateMetaTag('description', description);
     updateMetaTag('keywords', keywords.join(', '));
@@ -75,8 +83,8 @@ const EnhancedSEOHead = ({
     updateMetaTag('robots', robotsContent);
     
     // Open Graph tags
-    updateMetaTag('og:title', title, true);
-    updateMetaTag('og:description', description, true);
+    updateMetaTag('og:title', effectiveOgTitle, true);
+    updateMetaTag('og:description', effectiveOgDescription, true);
     updateMetaTag('og:image', ogImage, true);
     updateMetaTag('og:url', canonicalUrl, true);
     updateMetaTag('og:type', type, true);
@@ -104,8 +112,8 @@ const EnhancedSEOHead = ({
     
     // Twitter Card tags
     updateMetaTag('twitter:card', 'summary_large_image');
-    updateMetaTag('twitter:title', title);
-    updateMetaTag('twitter:description', description);
+    updateMetaTag('twitter:title', effectiveOgTitle);
+    updateMetaTag('twitter:description', effectiveOgDescription);
     updateMetaTag('twitter:image', ogImage);
     updateMetaTag('twitter:site', '@extrasauce');
     

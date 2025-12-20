@@ -1,12 +1,19 @@
 import Navigation from "@/components/shared/Navigation";
 import Footer from "@/components/shared/Footer";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 
 const TermsOfService = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
+    <>
+      <EnhancedSEOHead
+        title="Terms of Service | Extra Sauce Agency"
+        description="Review Extra Sauce Agency's terms of service outlining how we work with SaaS and B2B clients and how our services may be used."
+        canonicalUrl="https://www.extrasauceagency.com/terms-of-service"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
       <section className="section-padding pt-32 bg-gradient-subtle">
         <div className="container-premium text-center">
           <div className="max-w-4xl mx-auto animate-fade-in">
@@ -132,8 +139,9 @@ const TermsOfService = () => {
         </div>
       </section>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

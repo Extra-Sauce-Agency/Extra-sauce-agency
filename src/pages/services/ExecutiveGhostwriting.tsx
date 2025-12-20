@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import CTASection from "@/components/sections/homepage/CTASection";
 import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/executive-ghostwriting";
+import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { organizationSchema } from "@/data/structured-data";
 
 const ExecutiveGhostwriting = () => {
   const systemSteps = [
@@ -54,16 +56,39 @@ const ExecutiveGhostwriting = () => {
     }
   ];
 
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Executive Ghostwriting for SaaS & B2B Leaders",
+    "description": "Strategic ghostwriting for SaaS founders and B2B executives to build authority, strengthen narrative, and drive inbound demand with thought leadership content.",
+    "url": "https://www.extrasauceagency.com/services/executive-ghostwriting",
+    "provider": {
+      "@id": "https://www.extrasauceagency.com/#organization"
+    }
+  };
+
+  const structuredData = [organizationSchema, serviceSchema];
+
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
-      <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible bg-gradient-subtle pt-20">
+    <>
+      <EnhancedSEOHead
+        title="Executive Ghostwriting for SaaS & B2B Leaders"
+        description="Strategic ghostwriting for SaaS founders and B2B executives to build authority, strengthen narrative, and drive inbound demand with thought leadership content."
+        ogTitle="Executive Ghostwriting for SaaS & B2B Leaders"
+        ogDescription="Strategic ghostwriting for SaaS founders and B2B executives to build authority, strengthen narrative, and drive inbound demand with thought leadership content."
+        canonicalUrl="https://www.extrasauceagency.com/services/executive-ghostwriting"
+        type="article"
+        structuredData={structuredData}
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
+        
+        {/* Hero Section */}
+      <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible bg-gradient-subtle pt-28 md:pt-36">
         <div className="container-premium text-center relative z-10">
           <div className="max-w-4xl mx-auto animate-scale-in">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
-              Executive <span className="text-primary">Ghostwriting</span>
+              Executive Ghostwriting That Builds Authority for{" "}
+              <span className="text-primary">SaaS &amp; B2B Leaders</span>
             </h1>
             
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary mb-6">
@@ -232,7 +257,8 @@ const ExecutiveGhostwriting = () => {
       </div>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 

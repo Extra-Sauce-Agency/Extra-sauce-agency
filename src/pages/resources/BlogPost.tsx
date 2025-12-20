@@ -49,6 +49,7 @@ const BlogPost = () => {
         canonicalUrl={`https://www.extrasauceagency.com/resources/blogs/${post.slug}`}
         structuredData={structuredData}
         ogImage={post.image}
+        type="article"
       />
       
       <div className="min-h-screen bg-background">

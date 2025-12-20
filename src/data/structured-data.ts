@@ -2,11 +2,11 @@
 import { siteConfig } from "@/content/global/site-config";
 
 export const organizationSchema = {
-  "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://www.extrasauceagency.com/#organization",
   "name": "Extra Sauce Agency",
   "description": "B2B SaaS content marketing agency specializing in founder-led marketing strategies",
-  "url": "https://www.extrasauceagency.com",
+  "url": "https://www.extrasauceagency.com/",
   "logo": "https://www.extrasauceagency.com/sauce.png",
   "foundingDate": "2020",
   "telephone": "+1-647-957-9757",
@@ -34,14 +34,13 @@ export const organizationSchema = {
 };
 
 export const websiteSchema = {
-  "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": "https://www.extrasauceagency.com/#website",
   "name": "Extra Sauce Agency",
-  "url": "https://www.extrasauceagency.com",
+  "url": "https://www.extrasauceagency.com/",
   "description": "Drive your B2B SaaS startup's growth with Extra Sauce Agency's unique Founder-Led Marketing strategy",
   "publisher": {
-    "@type": "Organization",
-    "name": "Extra Sauce Agency"
+    "@id": "https://www.extrasauceagency.com/#organization"
   },
   "potentialAction": {
     "@type": "SearchAction",
@@ -52,7 +51,6 @@ export const websiteSchema = {
 
 export const serviceSchemas = [
   {
-    "@context": "https://schema.org",
     "@type": "Service",
     "name": "Video Content Engine",
     "description": "Get a consistent video engine to position yourself as a thought leader and staying on top of mind.",
@@ -84,7 +82,6 @@ export const serviceSchemas = [
     }
   },
   {
-    "@context": "https://schema.org",
     "@type": "Service",
     "name": "Executive Ghostwriting",
     "description": "Get high-quality thought leadership narrative-driven content created for you to build a realm of influence.",
@@ -96,8 +93,7 @@ export const serviceSchemas = [
     "areaServed": ["North America", "United States", "Canada"]
   },
   {
-    "@context": "https://schema.org",
-    "@type": "Service", 
+    "@type": "Service",
     "name": "Content-led GTM Coaching",
     "description": "Get consulting to build a pipeline-generating content engine & get your company ready for market.",
     "provider": {
@@ -110,7 +106,6 @@ export const serviceSchemas = [
 ];
 
 export const faqSchema = {
-  "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
     {
@@ -141,7 +136,6 @@ export const faqSchema = {
 };
 
 export const breadcrumbSchema = (items: Array<{name: string, url: string}>) => ({
-  "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": items.map((item, index) => ({
     "@type": "ListItem",
@@ -153,7 +147,6 @@ export const breadcrumbSchema = (items: Array<{name: string, url: string}>) => (
 
 // Local Business Schema for enhanced local SEO
 export const localBusinessSchema = {
-  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Extra Sauce Agency",
   "description": "B2B SaaS content marketing agency specializing in founder-led marketing strategies",
@@ -186,7 +179,6 @@ export const localBusinessSchema = {
 
 // Person Schema for founder
 export const founderSchema = {
-  "@context": "https://schema.org",
   "@type": "Person",
   "name": "Manny Vargas",
   "jobTitle": "Founder & CEO",
@@ -204,8 +196,7 @@ export const founderSchema = {
 
 // Course/Educational Schema for The SAUCE Recipe
 export const sauceRecipeSchema = {
-  "@context": "https://schema.org",
-  "@type": "Course",
+  "@type": ["WebPage", "CreativeWork"],
   "name": "The SAUCE Recipe™",
   "description": "A proven framework for content-led growth that helps B2B SaaS founders build authority and generate qualified leads",
   "provider": {
@@ -225,7 +216,6 @@ export const sauceRecipeSchema = {
 
 // Review Schema for testimonials
 export const reviewsSchema = {
-  "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Extra Sauce Agency",
   "aggregateRating": {
@@ -252,15 +242,12 @@ export const reviewsSchema = {
   ]
 };
 
-export const homepageStructuredData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    organizationSchema,
-    websiteSchema,
-    localBusinessSchema,
-    founderSchema,
-    faqSchema,
-    reviewsSchema,
-    ...serviceSchemas
-  ]
-};
+export const homepageStructuredData = [
+  organizationSchema,
+  websiteSchema,
+  localBusinessSchema,
+  founderSchema,
+  faqSchema,
+  reviewsSchema,
+  ...serviceSchemas
+];
