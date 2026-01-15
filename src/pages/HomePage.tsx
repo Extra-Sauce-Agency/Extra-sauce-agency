@@ -33,7 +33,7 @@ const HomePage = () => {
           "personal branding for executives",
           "demand generation"
         ]}
-        ogImage="https://www.extrasauceagency.com/og-image.png"
+        ogImage="https://www.extrasauceagency.com/ogimage.png"
         canonicalUrl="https://www.extrasauceagency.com"
         type="website"
         structuredData={homepageStructuredData}

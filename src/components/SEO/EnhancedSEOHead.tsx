@@ -26,7 +26,7 @@ const EnhancedSEOHead = ({
   ogTitle,
   ogDescription,
   keywords = ["B2B marketing", "founder-led marketing", "content marketing", "SaaS growth", "thought leadership", "executive ghostwriting", "video content engine"],
-  ogImage = "https://www.extrasauceagency.com/og-image.png",
+  ogImage = "https://www.extrasauceagency.com/ogimage.png",
   canonicalUrl = "https://www.extrasauceagency.com",
   type = "website",
   structuredData,
