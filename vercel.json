@@ -1,74 +1,20 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    {
-      "source": "/company-news",
-      "destination": "/resources/company-news",
-      "permanent": true
-    },
-    {
-      "source": "/resources",
-      "destination": "/resources/blogs",
-      "permanent": true
-    },
-    {
-      "source": "/copy-of-video-content-engine",
-      "destination": "/services/video-content-engine",
-      "permanent": true
-    },
-    {
-      "source": "/copy-of-video-content-engine-1",
-      "destination": "/services/content-led-gtm-coaching",
-      "permanent": true
-    },
-    {
-      "source": "/copy-of-executive-ghostwriting",
-      "destination": "/services/executive-ghostwriting",
-      "permanent": true
-    },
-    {
-      "source": "/newsletter-1",
-      "destination": "/resources/newsletters",
-      "permanent": true
-    },
-    {
-      "source": "/strategyssession",
-      "destination": "/book-strategy-call",
-      "permanent": true
-    },
-    {
-      "source": "/terms-and-condition",
-      "destination": "/terms-of-service",
-      "permanent": true
-    }
+    { "source": "/company-news", "destination": "/resources/company-news", "permanent": true },
+    { "source": "/resources", "destination": "/resources/blogs", "permanent": true },
+    { "source": "/copy-of-video-content-engine", "destination": "/services/video-content-engine", "permanent": true },
+    { "source": "/copy-of-video-content-engine-1", "destination": "/services/content-led-gtm-coaching", "permanent": true },
+    { "source": "/copy-of-executive-ghostwriting", "destination": "/services/executive-ghostwriting", "permanent": true },
+    { "source": "/newsletter-1", "destination": "/resources/newsletters", "permanent": true },
+    { "source": "/strategyssession", "destination": "/book-strategy-call", "permanent": true },
+    { "source": "/terms-and-condition", "destination": "/terms-of-service", "permanent": true }
   ],
   "rewrites": [
     {
-      "source": "/((?!api|_next|_static|_vercel|favicon.ico|robots.txt|sitemap.xml|sw.js|assets/).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*).(js|css|mjs)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*).(png|jpg|jpeg|gif|svg|ico|webp)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
     }
   ]
 }
