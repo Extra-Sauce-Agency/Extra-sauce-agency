@@ -45,10 +45,9 @@
       "permanent": true
     }
   ],
-
   "rewrites": [
     {
-      "source": "/((?!api|_next|_static|_vercel|favicon.ico|robots.txt|sitemap.xml|sw.js|assets|.*\\.(js|css|mjs|png|jpg|jpeg|gif|svg|ico|webp|woff|woff2|ttf|eot)).*)",
+      "source": "/((?!api|_next|_static|_vercel|favicon.ico|robots.txt|sitemap.xml|sw.js|assets/).*)",
       "destination": "/index.html"
     }
   ],
