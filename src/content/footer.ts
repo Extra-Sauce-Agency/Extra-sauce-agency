@@ -44,7 +44,7 @@ export const location = {
 
 export const email = {
   title: "EMAIL",
-  address: "manny@getextrasauce.com"
+  address: "manny@extrasauceagency.com"
 };
 
 export const socialMedia = {
