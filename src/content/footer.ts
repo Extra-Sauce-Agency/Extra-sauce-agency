@@ -3,7 +3,7 @@
 
 export const companyInfo = {
   name: "Extra Sauce",
-  description: "What if you can unlock the next growth stage with content?.",
+  description: "What if you can unlock the next growth stage with content?",
   ctaButton: {
     text: "Book A Strategy Call",
     link: "/book-strategy-call"
