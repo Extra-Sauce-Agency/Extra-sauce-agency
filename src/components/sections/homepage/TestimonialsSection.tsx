@@ -11,12 +11,12 @@ const Testimonials = () => {
     {
       quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
       author: "Vik Saini",
-      title: "Head of Sales",
+      title: "Head of Sales, PSII",
       avatar: "/viksoni.png",
-      impact: "16M+ Views Generated",
+      impact: "Podcast Show",
       metrics: [
-        { label: "Views Generated", value: "16M+", icon: TrendingUp },
-        { label: "Revenue Added", value: "$124K", icon: DollarSign }
+        { label: "ARR Added", value: "428K", icon: DollarSign },
+        { label: "Qualified Meetings", value: "~16 meetings/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -27,10 +27,10 @@ const Testimonials = () => {
       author: "Nadia Irani",
       title: "CEO & Founder", 
       avatar: "/nadiairani.png",
-      impact: "$428K ARR Added",
+      impact: "Executive Ghostwriting Service",
       metrics: [
-        { label: "ARR Added", value: "$428K", icon: DollarSign },
-        { label: "Qualified Meetings", value: "16+/month", icon: Users }
+        { label: "Content Performance", value: "1.5M impressions", icon: TrendingUp },
+        { label: "Qualified Meetings", value: "~10 meetings/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -38,13 +38,13 @@ const Testimonials = () => {
     },
     {
       quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
-      author: "Alex Salois",
-      title: "Senior Content Manager",
-      avatar: "/alexsalois.png",
-      impact: "500K+ Followers Gained",
+      author: "Sharlene Gumbs",
+      title: "CEO & Founder",
+      avatar: "/sharlenegumbs.png",
+      impact: "Content-led GTM Coaching",
       metrics: [
-        { label: "Followers Growth", value: "500K+", icon: Users },
-        { label: "Channel Growth", value: "0-60K", icon: TrendingUp }
+        { label: "Personal Brand", value: "Revamp Complete", icon: CheckCircle },
+        { label: "Pipeline Impact", value: "Inbound Leads", icon: BarChart3 }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -52,13 +52,13 @@ const Testimonials = () => {
     },
     {
       quote: "Manny's expertise & dedication have been instrumental in crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
-      author: "Sharlene Gumbs",
-      title: "CEO & Founder",
-      avatar: "/sharlenegumbs.png", 
-      impact: "Complete Brand Transformation",
+      author: "EasyAudit Team",
+      title: "Leadership Team",
+      avatar: "/alexsalois.png", 
+      impact: "Content-led GTM Coaching",
       metrics: [
-        { label: "Pipeline Generated", value: "Consistent", icon: BarChart3 },
-        { label: "Brand Clarity", value: "100%", icon: CheckCircle }
+        { label: "Business Impact", value: "Investor Meetings", icon: TrendingUp },
+        { label: "Revenue Impact", value: "Meetings secured in LinkedIn DMs", icon: DollarSign }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -86,15 +86,14 @@ const Testimonials = () => {
       <div className="section-divider mb-20"></div>
       <div className="container-premium relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            Real{" "}
+          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
+            Results from{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Results
-            </span>{" "}
-            from Real Clients
+              teams we've produced for
+            </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            See the measurable impact we've delivered for B2B leaders and their companies.
+          <p className="text-xl text-muted-foreground max-w-6xl mx-auto">
+            We work directly with C-suite & marketing leaders to achieve their business goals through executive content.
           </p>
         </div>
 

@@ -2,53 +2,50 @@
 // Edit this file to change content for the Sauce Recipe page
 
 export const sauceRecipeContent = {
+  pageTitle: "The Sauce Recipe™",
+  supportingCopy: "A predictable content-led revenue system for B2B teams that want high-quality leads, stronger authority, and profitable growth.",
   missionHeadline: "OUR MISSION IS TO HELP B2B COMPANIES GROW PROFITABLY WITH EXECUTIVE CONTENT",
-  storyTitle: "BEHIND EXTRA SAUCE",
+  storyLabel: "Behind the Sauce",
+  storyTitle: "Story Behind the Sauce",
   storyParagraphs: [
-    "We didn't start in B2B marketing.",
-    "Our founder built a luxury streetwear brand from scratch. Grew it in public for over 5 years.",
-    "And that's where he discovered the secret sauce: executive content builds trust faster than sales calls ever could.",
-    "By showing up consistently, telling his story, and owning the narrative — he created real demand.",
-    "Today, he helps B2B founders do the same."
+    "Manny (Founder) built his first brand in streetwear by cultivating a real community - showing up consistently, telling the story, and owning the narrative.",
+    "That community became raving fans who supported limited drops and helped grow the brand to $10k/month.",
+    "That's the power of founder-led marketing: when people trust you, buying becomes the easy part.",
+    "Today, we use that same playbook to help B2B founders and exec teams become the category voice - through executive content and brand shows that connect attention to revenue."
   ],
   audioLabel: "How Extra Sauce Started...",
   audioDuration: "06:30 / 13:25",
   walkThroughTitle: "WALK THROUGH THE SAUCE® RECIPE",
-  walkThroughSubtitle: "WHERE ARE YOU IN YOUR CONTENT JOURNEY?",
-  clickToLearn: "CLICK ANY CARD BELOW TO LEARN MORE",
+  walkThroughSubtitle: "Where Are You In Your Content Journey?",
+  clickToLearn: "Click to find the best path to revenue for you",
   
   // Process Steps
-  processTitle: "The SAUCE Recipe™",
-  processSubtitle: "Our proven 6-step methodology that transforms your expertise into a profitable content engine.",
+  processTitle: "Here's Our Approach",
+  processSubtitle: "Most agencies only do \"content.\" We align push + pull. That means we build strategic thought leadership, then connect it to outbound so your target buyers are pulled into a realm of influence",
   steps: [
     {
       number: 1,
-      title: "Become An Extension Of You",
-      description: "Schedule the kick-off call to get access to your client portal and a communication portal with us."
+      title: "MarketFit Spinner",
+      description: "Market-of-one positioning + company narrative that makes buying from you feel obvious."
     },
     {
       number: 2,
-      title: "Enter The MarketFit Spinner™",
-      description: "We optimize the omnichannel presence to present your audience and offer your audience feels damn to say no to."
+      title: "Scroll-Stopping Engine",
+      description: "Content built to earn attention and make buyers want to see you in their feed."
     },
     {
       number: 3,
-      title: "Begin A Scroll-Stopping Engine™",
-      description: "We begin sharing your thought leadership in an insightful and entertaining way for your realm of influence."
+      title: "Warm Outbound (Influence) System",
+      description: "Multi-touch sequences that drive ideal prospects into your realm of influence so reply rates go up and raving fans show up on discovery calls."
     },
     {
       number: 4,
-      title: "Begin Our Social Selling Strategy",
-      description: "We increase response rates for your sales efforts by starting conversations with people in your realm of influence."
+      title: "Thought Leadership Paid Ads Strategy",
+      description: "Retargeting proven organic winners to reach high-intent personas and generate higher-quality demos at lower CAC."
     },
     {
       number: 5,
-      title: "Watch your DMs start to blow up",
-      description: "You start to notice your DMs with more active conversations from qualified pipeline."
-    },
-    {
-      number: 6,
-      title: "Are you ready to handle more qualified sales opportunities?",
+      title: "🌶️ Ready for more qualified sales opportunities?",
       description: "Ready to take the next step in your content journey?"
     }
   ],
@@ -56,21 +53,21 @@ export const sauceRecipeContent = {
   // Content Journey Stages
   journeyStages: [
     {
-      initialTitle: "HAVE NO IDEA HOW TO INVEST IN CONTENT & SOCIAL MEDIA",
-      expandedTitle: "READY TO MAKE CONTENT IN-HOUSE?",
-      expandedDescription: "We'll coach you or your team to produce quality content that stops the scroll and builds influence with your buyer.",
+      initialTitle: "Pipeline Sprint",
+      expandedTitle: "We'll teach you how to run The Sauce Recipe™",
+      expandedDescription: "In 6–8 weeks, we'll sharpen your positioning, build an omni-channel presence that clicks with your buyers, and install a content + outbound system that generates qualified inquiries. We coach your team so you can run it with confidence.",
       link: "/services/content-led-gtm-coaching"
     },
     {
-      initialTitle: "LOOKING TO PUT OUT EXECUTIVE THOUGHT LEADERSHIP CONTENT",
-      expandedTitle: "READY TO BE A TRUSTED LEADER?",
-      expandedDescription: "We'll turn your executive team into trusted thought leaders by being their secret social media ghostwriter.",
+      initialTitle: "Turn your executive brand into a 10x BDR",
+      expandedTitle: "We handle the content like it's you but with our battle-tested system",
+      expandedDescription: "We turn your executive team into trusted thought leaders—ghostwriting in your voice and aligning content with multi-channel outbound so it drives real conversations",
       link: "/services/executive-ghostwriting"
     },
     {
-      initialTitle: "READY TO BUILD A COMPANY VIDEO ENGINE THAT IS ENTERTAINING",
-      expandedTitle: "WANT TO LEVEL UP WITH VIDEO?",
-      expandedDescription: "Work with dream clients & scale revenue with an executive video engine (e.g. podcast, webinar, episodic series)",
+      initialTitle: "B2B Brand Show (Done-for-you)",
+      expandedTitle: "Binge-worthy content your buyers wants to see on social media every week.",
+      expandedDescription: "Build industry influence and scale revenue with a show engine that fuels every channel and gets Sales out of the low-quality-lead grind (podcast, webinar series, episodic video, etc.).",
       link: "/services/video-content-engine"
     }
   ],

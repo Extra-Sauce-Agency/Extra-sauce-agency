@@ -54,7 +54,7 @@ const SuccessStories: React.FC = () => {
         
         <div className="container-premium text-center relative z-10">
           <h1 className="text-5xl lg:text-8xl font-bold leading-tight mb-8 bg-gradient-to-br from-foreground to-foreground/60 bg-clip-text text-transparent">
-            SaaS &amp; B2B Pipeline<br />
+            Pipeline<br />
             Success Stories
           </h1>
           
@@ -75,7 +75,7 @@ const SuccessStories: React.FC = () => {
         {/* Floating success metrics - Now responsive for smaller screens */}
         <div className="hidden sm:block absolute top-1/4 left-4 sm:left-8 lg:left-16 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg">
           <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">16M+</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">Total Views Generated</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">Views Generated in 4 months</div>
         </div>
         
         <div className="hidden sm:block absolute top-1/3 right-4 sm:right-8 lg:right-16 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '300ms' }}>
@@ -85,32 +85,32 @@ const SuccessStories: React.FC = () => {
         
         <div className="hidden md:block absolute bottom-1/4 left-1/4 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '600ms' }}>
           <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">500K+</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">Followers Gained</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">YouTube followers Gained</div>
         </div>
 
         <div className="hidden sm:block absolute top-16 left-1/2 transform -translate-x-1/2 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '900ms' }}>
-          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">50+</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">B2B Brands Served</div>
+          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">30+</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">SAAS founders served</div>
         </div>
 
         <div className="hidden md:block absolute bottom-1/4 right-1/4 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '1200ms' }}>
-          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">16+</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">Qualified Meetings/Month</div>
+          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">10-16</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">qualified meetings /month</div>
         </div>
 
         <div className="hidden sm:block absolute top-1/2 left-2 sm:left-4 lg:left-8 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '1500ms' }}>
-          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">8X</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">ROI Improvement</div>
+          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">700K+</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">Facebook Page followers</div>
         </div>
 
         <div className="hidden sm:block absolute bottom-16 right-4 sm:right-8 lg:right-20 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '1800ms' }}>
-          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">90%</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">Time Saved on Content</div>
+          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">$124K</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">Revenue Added in 5 months</div>
         </div>
 
         <div className="hidden md:block absolute top-2/3 left-1/3 bg-card/80 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 lg:p-6 border border-border/30 animate-fade-in shadow-lg" style={{ animationDelay: '2100ms' }}>
-          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">$2B+</div>
-          <div className="text-xs sm:text-sm text-muted-foreground">Enterprise Client Value</div>
+          <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary">$600K</div>
+          <div className="text-xs sm:text-sm text-muted-foreground">ARR Added</div>
         </div>
       </section>
 
@@ -119,13 +119,12 @@ const SuccessStories: React.FC = () => {
         <div className="container-premium">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-6xl font-bold mb-6">
-              Explore<br />
-              success stories
+              Real Revenue Results<br />
+              From The Source
             </h2>
             
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Learn how businesses are using Extra Sauce to build high-quality client 
-              work, faster — without growing their budget.
+              See the results from mid-market B2B SaaS clients who have partnered with Extra Sauce for content production.
             </p>
           </div>
 

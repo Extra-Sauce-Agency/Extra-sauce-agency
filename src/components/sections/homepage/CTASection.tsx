@@ -27,38 +27,35 @@ const CTASection = () => {
       </div>
       
       <div className="container-premium relative z-10">
-        <div className="text-center max-w-4xl mx-auto animate-fade-in">
+        <div className="text-center max-w-5xl mx-auto animate-fade-in">
           <h2 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-            Ready for a{" "}
-            <span className="relative inline-block">
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                strategy call?
-              </span>
-              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-primary/30 rounded-full"></div>
+            {ctaSection.headline.split("We make you the go-to option.")[0]}
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              We make you the go-to option.
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Let's discuss how Extra Sauce can transform your founder into a thought leader and build a profitable content engine for your B2B SaaS company.
+          <p className="text-xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
+            {ctaSection.description}
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link to="/book-strategy-call">
               <Button className="group relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary/90 px-12 py-6 text-lg font-semibold rounded-2xl shadow-elegant hover:scale-105 transition-all duration-300">
                 <span className="relative z-10 flex items-center">
-                  Talk with Manny
+                  {ctaSection.primaryButton}
                   <div className="ml-2 w-5 h-5 rounded-full bg-primary-foreground/20 flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
                     <span className="text-xs">→</span>
                   </div>
                 </span>
               </Button>
             </Link>
-            <Link to="/success-stories">
+            <Link to="/the-sauce-recipe">
               <Button 
                 variant="outline" 
                 className="group border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground px-12 py-6 text-lg font-semibold rounded-2xl transition-all duration-300 hover:scale-105"
               >
                 <span className="group-hover:scale-110 transition-transform duration-300">
-                  View Success Stories
+                  {ctaSection.secondaryButton}
                 </span>
               </Button>
             </Link>

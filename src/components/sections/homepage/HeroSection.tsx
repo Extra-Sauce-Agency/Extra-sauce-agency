@@ -70,16 +70,14 @@ const HeroSection = () => {
 
           {/* Main H1 for homepage */}
           <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] mb-8 tracking-tight hero-title">
-            Founder-Led Growth for{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
-              SaaS &amp; B2B Companies
+              {heroSection.headline}
             </span>
           </h1>
 
           {/* Enhanced Subheadline */}
           <p className="text-lg lg:text-xl text-muted-foreground mb-10 max-w-5xl mx-auto leading-relaxed">
-            Build a realm of influence with the modern B2B buyer by sharing your CEO's expertise 
-            into <span className="text-primary font-semibold">binge-worthy social content</span> that cultivates awareness, trust, and credibility.
+            {heroSection.subheadline}
           </p>
 
           {/* Enhanced CTA Buttons */}

@@ -13,19 +13,17 @@ const WhoIsThisForSection = () => {
       <div className="section-divider mb-20"></div>
       <div className="container-premium relative z-10">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            Who Is{" "}
-            <span className="relative">
-              <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                The Sauce
-              </span>
-              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-primary/30 via-secondary/30 to-accent/30 rounded-full"></div>
-            </span>{" "}
-            For?
+          <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+            You don't have a 'content' problem.{" "}
+            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+              You have a demand generation problem
+            </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our approach is for B2B companies that want to align their GTM strategy for today's buyer.
-            <span className="block mt-2 text-primary font-medium">Check if you're a perfect fit ↓</span>
+          <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed mb-4">
+            {whoIsThisForSection.subheadline}
+          </p>
+          <p className="text-lg text-primary font-medium">
+            {whoIsThisForSection.cta}
           </p>
         </div>
 

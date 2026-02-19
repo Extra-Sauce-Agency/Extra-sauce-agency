@@ -108,20 +108,12 @@ const SauceRecipe = () => {
       <div className="container-premium">
         {/* Page H1 */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-4 max-w-4xl mx-auto leading-tight">
-            The Sauce Recipe Framework
+          <h1 className="text-4xl lg:text-6xl font-bold mb-4 max-w-4xl mx-auto leading-tight bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+            {sauceRecipeContent.pageTitle}
           </h1>
-        </div>
-
-        {/* Mission Statement */}
-        <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-8 max-w-4xl mx-auto leading-tight">
-            OUR MISSION IS TO HELP B2B COMPANIES{" "}
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              GROW PROFITABLY
-            </span>{" "}
-            WITH EXECUTIVE CONTENT
-          </h2>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            A predictable content-led revenue system for B2B teams that want <span className="font-bold">high-quality leads</span>, stronger authority, and <span className="font-bold">profitable growth</span>.
+          </p>
         </div>
 
         {/* Behind Extra Sauce Story */}
@@ -141,7 +133,7 @@ const SauceRecipe = () => {
                 <div className="relative bg-gradient-to-r from-primary to-secondary text-primary-foreground px-8 py-3 rounded-lg text-sm font-bold shadow-xl transform -rotate-3 group-hover:rotate-0 group-hover:scale-110 transition-all duration-500 border-2 border-primary-foreground/20">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-primary-foreground rounded-full animate-pulse"></div>
-                    {sauceRecipeContent.storyTitle}
+                    {sauceRecipeContent.storyLabel}
                     <div className="w-2 h-2 bg-primary-foreground rounded-full animate-pulse animation-delay-300"></div>
                   </div>
                   
@@ -156,7 +148,7 @@ const SauceRecipe = () => {
             <div className="bg-gradient-to-br from-card/90 to-muted/50 backdrop-blur-sm border border-border/50 rounded-3xl p-12 shadow-elegant">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+                  <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-6 text-center">
                     {sauceRecipeContent.storyTitle}
                   </h3>
                 </div>
@@ -315,65 +307,51 @@ const SauceRecipe = () => {
           </div>
         </div>
 
-        {/* Process Steps - Interactive */}
+        {/* Process Steps - Horizontal Scroller */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              <span className="text-primary">{sauceRecipeContent.processTitle}</span> Process
+              {sauceRecipeContent.processTitle}
             </h3>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-5xl mx-auto">
               {sauceRecipeContent.processSubtitle}
             </p>
           </div>
 
-          {/* Step Navigation */}
-          <div className="flex justify-center items-center gap-4 mb-8 flex-wrap">
-            {steps.map((step, index) => (
-              <Button
-                key={index}
-                variant={currentStep === step.number ? "default" : "outline"}
-                size="sm"
-                className={`rounded-full ${currentStep === step.number ? 'bg-primary text-primary-foreground' : 'bg-card text-foreground'}`}
-                onClick={() => setCurrentStep(step.number)}
-              >
-                STEP {step.number}
-              </Button>
-            ))}
-          </div>
-
-          {/* Progress Bar */}
-          <div className="w-full max-w-4xl mx-auto mb-12">
-            <div className="h-2 bg-muted rounded-full">
-              <div 
-                className="h-2 bg-gradient-primary rounded-full transition-all duration-500"
-                style={{ width: `${(currentStep / steps.length) * 100}%` }}
-              ></div>
-            </div>
-          </div>
-
-          {/* Current Step Display */}
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-br from-primary/90 to-secondary/90 rounded-3xl p-12 text-center text-white shadow-elegant">
-              <div className="text-sm font-semibold text-primary-foreground/80 mb-4">
-                STEP {currentStep}
+          {/* Horizontal Scroller */}
+          <div className="relative">
+            <div className="overflow-x-auto pb-8 scrollbar-hide">
+              <div className="flex gap-6 px-4 min-w-max">
+                {steps.map((step, index) => (
+                  <div
+                    key={index}
+                    className="bg-gradient-to-br from-card/90 to-muted/50 backdrop-blur-sm border border-border/50 rounded-3xl p-8 shadow-elegant hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-80 flex-shrink-0"
+                  >
+                    <div className="mb-4">
+                      <div className="inline-block bg-gradient-to-r from-primary to-secondary text-primary-foreground px-4 py-2 rounded-full text-sm font-bold mb-4">
+                        Phase {step.number}
+                      </div>
+                    </div>
+                    <h4 className="text-2xl font-bold text-foreground mb-4">
+                      {step.title}
+                    </h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {step.description}
+                    </p>
+                    
+                    {/* Special CTA for last step */}
+                    {step.number === 5 && (
+                      <div className="mt-6">
+                        <Link to="/book-strategy-call">
+                          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 text-base font-semibold rounded-xl shadow-lg hover:scale-105 transition-all duration-300 w-full">
+                            Book a Strategy Call
+                          </Button>
+                        </Link>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
-              <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-accent">
-                {steps[currentStep - 1].title}
-              </h3>
-              <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-                {steps[currentStep - 1].description}
-              </p>
-              
-              {/* Special CTA for Step 6 */}
-              {currentStep === 6 && (
-                <div className="mt-8">
-                  <Link to="/book-strategy-call">
-                    <Button className="bg-white text-primary hover:bg-white/90 px-12 py-6 text-lg font-semibold rounded-2xl shadow-elegant hover:scale-105 transition-all duration-300">
-                      Book a Strategy Call
-                    </Button>
-                  </Link>
-                </div>
-              )}
             </div>
           </div>
         </div>

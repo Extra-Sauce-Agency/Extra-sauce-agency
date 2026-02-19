@@ -62,13 +62,13 @@ const Navigation = () => {
               </button>
               
               {/* Dropdown Menu */}
-              <div className="absolute top-full left-0 mt-2 w-56 bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+              <div className="absolute top-full left-0 mt-2 w-64 bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div className="py-2">
                   {servicesDropdown.map((item) => (
                     <Link
                       key={item.name}
                       to={item.href}
-                      className="block px-4 py-2 text-foreground hover:text-primary hover:bg-accent transition-colors duration-200"
+                      className="block px-4 py-2 text-foreground hover:text-primary hover:bg-accent transition-colors duration-200 whitespace-nowrap"
                     >
                       {item.name}
                     </Link>

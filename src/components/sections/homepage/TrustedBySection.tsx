@@ -13,21 +13,29 @@ const TrustedBySection = () => {
       </div>
       
       <div className="w-full relative z-10 px-0">
-        <div className="text-center mb-12 px-6 lg:px-8">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            {trustedBySection.title}
-          </h2>
-          <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-secondary to-accent rounded-full mx-auto shadow-lg"></div>
-          <p className="text-lg text-muted-foreground mt-4 max-w-4xl mx-auto">
-            {trustedBySection.subtitle}
-          </p>
-        </div>
+        {trustedBySection.title && (
+          <div className="text-center mb-12 px-6 lg:px-8">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              {trustedBySection.title}
+            </h2>
+            <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-secondary to-accent rounded-full mx-auto shadow-lg"></div>
+            {trustedBySection.subtitle && (
+              <p className="text-lg text-muted-foreground mt-4 max-w-4xl mx-auto">
+                {trustedBySection.subtitle}
+              </p>
+            )}
+          </div>
+        )}
         
         {/* Enhanced Logo Container */}
         <div className="relative overflow-hidden bg-gradient-to-r from-white/40 via-white/60 to-white/40 backdrop-blur-xl border-y border-white/30 shadow-2xl p-12 w-full">
           {/* Fade edges for seamless scroll */}
           <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white/80 to-transparent z-10 pointer-events-none"></div>
           <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-white/80 to-transparent z-10 pointer-events-none"></div>
+          
+          {/* Vertical fade edges */}
+          <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-white/80 to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white/80 to-transparent z-10 pointer-events-none"></div>
           
           <div className="scrolling-logos-wrapper">
             <div className="scrolling-logos animate-scroll">
@@ -40,7 +48,7 @@ const TrustedBySection = () => {
                     <img
                       src={company.logo}
                       alt={company.name}
-                      className="h-16 w-auto max-w-[140px] object-contain transition-all duration-500 filter grayscale group-hover:grayscale-0"
+                      className="h-16 w-auto max-w-[140px] object-contain transition-all duration-500"
                       draggable="false"
                       onError={(e) => {
                         console.log(`Failed to load image for ${company.name}:`, company.logo);

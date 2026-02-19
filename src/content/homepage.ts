@@ -2,165 +2,190 @@
 // Edit this file to change text, metrics, and other content on the homepage
 
 export const heroSection = {
-  badge: "Trusted by 20+ High-Growth B2B & DTC Companies",
-  headline: "Our SAUCE™ Recipe helps B2B SaaS companies build profitable founder-led content engines",
-  subheadline: "Build a realm of influence with the modern B2B buyer by sharing your CEO's expertise into binge-worthy social content that cultivates awareness, trust, and credibility.",
-  primaryButton: "Book a demo with Manny",
-  secondaryButton: "View The Process"
+  badge: "#1 Content Growth Agency in North America",
+  headline: "We build you a B2B Brand Show that drives revenue - not just “content.”",
+  subheadline: "The Sauce Recipe™ turns your CEO/executive team into the category voice with a video engine that gets sales away from low-quality leads within 90 days",
+  primaryButton: "Consult with Manny",
+  secondaryButton: "View The Sauce Recipe™"
 };
 
 export const trustedBySection = {
-  title: "Trusted by",
-  subtitle: "From startups to enterprise, we help high-growth companies build profitable content engines",
+  title: "",
+  subtitle: "",
   companies: [
     {
+      name: "Irani Law",
+      logo: "/company images/irani-law.png",
+    },
+    {
+      name: "True Ally",
+      logo: "/company images/true-ally.png",
+    },
+    {
+      name: "PSII",
+      logo: "/company images/psii.png",
+    },
+    {
+      name: "CYM",
+      logo: "/company images/cymcorp.png",
+    },
+    {
       name: "Goalcast",
-      logo: "/goalcast.png",
+      logo: "/company images/goalcast.png",
     },
     {
-      name: "Alam Law",
-      logo: "/alam.png",
-    },
-    {
-      name: "FuelPlus",
-      logo: "/fuel.png",
-    },
-    {
-      name: "Khalsa Aid",
-      logo: "/khalsaaid.png",
-    },
-    {
-      name: "CymCorp",
-      logo: "/cymcorp.png",
+      name: "Carmina Manufacturing",
+      logo: "/company images/carmina-manufacturing.png",
     },
     {
       name: "Depix",
-      logo: "/depix.png",
+      logo: "/company images/depix.png",
     },
     {
-      name: "TVO Kids",
-      logo: "/tvokids.png",
+      name: "Faysal's Company",
+      logo: "/company images/faysal-company.png",
+    },
+    {
+      name: "Joel Charter's Company",
+      logo: "/company images/joel-charter-company.png",
+    },
+    {
+      name: "Ice X",
+      logo: "/company images/ice-x.png",
+    },
+    {
+      name: "WISMOlabs",
+      logo: "/company images/wismolabs.png",
+    },
+    {
+      name: "Control D",
+      logo: "/company images/control-d.png",
+    },
+    {
+      name: "Scarsin",
+      logo: "/company images/scarsin.png",
+    },
+    {
+      name: "Amaith",
+      logo: "/company images/amaith.png",
+    },
+    {
+      name: "Genie AI",
+      logo: "/company images/genie-ai.png",
+    },
+    {
+      name: "EasyAudit",
+      logo: "/company images/easyaudit.png",
     },
   ]
 };
 
 export const whoIsThisForSection = {
-  headline: "Who Is The Sauce For?",
-  subheadline: "Our approach is for B2B companies that want to align their GTM strategy for today's buyer.",
+  headline: "You don't have a 'content' problem. You have a demand generation problem",
+  subheadline: "Most “content agencies” deliver posts. We deliver thought leadership on LinkedIn and YouTube that brings in revenue.",
+  cta: "Check if you're a perfect fit ↓",
   companies: [
     {
+      title: "Sales is wasting time & resources on unqualified leads",
+      description: "BDRs are wasting hours chasing down leads that don't convert instead of talking to raving fans who show up already convinced."
+    },
+    {
+      title: "Paid ad returns are diminishing & hiring a content team is expensive",
+      description: "Paid ad costs are increasing by 8% YOY. Payroll can be up to 42k/mo alone for managing a content flywheel. Before tools, A/B testing, and ramp-up time"
+    },
+    {
       title: "You have an expert on your team to leverage",
-      description: "This is typically the CEO or CTO of the organization or someone who has expertise and deep knowledge in their field."
+      description: "Your CEO/CTO already has the insights buyers trust. A CEO brand can be 10x BDR that builds a realm of influence with buyers.."
     },
     {
-      title: "Your seeing unsustainable growth with only outbound efforts",
-      description: "Hiring another SDR costs 60K+ annually plus expenses for training, tradeshows, and tech, which creates high acquisition costs."
+      title: "You want to be the top 1-2 leaders in your category",
+      description: "Martech categories have ~94x more options compared to 2011. It is detrimental to even be #3 in the modern B2B world."
     },
     {
-      title: "Your buyer prefers to do their own research",
-      description: "Research shows ~80% of the buyer's journey is done independently and today's buyer is influenced by social media & communities."
+      title: "You need real relationships with key industry players",
+      description: "If your niche is small, relationships with key buyers, partners, and investors become the growth strategy."
     },
     {
-      title: "Companies that are looking to stand apart from the crowd",
-      description: "Your prospect got 10 cold emails and 10 LinkedIn connect requests today. There are too many options in every category now."
-    },
-    {
-      title: "Your selling B2B products to sophisticated buyers",
-      description: "Sophisticated buyers require trust and market authority, especially when considering a $20K average contract value."
-    },
-    {
-      title: "Companies that value the exponential gains from brand",
-      description: "When you hear CRM, you think of Hubspot - that is the value of being a category leader through executive content."
+      title: "You need a content system that does more than fill the social feed",
+      description: "You don't need more content. You need a content-led system that syncs with outbound to drive bottomline revenue."
     }
   ]
 };
 
 export const processSection = {
-  headline: "From Idea to Implementation",
-  description: "Our proven methodology transforms your vision into reality through strategic planning, expert execution, and measurable results.",
+  headline: "How We Make Content Create Pipeline",
+  description: "Install a Predictable Content System That Books You Qualified Sales Calls Every Week…",
   steps: [
     {
-      title: "Becoming an extension of you",
-      description: "Schedule the kick-off call to get access to your client portal and a communication portal with us.",
-      duration: "Kickoff"
+      title: "Phase 1 - MarketFit Spinner™",
+      description: "Market Of One Positioning, Company Narrative, Get people to jump off their ship and on to yours.",
+      duration: "Positioning"
     },
     {
-      title: "Enter The MarketFit\nSpinner™",
-      description: "We optimize the omnichannel presence to showcase a compelling offer your audience feels dumb to say no to.",
-      duration: "Strategy"
-    },
-    {
-      title: "Begin A Scroll-Stopping Engine™",
-      description: "We begin sharing your thought leadership in an insightful and entertaining way that makes your audience want to binge-watch.",
+      title: "Phase 2 - Scroll-Stopping Engine™",
+      description: "Content that creates a realm of influence and makes your brand the one buyers remember.",
       duration: "Content"
     },
     {
-      title: "Begin Our Social Selling Strategy",
-      description: "We increase response rates for your sales efforts by starting conversations with people in your realm of influence.",
-      duration: "Results"
+      title: "Phase 3 - Warm Outbound (Influence) System",
+      description: "Multi-touch sequences that drive prospects into your content ecosystem and boost reply rates.",
+      duration: "Outbound"
     },
     {
-      title: "Watch your DMs start to blow up",
-      description: "You start to notice your DMs with more active conversations from qualified pipeline.",
-      duration: "Growth"
+      title: "Phase 4 - Thought Leadership Paid Ads Strategy",
+      description: "Retargeting proven organic winning thought leadership assets to reach high-intent personas and lower CAC.",
+      duration: "Paid Ads"
     }
   ]
 };
 
 export const servicesOverviewSection = {
-  headline: "We are not just another B2B content agency - we align your marketing & sales efforts",
-  subheadline: "We've built a realm of influence and drove pipeline for our agency using the same SAUCE™ Recipe we will be sharing with you.",
+  headline: "We are not a content agency - We are a revenue agency",
+  subheadline: "Revenue, pipeline quality, engagement from target accounts, and cost efficiency - these are the metrics that drive success. On average, our clients start generating revenue from social media in under 4 months.",
   services: [
     {
-      title: "Video Content Engine",
-      description: "Get a consistent video engine to position yourself as a thought leader and staying on top of mind.",
+      title: "Executive Content Engine",
+      price: "$5,000/mo",
+      descriptionTop: "You work with a demand gen manager, Video Editor, Sr. Copywriter, and Sr. Designer",
       features: [
-        "Dedicated Content Strategist",
-        "Director of Demand Gen", 
-        "Dedicated video editor",
-        "Dedicated copywriter",
-        "1 long-format series / week",
-        "20 pieces of short-form videos / mo",
-        "20 Video Thumbnails / month",
-        "Warm Outbound Strategy Installed",
-        "Invite-Only Outbound Software",
-        "Create 1 long-form newsletter/ mo",
-        "Social selling consulting",
+        "Content Management",
+        "Creative & Narrative Development",
+        "Executive Brand Development",
+        "LinkedIn Outbound & social selling",
+        "ABM Guidance",
+        "Performance Reporting"
       ],
-      link: "/services/video-content-engine"
+      descriptionBottom: "Turn your exec team into trusted thought leaders online without stealing time from the business. This is for teams that want executive authority that translates into revenue.",
+      link: "/services/executive-content-engine"
     },
     {
-      title: "Content-led GTM Coaching",
-      description: "Get consulting to build a pipeline-generating content engine & get your company ready for market.", 
+      title: "B2B Brand Show",
+      price: "$10,000/mo",
+      descriptionTop: "You work with a dedicated director of demand Gen, Show Producer, Sr. Video editors, Sr. Copywriter, and Sr. Designer",
       features: [
-        "1-on-1 consulting video calls",
-        "Dedicated GTM Consultant",
-        "Personal Branding",
-        "Develop A Strategic Narrative",
-        "Messaging Optimization",
-        "Social Media Strategy",
-        "Content Ideation + system building",
-        "Website Optimization",
-        "Social Selling consulting",
-        "Invite-Only Outbound Software",
+        "GTM Guidance",
+        "Brand Show Management",
+        "High-Value Guest Sourcing",
+        "Creative & Narrative Development",
+        "Content Flywheel execution",
+        "ABM Guidance",
+        "Performance Measurement"
       ],
-      link: "/services/content-led-gtm-coaching"
+      descriptionBottom: "A binge-worthy show that becomes your company's demand engine that gets buyers excited to see it on their weekly feeds.",
+      link: "/services/b2b-brand-show"
     },
     {
-      title: "Executive Ghostwriting",
-      description: "Get high-quality thought leadership narrative-driven content created for you to build a realm of influence.",
+      title: "Content-led Pipeline Sprint",
+      price: "$6,000/one time",
+      descriptionTop: "You work with a dedicated director of demand gen and social strategist for 6-8 weeks.",
       features: [
-        "Dedicated social strategist/copywriter",
-        "20-30 pieces of written content/ mo",
-        "Up to 4 short-form video scripts/ mo",
-        "Social Media Management",
-        "1 content ideation call/week",
-        "Monthly analytical report",
-        "Ongoing social media optimization",
-        "Social selling consulting",
-        "Invite-Only Outbound Software",
+        "Phase 1: Market Of One Positioning",
+        "Phase 2: Scroll-Stopping Engine",
+        "Phase 3: Social Selling Outbound System",
+        "Phase 4: Thought Leadership Paid Social Strategy"
       ],
-      link: "/services/executive-ghostwriting"
+      descriptionBottom: "Teams not ready for a retainer (or locked into another vendor) but want our proven content-led pipeline system now to run themselves.",
+      link: "/services/content-led-pipeline-sprint"
     }
   ]
 };
@@ -170,35 +195,39 @@ export const faqSection = {
   description: "Everything you need to know about our services and process.",
   questions: [
     {
-      question: "How long until we should expect results?",
-      answer: "You will be able to generate 11-16 high-converting leads in your inbox every month after generating an initial realm of influence anywhere from 2-5 months and the client's product typical sales cycle plays a role."
+      question: "What results have you had for previous customers?",
+      answer: "We've helped clients generate outcomes like ~16 qualified meetings/month, ~10 qualified meetings/month, $428K ARR added, and investor meetings booked via LinkedIn DMs (view success stories)."
     },
     {
-      question: "What is the difference between founder-led marketing & personal branding?",
-      answer: "Founder-led marketing focuses on building business value and driving pipeline through strategic content, while personal branding is more about individual reputation. We align your personal expertise with business goals."
+      question: "Have you worked with SAAS, AI, or the tech space?",
+      answer: "Yes—our core focus is B2B tech/SaaS. The Sauce Recipe™ is built for technical buyers, longer sales cycles, and category competition."
     },
     {
-      question: "Why should we work with your agency for B2B content?",
-      answer: "We've built our own agency using the same SAUCE™ Recipe we share with clients. We understand the challenges of B2B growth and have proven systems that work across multiple industries."
+      question: "How much content can we expect to come out monthly?",
+      answer: "It depends on the service (Executive Engine vs. Brand Show), distribution channels, and quality of content asset. On average, we create about 15-20 content assets/mo. We'll align on a cadence that's sustainable and tied to clear revenue goals."
     },
     {
-      question: "How do we get started with Extra Sauce?",
-      answer: "Simply book a demo or strategy call with our team. We'll assess your needs and guide you through our onboarding process to ensure a smooth start."
+      question: "How long does it take for a B2B show to generate pipeline?",
+      answer: "Most teams start seeing leading indicators within the first 60-90 days (engagement quality, qualified sales opportunities, outbound lift). Revenue impact typically follows as distribution compounds."
     },
     {
-      question: "Can your services be customized for our industry?",
-      answer: "Yes, our SAUCE™ Recipe is tailored to fit the unique needs and challenges of your industry, ensuring relevant and effective content strategies."
+      question: "What do you mean by a B2B brand show and how do these bring in revenue?",
+      answer: "We create 'diary of a CEO' brand shows that are repeatable, executive-led content series (podcast, webinar, episodic series) engineered to build authority. Revenue happens when the show is connected to distribution + strategic outbound."
     },
     {
-      question: "What kind of reporting and analytics do you provide?",
-      answer: "We deliver monthly analytical reports that track content performance, audience engagement, and pipeline growth, so you can measure ROI and optimize your strategy."
+      question: "What makes you different from other content or podcast agencies?",
+      answer: "We don't just fill the feed with more content - we build a content-led revenue system. That means: narrative + brand show + distribution + outbound alignment + measurement."
+    },
+    {
+      question: "How much work is required from the internal team?",
+      answer: "Our system caters to busy executives. We typically only require ~4hrs/mo for executives to show up to record the content. Everything else is handled by us with a white-glove approach."
     }
   ]
 };
 
 export const ctaSection = {
-  headline: "Ready for a strategy call?",
-  description: "Let's discuss how Extra Sauce can transform your founder into a thought leader and build a profitable content engine for your B2B SaaS company.",
-  primaryButton: "Talk with Manny",
-  secondaryButton: "View Success Stories"
+  headline: "AI is killing your brand trust. We make you the go-to option.",
+  description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
+  primaryButton: "Consult with Manny",
+  secondaryButton: "View The Sauce Recipe™"
 };

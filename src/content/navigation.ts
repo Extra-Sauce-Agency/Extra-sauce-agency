@@ -7,14 +7,14 @@ export const navigationItems = [
 ];
 
 export const servicesDropdown = [
-  { name: "Executive Ghostwriting", href: "/services/executive-ghostwriting" },
-  { name: "Video Content Engine", href: "/services/video-content-engine" },
-  { name: "Content-Led GTM Coaching", href: "/services/content-led-gtm-coaching" },
+  { name: "Executive Content Engine", href: "/services/executive-ghostwriting" },
+  { name: "B2B Brand Show", href: "/services/video-content-engine" },
+  { name: "Content-led Pipeline Sprint", href: "/services/content-led-gtm-coaching" },
 ];
 
 export const resourcesDropdown = [
   { name: "Blogs", href: "/resources/blogs" },
-  { name: "Newsletters", href: "/resources/newsletters" },
+  // { name: "Newsletter", href: "/resources/newsletters" },
   { name: "Company News", href: "/resources/company-news" },
 ];
 

@@ -15,13 +15,13 @@ export interface NewsItem {
 import { extraSauceLeavesNews } from "../companynews/extra-sauce-leaves-dtc-world";
 import { sauceRecipeNews } from "../companynews/introducing-sauce-recipe";
 import { acceleratorNews } from "../companynews/extra-sauce-joins-accelerators";
-import { remiNews } from "../companynews/meet-remi-ai-agent";
+// import { remiNews } from "../companynews/meet-remi-ai-agent";
 
 export const companyNews: NewsItem[] = [
   extraSauceLeavesNews,
   sauceRecipeNews,
   acceleratorNews,
-  remiNews
+  // remiNews  // Hidden: June 3, 2025 update
 ];
 
 export const newsCategories = [

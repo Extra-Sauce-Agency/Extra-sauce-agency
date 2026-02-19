@@ -64,13 +64,13 @@ const BookingPage = () => {
   ];
 
   const companies = [
-    { name: "Goalcast", logo: "/goalcast.png" },
-    { name: "Alam Law", logo: "/alam.png" },
-    { name: "FuelPlus", logo: "/fuel.png" },
-    { name: "Khalsa Aid", logo: "/khalsaaid.png" },
-    { name: "CymCorp", logo: "/cymcorp.png" },
-    { name: "Depix", logo: "/depix.png" },
-    { name: "TVO Kids", logo: "/tvokids.png" },
+    { name: "Goalcast", logo: "/company images/goalcast.png" },
+    { name: "Alam Law", logo: "/company images/alam.png" },
+    { name: "FuelPlus", logo: "/company images/fuel.png" },
+    { name: "Khalsa Aid", logo: "/company images/khalsaaid.png" },
+    { name: "CymCorp", logo: "/company images/cymcorp.png" },
+    { name: "Depix", logo: "/company images/depix.png" },
+    { name: "TVO Kids", logo: "/company images/tvokids.png" },
   ];
 
   const allCompanies = [...companies, ...companies]; 

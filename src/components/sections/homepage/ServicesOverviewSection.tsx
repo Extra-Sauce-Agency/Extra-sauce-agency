@@ -16,12 +16,12 @@ const ServicesOverviewSection = () => {
       <div className="container-premium">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
-            We are not just another B2B content agency{" "}
+            {servicesOverviewSection.headline.split(' - ')[0]}{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              - we align your marketing & sales efforts
+              - {servicesOverviewSection.headline.split(' - ')[1]}
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl text-muted-foreground max-w-5xl mx-auto leading-relaxed">
             {servicesOverviewSection.subheadline}
           </p>
         </div>
@@ -38,16 +38,16 @@ const ServicesOverviewSection = () => {
                   <h3 className="text-2xl font-bold text-foreground mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {service.description}
+                  {service.price && (
+                    <p className="text-lg font-semibold text-primary mb-4">{service.price}</p>
+                  )}
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    {service.descriptionTop}
                   </p>
                 </div>
 
                 {/* Areas of Focus */}
                 <div className="mb-8">
-                  <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4">
-                    AREAS OF FOCUS
-                  </h4>
                   <ul className="space-y-3">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3">
@@ -57,6 +57,11 @@ const ServicesOverviewSection = () => {
                     ))}
                   </ul>
                 </div>
+
+                {/* Bottom Description */}
+                <p className="text-muted-foreground leading-relaxed text-sm mt-auto mb-8">
+                  {service.descriptionBottom}
+                </p>
               </div>
 
               {/* CTA */}

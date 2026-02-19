@@ -12,18 +12,18 @@ const ProcessSection = () => {
       
       <div className="container-premium relative z-10">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            From Idea to{" "}
+          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
+            How We Make{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Implementation
+              Content Create Pipeline
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Our proven methodology transforms your vision into reality through strategic planning, expert execution, and measurable results.
+          <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed">
+            {processSection.description}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {processSection.steps.map((step, index) => (
             <div 
               key={index}
