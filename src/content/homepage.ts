@@ -45,38 +45,38 @@ export const trustedBySection = {
       name: "Faysal's Company",
       logo: "/company images/faysal-company.png",
     },
-    {
-      name: "Joel Charter's Company",
-      logo: "/company images/joel-charter-company.png",
-    },
-    {
-      name: "Ice X",
-      logo: "/company images/ice-x.png",
-    },
-    {
-      name: "WISMOlabs",
-      logo: "/company images/wismolabs.png",
-    },
-    {
-      name: "Control D",
-      logo: "/company images/control-d.png",
-    },
-    {
-      name: "Scarsin",
-      logo: "/company images/scarsin.png",
-    },
-    {
-      name: "Amaith",
-      logo: "/company images/amaith.png",
-    },
-    {
-      name: "Genie AI",
-      logo: "/company images/genie-ai.png",
-    },
-    {
-      name: "EasyAudit",
-      logo: "/company images/easyaudit.png",
-    },
+    // {
+    //   name: "Joel Charter's Company",
+    //   logo: "/company images/joel-charter-company.png",
+    // },
+    // {
+    //   name: "Ice X",
+    //   logo: "/company images/ice-x.png",
+    // },
+    // {
+    //   name: "WISMOlabs",
+    //   logo: "/company images/wismolabs.png",
+    // },
+    // {
+    //   name: "Control D",
+    //   logo: "/company images/control-d.png",
+    // },
+    // {
+    //   name: "Scarsin",
+    //   logo: "/company images/scarsin.png",
+    // },
+    // {
+    //   name: "Amaith",
+    //   logo: "/company images/amaith.png",
+    // },
+    // {
+    //   name: "Genie AI",
+    //   logo: "/company images/genie-ai.png",
+    // },
+    // {
+    //   name: "EasyAudit",
+    //   logo: "/company images/easyaudit.png",
+    // },
   ]
 };
 
