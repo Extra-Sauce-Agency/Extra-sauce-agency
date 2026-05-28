@@ -39,7 +39,7 @@ export const quickLinks = {
 
 export const location = {
   title: "HEADQUARTERS",
-  address: "Toronto, Ontario, Canada"
+  address: "Toronto, Canada"
 };
 
 export const email = {
