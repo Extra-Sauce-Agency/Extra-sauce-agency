@@ -6,7 +6,7 @@ export const heroSection = {
   headline: "Your Buyers Have Already Built Their Shortlist. Make Sure You're On It.",
   subheadline: "We build executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers so they show up to demos already sold on working with you.",
   primaryButton: "Apply Now",
-  secondaryButton: "View The Sauce Recipe™"
+  secondaryButton: "See The Sauce Recipe™"
 };
 
 export const trustedBySection = {
@@ -81,33 +81,33 @@ export const trustedBySection = {
 };
 
 export const whoIsThisForSection = {
-  headline: "You don't have a 'content' problem. You have a demand generation problem",
-  subheadline: "Most “content agencies” deliver posts. We deliver thought leadership on LinkedIn and YouTube that brings in revenue.",
-  cta: "Check if you're a perfect fit ↓",
+  headline: "Content without a capture system doesn't generate pipeline. It generates views.",
+  subheadline: "Most B2B content builds awareness and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
+  cta: "Check if you’re a perfect fit ↓",
   companies: [
     {
-      title: "Sales is wasting time & resources on unqualified leads",
-      description: "BDRs are wasting hours chasing down leads that don't convert instead of talking to raving fans who show up already convinced."
+      title: "Your sales team is drowning in the wrong leads.",
+      description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "Paid ad returns are diminishing & hiring a content team is expensive",
-      description: "Paid ad costs are increasing by 8% YOY. Payroll can be up to 42k/mo alone for managing a content flywheel. Before tools, A/B testing, and ramp-up time"
+      title: "Paid ads cost more every year. An in-house content team costs even more.",
+      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
     },
     {
-      title: "You have an expert on your team to leverage",
-      description: "Your CEO/CTO already has the insights buyers trust. A CEO brand can be 10x BDR that builds a realm of influence with buyers.."
+      title: "Your executive has expertise your buyers are actively searching for but they aren’t visible.",
+      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise sits off LinkedIn, a competitor steps into the gap and earns the trust that should belong to you."
     },
     {
-      title: "You want to be the top 1-2 leaders in your category",
-      description: "Martech categories have ~94x more options compared to 2011. It is detrimental to even be #3 in the modern B2B world."
+      title: "Your competitors are becoming the default choice in your category.",
+      description: "Martech categories have 94x more options than in 2011. With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
     },
     {
-      title: "You need real relationships with key industry players",
-      description: "If your niche is small, relationships with key buyers, partners, and investors become the growth strategy."
+      title: "Your outbound is running cold. The reply rates prove it.",
+      description: "Three years ago, B2B outbound averaged a 7–8% reply rate. Today it sits between 3–5%, and the trend isn't reversing. Your buyers aren't unreachable. They're ignoring strangers."
     },
     {
-      title: "You need a content system that does more than fill the social feed",
-      description: "You don't need more content. You need a content-led system that syncs with outbound to drive bottomline revenue."
+      title: "You're producing content. Your sales team can't point to a single deal it influenced.",
+      description: "Content that stops at the feed with no outbound alignment, no demand capture, and no pipeline attribution won’t impact the bottom line. Clients running content and outbound together see qualified pipeline within 70-90 days."
     }
   ]
 };
@@ -229,5 +229,5 @@ export const ctaSection = {
   headline: "AI is killing your brand trust. We make you the go-to option.",
   description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
   primaryButton: "Apply Now",
-  secondaryButton: "View The Sauce Recipe™"
+  secondaryButton: "See The Sauce Recipe™"
 };

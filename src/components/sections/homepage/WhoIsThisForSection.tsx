@@ -14,9 +14,9 @@ const WhoIsThisForSection = () => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-            You don't have a 'content' problem.{" "}
+            Content without a capture system doesn't generate pipeline.{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              You have a demand generation problem
+              It generates views.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed mb-4">
