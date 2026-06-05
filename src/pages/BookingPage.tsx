@@ -58,9 +58,9 @@ const BookingPage = () => {
   };
 
   const benefits = [
-    "Unpack the latest algorithm shifts across LinkedIn & YouTube—and how to leverage them for pipeline, not vanity metrics.",
-    "Get personalized, founder-led content strategy tailored to your GTM motion, ICP, and current buying committee dynamics.",
-    "Align your executive brand with social selling workflows to drive conversations with high-intent leads—not just impressions."
+    "Walk away with a clear picture of how to leverage LinkedIn & Youtube as a revenue channel.",
+    "Get a frank assessment of your Company & C-suite content presence and where the gaps are costing you influence & authority.",
+    "Understand exactly what it would look like to run The Sauce Recipe™ in your business and what results you can realistically expect."
   ];
 
   const companies = [
@@ -78,9 +78,9 @@ const BookingPage = () => {
   return (
     <>
       <EnhancedSEOHead
-        title="Book a Strategy Call | SaaS & B2B Growth Evaluation"
+        title="Apply Now | SaaS & B2B Growth Evaluation"
         description="Ready to stop the acquisition hamster wheel? Book a strategy call to evaluate your founder-led growth system and predictable content engine opportunities today."
-        ogTitle="Book a Strategy Call | SaaS & B2B Growth Evaluation"
+        ogTitle="Apply Now | SaaS & B2B Growth Evaluation"
         ogDescription="Book a strategy call to evaluate your founder-led growth system, narrative clarity, and content engine opportunities for SaaS or B2B teams."
         canonicalUrl="https://www.extrasauceagency.com/book-strategy-call"
         type="article"
@@ -94,13 +94,12 @@ const BookingPage = () => {
             {/* Left Content */}
             <div className="order-2 xl:order-1 w-full">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight">
-                Book Your <span className="text-primary">Strategy Call</span>
+                Apply <span className="text-primary">Now</span>
               </h1>
               
               <div className="mb-6 sm:mb-8">
-                <p className="text-primary font-semibold mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg xl:text-base">
-                  Book a 1:1 call with our team to uncover how to build a high-leverage 
-                  content engine around your executive leadership, powered by The SAUCE Recipe™
+                <p className="text-primary font-semibold mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg xl:text-base leading-relaxed">
+                  Schedule a call with our team to find out if The Sauce Recipe™ is the right content revenue system to turn your executive team into your most powerful pipeline channel.
                 </p>
                 
                 <div className="space-y-3 sm:space-y-4">
@@ -218,10 +217,10 @@ const BookingPage = () => {
                 {/* Header */}
                 <div className="text-center mb-4 sm:mb-6">
                   <h2 className="text-xl sm:text-2xl md:text-3xl xl:text-2xl 2xl:text-3xl font-bold mb-2 sm:mb-4">
-                    Schedule Your <span className="text-primary">Strategy Call</span>
+                    Schedule Your <span className="text-primary">Application</span>
                   </h2>
-                  <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base px-2">
-                    Book a one-on-one session with our content experts and discover how founder-led content can transform your B2B pipeline
+                  <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base px-2 max-w-xl mx-auto leading-relaxed">
+                    This isn't a sales call. It's an application review. Extra Sauce works with a select number of B2B SaaS companies at any given time. If you're not the right fit, you'll know within 24 hours.
                   </p>
                 </div>
 

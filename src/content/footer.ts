@@ -5,7 +5,7 @@ export const companyInfo = {
   name: "Extra Sauce",
   description: "What if you can unlock the next growth stage with content?",
   ctaButton: {
-    text: "Book A Strategy Call",
+    text: "Apply Now",
     link: "/book-strategy-call"
   }
 };
@@ -39,7 +39,7 @@ export const quickLinks = {
 
 export const location = {
   title: "HEADQUARTERS",
-  address: "Toronto, Canada"
+  address: "Toronto, Canada 🇨🇦"
 };
 
 export const email = {

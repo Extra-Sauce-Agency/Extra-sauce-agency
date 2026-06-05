@@ -2,10 +2,10 @@
 // Edit this file to change text, metrics, and other content on the homepage
 
 export const heroSection = {
-  badge: "#1 Content Growth Agency in North America",
-  headline: "We build you a B2B Brand Show that drives revenue - not just “content.”",
-  subheadline: "The Sauce Recipe™ turns your CEO/executive team into the category voice with a video engine that gets sales away from low-quality leads within 90 days",
-  primaryButton: "Consult with Manny",
+  badge: "#1 Content Revenue Agency for B2B Tech & SAAS",
+  headline: "Your Buyers Have Already Built Their Shortlist. Make Sure You're On It.",
+  subheadline: "We build executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers so they show up to demos already sold on working with you.",
+  primaryButton: "Apply Now",
   secondaryButton: "View The Sauce Recipe™"
 };
 
@@ -228,6 +228,6 @@ export const faqSection = {
 export const ctaSection = {
   headline: "AI is killing your brand trust. We make you the go-to option.",
   description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
-  primaryButton: "Consult with Manny",
+  primaryButton: "Apply Now",
   secondaryButton: "View The Sauce Recipe™"
 };
