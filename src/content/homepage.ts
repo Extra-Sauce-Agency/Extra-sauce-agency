@@ -1,118 +1,63 @@
-// HOMEPAGE CONTENT
-// Edit this file to change text, metrics, and other content on the homepage
+import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 
 export const heroSection = {
-  badge: "#1 Content Revenue Agency for B2B Tech & SAAS",
-  headline: "Your Buyers Have Already Built Their Shortlist. Make Sure You're On It.",
-  subheadline: "We build executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers so they show up to demos already sold on working with you.",
-  primaryButton: "Apply Now",
-  secondaryButton: "See The Sauce Recipe™"
+  badge: "🔥 #1 Content Revenue Agency for B2B SaaS & Services",
+  headline: "We turn B2B executives into pipeline-generating channels",
+  subheadline: "We install a predictable content revenue system that builds authority, drives warm inbound, and books qualified sales calls—without stealing time from your leadership team.",
+  primaryCTA: "Apply Now",
+  secondaryCTA: "See The Sauce Recipe™",
+  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder, replace with actual video URL if available
 };
 
-export const trustedBySection = {
-  title: "",
-  subtitle: "",
-  companies: [
+export const whoIsThisForSection = {
+  headline: "This is built specifically for B2B SaaS & Services founders and executives who are tired of the cold outreach grind and want a scalable inbound channel.",
+  items: [
     {
-      name: "Oracle",
-      logo: "/company images/oracle.webp",
+      title: "For Founders & CEOs",
+      description: "Build a powerful personal brand that drives business value, establishes category authority, and opens doors to key decision-makers—all with less than 2 hours of your time per month."
     },
     {
-      name: "Goalcast",
-      logo: "/company images/goalcast.jpg",
+      title: "For CMOs & Marketing Leaders",
+      description: "Scale your organic distribution, create high-converting executive content, and align your organic presence with paid acquisition to lower customer acquisition costs."
     },
     {
-      name: "True Ally",
-      logo: "/company images/true-ally.webp",
-    },
-    {
-      name: "WISMOlabs",
-      logo: "/company images/wismolabs.svg",
-    },
-    {
-      name: "Irani Law",
-      logo: "/company images/irani-law.png",
-    },
-    {
-      name: "TBDC",
-      logo: "/company images/tbdc.png",
-    },
-    {
-      name: "Alam Law Firm",
-      logo: "/company images/alam-law-firm.png",
-    },
-    {
-      name: "Bhive",
-      logo: "/company images/bhive.png",
-    },
-    {
-      name: "Carleton University",
-      logo: "/company images/carleton-university.png",
-    },
-    {
-      name: "City of Brampton",
-      logo: "/company images/city-of-brampton.jpg",
-    },
-    {
-      name: "CYMCorp",
-      logo: "/company images/cymcorp.png.jpg",
-    },
-    {
-      name: "Depix",
-      logo: "/company images/depix.png",
-    },
-    {
-      name: "Fuel+",
-      logo: "/company images/fuelplus.png",
-    },
-    {
-      name: "Ice Exchange Inc",
-      logo: "/company images/ice-exchange-inc.png",
-    },
-    {
-      name: "Icube UTM",
-      logo: "/company images/icube-utm.png",
-    },
-    {
-      name: "Khalsa Aid",
-      logo: "/company images/khalsa-aid.png",
-    },
-    {
-      name: "Sterling Capital",
-      logo: "/company images/sterling-capital.webp",
-    },
-    {
-      name: "Maripsa",
-      logo: "/company images/maripsa.png",
-    },
-    {
-      name: "MBM Law Firm",
-      logo: "/company images/mbm-law-firm.svg",
-    },
-    {
-      name: "TVO Kids",
-      logo: "/company images/tvo-kids.webp",
+      title: "For Sales & GTM Leaders",
+      description: "Equip your sales team with warm outbound opportunities. Turn cold, ignored outreach into warm conversations with buyers who already trust your executive team."
     }
   ]
 };
 
-export const whoIsThisForSection = {
-  headline: "Content without a capture system doesn't generate pipeline. It generates views.",
-  subheadline: "Most B2B content builds awareness and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
-  cta: "Check if you’re a perfect fit ↓",
-  companies: [
+export const problemSection = {
+  badge: "The Problem",
+  headline: "Most B2B content generates views. Ours generates pipeline.",
+  description: "Views and impressions are vanity metrics. If your content isn't driving qualified sales calls and pipeline, it's not working. Here's why traditional B2B content marketing fails:",
+  problems: [
     {
-      title: "Your sales team is drowning in the wrong leads.",
-      description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
+      title: "Your category is crowded. Noise is at an all-time high.",
+      description: "With AI-generated content flooding every channel, generic company pages are ignored. Buyers connect with people, not logos. If your executives are invisible, your brand is invisible."
     },
     {
-      title: "Paid ads cost more every year. An in-house content team costs even more.",
-      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
+      title: "Your buyers aren't in-market today.",
+      description: "Only 5% of your market is actively buying today. The other 95% are forming opinions about who to trust. If you only focus on direct-response ads, you're missing the massive long-term pipeline."
     },
     {
-      title: "Your executive has expertise your buyers are actively searching for but they aren’t visible.",
-      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise sits off LinkedIn, a competitor steps into the gap and earns the trust that should belong to you."
+      title: "Your outbound is running cold. The reply rates prove it.",
+      description: "Cold emails and cold DMs are seeing record-low reply rates. Buyers are overwhelmed by automated pitch-slaps. You need to warm up your prospects before your sales team reaches out."
     },
+    {
+      title: "Your content has no attribution.",
+      description: "You're posting content, but you can't trace a single deal back to it. Without strategic narrative alignment and warm outbound integration, content is just a cost center, not a revenue driver."
+    },
+    {
+      title: "Your executive team is too busy.",
+      description: "Writing high-quality, insightful content takes hours of deep work. Your leadership team needs to run the business, not spend days drafting posts, editing videos, and designing graphics."
+    },
+    {
+      title: "Your competitors are building category authority.",
+      description: "The founders who show up consistently on LinkedIn and YouTube are winning the category. They are becoming the default choice, while companies with better products stay invisible."
+    }
+  ],
+  insights: [
     {
       title: "Your competitors are becoming the default choice in your category.",
       description: "Martech categories have 94x more options than in 2011. With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
@@ -129,28 +74,28 @@ export const whoIsThisForSection = {
 };
 
 export const processSection = {
-  headline: "How We Make Content Create Pipeline",
-  description: "Install a Predictable Content System That Books You Qualified Sales Calls Every Week…",
+  headline: "The four phases that take your executive team from invisible to in-demand.",
+  description: "A step-by-step look at how The Sauce Recipe™ installs a content revenue system that books qualified sales calls every week.",
   steps: [
     {
-      title: "Phase 1 - MarketFit Spinner™",
-      description: "Market Of One Positioning, Company Narrative, Get people to jump off their ship and on to yours.",
-      duration: "Positioning"
+      title: "MarketFit Spinner™",
+      description: "We build your Market Of One positioning and company narrative so your ideal buyers feel like you're the only logical choice and your competitors become irrelevant.",
+      duration: "Phase 1"
     },
     {
-      title: "Phase 2 - Scroll-Stopping Engine™",
-      description: "Content that creates a realm of influence and makes your brand the one buyers remember.",
-      duration: "Content"
+      title: "Scroll-Stopping Engine™",
+      description: "We create executive content that builds a realm of influence around your brand so buyers discover you, follow your thinking, and trust your POV.",
+      duration: "Phase 2"
     },
     {
-      title: "Phase 3 - Warm Outbound (Influence) System",
-      description: "Multi-touch sequences that drive prospects into your content ecosystem and boost reply rates.",
-      duration: "Outbound"
+      title: "Warm Outbound System™",
+      description: "We run targeted LinkedIn outbound sequences against buyers who already know your executive from the content. Reply rates move from the industry average of 3-5% to 10-30%.",
+      duration: "Phase 3"
     },
     {
-      title: "Phase 4 - Thought Leadership Paid Ads Strategy",
-      description: "Retargeting proven organic winning thought leadership assets to reach high-intent personas and lower CAC.",
-      duration: "Paid Ads"
+      title: "C-suite Paid Ads Strategy™",
+      description: "We retarget your best-performing organic content as paid ads to reach in-market buyers and warm audiences at the moment they're ready to decide, at a fraction of cold CAC.",
+      duration: "Phase 4"
     }
   ]
 };
@@ -183,67 +128,101 @@ export const servicesOverviewSection = {
         "Brand Show Management",
         "High-Value Guest Sourcing",
         "Creative & Narrative Development",
-        "Content Flywheel execution",
-        "ABM Guidance",
-        "Performance Measurement"
+        "Multichannel Distribution Strategy",
+        "Sponsor & Partnership Sourcing"
       ],
-      descriptionBottom: "A binge-worthy show that becomes your company's demand engine that gets buyers excited to see it on their weekly feeds.",
+      descriptionBottom: "Build the default-choice media brand in your industry. This is for established SaaS or enterprise teams that want to dominate mindshare and own their audience.",
       link: "/services/b2b-brand-show"
+    }
+  ]
+};
+
+export const trustedBySection = {
+  headline: "Trusted by the world's most innovative B2B companies",
+  subheadline: "We've helped these companies turn their executive teams into category-defining authorities.",
+  companies: [
+    { name: "Oracle", logo: "/company images/oracle.webp" },
+    { name: "Goalcast", logo: "/company images/goalcast.png" },
+    { name: "WISMOlabs", logo: "/company images/wismolabs.svg" },
+    { name: "TBDC", logo: "/company images/tbdc-rounded-logo.png" },
+    { name: "Bhive", logo: "/company images/bhive.png" },
+    { name: "City of Brampton", logo: "/company images/city-of-brampton.png" },
+    { name: "Icube UTM", logo: "/company images/icubeutm.png" },
+    { name: "Carleton University", logo: "/company images/carletonuniversity.png" },
+    { name: "Alam Law Firm", logo: "/company images/alamlawfirm.png" },
+    { name: "Irani Law", logo: "/company images/iranilaw.png" },
+    { name: "MBM Law Firm", logo: "/company images/mbmlawfirm.svg" },
+    { name: "Khalsa Aid", logo: "/company images/khalsaaid.png" },
+    { name: "Sterling Capital", logo: "/company images/sterlingcapital.webp" },
+    { name: "True Ally", logo: "/company images/trueally.webp" },
+    { name: "Maripsa", logo: "/company images/maripsa.png" },
+    { name: "Fuel+", logo: "/company images/fuel+.png" },
+    { name: "CYMCorp", logo: "/company images/cymcorp.png" },
+    { name: "Depix", logo: "/company images/depix.png" },
+    { name: "Ice Exchange Inc", logo: "/company images/iceexchangeinc.png" },
+    { name: "TVO Kids", logo: "/company images/tvokids.webp" }
+  ]
+};
+
+export const testimonialsSection = {
+  headline: "Our clients are booking qualified meetings every month",
+  subheadline: "Don't take our word for it. Here is the exact pipeline and ARR we've generated for B2B executives.",
+  testimonials: [
+    {
+      quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
+      author: "Vik Saini",
+      title: "Head of Sales, PSII",
+      avatar: "/viksoni.png",
+      impact: "Podcast Revenue System",
+      metrics: [
+        { label: "ARR Added", value: "428K" },
+        { label: "Qualified Meetings", value: "~16/mo" }
+      ]
     },
     {
-      title: "Content-led Pipeline Sprint",
-      price: "$6,000/one time",
-      descriptionTop: "You work with a dedicated director of demand gen and social strategist for 6-8 weeks.",
-      features: [
-        "Phase 1: Market Of One Positioning",
-        "Phase 2: Scroll-Stopping Engine",
-        "Phase 3: Social Selling Outbound System",
-        "Phase 4: Thought Leadership Paid Social Strategy"
-      ],
-      descriptionBottom: "Teams not ready for a retainer (or locked into another vendor) but want our proven content-led pipeline system now to run themselves.",
-      link: "/services/content-led-pipeline-sprint"
+      quote: "I just want to say, I have a good ghostwriter.",
+      author: "Nadia Irani",
+      title: "CEO & Founder",
+      avatar: "/nadiairani.png",
+      impact: "LinkedIn Revenue System",
+      metrics: [
+        { label: "ARR Added", value: "250K" },
+        { label: "Qualified Meetings", value: "~10 meetings/mo" }
+      ]
+    },
+    {
+      quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
+      author: "Alex Salois",
+      title: "Senior Content Manager",
+      avatar: "/alexsalois.png",
+      impact: "LinkedIn Revenue System",
+      metrics: [
+        { label: "Audience Growth", value: "+300%" },
+        { label: "Qualified Meetings", value: "~12 meetings/mo" }
+      ]
     }
   ]
 };
 
 export const faqSection = {
   headline: "Frequently Asked Questions",
-  description: "Everything you need to know about our services and process.",
-  questions: [
+  subheadline: "Got questions about how we work? We've got answers.",
+  faqs: [
     {
-      question: "What results have you had for previous customers?",
-      answer: "We've helped clients generate outcomes like ~16 qualified meetings/month, ~10 qualified meetings/month, $428K ARR added, and investor meetings booked via LinkedIn DMs (view success stories)."
+      question: "How much time do I need to invest?",
+      answer: "Less than 2 hours per month. We run a highly streamlined interview process where we extract your unique insights, industry POV, and stories, then handle 100% of the copywriting, design, editing, and distribution."
     },
     {
-      question: "Have you worked with SAAS, AI, or the tech space?",
-      answer: "Yes—our core focus is B2B tech/SaaS. The Sauce Recipe™ is built for technical buyers, longer sales cycles, and category competition."
+      question: "How long does it take to see results?",
+      answer: "Most clients see significant engagement and profile traffic within the first 30 days, warm outbound conversations within 60 days, and qualified pipeline/revenue within 90 to 120 days."
     },
     {
-      question: "How much content can we expect to come out monthly?",
-      answer: "It depends on the service (Executive Engine vs. Brand Show), distribution channels, and quality of content asset. On average, we create about 15-20 content assets/mo. We'll align on a cadence that's sustainable and tied to clear revenue goals."
+      question: "Do you write generic AI content?",
+      answer: "Absolutely not. AI-generated content is ruining B2B marketing. We build custom, highly-personalized strategic narratives based entirely on your real experience, client success stories, and unique industry perspective."
     },
     {
-      question: "How long does it take for a B2B show to generate pipeline?",
-      answer: "Most teams start seeing leading indicators within the first 60-90 days (engagement quality, qualified sales opportunities, outbound lift). Revenue impact typically follows as distribution compounds."
-    },
-    {
-      question: "What do you mean by a B2B brand show and how do these bring in revenue?",
-      answer: "We create 'diary of a CEO' brand shows that are repeatable, executive-led content series (podcast, webinar, episodic series) engineered to build authority. Revenue happens when the show is connected to distribution + strategic outbound."
-    },
-    {
-      question: "What makes you different from other content or podcast agencies?",
-      answer: "We don't just fill the feed with more content - we build a content-led revenue system. That means: narrative + brand show + distribution + outbound alignment + measurement."
-    },
-    {
-      question: "How much work is required from the internal team?",
-      answer: "Our system caters to busy executives. We typically only require ~4hrs/mo for executives to show up to record the content. Everything else is handled by us with a white-glove approach."
+      question: "What channels do you support?",
+      answer: "We specialize in LinkedIn and YouTube, as these are the two most powerful channels for B2B decision-makers. We also help repurpose content for newsletters and company blogs."
     }
   ]
-};
-
-export const ctaSection = {
-  headline: "AI is killing your brand trust. We make you the go-to option.",
-  description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
-  primaryButton: "Apply Now",
-  secondaryButton: "See The Sauce Recipe™"
 };
