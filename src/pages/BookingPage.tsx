@@ -113,133 +113,134 @@ const BookingPage = () => {
         <Navigation />
         
         <div className="pt-20 sm:pt-32 pb-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col xl:grid xl:grid-cols-2 gap-6 sm:gap-8 xl:gap-16 items-start">
-            {/* Left Content */}
-            <div className="order-2 xl:order-1 w-full">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight">
-                Apply <span className="text-primary">Now</span>
-              </h1>
-              
-              <div className="mb-6 sm:mb-8">
-                <p className="text-primary font-semibold mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg xl:text-base leading-relaxed">
-                  Schedule a call with our team to find out if The Sauce Recipe™ is the right content revenue system to turn your executive team into your most powerful pipeline channel.
-                </p>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col xl:grid xl:grid-cols-2 gap-6 sm:gap-8 xl:gap-16 items-start">
+              {/* Left Content */}
+              <div className="order-2 xl:order-1 w-full">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight">
+                  Apply <span className="text-primary">Now</span>
+                </h1>
                 
-                <div className="space-y-3 sm:space-y-4">
-                  {benefits.map((benefit, index) => (
-                    <div key={index} className="flex items-start gap-2 sm:gap-3">
-                      <Check className="w-4 h-4 sm:w-5 sm:h-5 text-accent mt-1 flex-shrink-0" />
-                      <p className="text-muted-foreground text-sm sm:text-base lg:text-lg xl:text-sm 2xl:text-base leading-relaxed">{benefit}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Company Logos Scrolling Section */}
-              <div className="mb-6 sm:mb-8">
-                <h3 className="text-base sm:text-lg font-semibold text-foreground mb-3 sm:mb-4 text-center">
-                  Trusted by
-                </h3>
-                <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-white/30 backdrop-blur-sm border border-border/30 py-6 px-2 sm:px-4">
-                  <div className="scrolling-logos-wrapper">
-                    <div className="scrolling-logos animate-scroll">
-                      {allCompanies.map((company, idx) => (
-                        <div
-                          key={idx}
-                          className="flex items-center justify-center opacity-60 hover:opacity-100 transition-all duration-300 group flex-shrink-0"
-                        >
-                          <div className="relative flex items-center justify-center rounded-xl bg-white/40 backdrop-blur-sm border border-white/20 shadow-sm group-hover:shadow-md group-hover:bg-white/70 transition-all duration-500 w-[100px] sm:w-[120px] md:w-[130px] h-[50px] sm:h-[60px] md:h-[65px]">
-                            <img
-                              src={company.logo}
-                              alt={company.name}
-                              className={`${getLogoSizingClass(company.name)} object-contain transition-all duration-300`}
-                              draggable="false"
-                              onError={(e) => {
-                                console.log(`Failed to load image for ${company.name}:`, company.logo);
-                                e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDgiIGZpbGw9IiNmM2Y0ZjYiLz48dGV4dCB4PSI2MCIgeT0iMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM2Yjc2ODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiI+TG9nbzwvdGV4dD48L3N2Zz4=";
-                              }}
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"></div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mb-6 sm:mb-8">
-                <div 
-                  className="relative bg-white/30 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-border/30"
-                >
-                  {/* Testimonial Header */}
-                  <div className="flex justify-between items-center mb-4 sm:mb-6">
-                    <h4 className="text-sm sm:text-base font-bold text-foreground uppercase tracking-wider">What Clients Say</h4>
-                    <div className="flex gap-2">
-                      <button 
-                        onClick={prevTestimonial}
-                        className="p-1 sm:p-2 rounded-full hover:bg-white/50 transition-colors border border-border/20"
-                        aria-label="Previous testimonial"
-                      >
-                        <ChevronLeft className="w-4 h-4 text-foreground" />
-                      </button>
-                      <button 
-                        onClick={nextTestimonial}
-                        className="p-1 sm:p-2 rounded-full hover:bg-white/50 transition-colors border border-border/20"
-                        aria-label="Next testimonial"
-                      >
-                        <ChevronRight className="w-4 h-4 text-foreground" />
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Testimonial Content */}
-                  <div className="min-h-[140px] sm:min-h-[160px] md:min-h-[120px] flex flex-col justify-between">
-                    <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base italic mb-4 sm:mb-6 leading-relaxed">
-                      "{testimonials[currentTestimonial].quote}"
-                    </p>
-                    
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border border-border/30 flex-shrink-0 bg-muted">
-                        <img 
-                          src={testimonials[currentTestimonial].avatar} 
-                          alt={testimonials[currentTestimonial].author}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base font-bold text-foreground">{testimonials[currentTestimonial].author}</h5>
-                        <p className="text-[10px] sm:text-xs md:text-sm xl:text-xs 2xl:text-sm text-muted-foreground">{testimonials[currentTestimonial].title}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Content - Calendly Widget */}
-            <div className="order-1 xl:order-2 w-full xl:sticky xl:top-28">
-              <div className="space-y-6">
-                <div className="text-center xl:text-left">
-                  <h2 className="text-2xl sm:text-3xl font-bold mb-2 tracking-tight">
-                    SaaS & B2B Growth Evaluation
-                  </h2>
-                  <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base px-2 max-w-xl mx-auto leading-relaxed">
-                    This isn't a sales call. It's an application review. Extra Sauce works with a select number of B2B SaaS companies at any given time. If you're not the right fit, you'll know within 24 hours.
+                <div className="mb-6 sm:mb-8">
+                  <p className="text-primary font-semibold mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg xl:text-base leading-relaxed">
+                    Schedule a call with our team to find out if The Sauce Recipe™ is the right content revenue system to turn your executive team into your most powerful pipeline channel.
                   </p>
+                  
+                  <div className="space-y-3 sm:space-y-4">
+                    {benefits.map((benefit, index) => (
+                      <div key={index} className="flex items-start gap-2 sm:gap-3">
+                        <Check className="w-4 h-4 sm:w-5 sm:h-5 text-accent mt-1 flex-shrink-0" />
+                        <p className="text-muted-foreground text-sm sm:text-base lg:text-lg xl:text-sm 2xl:text-base leading-relaxed">{benefit}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Calendly Embed */}
-                <div className="card-premium p-0 overflow-hidden rounded-xl sm:rounded-2xl border-2 border-orange-400 shadow-lg bg-gradient-to-br from-orange-50 via-white to-white">
-                  <div className="h-[400px] sm:h-[500px] md:h-[600px] xl:h-[700px] 2xl:h-[750px]">
-                    <InlineWidget 
-                      url="https://calendly.com/extrasauceagency"
-                      styles={{
-                        height: '100%',
-                        width: '100%'
-                      }}
-                    />
+                {/* Company Logos Scrolling Section */}
+                <div className="mb-6 sm:mb-8">
+                  <h3 className="text-base sm:text-lg font-semibold text-foreground mb-3 sm:mb-4 text-center">
+                    Trusted by
+                  </h3>
+                  <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-white/30 backdrop-blur-sm border border-border/30 py-6 px-2 sm:px-4">
+                    <div className="scrolling-logos-wrapper">
+                      <div className="scrolling-logos animate-scroll">
+                        {allCompanies.map((company, idx) => (
+                          <div
+                            key={idx}
+                            className="flex items-center justify-center opacity-60 hover:opacity-100 transition-all duration-300 group flex-shrink-0"
+                          >
+                            <div className="relative flex items-center justify-center rounded-xl bg-white/40 backdrop-blur-sm border border-white/20 shadow-sm group-hover:shadow-md group-hover:bg-white/70 transition-all duration-500 w-[100px] sm:w-[120px] md:w-[130px] h-[50px] sm:h-[60px] md:h-[65px]">
+                              <img
+                                src={company.logo}
+                                alt={company.name}
+                                className={`${getLogoSizingClass(company.name)} object-contain transition-all duration-300`}
+                                draggable="false"
+                                onError={(e) => {
+                                  console.log(`Failed to load image for ${company.name}:`, company.logo);
+                                  e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDgiIGZpbGw9IiNmM2Y0ZjYiLz48dGV4dCB4PSI2MCIgeT0iMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM2Yjc2ODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiI+TG9nbzwvdGV4dD48L3N2Zz4=";
+                                }}
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"></div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-6 sm:mb-8">
+                  <div 
+                    className="relative bg-white/30 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-border/30"
+                  >
+                    {/* Testimonial Header */}
+                    <div className="flex justify-between items-center mb-4 sm:mb-6">
+                      <h4 className="text-sm sm:text-base font-bold text-foreground uppercase tracking-wider">What Clients Say</h4>
+                      <div className="flex gap-2">
+                        <button 
+                          onClick={prevTestimonial}
+                          className="p-1 sm:p-2 rounded-full hover:bg-white/50 transition-colors border border-border/20"
+                          aria-label="Previous testimonial"
+                        >
+                          <ChevronLeft className="w-4 h-4 text-foreground" />
+                        </button>
+                        <button 
+                          onClick={nextTestimonial}
+                          className="p-1 sm:p-2 rounded-full hover:bg-white/50 transition-colors border border-border/20"
+                          aria-label="Next testimonial"
+                        >
+                          <ChevronRight className="w-4 h-4 text-foreground" />
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Testimonial Content */}
+                    <div className="min-h-[140px] sm:min-h-[160px] md:min-h-[120px] flex flex-col justify-between">
+                      <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base italic mb-4 sm:mb-6 leading-relaxed">
+                        "{testimonials[currentTestimonial].quote}"
+                      </p>
+                      
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border border-border/30 flex-shrink-0 bg-muted">
+                          <img 
+                            src={testimonials[currentTestimonial].avatar} 
+                            alt={testimonials[currentTestimonial].author}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div>
+                          <h5 className="text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base font-bold text-foreground">{testimonials[currentTestimonial].author}</h5>
+                          <p className="text-[10px] sm:text-xs md:text-sm xl:text-xs 2xl:text-sm text-muted-foreground">{testimonials[currentTestimonial].title}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Content - Calendly Widget */}
+              <div className="order-1 xl:order-2 w-full xl:sticky xl:top-28">
+                <div className="space-y-6">
+                  <div className="text-center xl:text-left">
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2 tracking-tight">
+                      SaaS & B2B Growth Evaluation
+                    </h2>
+                    <p className="text-muted-foreground text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base px-2 max-w-xl mx-auto leading-relaxed">
+                      This isn't a sales call. It's an application review. Extra Sauce works with a select number of B2B SaaS companies at any given time. If you're not the right fit, you'll know within 24 hours.
+                    </p>
+                  </div>
+
+                  {/* Calendly Embed */}
+                  <div className="card-premium p-0 overflow-hidden rounded-xl sm:rounded-2xl border-2 border-orange-400 shadow-lg bg-gradient-to-br from-orange-50 via-white to-white">
+                    <div className="h-[400px] sm:h-[500px] md:h-[600px] xl:h-[700px] 2xl:h-[750px]">
+                      <InlineWidget 
+                        url="https://calendly.com/extrasauceagency"
+                        styles={{
+                          height: '100%',
+                          width: '100%'
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -248,9 +249,9 @@ const BookingPage = () => {
         </div>
       </div>
 
-        <Footer />
-        
-        <style>{`
+      <Footer />
+      
+      <style>{`
         .scrolling-logos-wrapper {
           overflow: hidden;
           width: 100%;
