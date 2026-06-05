@@ -14,69 +14,85 @@ export const trustedBySection = {
   subtitle: "",
   companies: [
     {
+      name: "Oracle",
+      logo: "/company images/oracle.webp",
+    },
+    {
+      name: "Goalcast",
+      logo: "/company images/goalcast.jpg",
+    },
+    {
+      name: "True Ally",
+      logo: "/company images/true-ally.webp",
+    },
+    {
+      name: "WISMOlabs",
+      logo: "/company images/wismolabs.svg",
+    },
+    {
       name: "Irani Law",
       logo: "/company images/irani-law.png",
     },
     {
-      name: "True Ally",
-      logo: "/company images/true-ally.png",
+      name: "TBDC",
+      logo: "/company images/tbdc.png",
     },
     {
-      name: "PSII",
-      logo: "/company images/psii.png",
+      name: "Alam Law Firm",
+      logo: "/company images/alam-law-firm.png",
     },
     {
-      name: "CYM",
-      logo: "/company images/cymcorp.png",
+      name: "Bhive",
+      logo: "/company images/bhive.png",
     },
     {
-      name: "Goalcast",
-      logo: "/company images/goalcast.png",
+      name: "Carleton University",
+      logo: "/company images/carleton-university.png",
     },
     {
-      name: "Carmina Manufacturing",
-      logo: "/company images/carmina-manufacturing.png",
+      name: "City of Brampton",
+      logo: "/company images/city-of-brampton.jpg",
+    },
+    {
+      name: "CYMCorp",
+      logo: "/company images/cymcorp.png.jpg",
     },
     {
       name: "Depix",
       logo: "/company images/depix.png",
     },
     {
-      name: "Faysal's Company",
-      logo: "/company images/faysal-company.png",
+      name: "Fuel+",
+      logo: "/company images/fuelplus.png",
     },
-    // {
-    //   name: "Joel Charter's Company",
-    //   logo: "/company images/joel-charter-company.png",
-    // },
-    // {
-    //   name: "Ice X",
-    //   logo: "/company images/ice-x.png",
-    // },
-    // {
-    //   name: "WISMOlabs",
-    //   logo: "/company images/wismolabs.png",
-    // },
-    // {
-    //   name: "Control D",
-    //   logo: "/company images/control-d.png",
-    // },
-    // {
-    //   name: "Scarsin",
-    //   logo: "/company images/scarsin.png",
-    // },
-    // {
-    //   name: "Amaith",
-    //   logo: "/company images/amaith.png",
-    // },
-    // {
-    //   name: "Genie AI",
-    //   logo: "/company images/genie-ai.png",
-    // },
-    // {
-    //   name: "EasyAudit",
-    //   logo: "/company images/easyaudit.png",
-    // },
+    {
+      name: "Ice Exchange Inc",
+      logo: "/company images/ice-exchange-inc.png",
+    },
+    {
+      name: "Icube UTM",
+      logo: "/company images/icube-utm.png",
+    },
+    {
+      name: "Khalsa Aid",
+      logo: "/company images/khalsa-aid.png",
+    },
+    {
+      name: "Sterling Capital",
+      logo: "/company images/sterling-capital.webp",
+    },
+    {
+      name: "Maripsa",
+      logo: "/company images/maripsa.png",
+    },
+    {
+      name: "MBM Law Firm",
+      logo: "/company images/mbm-law-firm.svg",
+    },
+    {
+      name: "TVO Kids",
+      logo: "/company images/tvo-kids.webp",
+    }
   ]
 };
 
