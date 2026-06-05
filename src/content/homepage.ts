@@ -101,13 +101,13 @@ export const processSection = {
 };
 
 export const servicesOverviewSection = {
-  headline: "We are not a content agency - We are a revenue agency",
-  subheadline: "Revenue, pipeline quality, engagement from target accounts, and cost efficiency - these are the metrics that drive success. On average, our clients start generating revenue from social media in under 4 months.",
+  headline: "Three ways to access The Sauce Recipe™",
+  subheadline: "On average, clients start seeing qualified pipeline within 70–90 days and revenue from their content system in under 4 months. Choose the engagement that fits where your team is right now.",
   services: [
     {
-      title: "Executive Content Engine",
-      price: "$5,000/mo",
-      descriptionTop: "You work with a demand gen manager, Video Editor, Sr. Copywriter, and Sr. Designer",
+      title: "LinkedIn Revenue System",
+      price: "$5,500/mo",
+      descriptionTop: "Turn your executive’s LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.",
       features: [
         "Content Management",
         "Creative & Narrative Development",
@@ -116,8 +116,9 @@ export const servicesOverviewSection = {
         "ABM Guidance",
         "Performance Reporting"
       ],
-      descriptionBottom: "Turn your exec team into trusted thought leaders online without stealing time from the business. This is for teams that want executive authority that translates into revenue.",
-      link: "/services/executive-content-engine"
+      descriptionBottom: "You work with a demand gen manager, senior copywriter, and senior designer dedicated to your account.",
+      cta: "See The LinkedIn Revenue System",
+      link: "/services/executive-ghostwriting"
     },
     {
       title: "B2B Brand Show",
@@ -132,7 +133,22 @@ export const servicesOverviewSection = {
         "Sponsor & Partnership Sourcing"
       ],
       descriptionBottom: "Build the default-choice media brand in your industry. This is for established SaaS or enterprise teams that want to dominate mindshare and own their audience.",
-      link: "/services/b2b-brand-show"
+      cta: "Learn more",
+      link: "/services/video-content-engine"
+    },
+    {
+      title: "Content-led Pipeline Sprint",
+      price: "$6,000/one time",
+      descriptionTop: "You work with a dedicated director of demand gen and social strategist for 6-8 weeks.",
+      features: [
+        "Phase 1: Market Of One Positioning",
+        "Phase 2: Scroll-Stopping Engine",
+        "Phase 3: Social Selling Outbound System",
+        "Phase 4: Thought Leadership Paid Social Strategy"
+      ],
+      descriptionBottom: "Teams not ready for a retainer (or locked into another vendor) but want our proven content-led pipeline system now to run themselves.",
+      cta: "Learn more",
+      link: "/services/content-led-gtm-coaching"
     }
   ]
 };
