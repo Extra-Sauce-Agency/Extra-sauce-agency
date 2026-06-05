@@ -9,7 +9,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
+      quote: "The new branding and executive content resulted in dream accounts coming back to book a demo and thought we were a completely different company.",
       author: "Vik Saini",
       title: "Head of Sales, PSII",
       avatar: "/viksoni.png",
@@ -23,9 +23,9 @@ const Testimonials = () => {
       linkedinUrl: "https://linkedin.com"
     },
     {
-      quote: "I just want to say, I have a good ghostwriter.",
+      quote: "I just want to say, I have a good ghostwriter. We did over 1M impressions on Linkedin in like four, five months. We had to start keeping up with business opportunities in the DMs. I never knew LinkedIn could bring in business like this.",
       author: "Nadia Irani",
-      title: "CEO & Founder", 
+      title: "CEO & Founder, Irani Law", 
       avatar: "/nadiairani.png",
       impact: "LinkedIn Revenue System",
       metrics: [
@@ -39,26 +39,26 @@ const Testimonials = () => {
     {
       quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
       author: "Sharlene Gumbs",
-      title: "CEO & Founder",
+      title: "CEO & Founder, True Ally",
       avatar: "/sharlenegumbs.png",
       impact: "Content-To-Pipeline Sprint",
       metrics: [
-        { label: "Personal Brand", value: "Revamp Complete", icon: CheckCircle },
-        { label: "Pipeline Impact", value: "Inbound Leads", icon: BarChart3 }
+        { label: "LinkedIn Revenue System", value: "Setup Complete", icon: CheckCircle },
+        { label: "Pipeline Impact", value: "6-7 weeks", icon: BarChart3 }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
       linkedinUrl: "https://linkedin.com"
     },
     {
-      quote: "Manny's expertise & dedication have been instrumental in crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
-      author: "EasyAudit Team",
-      title: "Leadership Team",
-      avatar: "/alexsalois.png", 
+      quote: "When an agency can produce results in 90 days, that's a very good sign. Very few agencies can actually say that. Extra Sauce is running a shop that produces results.",
+      author: "Christian Khoury",
+      title: "CEO & Founder, EasyAudit",
+      avatar: "/christiankhoury.png", 
       impact: "Content-To-Pipeline Sprint",
       metrics: [
         { label: "Business Impact", value: "Investor Meetings", icon: TrendingUp },
-        { label: "Revenue Impact", value: "Pipeline via LinkedIn", icon: DollarSign }
+        { label: "Pipeline Impact", value: "4 weeks", icon: DollarSign }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -114,7 +114,6 @@ const Testimonials = () => {
 
                   <div className="mb-6">
                     <h3 className="text-2xl font-bold text-foreground mb-2">Results Achieved</h3>
-                    <p className="text-muted-foreground">Measurable impact in real numbers</p>
                   </div>
 
                   {/* Featured Quote */}
