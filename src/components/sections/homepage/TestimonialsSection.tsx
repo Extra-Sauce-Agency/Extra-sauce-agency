@@ -13,10 +13,10 @@ const Testimonials = () => {
       author: "Vik Saini",
       title: "Head of Sales, PSII",
       avatar: "/viksoni.png",
-      impact: "Podcast Show",
+      impact: "Podcast Revenue System",
       metrics: [
         { label: "ARR Added", value: "428K", icon: DollarSign },
-        { label: "Qualified Meetings", value: "~16 meetings/mo", icon: Users }
+        { label: "Qualified Meetings", value: "~16/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -27,10 +27,10 @@ const Testimonials = () => {
       author: "Nadia Irani",
       title: "CEO & Founder", 
       avatar: "/nadiairani.png",
-      impact: "Executive Ghostwriting Service",
+      impact: "LinkedIn Revenue System",
       metrics: [
         { label: "Content Performance", value: "1.5M impressions", icon: TrendingUp },
-        { label: "Qualified Meetings", value: "~10 meetings/mo", icon: Users }
+        { label: "Qualified Meetings", value: "~10/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -41,7 +41,7 @@ const Testimonials = () => {
       author: "Sharlene Gumbs",
       title: "CEO & Founder",
       avatar: "/sharlenegumbs.png",
-      impact: "Content-led GTM Coaching",
+      impact: "Content-To-Pipeline Sprint",
       metrics: [
         { label: "Personal Brand", value: "Revamp Complete", icon: CheckCircle },
         { label: "Pipeline Impact", value: "Inbound Leads", icon: BarChart3 }
@@ -55,10 +55,10 @@ const Testimonials = () => {
       author: "EasyAudit Team",
       title: "Leadership Team",
       avatar: "/alexsalois.png", 
-      impact: "Content-led GTM Coaching",
+      impact: "Content-To-Pipeline Sprint",
       metrics: [
         { label: "Business Impact", value: "Investor Meetings", icon: TrendingUp },
-        { label: "Revenue Impact", value: "Meetings secured in LinkedIn DMs", icon: DollarSign }
+        { label: "Revenue Impact", value: "Pipeline via LinkedIn", icon: DollarSign }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -87,13 +87,13 @@ const Testimonials = () => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            Results from{" "}
+            From "we need better leads" to{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              teams we've produced for
+              16 qualified meetings a month.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-6xl mx-auto">
-            We work directly with C-suite & marketing leaders to achieve their business goals through executive content.
+            Mid-market B2B SaaS teams. Measurable pipeline outcomes. Here's what The Sauce Recipe™ looks like when it's running.
           </p>
         </div>
 
