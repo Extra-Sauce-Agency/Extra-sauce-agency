@@ -242,3 +242,10 @@ export const faqSection = {
     }
   ]
 };
+
+export const ctaSection = {
+  headline: "AI is killing your brand trust. We make you the go-to option.",
+  description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
+  primaryButton: "Apply Now",
+  secondaryButton: "See The Sauce Recipe™"
+};
