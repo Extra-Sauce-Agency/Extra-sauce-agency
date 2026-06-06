@@ -249,3 +249,4 @@ export const ctaSection = {
   primaryButton: "Apply Now",
   secondaryButton: "See The Sauce Recipe™"
 };
+
