@@ -3,7 +3,7 @@
 
 export const companyInfo = {
   name: "Extra Sauce",
-  description: "What if you can unlock the next growth stage with content?",
+  description: "What if your executive online presence became your most powerful pipeline channel?",
   ctaButton: {
     text: "Apply Now",
     link: "/book-strategy-call"
@@ -23,9 +23,9 @@ export const companyLinks = {
 export const servicesLinks = {
   title: "SERVICES",
   links: [
-    { name: "Executive Ghostwriting", href: "/services/executive-ghostwriting" },
-    { name: "Video Content Engine", href: "/services/video-content-engine" },
-    { name: "Content-led GTM Coaching", href: "/services/content-led-gtm-coaching" }
+    { name: "LinkedIn Revenue System", href: "/services/executive-ghostwriting" },
+    { name: "Podcast Revenue System", href: "/services/video-content-engine" },
+    { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" }
   ]
 };
 

@@ -114,7 +114,7 @@ export const processSection = {
 
 export const servicesOverviewSection = {
   headline: "Three ways to access The Sauce Recipe™",
-  subheadline: "On average, clients start seeing qualified pipeline within 70–90 days and revenue from their content system in under 4 months. Choose the engagement that fits where your team is right now.",
+  subheadline: "On average, clients start seeing qualified pipeline within 60 days and revenue from their content system in under 4 months. Choose the engagement that fits where your team is right now.",
   services: [
     {
       title: "LinkedIn Revenue System",
@@ -265,9 +265,8 @@ export const faqSection = {
 };
 
 export const ctaSection = {
-  headline: "AI is killing your brand trust. We make you the go-to option.",
-  description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
-  primaryButton: "Apply Now",
-  secondaryButton: "See The Sauce Recipe™"
+  headline: "Your buyers are forming opinions about your category right now. Make sure you're part of the conversation.",
+  description: "Your competitors aren't waiting. Every week they show up in your buyers' feeds, they get closer to becoming the default choice. Apply now and we'll build the system that puts you there instead.",
+  primaryButton: "Apply Now"
 };
 
