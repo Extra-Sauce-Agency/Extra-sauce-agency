@@ -10,19 +10,31 @@ export const heroSection = {
 };
 
 export const whoIsThisForSection = {
-  headline: "This is built specifically for B2B SaaS & Services founders and executives who are tired of the cold outreach grind and want a scalable inbound channel.",
+  headline: "The six problems destroying your B2B pipeline.",
   items: [
     {
-      title: "For Founders & CEOs",
-      description: "Build a powerful personal brand that drives business value, establishes category authority, and opens doors to key decision-makers—all with less than 2 hours of your time per month."
+      title: "Your sales team is drowning in the wrong leads.",
+      description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "For CMOs & Marketing Leaders",
-      description: "Scale your organic distribution, create high-converting executive content, and align your organic presence with paid acquisition to lower customer acquisition costs."
+      title: "Paid ads cost more every year. An in-house content team costs even more.",
+      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
     },
     {
-      title: "For Sales & GTM Leaders",
-      description: "Equip your sales team with warm outbound opportunities. Turn cold, ignored outreach into warm conversations with buyers who already trust your executive team."
+      title: "Your executive has expertise your buyers are actively searching for but they aren't visible.",
+      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise sits off LinkedIn, a competitor steps into the gap and earns the trust that should belong to you."
+    },
+    {
+      title: "Your competitors are becoming the default choice in your category.",
+      description: "Martech categories have 94x more options than in 2011. With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
+    },
+    {
+      title: "Your outbound is running cold. The reply rates prove it.",
+      description: "Three years ago, B2B outbound averaged a 7–8% reply rate. Today it sits between 3–5%, and the trend isn't reversing. Your buyers aren't unreachable. They're ignoring strangers."
+    },
+    {
+      title: "You're producing content. Your sales team can't point to a single deal it influenced.",
+      description: "Content that stops at the feed with no outbound alignment, no demand capture, and no pipeline attribution won't impact the bottom line. Clients running content and outbound together see qualified pipeline within 70-90 days."
     }
   ]
 };
