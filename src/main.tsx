@@ -1,3 +1,4 @@
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App.tsx'
@@ -32,6 +33,10 @@ try {
   );
 } catch (error) {
   console.error('Failed to render app:', error);
+  // Store error globally for debugging
+  (window as any).__lastError = error;
+  (window as any).__lastErrorString = String(error);
+  (window as any).__lastErrorStack = error instanceof Error ? error.stack : 'No stack';
   // Fallback content
   document.body.innerHTML = '<div style="padding: 20px; text-align: center;">Loading failed. Please refresh the page.</div>';
 }
