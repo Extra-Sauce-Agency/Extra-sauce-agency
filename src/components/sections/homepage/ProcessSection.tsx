@@ -13,10 +13,7 @@ const ProcessSection = () => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            How We Make{" "}
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Content Create Pipeline
-            </span>
+            {processSection.headline}
           </h2>
           <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed">
             {processSection.description}
