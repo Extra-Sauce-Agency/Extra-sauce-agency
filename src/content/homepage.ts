@@ -150,17 +150,19 @@ export const servicesOverviewSection = {
       link: "/services/video-content-engine"
     },
     {
-      title: "Content-led Pipeline Sprint",
-      price: "$6,000/one time",
-      descriptionTop: "You work with a dedicated director of demand gen and social strategist for 6-8 weeks.",
+      title: "Content-To-Pipeline Sprint",
+      price: "$6,000/one-time payment",
+      descriptionTop: "Work 1:1 with us to build your own content revenue system in 6–8 weeks with the exact strategy, systems, and playbooks we use in The Sauce Recipe™",
       features: [
-        "Phase 1: Market Of One Positioning",
-        "Phase 2: Scroll-Stopping Engine",
-        "Phase 3: Social Selling Outbound System",
-        "Phase 4: Thought Leadership Paid Social Strategy"
+        "Weekly 1:1 implementation calls",
+        "Templates, frameworks, and SOPs provided",
+        "Access Extra Sauce proprietary resource library",
+        "Ongoing Slack support (Up to 60 days after completion)",
+        "Up to 3 team members included",
+        "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, Content Workflows, etc."
       ],
-      descriptionBottom: "Teams not ready for a retainer (or locked into another vendor) but want our proven content-led pipeline system now to run themselves.",
-      cta: "Learn more",
+      descriptionBottom: "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, AI-powered Content Workflows, etc.",
+      cta: "See The Content-To-Pipeline Sprint",
       link: "/services/content-led-gtm-coaching"
     }
   ]
