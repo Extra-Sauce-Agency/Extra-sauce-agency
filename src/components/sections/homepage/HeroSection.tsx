@@ -85,7 +85,7 @@ const HeroSection = () => {
             <Link to="/book-strategy-call">
               <Button className="group relative overflow-hidden bg-primary text-primary-foreground px-12 py-6 text-lg font-semibold rounded-2xl shadow-2xl hover:shadow-primary/25 transition-all duration-300 hover:scale-105 focus-enhanced">
                 <span className="relative z-10 flex items-center">
-                  {heroSection.primaryButton}
+                  {heroSection.primaryCTA}
                   <div className="ml-2 w-5 h-5 rounded-full bg-white/20 flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
                     <ArrowDown className="w-3 h-3 rotate-[-45deg]" />
                   </div>
@@ -99,7 +99,7 @@ const HeroSection = () => {
                 variant="outline" 
                 className="group relative overflow-hidden border-2 border-primary/30 text-foreground bg-white/50 backdrop-blur-sm px-12 py-6 text-lg font-semibold rounded-2xl hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-105 focus-enhanced">
                 <Sparkles className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300" />
-                {heroSection.secondaryButton}
+                {heroSection.secondaryCTA}
               </Button>
             </Link>
           </div>
