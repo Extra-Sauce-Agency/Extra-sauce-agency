@@ -1,9 +1,9 @@
 import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 
 export const heroSection = {
-  badge: "🔥 #1 Content Revenue Agency for B2B SaaS & Services",
-  headline: "We turn B2B executives into pipeline-generating channels",
-  subheadline: "We install a predictable content revenue system that builds authority, drives warm inbound, and books qualified sales calls—without stealing time from your leadership team.",
+  badge: "🔥 #1 Content Revenue Agency for B2B Tech & SaaS",
+  headline: "Your Buyers Have Already Built Their Shortlist. Make Sure You're On It.",
+  subheadline: "We install executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers with only 4hrs/mo of their time.",
   primaryCTA: "Apply Now",
   secondaryCTA: "See The Sauce Recipe™",
   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder, replace with actual video URL if available
