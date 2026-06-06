@@ -236,24 +236,32 @@ export const testimonialsSection = {
 };
 
 export const faqSection = {
-  headline: "Frequently Asked Questions",
-  subheadline: "Got questions about how we work? We've got answers.",
+  headline: "Straight answers to the questions most agencies avoid.",
+  subheadline: "Worth reading before you apply.",
   faqs: [
     {
-      question: "How much time do I need to invest?",
-      answer: "Less than 2 hours per month. We run a highly streamlined interview process where we extract your unique insights, industry POV, and stories, then handle 100% of the copywriting, design, editing, and distribution."
+      question: "How do we know if we're the right fit for Extra Sauce?",
+      answer: "We work best with B2B SaaS companies between $5M–$50M ARR that have an executive willing to show up for two content calls a month. If your sales team is wasting time on low-quality leads and your competitors are more visible than you, you're probably who we built this for. Apply and we'll tell you honestly within the first call."
     },
     {
-      question: "How long does it take to see results?",
-      answer: "Most clients see significant engagement and profile traffic within the first 30 days, warm outbound conversations within 60 days, and qualified pipeline/revenue within 90 to 120 days."
+      question: "We're not sure which service is right for us. How do we choose?",
+      answer: "Simple rule: if you want your executive on LinkedIn generating pipeline, start with the LinkedIn Revenue System. If you're ready to build a full brand show with omnichannel distribution, the Podcast Revenue System is your play. If you want to own and run the system yourself, the Pipeline Sprint gives you the strategy and playbook to do it. Not sure? Apply anyway and we'll point you in the right direction."
     },
     {
-      question: "Do you write generic AI content?",
-      answer: "Absolutely not. AI-generated content is ruining B2B marketing. We build custom, highly-personalized strategic narratives based entirely on your real experience, client success stories, and unique industry perspective."
+      question: "We've worked with content agencies before and got nothing. Why would this be different?",
+      answer: "We are a revenue agency. Every agency you've tried delivered posts. We build a revenue system through thought leadership and strategic outbound running together so content builds the audience and warm outbound converts it."
     },
     {
-      question: "What channels do you support?",
-      answer: "We specialize in LinkedIn and YouTube, as these are the two most powerful channels for B2B decision-makers. We also help repurpose content for newsletters and company blogs."
+      question: "What results can we realistically expect and how quickly?",
+      answer: "Most clients see leading indicators within 45–60 days; engagement from target accounts, inbound connection requests, early outbound replies. Qualified pipeline typically follows within 70–90 days. On average, clients start generating revenue from their content system in under 4 months. We track pipeline contribution, not impressions."
+    },
+    {
+      question: "What happens after we apply?",
+      answer: "We run a preliminary audit of your current content presence and pipeline situation before the call. When we sit down, we share what we found, identify the biggest opportunities, and have an honest conversation about whether we're the right fit. No pitch. No pressure."
+    },
+    {
+      question: "How selective are you about who you work with?",
+      answer: "We cap at eight active clients at a time. Not because we can't take on more, but because we won't. Every client works directly with our A-list team of senior marketers delivering a white-glove service because we want results we can stand behind. If we're at capacity when you apply, you'll be added to the queue."
     }
   ]
 };
