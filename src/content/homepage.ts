@@ -133,19 +133,20 @@ export const servicesOverviewSection = {
       link: "/services/executive-ghostwriting"
     },
     {
-      title: "B2B Brand Show",
-      price: "$10,000/mo",
-      descriptionTop: "You work with a dedicated director of demand Gen, Show Producer, Sr. Video editors, Sr. Copywriter, and Sr. Designer",
+      title: "Podcast Revenue System",
+      price: "$9,500/mo",
+      descriptionTop: "Build a binge-worthy content show & newsletter that becomes your company's primary demand engine that your buyers actively look forward to every week.",
       features: [
         "GTM Guidance",
         "Brand Show Management",
         "High-Value Guest Sourcing",
         "Creative & Narrative Development",
-        "Multichannel Distribution Strategy",
-        "Sponsor & Partnership Sourcing"
+        "Content Flywheel execution",
+        "ABM Guidance",
+        "Performance Measurement"
       ],
-      descriptionBottom: "Build the default-choice media brand in your industry. This is for established SaaS or enterprise teams that want to dominate mindshare and own their audience.",
-      cta: "Learn more",
+      descriptionBottom: "You work with a dedicated director of demand gen, show producer, senior video editors, a senior copywriter, and a senior designer.",
+      cta: "See The Podcast Revenue System",
       link: "/services/video-content-engine"
     },
     {
