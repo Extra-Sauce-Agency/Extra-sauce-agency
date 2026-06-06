@@ -10,7 +10,7 @@ export const heroSection = {
 };
 
 export const whoIsThisForSection = {
-  headline: "The six problems destroying your B2B pipeline.",
+  headline: "Most B2B content builds awareness and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
   items: [
     {
       title: "Your sales team is drowning in the wrong leads.",
