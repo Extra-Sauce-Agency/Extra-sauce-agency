@@ -158,8 +158,7 @@ export const servicesOverviewSection = {
         "Templates, frameworks, and SOPs provided",
         "Access Extra Sauce proprietary resource library",
         "Ongoing Slack support (Up to 60 days after completion)",
-        "Up to 3 team members included",
-        "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, Content Workflows, etc."
+        "Up to 3 team members included"
       ],
       descriptionBottom: "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, AI-powered Content Workflows, etc.",
       cta: "See The Content-To-Pipeline Sprint",
