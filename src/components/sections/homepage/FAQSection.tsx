@@ -20,7 +20,7 @@ interface FAQSectionProps {
 const FAQSection = ({ 
   headline = "Frequently Asked Questions",
   description = "Everything you need to know about our services and process.",
-  questions = homepageFaqSection.questions 
+  questions = homepageFaqSection.faqs 
 }: FAQSectionProps) => {
   return (
     <section className="section-padding bg-gradient-subtle relative overflow-hidden">
@@ -29,7 +29,6 @@ const FAQSection = ({
         <div className="absolute top-1/3 left-1/3 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/3 right-1/3 w-96 h-96 bg-secondary/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
-      
       <div className="container-premium relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
@@ -48,7 +47,6 @@ const FAQSection = ({
             {description}
           </p>
         </div>
-
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="space-y-6">
             {questions.map((faq, index) => (
