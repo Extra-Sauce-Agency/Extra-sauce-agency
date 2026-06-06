@@ -10,11 +10,17 @@ initEmailJS();
 
 // Simple error handler for production
 window.addEventListener('error', (e) => {
-  console.error('Global error:', e.error)
+  console.error('Global error:', e.error);
+  (window as any).__lastError = e.error;
+  (window as any).__lastErrorString = String(e.error);
+  (window as any).__lastErrorStack = e.error instanceof Error ? e.error.stack : 'No stack';
 })
 
 window.addEventListener('unhandledrejection', (e) => {
-  console.error('Unhandled promise rejection:', e.reason)
+  console.error('Unhandled promise rejection:', e.reason);
+  (window as any).__lastError = e.reason;
+  (window as any).__lastErrorString = String(e.reason);
+  (window as any).__lastErrorStack = e.reason instanceof Error ? e.reason.stack : 'No stack';
 })
 
 const rootElement = document.getElementById("root");
