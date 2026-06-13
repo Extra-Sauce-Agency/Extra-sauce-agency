@@ -16,6 +16,8 @@ const TheSauceRecipe = lazy(() => import("./pages/TheSauceRecipe"));
 const ExecutiveGhostwriting = lazy(() => import("./pages/services/ExecutiveGhostwriting"));
 const VideoContentEngine = lazy(() => import("./pages/services/VideoContentEngine"));
 const ContentLedGTMCoaching = lazy(() => import("./pages/services/ContentLedGTMCoaching"));
+const LinkedInRevenueSystem = lazy(() => import("./pages/services/LinkedInRevenueSystem"));
+const PodcastRevenueSystem = lazy(() => import("./pages/services/PodcastRevenueSystem"));
 const BookingPage = lazy(() => import("./pages/BookingPage"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("./pages/TermsOfService"));
@@ -52,6 +54,8 @@ const App = () => (
             <Route path="/services/executive-ghostwriting" element={<ExecutiveGhostwriting />} />
             <Route path="/services/video-content-engine" element={<VideoContentEngine />} />
             <Route path="/services/content-led-gtm-coaching" element={<ContentLedGTMCoaching />} />
+            <Route path="/services/linkedin-revenue-system" element={<LinkedInRevenueSystem />} />
+            <Route path="/services/podcast-revenue-system" element={<PodcastRevenueSystem />} />
             <Route path="/book-strategy-call" element={<BookingPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
