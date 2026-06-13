@@ -3,9 +3,41 @@ import { trustedBySection } from "@/content/homepage";
 // Triple the logos for seamless infinite scroll
 const allCompanies = [...trustedBySection.companies, ...trustedBySection.companies, ...trustedBySection.companies];
 
+// Helper to get specialized custom scaling and padding classes for logos that need balancing
+const getLogoSizingClass = (name: string) => {
+  switch (name) {
+    case "Oracle":
+      return "h-6 sm:h-7 md:h-8 max-w-[100px] sm:max-w-[120px] md:max-w-[140px]"; // Wide, bold landscape logo
+    case "Goalcast":
+      return "h-8 sm:h-10 md:h-11 max-w-[100px] sm:max-w-[120px] md:max-w-[130px]"; // Wide logo
+    case "WISMOlabs":
+      return "h-6 sm:h-7 md:h-8 max-w-[100px] sm:max-w-[120px] md:max-w-[140px]"; // Landscape SVG
+    case "TBDC":
+      return "h-12 sm:h-14 md:h-16 max-w-[50px] sm:max-w-[60px] md:max-w-[70px] scale-90"; // Circular, tall logo
+    case "Bhive":
+      return "h-11 sm:h-13 md:h-14 max-w-[50px] sm:max-w-[60px] md:max-w-[65px]"; // Square/compact logo
+    case "City of Brampton":
+      return "h-10 sm:h-12 md:h-13 max-w-[70px] sm:max-w-[85px] md:max-w-[95px]"; // Balanced square logo
+    case "Icube UTM":
+      return "h-10 sm:h-12 md:h-13 max-w-[70px] sm:max-w-[85px] md:max-w-[95px]"; // Compact logo
+    case "Carleton University":
+      return "h-11 sm:h-13 md:h-14 max-w-[80px] sm:max-w-[95px] md:max-w-[110px]"; // Balanced shield logo
+    case "Alam Law Firm":
+      return "h-10 sm:h-12 md:h-13 max-w-[80px] sm:max-w-[95px] md:max-w-[110px]"; // Wide Law logo
+    case "Irani Law":
+      return "h-10 sm:h-12 md:h-13 max-w-[80px] sm:max-w-[95px] md:max-w-[110px]"; // Law logo
+    case "MBM Law Firm":
+      return "h-7 sm:h-8 md:h-9 max-w-[90px] sm:max-w-[110px] md:max-w-[120px]"; // Long landscape logo
+    case "Khalsa Aid":
+      return "h-11 sm:h-13 md:h-14 max-w-[60px] sm:max-w-[70px] md:max-w-[80px]"; // Tall emblem
+    default:
+      return "h-10 sm:h-12 md:h-14 max-w-[80px] sm:max-w-[100px] md:max-w-[120px]"; // Default safe balanced size
+  }
+};
+
 const TrustedBySection = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-background via-muted/20 to-background relative overflow-hidden w-full">
+    <section className="py-12 bg-gradient-to-br from-background via-muted/10 to-background relative overflow-hidden w-full">
       {/* Enhanced Background */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse"></div>
@@ -14,7 +46,7 @@ const TrustedBySection = () => {
       
       <div className="w-full relative z-10 px-0">
         {trustedBySection.title && (
-          <div className="text-center mb-12 px-6 lg:px-8">
+          <div className="text-center mb-8 px-6 lg:px-8">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               {trustedBySection.title}
             </h2>
@@ -28,27 +60,23 @@ const TrustedBySection = () => {
         )}
         
         {/* Enhanced Logo Container */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-white/40 via-white/60 to-white/40 backdrop-blur-xl border-y border-white/30 shadow-2xl p-12 w-full">
+        <div className="relative overflow-hidden bg-gradient-to-r from-white/30 via-white/50 to-white/30 backdrop-blur-md border-y border-white/20 shadow-lg py-10 w-full">
           {/* Fade edges for seamless scroll */}
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white/80 to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-white/80 to-transparent z-10 pointer-events-none"></div>
-          
-          {/* Vertical fade edges */}
-          <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-white/80 to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white/80 to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none"></div>
           
           <div className="scrolling-logos-wrapper">
             <div className="scrolling-logos animate-scroll">
               {allCompanies.map((company, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center opacity-70 hover:opacity-100 transition-all duration-500 group flex-shrink-0 hover:scale-110"
+                  className="flex items-center justify-center opacity-60 hover:opacity-100 transition-all duration-500 group flex-shrink-0 hover:scale-105"
                 >
-                  <div className="relative p-4 rounded-2xl bg-white/50 backdrop-blur-sm border border-white/20 shadow-lg group-hover:shadow-2xl group-hover:bg-white/80 transition-all duration-500">
+                  <div className="relative flex items-center justify-center p-4 rounded-xl bg-white/40 backdrop-blur-sm border border-white/20 shadow-sm group-hover:shadow-md group-hover:bg-white/70 transition-all duration-500 w-[140px] sm:w-[160px] md:w-[180px] h-[70px] sm:h-[85px] md:h-[95px]">
                     <img
                       src={company.logo}
                       alt={company.name}
-                      className="h-16 w-auto max-w-[140px] object-contain transition-all duration-500"
+                      className={`${getLogoSizingClass(company.name)} object-contain transition-all duration-500`}
                       draggable="false"
                       onError={(e) => {
                         console.log(`Failed to load image for ${company.name}:`, company.logo);
@@ -56,12 +84,12 @@ const TrustedBySection = () => {
                       }}
                     />
                     {/* Enhanced glow effect */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-2xl -z-10"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-xl -z-10"></div>
                     
                     {/* Company name tooltip */}
-                    <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-foreground text-background text-xs font-medium rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none">
+                    <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2 px-2.5 py-1 bg-foreground text-background text-[10px] font-semibold rounded opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap pointer-events-none shadow-md z-20">
                       {company.name}
-                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-foreground"></div>
+                      <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-transparent border-b-foreground"></div>
                     </div>
                   </div>
                 </div>
@@ -79,7 +107,7 @@ const TrustedBySection = () => {
         }
         .scrolling-logos {
           display: flex;
-          gap: 3rem;
+          gap: 1.5rem;
           width: max-content;
           align-items: center;
         }
@@ -88,7 +116,7 @@ const TrustedBySection = () => {
           100% { transform: translateX(-33.333%); }
         }
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 45s linear infinite;
         }
         .animate-scroll:hover {
           animation-play-state: paused;
@@ -104,10 +132,10 @@ const TrustedBySection = () => {
         /* Responsive adjustments */
         @media (max-width: 768px) {
           .scrolling-logos {
-            gap: 2rem;
+            gap: 1rem;
           }
           .animate-scroll {
-            animation-duration: 25s;
+            animation-duration: 35s;
           }
         }
       `}</style>

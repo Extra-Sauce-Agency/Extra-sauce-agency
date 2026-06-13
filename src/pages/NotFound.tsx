@@ -20,7 +20,7 @@ const NotFound = () => {
     { title: "Home", path: "/", description: "Back to our homepage" },
     { title: "Services", path: "/services/executive-ghostwriting", description: "Explore our marketing services" },
     { title: "The Sauce Recipe", path: "/the-sauce-recipe", description: "Learn our proven methodology" },
-    { title: "Book Strategy Call", path: "/book-strategy-call", description: "Schedule a consultation" },
+    { title: "Apply Now", path: "/book-strategy-call", description: "Schedule a consultation" },
     { title: "Success Stories", path: "/success-stories", description: "See our client results" },
     { title: "Blog", path: "/resources/blogs", description: "Read our latest insights" }
   ];
