@@ -3,9 +3,9 @@
 
 export const companyInfo = {
   name: "Extra Sauce",
-  description: "What if your executive online presence became your most powerful pipeline channel?",
+  description: "What if you can unlock the next growth stage with content?",
   ctaButton: {
-    text: "Apply Now",
+    text: "Book A Strategy Call",
     link: "/book-strategy-call"
   }
 };
@@ -23,9 +23,9 @@ export const companyLinks = {
 export const servicesLinks = {
   title: "SERVICES",
   links: [
-    { name: "LinkedIn Revenue System", href: "/services/executive-ghostwriting" },
-    { name: "Podcast Revenue System", href: "/services/video-content-engine" },
-    { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" }
+    { name: "Executive Ghostwriting", href: "/services/executive-ghostwriting" },
+    { name: "Video Content Engine", href: "/services/video-content-engine" },
+    { name: "Content-led GTM Coaching", href: "/services/content-led-gtm-coaching" }
   ]
 };
 
@@ -39,7 +39,7 @@ export const quickLinks = {
 
 export const location = {
   title: "HEADQUARTERS",
-  address: "Toronto, Canada 🇨🇦"
+  address: "Toronto, Canada"
 };
 
 export const email = {

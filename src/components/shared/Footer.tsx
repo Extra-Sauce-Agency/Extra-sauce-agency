@@ -107,7 +107,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-muted-foreground text-sm">
-              © 2026 Extra Sauce. All rights reserved.
+              © 2024 Extra Sauce. All rights reserved.
             </div>
             
             <div className="flex space-x-6">

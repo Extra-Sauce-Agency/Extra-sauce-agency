@@ -16,9 +16,9 @@ const ServicesOverviewSection = () => {
       <div className="container-premium">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
-            Three ways to{" "}
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              access The Sauce Recipe™
+            {servicesOverviewSection.headline.split(' - ')[0]}{" "}
+            <span className="bg-gradient-primary bg-clip-text text-transparent">
+              - {servicesOverviewSection.headline.split(' - ')[1]}
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-5xl mx-auto leading-relaxed">
@@ -68,9 +68,7 @@ const ServicesOverviewSection = () => {
               <div className="mt-auto">
                 <Link to={service.link}>
                   <Button className="w-full btn-hero group focus-enhanced whitespace-nowrap">
-                    <span className="group-hover:scale-105 transition-transform duration-200">
-                      {service.cta || "Learn more"}
-                    </span>
+                    <span className="group-hover:scale-105 transition-transform duration-200">Learn more</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform duration-300" />
                   </Button>
                 </Link>

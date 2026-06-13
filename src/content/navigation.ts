@@ -19,7 +19,7 @@ export const resourcesDropdown = [
 ];
 
 export const ctaButton = {
-  text: "Apply Now",
+  text: "Strategy Call",
   link: "/book-strategy-call"
 };
 

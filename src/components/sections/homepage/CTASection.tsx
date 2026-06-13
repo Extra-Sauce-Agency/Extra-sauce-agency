@@ -29,16 +29,16 @@ const CTASection = () => {
       <div className="container-premium relative z-10">
         <div className="text-center max-w-5xl mx-auto animate-fade-in">
           <h2 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-            Your buyers are forming opinions about your category right now.{" "}
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Make sure you're part of the conversation.
+            {ctaSection.headline.split("We make you the go-to option.")[0]}
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              We make you the go-to option.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
             {ctaSection.description}
           </p>
           
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link to="/book-strategy-call">
               <Button className="group relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary/90 px-12 py-6 text-lg font-semibold rounded-2xl shadow-elegant hover:scale-105 transition-all duration-300">
                 <span className="relative z-10 flex items-center">
@@ -46,6 +46,16 @@ const CTASection = () => {
                   <div className="ml-2 w-5 h-5 rounded-full bg-primary-foreground/20 flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
                     <span className="text-xs">→</span>
                   </div>
+                </span>
+              </Button>
+            </Link>
+            <Link to="/the-sauce-recipe">
+              <Button 
+                variant="outline" 
+                className="group border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground px-12 py-6 text-lg font-semibold rounded-2xl transition-all duration-300 hover:scale-105"
+              >
+                <span className="group-hover:scale-110 transition-transform duration-300">
+                  {ctaSection.secondaryButton}
                 </span>
               </Button>
             </Link>
