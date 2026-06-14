@@ -9,6 +9,10 @@ const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // Dynamic color classes based on scroll state
+  const menuItemColor = isScrolled ? "text-secondary" : "text-primary";
+  const menuItemHoverColor = isScrolled ? "hover:text-secondary" : "hover:text-primary";
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -48,7 +52,7 @@ const Navigation = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated"
+                className={`${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 font-medium link-animated`}
               >
                 {item.name}
               </Link>
@@ -56,7 +60,7 @@ const Navigation = () => {
             
             {/* Services Dropdown */}
             <div className="relative group">
-              <button className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
+              <button className={`${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 font-medium link-animated flex items-center space-x-1`}>
                 <span>Services</span>
                 <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
@@ -79,7 +83,7 @@ const Navigation = () => {
             
             {/* Resources Dropdown */}
             <div className="relative group">
-              <button className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
+              <button className={`${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 font-medium link-animated flex items-center space-x-1`}>
                 <span>Resources</span>
                 <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
@@ -115,7 +119,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground hover:text-primary transition-colors relative z-50"
+            className={`lg:hidden p-2 ${menuItemColor} hover:text-primary transition-colors relative z-50`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -130,7 +134,7 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-primary hover:text-primary transition-colors duration-300 font-medium py-2"
+                  className={`${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 font-medium py-2`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
@@ -139,12 +143,12 @@ const Navigation = () => {
               
               {/* Mobile Services Section */}
               <div className="border-t border-border/30 pt-4">
-                <div className="text-primary font-medium mb-2">Services</div>
+                <div className={`${menuItemColor} font-medium mb-2`}>Services</div>
                 {servicesDropdown.map((item) => (
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="block text-primary hover:text-primary transition-colors duration-300 py-2 pl-4"
+                    className={`block ${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 py-2 pl-4`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.name}
@@ -154,12 +158,12 @@ const Navigation = () => {
               
               {/* Mobile Resources Section */}
               <div className="border-t border-border/30 pt-4">
-                <div className="text-primary font-medium mb-2">Resources</div>
+                <div className={`${menuItemColor} font-medium mb-2`}>Resources</div>
                 {resourcesDropdown.map((item) => (
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="block text-primary hover:text-primary transition-colors duration-300 py-2 pl-4"
+                    className={`block ${menuItemColor} ${menuItemHoverColor} transition-colors duration-300 py-2 pl-4`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.name}
