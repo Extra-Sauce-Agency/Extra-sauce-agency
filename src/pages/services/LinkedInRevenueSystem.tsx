@@ -228,7 +228,7 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Problem Grid */}
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {problemStatements.map((problem, index) => (
                 <div
                   key={index}
@@ -268,7 +268,7 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Steps - Single Row */}
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl">
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {systemSteps.map((step, index) => (
                 <div key={index} className="text-center">
                   {/* Numbered Circle */}
@@ -308,7 +308,7 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Benefits Grid */}
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {benefits.map((benefit, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl border border-slate-200">
                   <h3 className="text-xl font-bold text-slate-900 mb-4">
@@ -336,7 +336,7 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Metrics */}
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mb-12">
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
               {results.map((result, index) => (
                 <div key={index} className="bg-slate-50 p-8 rounded-xl border border-slate-200">
                   <p className="text-4xl font-bold text-primary mb-2">{result.metric}</p>
@@ -347,7 +347,7 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Testimonial */}
-            <div className="bg-accent border-l-4 border-primary p-8 rounded-lg max-w-5xl">
+            <div className="bg-accent border-l-4 border-primary p-8 rounded-lg max-w-5xl mx-auto">
               <p className="text-lg italic mb-8 leading-relaxed text-white">
                 "{testimonial.quote}"
               </p>

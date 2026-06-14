@@ -48,7 +48,7 @@ const Navigation = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-300 font-medium link-animated"
+                className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated"
               >
                 {item.name}
               </Link>
@@ -56,7 +56,7 @@ const Navigation = () => {
             
             {/* Services Dropdown */}
             <div className="relative group">
-              <button className="text-foreground hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
+              <button className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
                 <span>Services</span>
                 <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
@@ -79,7 +79,7 @@ const Navigation = () => {
             
             {/* Resources Dropdown */}
             <div className="relative group">
-              <button className="text-foreground hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
+              <button className="text-primary hover:text-primary transition-colors duration-300 font-medium link-animated flex items-center space-x-1">
                 <span>Resources</span>
                 <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
@@ -130,7 +130,7 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                  className="text-primary hover:text-primary transition-colors duration-300 font-medium py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
@@ -139,12 +139,12 @@ const Navigation = () => {
               
               {/* Mobile Services Section */}
               <div className="border-t border-border/30 pt-4">
-                <div className="text-foreground font-medium mb-2">Services</div>
+                <div className="text-primary font-medium mb-2">Services</div>
                 {servicesDropdown.map((item) => (
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="block text-foreground hover:text-primary transition-colors duration-300 py-2 pl-4"
+                    className="block text-primary hover:text-primary transition-colors duration-300 py-2 pl-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.name}
@@ -154,12 +154,12 @@ const Navigation = () => {
               
               {/* Mobile Resources Section */}
               <div className="border-t border-border/30 pt-4">
-                <div className="text-foreground font-medium mb-2">Resources</div>
+                <div className="text-primary font-medium mb-2">Resources</div>
                 {resourcesDropdown.map((item) => (
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="block text-foreground hover:text-primary transition-colors duration-300 py-2 pl-4"
+                    className="block text-primary hover:text-primary transition-colors duration-300 py-2 pl-4"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.name}
