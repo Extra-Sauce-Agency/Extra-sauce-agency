@@ -7,9 +7,9 @@ export const navigationItems = [
 ];
 
 export const servicesDropdown = [
-  { name: "Executive Content Engine", href: "/services/executive-ghostwriting" },
-  { name: "B2B Brand Show", href: "/services/video-content-engine" },
-  { name: "Content-led Pipeline Sprint", href: "/services/content-led-gtm-coaching" },
+  { name: "LinkedIn Revenue System", href: "/services/linkedin-revenue-system" },
+  { name: "Podcast Revenue System", href: "/services/podcast-revenue-system" },
+  { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" },
 ];
 
 export const resourcesDropdown = [

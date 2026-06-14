@@ -192,65 +192,139 @@ const PodcastRevenueSystem = () => {
           </div>
         </section>
 
-        {/* Content Multiplier Visual Section */}
-        <section className="py-16 lg:py-20">
+        {/* THE PIPELINE Section */}
+        <section className="py-16 lg:py-20 bg-muted/30">
           <div className="container-premium">
-            <div className="text-center mb-16">
+            <div className="mb-16">
+              <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">THE PIPELINE</div>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                The Content Multiplier Effect
+                A repeatable engine, not a one-off.
               </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                One podcast episode becomes weeks of strategic content across all your platforms
-              </p>
             </div>
 
-            <div className="max-w-6xl mx-auto">
-              {/* Flow Diagram */}
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
-                <div className="card-premium p-8 text-center">
-                  <div className="text-4xl font-bold text-primary mb-4">1</div>
-                  <h3 className="font-bold text-foreground mb-2">Record</h3>
-                  <p className="text-sm text-muted-foreground">One 45-minute episode</p>
+            {/* 4-Step Process */}
+            <div className="max-w-full mx-auto mb-16 overflow-x-auto">
+              <div className="flex gap-4 items-stretch min-w-max px-4">
+                {/* Step 1 */}
+                <div className="bg-slate-900 text-white rounded-2xl p-8 flex flex-col justify-between flex-shrink-0 w-64">
+                  <div>
+                    <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">01 · RECORD</div>
+                    <h3 className="text-2xl font-bold mb-2">1 x 60-min session</h3>
+                    <p className="text-sm text-gray-300">The only step that needs you.</p>
+                  </div>
                 </div>
+
+                {/* Arrow */}
                 <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">›</div>
+                  <div className="text-3xl text-primary font-bold">→</div>
                 </div>
-                <div className="card-premium p-8 text-center">
-                  <div className="text-4xl font-bold text-primary mb-4">2</div>
-                  <h3 className="font-bold text-foreground mb-2">Repurpose</h3>
-                  <p className="text-sm text-muted-foreground">Convert to blog, clips, threads</p>
+
+                {/* Step 2 */}
+                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
+                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">02 · EXTRACT</div>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Clips, quotes & insights</h3>
+                  <p className="text-sm text-muted-foreground">Every reusable moment, pulled.</p>
                 </div>
+
+                {/* Arrow */}
                 <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">›</div>
+                  <div className="text-3xl text-primary font-bold">→</div>
                 </div>
-                <div className="card-premium p-8 text-center">
-                  <div className="text-4xl font-bold text-primary mb-4">3</div>
-                  <h3 className="font-bold text-foreground mb-2">Distribute</h3>
-                  <p className="text-sm text-muted-foreground">Across all platforms</p>
+
+                {/* Step 3 */}
+                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
+                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">03 · PRODUCE</div>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Edited into 6 formats</h3>
+                  <p className="text-sm text-muted-foreground">Polished, on-brand, ready.</p>
                 </div>
+
+                {/* Arrow */}
                 <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">›</div>
+                  <div className="text-3xl text-primary font-bold">→</div>
                 </div>
-                <div className="card-premium p-8 text-center">
-                  <div className="text-4xl font-bold text-primary mb-4">4</div>
-                  <h3 className="font-bold text-foreground mb-2">Monetize</h3>
-                  <p className="text-sm text-muted-foreground">Generate leads & revenue</p>
+
+                {/* Step 4 */}
+                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
+                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">04 · DISTRIBUTE</div>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Pushed to every channel</h3>
+                  <p className="text-sm text-muted-foreground">Scheduled across the month.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Output / Month Section */}
+            <div className="max-w-7xl mx-auto">
+              <div className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-8">OUTPUT / MONTH</div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                {/* Row 1 */}
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">8-12</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">Short-form clips</h4>
+                      <p className="text-sm text-muted-foreground">LinkedIn · Instagram · TikTok</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">YouTube episode</h4>
+                      <p className="text-sm text-muted-foreground">Full-length, 30-45 min</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">4</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">LinkedIn posts</h4>
+                      <p className="text-sm text-muted-foreground">From video insights</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Row 2 */}
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">Blog article</h4>
+                      <p className="text-sm text-muted-foreground">Repurposed from episode</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">8+</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">Social posts</h4>
+                      <p className="text-sm text-muted-foreground">With video snippets</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-bold text-foreground mb-1">Email newsletter</h4>
+                      <p className="text-sm text-muted-foreground">From key takeaways</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              {/* Output Examples */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="card-premium p-6">
-                  <h4 className="font-bold text-foreground mb-2">Blog Posts</h4>
-                  <p className="text-sm text-muted-foreground">3-5 long-form articles extracted from your episode</p>
-                </div>
-                <div className="card-premium p-6">
-                  <h4 className="font-bold text-foreground mb-2">Social Media</h4>
-                  <p className="text-sm text-muted-foreground">20+ clips, quotes, and threads ready to post</p>
-                </div>
-                <div className="card-premium p-6">
-                  <h4 className="font-bold text-foreground mb-2">Email Content</h4>
-                  <p className="text-sm text-muted-foreground">Newsletter sequences and lead magnets</p>
+              {/* Total Output Badge */}
+              <div className="flex justify-end">
+                <div className="bg-slate-900 text-white rounded-2xl px-8 py-4 inline-block">
+                  <div className="text-sm text-gray-400 mb-1">Total output</div>
+                  <div className="text-2xl font-bold">20+ <span className="text-base font-normal">pieces every month</span></div>
                 </div>
               </div>
             </div>
