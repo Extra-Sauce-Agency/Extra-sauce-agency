@@ -172,7 +172,7 @@ const PodcastRevenueSystem = () => {
               {/* Tagline */}
               <div className="bg-slate-800 inline-block px-4 py-2 rounded-lg mb-8">
                 <p className="text-slate-300 text-sm">
-                  93% of B2B buyers say <span className="text-white font-bold">video plays an important role to earn attention and trust</span>
+                  <span className="text-white font-bold">Control D generates qualified pipeline in under 60 days of launch</span>
                 </p>
               </div>
 
