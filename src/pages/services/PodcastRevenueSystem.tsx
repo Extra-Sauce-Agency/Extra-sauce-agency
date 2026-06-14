@@ -221,25 +221,29 @@ const PodcastRevenueSystem = () => {
 
             {/* Problem Grid */}
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              {problemStatements.map((problem, index) => (
+              {problemStatements.map((problem, index) => {
+                const isLastItem = index === problemStatements.length - 1;
+                const isDarkBox = isLastItem;
+                return (
                 <div
                   key={index}
                   className={`p-8 rounded-xl ${
-                    problem.highlighted
+                    isDarkBox
                       ? "bg-slate-900 text-white"
                       : "bg-slate-50 border border-slate-200"
                   }`}
                 >
                   <h3 className={`text-xl font-bold mb-4 ${
-                    problem.highlighted ? "text-white" : "text-slate-900"
+                    isDarkBox ? "text-white" : "text-slate-900"
                   }`}>
                     {problem.title}
                   </h3>
-                  <p className={problem.highlighted ? "text-slate-300" : "text-slate-600"}>
+                  <p className={isDarkBox ? "text-slate-300" : "text-slate-600"}>
                     {problem.description}
                   </p>
                 </div>
-              ))}
+              );
+              })}
             </div>
           </div>
         </section>
