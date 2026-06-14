@@ -12,96 +12,96 @@ const LinkedInRevenueSystem = () => {
   const systemSteps = [
     {
       number: "1",
-      title: "Voice & Narrative Workshop",
-      description: "We extract your unique POV, frameworks, and stories. We map your ICP, competitive landscape, and the narrative you need to own in your category."
+      title: "Content Market Fit",
+      description: "The first few weeks we will do content sprint tests to see what hooks, formats, and messaging resonates with your audience best."
     },
     {
       number: "2",
-      title: "Monthly Strategy + Extraction",
-      description: "One 60-minute call per month. We ask the right questions, you share your expertise. Our ghostwriters turn raw insight into polished thought leadership."
+      title: "Content & Sales Alignment",
+      description: "The content is strategically paired with outbound to drive a qualified audience to your executive team that are in-market ready to buy."
     },
     {
       number: "3",
-      title: "Publish, Engage, Grow",
-      description: "4 LinkedIn posts per week, optimized for reach and engagement. We handle everything: writing, editing, scheduling, and performance tracking."
+      title: "Technical & Personal",
+      description: "We extract your unique POVs, methodologies, industry bets, and key language through our onboarding, voice workshop, and proprietary technology."
     }
   ];
 
   const problemStatements = [
     {
       title: "You don't have 10 hours a week",
-      description: "Between board meetings, product roadmap, and closing deals, content creation falls to the bottom of the list. Every. Single. Week.",
+      description: "You're stuck in back-to-back meetings and then don't have time every week to put out high-quality content that reflects your executive brand. All we need is two content calls/mo (60 min each).",
       highlighted: false
     },
     {
-      title: "Generic content doesn't convert",
-      description: "AI-generated posts and recycled marketing fluff get scrolled past. Your buyers are sophisticated. They can smell inauthenticity from a mile away.",
+      title: "Commodity Content Ruins Brand",
+      description: "There is AI slop and generic content everywhere online now. Your buyers are sophisticated and prefer insightful narrative-driven content.",
       highlighted: false
     },
     {
-      title: "Your sales team needs air cover",
-      description: "Cold outbound is getting more expensive every quarter. Your AEs are spending hours prospecting people who've never heard of you. Thought leadership changes that equation.",
+      title: "You aren't generating conversations on LinkedIn",
+      description: "We average a 20-30% reply rate on LinkedIn when the industry standard is 5%",
       highlighted: false
     },
     {
-      title: "The cost of doing nothing",
-      description: "While you're 'too busy to post,' your competitors are becoming the default choice in your category. Every month without thought leadership is a month your pipeline depends entirely on paid ads and cold calls.",
+      title: "The cost of inaction",
+      description: "While you're 'too busy to post,' your competitors are becoming the go-to option in your category. With us, you'll be bringing in raving fans AND qualified pipeline.",
       highlighted: true
     }
   ];
 
   const benefits = [
     {
-      title: "Get back to your core business",
-      description: "60 minutes a month. That's all we need from you. We handle the rest. No more staring at a blank LinkedIn post at 11pm wondering what to write."
+      title: "Content that sounds like you",
+      description: "2-4 content calls a month is all we need from you to create high-quality posts like you spent days writing them. We staff B2B technical copywriters and build AI agents to ensure quality and high-leverage content activities."
     },
     {
       title: "A personal brand that compounds",
       description: "Unlike paid ads that stop working when you stop paying, thought leadership compounds. Every post builds on the last. Your authority grows exponentially."
     },
     {
-      title: "Build a tribe of the right buyers",
-      description: "We don't optimize for vanity metrics. We build an audience of your actual ICP: decision-makers at companies you want to sell to."
+      title: "Build the right tribe of buyers instead of low-quality leads",
+      description: "We grow a realm of influence around executives and shorter sale cycles with their exact targeted account list and have raving fans showing up on demo calls that already know your name from LinkedIn."
     },
     {
-      title: "Make your sales team unstoppable",
-      description: "When your AEs reach out and the prospect already knows your name from LinkedIn, the conversation starts at a completely different level. Shorter cycles, bigger deals."
+      title: "Stop staring at a blank LinkedIn post every day",
+      description: "Your time is best leveraged on your core business activities. There is too much noise on these platforms for you to get by with mediocre effort. Use a battle-tested framework."
     }
   ];
 
   const results = [
     {
-      metric: "3M+",
+      metric: "1.5M+",
       label: "LinkedIn Impressions",
-      description: "Generated in 45 days for a SaaS CEO who had zero LinkedIn presence before working with us"
+      description: "Generated in 90 days for a CEO of a professional service firm who had only 50 connections on LinkedIn when starting to work with us."
     },
     {
-      metric: "12",
-      label: "Qualified Leads / Month",
-      description: "From content alone. No ads. No cold outbound. Just thought leadership that attracted the right buyers."
+      metric: "12-16",
+      label: "Sales opportunities / mo",
+      description: "These are quality buyers engaged in the DMs. No random lead magnet sign-up. A real person ready to jump on a call to discuss."
     },
     {
-      metric: "$480K",
+      metric: "1M+",
       label: "Pipeline Generated",
-      description: "In the first quarter. Inbound deals from LinkedIn connections who reached out after engaging with the founder's content."
+      description: "We have helped clients land high-quality inbound and outbound opportunities. This includes from buyers and early-stage investors."
     }
   ];
 
   const testimonial = {
-    quote: "Extra Sauce transformed my LinkedIn from a ghost town into a lead machine. I went from posting once a month to being recognized as a thought leader in my space. The pipeline impact was immediate.",
-    author: "[Client Name], CEO at [SaaS Company]",
-    location: "Toronto, Canada"
+    quote: "Manny's expertise and dedication have been instrumental in packaging our service offerings with clarity, crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
+    author: "Sharlene Gumbs",
+    title: "CEO at True Ally",
+    photo: "/sharlenegumbs.png"
   };
 
   const pricingFeatures = [
-    "4 long-form LinkedIn posts per week (16/month)",
-    "Monthly 60-min strategy & extraction call",
-    "Dedicated ghostwriter matched to your voice",
-    "Voice & Narrative workshop (onboarding)",
-    "Audience growth playbook",
-    "Content calendar & editorial strategy",
-    "Social selling engagement strategy",
-    "Monthly performance report with insights"
+    "20 assets/month (Executive Ghostwriting)",
+    "Creative & Narrative Development",
+    "Executive Brand Development",
+    "LinkedIn Outbound & social selling",
+    "ABM & pipeline funnel guidance",
+    "Performance Reporting",
+    "LinkedIn Management"
   ];
 
   const faqSection = {
@@ -109,28 +109,28 @@ const LinkedInRevenueSystem = () => {
     description: "Everything you need to know about the LinkedIn Revenue System",
     questions: [
       {
-        question: "How long until we should expect results from LinkedIn content?",
-        answer: "Most clients see measurable traction within 30-45 days. This includes growth in LinkedIn impressions, profile views, and inbound connection requests. Full pipeline impact typically materializes within 60-90 days as your thought leadership compounds."
+        question: "We've tried LinkedIn content before and got zero pipeline. Why would this be different?",
+        answer: "Because what you tried before wasn't a revenue system. It was a content delivery service. And those are two completely different things. Most LinkedIn agencies — and most ghostwriters — do the same thing: they interview you, write posts, schedule them, and send you an impressions report at the end of the month. We pair insightful binge-worthy content with strategic outbound. Content without outbound is a billboard nobody drives past. Outbound without content is cold calling with a stranger's number."
       },
       {
-        question: "What is the difference between founder-led marketing and personal branding?",
-        answer: "Personal branding is about building a public image. Founder-led marketing is about building pipeline. We focus on creating content that positions you as the obvious expert in your category, drives inbound demand, and directly supports your sales team with thought leadership that converts."
+        question: "Is $5,500/month worth it? How do I know I'll see ROI?",
+        answer: "Our clients with an average deal size of $20K–$50K typically recoup the investment within 3 months. One closed deal covers six months of the retainer. Two deals and you're profitable on the channel for the year (and it keeps compounding after that, because thought leadership doesn't stop working when you stop paying, the way paid ads do). Here's what that looks like in practice: PSII added $428K ARR within 8 months. A client in the automotive AI space closed $600K ARR within 4 months. Ice X booked 12 qualified meetings within 45 days of starting. These aren't outliers we lead with to impress you, they're the output of a LinkedIn system that generates pipeline."
       },
       {
-        question: "Why should we work with Extra Sauce for LinkedIn content?",
-        answer: "We specialize exclusively in B2B SaaS. Our ghostwriters have deep knowledge of demand generation, go-to-market strategy, and the SaaS buying journey. We don't write generic content. We build narrative systems that drive qualified pipeline for your sales team."
+        question: "How do you make sure the content actually sounds like me?",
+        answer: "Most ghostwritten content is detectable in the first sentence. It's safe, surface-level, and clearly written by someone who read your website for 20 minutes. We understand you've spent years building your trust. This is why our proprietary system clones your technical expertise, POV, and tone of voice to write posts like you've spent 2 hours doing it yourself. From there, we run a content market fit sprint; testing different hooks, angles, and formats against your actual target account list. We find out what your specific buyers respond to before we commit to a full content calendar. No guessing."
       },
       {
-        question: "Can LinkedIn content be tailored to my industry?",
-        answer: "Absolutely. Every engagement starts with a deep-dive into your industry, ICP, competitive landscape, and unique point of view. Your ghostwriter conducts monthly strategy sessions to extract your expertise and translate it into content that resonates with your specific buyers."
+        question: "When can I realistically expect to see qualified pipeline from this?",
+        answer: "Most clients start seeing leading indicators within 45–60 days, and qualified pipeline within 70–90 days."
       },
       {
-        question: "How do you capture my voice and expertise in ghostwritten content?",
-        answer: "We start with a Voice & Narrative workshop where we map your communication style, hot takes, frameworks, and stories. Your dedicated ghostwriter then creates a voice guide that ensures every piece sounds authentically you. Monthly calibration calls keep the voice sharp."
+        question: "How much do you need me involved every month?",
+        answer: "2 to 4 content calls per month. 60 minutes each. These calls are to extract stories, insights, and company updates so the content is tailored uniquely to you."
       },
       {
-        question: "What is the onboarding process?",
-        answer: "Week 1: Voice & Narrative workshop + ICP deep-dive. Week 2: Content strategy + editorial calendar. Week 3: First drafts for review. Week 4: Content goes live. The entire onboarding takes 2-3 weeks before your first posts are published."
+        question: "Will this work on an audience that is niche and sophisticated?",
+        answer: "Mass reach is not our goal. We're not trying to get you viral. We're trying to get you known by the 200–500 decision-makers at the companies you actually want to close. When your buyers are sophisticated, generic content makes you look like a commodity solution. They are smart enough to find the best 1-2 options themselves. This discovery happens through content and LinkedIn outreach."
       }
     ]
   };
@@ -174,41 +174,38 @@ const LinkedInRevenueSystem = () => {
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
-                You have the expertise. You don't have the time to write. We turn your ideas into thought leadership that builds authority and fills your pipeline.
+                You have the expertise. You don't have the time to turn it into consistent content and outbound. We turn your ideas into thought leadership that builds a realm of influence and fills your pipeline.
               </p>
 
-              {/* Pricing Info */}
+              {/* Tagline */}
               <div className="bg-slate-800 inline-block px-4 py-2 rounded-lg mb-8">
                 <p className="text-slate-300 text-sm">
-                  Starting at <span className="text-white font-bold">$5,000/mo</span> • Results in <span className="text-white font-bold">30-45 days</span>
+                  Within 45 days, <span className="text-white font-bold">Ice X generated 12 meetings booked</span>
                 </p>
               </div>
 
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row items-start gap-4 mb-12">
+              {/* CTA */}
+              <div className="flex flex-col sm:flex-row items-start gap-4 mb-16">
                 <Link to="/book-strategy-call">
                   <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold">
-                    Book a Strategy Call
+                    Apply Now
                   </Button>
                 </Link>
-                <button className="border-2 border-slate-400 text-white px-8 py-5 rounded-lg hover:bg-slate-800 transition-colors font-semibold">
-                  See How It Works
-                </button>
               </div>
 
               {/* Metrics */}
-              <div className="grid grid-cols-3 gap-8 max-w-2xl">
+              <div className="grid grid-cols-3 gap-8 max-w-2xl pb-12">
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">3M+</div>
-                  <div className="text-sm text-slate-400">LinkedIn impressions generated</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-primary mb-2">45</div>
+                  <div className="text-3xl font-bold text-primary mb-2">90</div>
                   <div className="text-sm text-slate-400">Days to full pipeline</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">20+</div>
-                  <div className="text-sm text-slate-400">SaaS founders trust us</div>
+                  <div className="text-3xl font-bold text-primary mb-2">15+</div>
+                  <div className="text-sm text-slate-400">SAAS Founders We Wrote For</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">20-30%</div>
+                  <div className="text-sm text-slate-400">LinkedIn Reply Rate</div>
                 </div>
               </div>
             </div>
@@ -223,10 +220,10 @@ const LinkedInRevenueSystem = () => {
                 The Problem
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Your competitors are building audiences.<br />You're stuck in back-to-back meetings.
+                77% of B2B buyers purchase from a company<br />whose execs have an active social media presence
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                Every SaaS founder knows they should be posting on LinkedIn. Building thought leadership. Creating content that makes buyers come to them instead of chasing cold leads. But here's the reality:
+                It's more than just creating 3 posts / week on LinkedIn to drive qualified pipeline.
               </p>
             </div>
 
@@ -260,13 +257,13 @@ const LinkedInRevenueSystem = () => {
           <div className="container-premium">
             <div className="mb-16">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                How It Works
+                How The Sauce Recipe™ Works
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                The system that turns 60 minutes of your time into a month of thought leadership
+                The content revenue system that works for busy executives
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                We don't just write posts. We build a content engine around your expertise, your voice, and your strategic narrative.
+                We have monthly content calls with your CEO or c-suite member to extract their unique thought leadership and we pair this with strategic outbound to high-intent individuals that are ready to buy.
               </p>
             </div>
 
@@ -306,7 +303,7 @@ const LinkedInRevenueSystem = () => {
                 Benefits
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                What LinkedIn revenue system actually does for your business
+                What executive ghostwriting actually does for your business
               </h2>
             </div>
 
@@ -334,7 +331,7 @@ const LinkedInRevenueSystem = () => {
                 Results
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                What happens when founders stop ghosting LinkedIn
+                What happens when C-suite takes LinkedIn serious
               </h2>
             </div>
 
@@ -350,12 +347,21 @@ const LinkedInRevenueSystem = () => {
             </div>
 
             {/* Testimonial */}
-            <div className="bg-slate-900 text-white p-12 rounded-xl max-w-5xl">
-              <p className="text-lg italic mb-6 leading-relaxed">
+            <div className="bg-accent border-l-4 border-primary p-8 rounded-lg max-w-5xl">
+              <p className="text-lg italic mb-8 leading-relaxed text-white">
                 "{testimonial.quote}"
               </p>
-              <p className="font-bold mb-1">{testimonial.author}</p>
-              <p className="text-slate-400">{testimonial.location}</p>
+              <div className="flex items-center gap-4">
+                <img 
+                  src={testimonial.photo} 
+                  alt={testimonial.author} 
+                  className="w-20 h-20 rounded-full object-cover flex-shrink-0"
+                />
+                <div>
+                  <p className="font-semibold text-white">{testimonial.author}</p>
+                  <p className="text-accent-foreground/80">{testimonial.title}</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -371,14 +377,14 @@ const LinkedInRevenueSystem = () => {
                 LinkedIn Revenue System
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Transparent pricing. No hidden fees. No long-term contracts. Cancel anytime.
+                Turn your executive's LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.
               </p>
             </div>
 
             <div className="max-w-2xl mx-auto">
               <div className="bg-white border-2 border-slate-900 rounded-2xl p-12">
                 <div className="text-center mb-8">
-                  <p className="text-6xl font-bold text-slate-900 mb-2">$5,000</p>
+                  <p className="text-6xl font-bold text-slate-900 mb-2">$5,500</p>
                   <p className="text-slate-600">/month</p>
                 </div>
 
@@ -395,12 +401,12 @@ const LinkedInRevenueSystem = () => {
                 {/* CTA */}
                 <Link to="/book-strategy-call" className="block mb-4">
                   <Button className="w-full bg-primary hover:bg-primary/90 text-white py-6 text-base font-semibold">
-                    Book a Strategy Call →
+                    Apply Now
                   </Button>
                 </Link>
 
                 <p className="text-center text-sm text-slate-600">
-                  Typical results: 30-45 days to first measurable traction
+                  Typical results: Client data shows 70-90 days to see traction.
                 </p>
               </div>
             </div>
@@ -411,21 +417,21 @@ const LinkedInRevenueSystem = () => {
         <section className="py-16 lg:py-20 bg-slate-900 text-white text-center">
           <div className="container-premium max-w-3xl mx-auto">
             <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-              Ready to start?
+              Ready to build pipeline with content?
             </p>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Stop being the best-kept secret in your category
+              One step closer to reaching the next growth stage
             </h2>
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-              Book a 30-minute strategy call. We'll review your LinkedIn, identify your content-market fit, and show you exactly how LinkedIn Revenue System can fill your pipeline.
+              Apply below to work with our team. If you're accepted for a strategy call, our team will present findings from our preliminary audit, identify the biggest content opportunities, and show you the best path to pipeline with content.
             </p>
             <Link to="/book-strategy-call">
               <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold">
-                Book a Strategy Call →
+                Apply Now
               </Button>
             </Link>
             <p className="text-slate-400 text-sm mt-6">
-              No commitment. No pitch deck. Just a real conversation about your growth.
+              No pitch. Just an honest conversation about your content efforts.
             </p>
           </div>
         </section>
