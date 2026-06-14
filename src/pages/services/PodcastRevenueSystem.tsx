@@ -215,7 +215,7 @@ const PodcastRevenueSystem = () => {
                 Your buyers are watching. You're just not showing up.
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                Newsletters are how you own that audience and convert them when they are ready to buy.
+                93% of B2B buyers say video plays an important role to earn attention and trust. Newsletters are how you own that audience and convert them when they are ready to buy.
               </p>
             </div>
 
