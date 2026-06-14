@@ -1,7 +1,7 @@
 import Navigation from "@/components/shared/Navigation";
 import Footer from "@/components/shared/Footer";
 import { Button } from "@/components/ui/button";
-import { Mic, Copy, Share2, DollarSign } from "lucide-react";
+import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import CTASection from "@/components/sections/homepage/CTASection";
 import FAQSection from "@/components/sections/homepage/FAQSection";
@@ -11,53 +11,97 @@ import { organizationSchema } from "@/data/structured-data";
 const PodcastRevenueSystem = () => {
   const systemSteps = [
     {
-      icon: <Mic className="w-8 h-8" />,
-      title: "Complete Podcast Setup",
-      description: "We handle everything from recording and editing to hosting and distribution. You focus on the conversation; we handle the technical complexity."
+      number: "1",
+      title: "Targeted Buyer Lists",
+      description: "The goal is not to get mass views but instead qualified buyers infront of your content. This is why we map out key account lists and focus all of our efforts getting attention from them."
     },
     {
-      icon: <Copy className="w-8 h-8" />,
-      title: "Content Multiplier System", 
-      description: "One episode becomes 20+ pieces of content. Blog posts, social clips, email sequences, and more—all automatically repurposed from your podcast."
+      number: "2",
+      title: "Demand Creation & Demand capture",
+      description: "Most teams don't do both and that's where they lose sale opportunities. Our video production keeps you top of mind on the feeds and then be able to capture that demand in-market through curated newsletters."
     },
     {
-      icon: <Share2 className="w-8 h-8" />,
-      title: "Strategic Distribution",
-      description: "Your content reaches your audience across every platform. We ensure maximum visibility and engagement for every episode you release."
+      number: "3",
+      title: "Binge-worthy & Insightful",
+      description: "Content that feels like it's trying to sell never works. Instead it gets buyers to quietly leave you out of their consideration set. Instead, having content they love to tune into daily that they find interesting and help them along their career is GOLD they will keep coming back to."
+    }
+  ];
+
+  const problemStatements = [
+    {
+      title: "We don't have time to create content",
+      description: "Our system caters busy executives. We extract high-signal insights in ~4 hours/mo and turn them into weeks of binge-worthy content across every key channel.",
+      highlighted: false
     },
     {
-      icon: <DollarSign className="w-8 h-8" />,
-      title: "Revenue Generation",
-      description: "Build a podcast that generates leads, establishes authority, and creates multiple revenue streams for your business."
+      title: "Our product is too technical/niche",
+      description: "We don't rely on mass reach because we drive the buyers from your target list to your content, then position your c-suite as the trusted voice in your category.",
+      highlighted: false
+    },
+    {
+      title: "Our audience doesn't buy from social media",
+      description: "80% of B2B executives vet your content before they ever buy from you. Meanwhile, your competitors are building content catalogues. Every month, they're showing up in your buyers' feeds and inboxes to stay top of mind.",
+      highlighted: true
+    },
+    {
+      title: "The cost of inaction",
+      description: "What demand are you capturing? Your competitors are building content catalogues and capturing in-market demand. Every month they're showing up in your buyers' feeds and inboxes.",
+      highlighted: false
     }
   ];
 
   const benefits = [
     {
-      number: "1",
-      title: "Authority & Credibility",
-      description: "Podcasting positions you as an expert in your field. Build trust with your audience and establish yourself as a thought leader."
+      title: "Account-based marketing through content",
+      description: "We build value-based relationships with tier 1/2 target account lists via episode invites, co-marketing collaborations, and warm introductions."
     },
     {
-      number: "2", 
-      title: "Qualified Lead Generation",
-      description: "Attract high-quality leads from listeners who are already engaged with your content and familiar with your expertise."
+      title: "A video presence everywhere with little involvement",
+      description: "You will become discoverable across all platforms and unquestionable wherever a decision maker looks."
     },
     {
-      number: "3",
-      title: "Content Multiplier Effect",
-      description: "Turn one 45-minute episode into weeks of content. Maximize your content investment and reach across all platforms."
+      title: "Become recognized as a category leader",
+      description: "As you showcase your unique POV and create content with other industry leaders, your personal and company brand gain authority because now you're leading the conversation."
     },
     {
-      number: "4",
-      title: "Audience Building",
-      description: "Create a loyal community of listeners who become customers, advocates, and partners in your business growth."
-    },
-    {
-      number: "5",
-      title: "Competitive Advantage",
-      description: "While your competitors hesitate, you're building a podcast empire. Podcasting is still underutilized by most B2B companies."
+      title: "Sales team wastes less time on low-quality leads",
+      description: "We grow a realm of influence around executives and shorter sale cycles with their exact targeted account list and have raving fans showing up on demo calls that already know your name from LinkedIn."
     }
+  ];
+
+  const results = [
+    {
+      metric: "13M+",
+      label: "Video Views",
+      description: "Across YouTube, LinkedIn, and Meta in 4 months"
+    },
+    {
+      metric: "423K",
+      label: "Additional Annual Revenue",
+      description: "Closed within 6 months from inbound driven by our content system."
+    },
+    {
+      metric: "42%",
+      label: "Additional Monthly Demos",
+      description: "From 0 → 12-16 qualified inbound inquiries/month within 4 months."
+    }
+  ];
+
+  const testimonial = {
+    quote: "The new brand and content helped influence our audience. We had old prospects booking demos with us thinking we're a different company. The content engine paid for itself rather than burning our money in Google Ads again.",
+    author: "Vik Saini",
+    title: "Head Of Sales, Payroll Solutions International Inc.",
+    photo: "/viksoni.png"
+  };
+
+  const pricingFeatures = [
+    "Podcast Management",
+    "Newsletter growth management",
+    "High-Value Guest Sourcing",
+    "Creative & Narrative Development",
+    "Content Flywheel Distribution",
+    "ABM & pipeline funnel guidance",
+    "Performance Measurement"
   ];
 
   const faqSection = {
@@ -65,28 +109,20 @@ const PodcastRevenueSystem = () => {
     description: "Everything you need to know about the Podcast Revenue System",
     questions: [
       {
-        question: "Do I need any technical skills to start a podcast?",
-        answer: "No. We handle all the technical setup, recording, editing, and distribution. You just need to show up and have great conversations."
+        question: "We already have a podcast and it's not generating leads. What would you do differently?",
+        answer: "First, we'd stop chasing downloads and start targeting decision-makers. We map your exact target account list before we record episode one. Every piece of content that comes out of the studio (the full episode, the short-form clips, the newsletter posts) gets distributed specifically to the companies you want to close. Second, we'd connect the podcast to your outbound motion; ABM nurturing, sales-ready assets, and establishing credibility through peers. Third, we'd build the demand capture layer you're missing. A podcast keeps you top of mind. A newsletter converts the audience when they're ready to buy."
       },
       {
-        question: "How often should I release episodes?",
-        answer: "We recommend weekly episodes for consistency and audience building. However, we work with your schedule to find what's sustainable for your business."
+        question: "Is $9,500/month worth it? How does this pay for itself?",
+        answer: "A demand gen manager, a senior video editor, a copywriter, a content strategist, an outreach coordinator, and a show producer (the team required to run a content flywheel at this level) runs $25,000–$42,000 per month in payroll alone. Before tools, before ramp-up time, before the six months it takes a new hire to understand your voice, your category, and your buyers. And when someone leaves, you start over. If your average deal size is $30,000–$100,000, a single closed opportunity more than covers a month of the retainer. Two deals in a quarter and the channel is profitable. Our deals in the $200–$500k range typically see the investment pay for itself within 6 months."
       },
       {
-        question: "How long does it take to see results?",
-        answer: "Most clients see meaningful engagement within 30-60 days. Revenue impact typically appears within 90-180 days as your audience grows."
+        question: "Our audience is small and niche. Can a podcast realistically generate pipeline for us?",
+        answer: "Here's the reality of your market: there are probably 200–1,000 companies that could realistically buy from you. Within those companies, there are 3–5 decision-makers per company. Your total addressable audience for pipeline purposes is somewhere between 600–5,000 people. That's not a podcast reach problem. That's a targeting opportunity. We don't publish and pray. We build your target account list before the first episode drops, and we drive every asset (clips, full episodes, newsletter, LinkedIn posts) directly to the decision-makers on that list."
       },
       {
-        question: "What if I don't have guests lined up?",
-        answer: "We help you develop a guest strategy and can assist with outreach. We also support solo episodes and interview formats."
-      },
-      {
-        question: "How does the content multiplier system work?",
-        answer: "We automatically repurpose your podcast into blog posts, social media clips, email sequences, and more. One episode creates 20+ pieces of content."
-      },
-      {
-        question: "Can I make money directly from my podcast?",
-        answer: "Yes. Beyond sponsorships and ads, your podcast becomes a lead generation machine that drives revenue through your core business offerings."
+        question: "What does the newsletter have to do with the podcast?",
+        answer: "The podcast is your demand creation engine. It keeps your brand in your buyers' feeds, builds familiarity with your executive's point of view, and earns trust with the 95% of your market that isn't ready to buy right now. The newsletter is your demand capture engine. It's how you own the audience the podcast builds, reach buyers directly in their inbox, and convert the people who are ready to buy now."
       }
     ]
   };
@@ -94,7 +130,7 @@ const PodcastRevenueSystem = () => {
   const serviceSchema = {
     "@type": "Service",
     "name": "Podcast Revenue System",
-    "description": "Launch and monetize a podcast that builds your authority and generates revenue. Complete setup, content multiplier system, and strategic distribution.",
+    "description": "Turn your podcast into a predictable revenue engine with our strategic content distribution and demand capture system.",
     "url": "https://www.extrasauceagency.com/services/podcast-revenue-system",
     "provider": {
       "@id": "https://www.extrasauceagency.com/#organization"
@@ -106,10 +142,10 @@ const PodcastRevenueSystem = () => {
   return (
     <>
       <EnhancedSEOHead
-        title="Podcast Revenue System - Launch & Monetize Your Podcast"
-        description="Launch and monetize a podcast that builds authority and generates revenue. Complete setup, content multiplier system, and strategic distribution included."
-        ogTitle="Podcast Revenue System - Launch & Monetize Your Podcast"
-        ogDescription="Launch and monetize a podcast that builds authority and generates revenue. Complete setup, content multiplier system, and strategic distribution included."
+        title="Podcast Revenue System - Turn Your Podcast Into Pipeline"
+        description="Transform your podcast into a predictable revenue engine. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
+        ogTitle="Podcast Revenue System - Turn Your Podcast Into Pipeline"
+        ogDescription="Transform your podcast into a predictable revenue engine. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
         canonicalUrl="https://www.extrasauceagency.com/services/podcast-revenue-system"
         type="article"
         structuredData={structuredData}
@@ -117,73 +153,180 @@ const PodcastRevenueSystem = () => {
       <div className="min-h-screen bg-background">
         <Navigation />
         
-        {/* Hero Section */}
-        <section className="min-h-[60vh] flex items-center justify-center relative overflow-visible bg-gradient-subtle pt-28 md:pt-36">
-          <div className="container-premium text-center relative z-10">
-            <div className="max-w-4xl mx-auto animate-scale-in">
-              <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
+        {/* Hero Section - Dark Background */}
+        <section className="min-h-[70vh] flex items-center justify-center relative overflow-visible bg-slate-900 pt-28 md:pt-36">
+          <div className="container-premium text-left relative z-10">
+            <div className="max-w-3xl animate-scale-in">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
                 Podcast Revenue System
+              </p>
+              
+              <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
+                Video content flywheels that turn executive insight into pipeline
               </h1>
               
-              <h2 className="text-2xl lg:text-3xl font-semibold text-primary mb-6">
-                Launch and monetize a podcast that builds your authority and generates revenue.
-              </h2>
-              
-              <p className="text-xl lg:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-                Complete podcast setup, content multiplier system, and strategic distribution—all designed to establish authority and drive business growth.
+              <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
+                There's a proven system modern B2B teams use to turn their podcast + newsletter system into a consistent stream of qualified buyers. We build and run that system for you.
               </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
+
+              {/* Tagline */}
+              <div className="bg-slate-800 inline-block px-4 py-2 rounded-lg mb-8">
+                <p className="text-slate-300 text-sm">
+                  93% of B2B buyers say <span className="text-white font-bold">video plays an important role to earn attention and trust</span>
+                </p>
+              </div>
+
+              {/* CTA */}
+              <div className="flex flex-col sm:flex-row items-start gap-4 mb-16">
                 <Link to="/book-strategy-call">
-                  <Button className="btn-hero">
-                    Schedule Consultation
+                  <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold">
+                    Apply Now
                   </Button>
                 </Link>
               </div>
-              
+
               {/* Metrics */}
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">1 Episode</div>
-                  <div className="text-sm text-muted-foreground">= 20+ Content Pieces</div>
+              <div className="grid grid-cols-3 gap-8 max-w-2xl pb-12">
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">100M+</div>
+                  <div className="text-sm text-slate-400">Video views generated</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">90 Days</div>
-                  <div className="text-sm text-muted-foreground">To Establish Authority</div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">4hrs</div>
+                  <div className="text-sm text-slate-400">Your time per month</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">Multiple</div>
-                  <div className="text-sm text-muted-foreground">Revenue Streams</div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">16-20</div>
+                  <div className="text-sm text-slate-400">Content assets per month</div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* System Section */}
-        <section className="py-16 lg:py-20 bg-muted/30">
+        {/* The Problem Section */}
+        <section className="py-16 lg:py-20 bg-white">
           <div className="container-premium">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6 max-w-4xl mx-auto">
-                THE PODCAST REVENUE SYSTEM
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                The Problem
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                Your buyers are watching. You're just not showing up.
               </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                A complete framework to launch, grow, and monetize your podcast while building authority in your industry.
+              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
+                Newsletters are how you own that audience and convert them when they are ready to buy.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-              {systemSteps.map((step, index) => (
-                <div 
+            {/* Problem Grid */}
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              {problemStatements.map((problem, index) => (
+                <div
                   key={index}
-                  className="card-premium text-center group hover:scale-105 transition-all duration-300"
+                  className={`p-8 rounded-xl ${
+                    problem.highlighted
+                      ? "bg-slate-900 text-white"
+                      : "bg-slate-50 border border-slate-200"
+                  }`}
                 >
-                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center text-primary mx-auto mb-6 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
-                    {step.icon}
+                  <h3 className={`text-xl font-bold mb-4 ${
+                    problem.highlighted ? "text-white" : "text-slate-900"
+                  }`}>
+                    {problem.title}
+                  </h3>
+                  <p className={problem.highlighted ? "text-slate-300" : "text-slate-600"}>
+                    {problem.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* The Content Flywheel Section */}
+        <section className="py-16 lg:py-20 bg-white">
+          <div className="container-premium">
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                The Content Flywheel
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                One recording. 20+ assets. A full month of content.
+              </h2>
+              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
+                The distribution speaks for itself. Stay top of mind and have strategic content that influences without the burnout. We take care of everything.
+              </p>
+            </div>
+
+            {/* Flywheel Items */}
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">1 60-min recording session</h3>
+                <p className="text-slate-600">Podcast, webinar, or YouTube video</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">4-8 Short-form videos</h3>
+                <p className="text-slate-600">Across LinkedIn, Instagram, TikTok, and YouTube Shorts</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">1 Full-length flagship episode</h3>
+                <p className="text-slate-600">YouTube / podcast, including cinematic trailer</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">2-4 Narrative-driven LinkedIn posts</h3>
+                <p className="text-slate-600">For your executive team</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">1 Newsletter/LinkedIn article</h3>
+                <p className="text-slate-600">Built from key insights</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">2 Supporting segments</h3>
+                <p className="text-slate-600">For YouTube, LinkedIn, Instagram, TikTok</p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">6 Social selling, ABM outreach, and strategic commenting</h3>
+                <p className="text-slate-600">Across all platforms</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How It Works Section */}
+        <section className="py-16 lg:py-20 bg-white">
+          <div className="container-premium">
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                How The Sauce Recipe™ Works
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                The reasoning behind content revenue systems
+              </h2>
+              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
+                We have monthly content calls with your CEO or c-suite member to extract their unique thought leadership and we pair this with strategic outbound to high-intent individuals that are ready to buy.
+              </p>
+            </div>
+
+            {/* Steps - Single Row */}
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {systemSteps.map((step, index) => (
+                <div key={index} className="text-center">
+                  {/* Numbered Circle */}
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-6">
+                    {step.number}
                   </div>
-                  <h3 className="text-lg font-bold text-foreground mb-4 leading-tight">
+
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
                     {step.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
+                  <p className="text-slate-600 leading-relaxed">
                     {step.description}
                   </p>
                 </div>
@@ -192,221 +335,170 @@ const PodcastRevenueSystem = () => {
           </div>
         </section>
 
-        {/* THE PIPELINE Section */}
-        <section className="py-16 lg:py-20 bg-muted/30">
+        {/* Benefits Section */}
+        <section className="py-16 lg:py-20 bg-slate-50">
           <div className="container-premium">
             <div className="mb-16">
-              <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">THE PIPELINE</div>
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                Benefits
+              </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                A repeatable engine, not a one-off.
+                What executive video content does for your business
               </h2>
             </div>
 
-            {/* 4-Step Process */}
-            <div className="max-w-full mx-auto mb-16 overflow-x-auto">
-              <div className="flex gap-4 items-stretch min-w-max px-4">
-                {/* Step 1 */}
-                <div className="bg-slate-900 text-white rounded-2xl p-8 flex flex-col justify-between flex-shrink-0 w-64">
-                  <div>
-                    <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">01 · RECORD</div>
-                    <h3 className="text-2xl font-bold mb-2">1 x 60-min session</h3>
-                    <p className="text-sm text-gray-300">The only step that needs you.</p>
-                  </div>
+            {/* Benefits Grid */}
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              {benefits.map((benefit, index) => (
+                <div key={index} className="bg-white p-8 rounded-xl border border-slate-200">
+                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                    {benefit.title}
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed">
+                    {benefit.description}
+                  </p>
                 </div>
-
-                {/* Arrow */}
-                <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">→</div>
-                </div>
-
-                {/* Step 2 */}
-                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
-                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">02 · EXTRACT</div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Clips, quotes & insights</h3>
-                  <p className="text-sm text-muted-foreground">Every reusable moment, pulled.</p>
-                </div>
-
-                {/* Arrow */}
-                <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">→</div>
-                </div>
-
-                {/* Step 3 */}
-                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
-                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">03 · PRODUCE</div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Edited into 6 formats</h3>
-                  <p className="text-sm text-muted-foreground">Polished, on-brand, ready.</p>
-                </div>
-
-                {/* Arrow */}
-                <div className="flex items-center justify-center">
-                  <div className="text-3xl text-primary font-bold">→</div>
-                </div>
-
-                {/* Step 4 */}
-                <div className="bg-gray-100 rounded-2xl p-8 flex-shrink-0 w-64">
-                  <div className="text-sm font-bold text-primary uppercase tracking-wider mb-4">04 · DISTRIBUTE</div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Pushed to every channel</h3>
-                  <p className="text-sm text-muted-foreground">Scheduled across the month.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Output / Month Section */}
-            <div className="max-w-7xl mx-auto">
-              <div className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-8">OUTPUT / MONTH</div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                {/* Row 1 */}
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">8-12</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">Short-form clips</h4>
-                      <p className="text-sm text-muted-foreground">LinkedIn · Instagram · TikTok</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">YouTube episode</h4>
-                      <p className="text-sm text-muted-foreground">Full-length, 30-45 min</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">4</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">LinkedIn posts</h4>
-                      <p className="text-sm text-muted-foreground">From video insights</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Row 2 */}
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">Blog article</h4>
-                      <p className="text-sm text-muted-foreground">Repurposed from episode</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">8+</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">Social posts</h4>
-                      <p className="text-sm text-muted-foreground">With video snippets</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="text-3xl font-bold text-primary flex-shrink-0">1</div>
-                    <div>
-                      <h4 className="font-bold text-foreground mb-1">Email newsletter</h4>
-                      <p className="text-sm text-muted-foreground">From key takeaways</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Total Output Badge */}
-              <div className="flex justify-end">
-                <div className="bg-slate-900 text-white rounded-2xl px-8 py-4 inline-block">
-                  <div className="text-sm text-gray-400 mb-1">Total output</div>
-                  <div className="text-2xl font-bold">20+ <span className="text-base font-normal">pieces every month</span></div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* Benefits Section */}
-        <section className="py-12 lg:py-16 bg-muted/30">
+        {/* Results Section */}
+        <section className="py-16 lg:py-20 bg-white">
           <div className="container-premium">
-            <div className="grid lg:grid-cols-2 gap-16 max-w-7xl mx-auto">
-              {/* Left Side */}
-              <div>
-                <h2 className="text-4xl lg:text-5xl font-bold mb-8">
-                  <span className="text-primary">BENEFITS:</span><br />
-                  <span className="text-foreground">PODCAST REVENUE SYSTEM</span>
-                </h2>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  Our Podcast Revenue System doesn't just build your presence—it establishes authority and generates qualified leads. Here's how we deliver value:
-                </p>
-              </div>
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                Results
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                What our content revenue systems produce for clients
+              </h2>
+            </div>
 
-              {/* Right Side - Benefits List */}
-              <div className="space-y-8">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex gap-6">
-                    <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm flex-shrink-0 mt-1">
-                      {benefit.number}
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-bold text-primary mb-2">
-                        {benefit.title}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {benefit.description}
-                      </p>
-                    </div>
+            {/* Results Grid */}
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
+              {results.map((result, index) => (
+                <div key={index} className="text-center">
+                  <div className="text-5xl font-bold text-primary mb-4">
+                    {result.metric}
                   </div>
-                ))}
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">
+                    {result.label}
+                  </h3>
+                  <p className="text-slate-600">
+                    {result.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Testimonial */}
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-slate-900 text-white p-12 rounded-xl">
+                <p className="text-lg leading-relaxed mb-8">
+                  "{testimonial.quote}"
+                </p>
+                <div className="flex items-center gap-4">
+                  {testimonial.photo && (
+                    <img 
+                      src={testimonial.photo} 
+                      alt={testimonial.author}
+                      className="w-16 h-16 rounded-full object-cover"
+                    />
+                  )}
+                  <div>
+                    <p className="font-bold text-white">{testimonial.author}</p>
+                    <p className="text-slate-400">{testimonial.title}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         {/* Pricing Section */}
-        <section className="py-12 lg:py-16">
+        <section className="py-16 lg:py-20 bg-slate-50">
           <div className="container-premium">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">Investment</h2>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Complete podcast launch and first 12 episodes
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                Pricing
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                Podcast Revenue System
+              </h2>
+              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
+                We ask for 6-month agreements to build this property.
               </p>
             </div>
 
-            <div className="max-w-2xl mx-auto">
-              <div className="card-premium p-12 border-2 border-primary">
-                <div className="text-center">
-                  <p className="text-muted-foreground mb-2">Starting at</p>
-                  <p className="text-6xl font-bold text-primary mb-4">$8,000</p>
-                  <p className="text-muted-foreground mb-8">Complete podcast launch and first 12 episodes with content multiplier system</p>
-                  <Link to="/book-strategy-call">
-                    <Button className="btn-hero">
-                      Schedule Your Consultation
-                    </Button>
-                  </Link>
+            {/* Pricing Card */}
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-white border border-slate-200 rounded-xl p-12">
+                <div className="mb-8">
+                  <div className="text-5xl font-bold text-primary mb-2">
+                    $9,500<span className="text-2xl text-slate-600">/mo</span>
+                  </div>
                 </div>
+
+                {/* Features */}
+                <div className="space-y-4 mb-12">
+                  {pricingFeatures.map((feature, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                      <span className="text-slate-700">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* CTA */}
+                <Link to="/book-strategy-call" className="block">
+                  <Button className="w-full bg-primary hover:bg-primary/90 text-white py-6 text-base font-semibold">
+                    Apply Now
+                  </Button>
+                </Link>
+
+                {/* Timeline */}
+                <p className="text-center text-slate-600 text-sm mt-8">
+                  Typical results: Client data shows 70-90 days to see traction.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         {/* FAQ Section */}
-        <FAQSection 
-          headline={faqSection.headline}
-          description={faqSection.description}
-          questions={faqSection.questions}
-        />
+        <section className="py-16 lg:py-20 bg-white">
+          <div className="container-premium">
+            <div className="mb-16">
+              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+                {faqSection.headline}
+              </p>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                {faqSection.description}
+              </h2>
+            </div>
 
-        {/* Full-width CTA Section */}
-        <div className="mt-12">
-          <CTASection />
-        </div>
+            {/* FAQ Items */}
+            <div className="max-w-3xl mx-auto space-y-6">
+              {faqSection.questions.map((item, index) => (
+                <details key={index} className="group border border-slate-200 rounded-lg p-6 cursor-pointer hover:border-primary transition-colors">
+                  <summary className="flex items-center justify-between font-bold text-slate-900 text-lg">
+                    {item.question}
+                    <span className="text-primary group-open:rotate-180 transition-transform">▼</span>
+                  </summary>
+                  <p className="text-slate-600 mt-4 leading-relaxed">
+                    {item.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
 
+        {/* CTA Section */}
+        <CTASection />
+
+        {/* Footer */}
         <Footer />
       </div>
     </>
