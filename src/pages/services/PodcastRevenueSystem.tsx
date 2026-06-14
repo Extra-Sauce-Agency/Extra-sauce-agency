@@ -263,17 +263,47 @@ const PodcastRevenueSystem = () => {
 
             {/* 4-Stage Flow */}
             <div className="mb-20">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 lg:gap-6 mb-8">
+              {/* Desktop: Single Row */}
+              <div className="hidden lg:flex items-center gap-4 mb-8">
+                {/* Stage 01 - RECORD */}
+                <div className="flex-1 bg-accent text-white p-6 rounded-2xl">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-2 uppercase">01 · Record</p>
+                  <h3 className="text-lg font-bold mb-1">1 × 60-min session</h3>
+                  <p className="text-slate-300 text-sm">The only step that needs you.</p>
+                </div>
+                <div className="text-primary text-2xl font-bold flex-shrink-0">→</div>
+
+                {/* Stage 02 - EXTRACT */}
+                <div className="flex-1 bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-2 uppercase">02 · Extract</p>
+                  <h3 className="text-lg font-bold text-slate-900 mb-1">Clips, newsletter, sales enablement</h3>
+                  <p className="text-slate-600 text-sm">Strategic moments pulled for various goals.</p>
+                </div>
+                <div className="text-primary text-2xl font-bold flex-shrink-0">→</div>
+
+                {/* Stage 03 - DISTRIBUTE */}
+                <div className="flex-1 bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-2 uppercase">03 · Distribute</p>
+                  <h3 className="text-lg font-bold text-slate-900 mb-1">LinkedIn, YouTube, newsletter</h3>
+                  <p className="text-slate-600 text-sm">Clear narrative, top of mind.</p>
+                </div>
+                <div className="text-primary text-2xl font-bold flex-shrink-0">→</div>
+
+                {/* Stage 04 - ENGAGE */}
+                <div className="flex-1 bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-2 uppercase">04 · Engage</p>
+                  <h3 className="text-lg font-bold text-slate-900 mb-1">Social selling & content-led outbound</h3>
+                  <p className="text-slate-600 text-sm">Turn attention into conversations.</p>
+                </div>
+              </div>
+
+              {/* Tablet/Mobile: 2x2 Grid */}
+              <div className="lg:hidden grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 {/* Stage 01 - RECORD */}
                 <div className="bg-accent text-white p-8 rounded-2xl">
                   <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">01 · Record</p>
                   <h3 className="text-2xl font-bold mb-2">1 × 60-min session</h3>
                   <p className="text-slate-300 text-sm">The only step that needs you.</p>
-                </div>
-
-                {/* Arrow - hidden on mobile */}
-                <div className="hidden md:flex items-center justify-center">
-                  <div className="text-primary text-3xl font-bold">→</div>
                 </div>
 
                 {/* Stage 02 - EXTRACT */}
@@ -283,21 +313,11 @@ const PodcastRevenueSystem = () => {
                   <p className="text-slate-600 text-sm">Strategic moments pulled for various goals.</p>
                 </div>
 
-                {/* Arrow - hidden on mobile */}
-                <div className="hidden md:flex items-center justify-center">
-                  <div className="text-primary text-3xl font-bold">→</div>
-                </div>
-
                 {/* Stage 03 - DISTRIBUTE */}
                 <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                   <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">03 · Distribute</p>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">LinkedIn, YouTube, newsletter</h3>
                   <p className="text-slate-600 text-sm">Clear narrative, top of mind.</p>
-                </div>
-
-                {/* Arrow - hidden on mobile */}
-                <div className="hidden md:flex items-center justify-center">
-                  <div className="text-primary text-3xl font-bold">→</div>
                 </div>
 
                 {/* Stage 04 - ENGAGE */}
