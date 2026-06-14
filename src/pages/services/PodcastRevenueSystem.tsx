@@ -249,55 +249,150 @@ const PodcastRevenueSystem = () => {
         </section>
 
         {/* The Content Flywheel Section */}
-        <section className="py-16 lg:py-20 bg-white">
-          <div className="container-premium">
+        <section className="py-16 lg:py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            {/* Header */}
             <div className="mb-16">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                The Content Flywheel
+                Content Flywheel
               </p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                One recording. 20+ assets. A full month of content.
+              <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+                A repeatable engine, not a one-off.
               </h2>
-              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                The distribution speaks for itself. Stay top of mind and have strategic content that influences without the burnout. We take care of everything.
-              </p>
             </div>
 
-            {/* Flywheel Items */}
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">1 60-min recording session</h3>
-                <p className="text-slate-600">Podcast, webinar, or YouTube video</p>
+            {/* 4-Stage Flow */}
+            <div className="mb-20">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 lg:gap-6 mb-8">
+                {/* Stage 01 - RECORD */}
+                <div className="bg-accent text-white p-8 rounded-2xl">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">01 · Record</p>
+                  <h3 className="text-2xl font-bold mb-2">1 × 60-min session</h3>
+                  <p className="text-slate-300 text-sm">The only step that needs you.</p>
+                </div>
+
+                {/* Arrow - hidden on mobile */}
+                <div className="hidden md:flex items-center justify-center">
+                  <div className="text-primary text-3xl font-bold">→</div>
+                </div>
+
+                {/* Stage 02 - EXTRACT */}
+                <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">02 · Extract</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Clips, newsletter, sales enablement</h3>
+                  <p className="text-slate-600 text-sm">Strategic moments pulled for various goals.</p>
+                </div>
+
+                {/* Arrow - hidden on mobile */}
+                <div className="hidden md:flex items-center justify-center">
+                  <div className="text-primary text-3xl font-bold">→</div>
+                </div>
+
+                {/* Stage 03 - DISTRIBUTE */}
+                <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">03 · Distribute</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">LinkedIn, YouTube, newsletter</h3>
+                  <p className="text-slate-600 text-sm">Clear narrative, top of mind.</p>
+                </div>
+
+                {/* Arrow - hidden on mobile */}
+                <div className="hidden md:flex items-center justify-center">
+                  <div className="text-primary text-3xl font-bold">→</div>
+                </div>
+
+                {/* Stage 04 - ENGAGE */}
+                <div className="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                  <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">04 · Engage</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Social selling & content-led outbound</h3>
+                  <p className="text-slate-600 text-sm">Turn attention into conversations.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Output Section */}
+            <div>
+              <div className="flex items-center gap-4 mb-8">
+                <p className="text-slate-600 text-xs font-bold tracking-widest uppercase">Output / Month</p>
+                <div className="flex-1 h-px bg-slate-200"></div>
               </div>
 
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">4-8 Short-form videos</h3>
-                <p className="text-slate-600">Across LinkedIn, Instagram, TikTok, and YouTube Shorts</p>
+              {/* Output Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                {/* 4-8 Short-form videos */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit">4–8</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Short-form videos</h4>
+                      <p className="text-slate-600 text-sm">LinkedIn · Instagram · TikTok · YouTube Shorts</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 1 Flagship episode */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit">1</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Flagship episode</h4>
+                      <p className="text-slate-600 text-sm">YouTube / podcast · incl. cinematic trailer</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2-4 Narrative LinkedIn posts */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit">2–4</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Narrative LinkedIn posts</h4>
+                      <p className="text-slate-600 text-sm">For your executive team</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 1 Newsletter / LinkedIn article */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit">1</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Newsletter / LinkedIn article</h4>
+                      <p className="text-slate-600 text-sm">Built from key insights</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2 Supporting segments */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit">2</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Supporting segments</h4>
+                      <p className="text-slate-600 text-sm">YouTube · LinkedIn · Instagram · TikTok</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* ∞ Always-on engagement */}
+                <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold text-3xl min-w-fit flex items-center justify-center h-12">∞</div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 mb-1">Always-on engagement</h4>
+                      <p className="text-slate-600 text-sm">Social selling · ABM outreach · strategic commenting</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">1 Full-length flagship episode</h3>
-                <p className="text-slate-600">YouTube / podcast, including cinematic trailer</p>
-              </div>
-
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">2-4 Narrative-driven LinkedIn posts</h3>
-                <p className="text-slate-600">For your executive team</p>
-              </div>
-
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">1 Newsletter/LinkedIn article</h3>
-                <p className="text-slate-600">Built from key insights</p>
-              </div>
-
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">2 Supporting segments</h3>
-                <p className="text-slate-600">For YouTube, LinkedIn, Instagram, TikTok</p>
-              </div>
-
-              <div className="bg-slate-50 border border-slate-200 p-8 rounded-xl">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">6 Social selling, ABM outreach, and strategic commenting</h3>
-                <p className="text-slate-600">Across all platforms</p>
+              {/* Total Output */}
+              <div className="flex justify-end">
+                <div className="flex items-center gap-3">
+                  <span className="text-slate-600 text-sm font-medium">Total output</span>
+                  <div className="bg-accent text-white px-6 py-3 rounded-full font-bold">
+                    <span className="text-primary">15+</span> <span className="text-white">pieces every month</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
