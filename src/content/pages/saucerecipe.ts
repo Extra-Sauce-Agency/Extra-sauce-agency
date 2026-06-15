@@ -68,7 +68,7 @@ export const sauceRecipeContent = {
       initialTitle: "B2B Brand Show (Done-for-you)",
       expandedTitle: "Binge-worthy content your buyers wants to see on social media every week.",
       expandedDescription: "Build industry influence and scale revenue with a show engine that fuels every channel and gets Sales out of the low-quality-lead grind (podcast, webinar series, episodic video, etc.).",
-      link: "/services/video-content-engine"
+      link: "/services/podcast-revenue-system"
     }
   ],
 
