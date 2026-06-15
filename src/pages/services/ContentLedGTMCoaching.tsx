@@ -455,17 +455,13 @@ const ContentLedGTMCoaching = () => {
                     Apply Now
                   </Button>
                 </Link>
+
+                {/* Info Text */}
+                <p className="text-center text-slate-600 text-sm mt-6">
+                  Each coaching call can go up to 90 minutes. We only take on 4 coaching clients per month.
+                </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Apply Now Info Section */}
-        <section className="py-12 lg:py-16 bg-white border-t border-slate-200">
-          <div className="container-premium text-center">
-            <p className="text-lg text-slate-600">
-              Each coaching call can go up to 90 minutes. We only take on 4 coaching clients per month.
-            </p>
           </div>
         </section>
 
