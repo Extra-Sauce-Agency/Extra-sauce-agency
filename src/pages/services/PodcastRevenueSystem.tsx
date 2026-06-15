@@ -530,25 +530,24 @@ const PodcastRevenueSystem = () => {
         {/* Pricing Section */}
         <section className="py-16 lg:py-20 bg-slate-50">
           <div className="container-premium">
-            <div className="mb-16">
+            <div className="text-center mb-16">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
                 Pricing
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
                 Podcast Revenue System
               </h2>
-              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                We ask for 6-month agreements to build this property.
+              <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                Build a binge-worthy content show & newsletter that becomes your company's primary demand engine that your buyers actively look forward to every week.
               </p>
             </div>
 
             {/* Pricing Card */}
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-white border border-slate-200 rounded-xl p-12">
-                <div className="mb-8">
-                  <div className="text-5xl font-bold text-primary mb-2">
-                    $9,500<span className="text-2xl text-slate-600">/mo</span>
-                  </div>
+            <div className="max-w-2xl mx-auto">
+              <div className="bg-white border-2 border-slate-900 rounded-2xl p-12">
+                <div className="text-center mb-8">
+                  <p className="text-6xl font-bold text-slate-900 mb-2">$9,500</p>
+                  <p className="text-slate-600">/month</p>
                 </div>
 
                 {/* Features */}
@@ -570,7 +569,7 @@ const PodcastRevenueSystem = () => {
 
                 {/* Timeline */}
                 <p className="text-center text-slate-600 text-sm mt-8">
-                  Typical results: Client data shows 70-90 days to see traction.
+                  Typical results: Client data shows 3-4 months to see traction.
                 </p>
               </div>
             </div>
