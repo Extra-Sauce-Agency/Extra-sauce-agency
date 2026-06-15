@@ -48,21 +48,21 @@ export const sauceRecipeContent = {
   // Content Journey Stages
   journeyStages: [
     {
-      initialTitle: "Pipeline Sprint",
-      expandedTitle: "We'll teach you how to run The Sauce Recipe™",
-      expandedDescription: "In 6–8 weeks, we'll sharpen your positioning, build an omni-channel presence that clicks with your buyers, and install a content + outbound system that generates qualified inquiries. We coach your team so you can run it with confidence.",
+      initialTitle: "Build your own content revenue system in 6-8 weeks",
+      expandedTitle: "The Sauce Recipe™ installed in your business",
+      expandedDescription: "Over 6–8 weeks, you work directly with a senior demand gen strategist who builds The Sauce Recipe™ into your business. We sharpen your Market Of One positioning, build your scroll-stopping content engine, install your social selling infrastructure, and set up your outbound workflows. By the end, your team runs the full system independently.",
       link: "/services/content-led-gtm-coaching"
     },
     {
-      initialTitle: "Turn your executive brand into a 10x BDR",
-      expandedTitle: "We handle the content like it's you but with our battle-tested system",
-      expandedDescription: "We turn your executive team into trusted thought leaders—ghostwriting in your voice and aligning content with multi-channel outbound so it drives real conversations",
+      initialTitle: "Turn your executive LinkedIn presence into a 10x BDR",
+      expandedTitle: "Content & outbound that sounds like you.",
+      expandedDescription: "We turn your executive team into visible and credible thought leaders on LinkedIn with only 2-4 content calls/mo. Most clients see leading indicators within 45–60 days and qualified pipeline conversations within 70–90.",
       link: "/services/linkedin-revenue-system"
     },
     {
-      initialTitle: "B2B Brand Show (Done-for-you)",
-      expandedTitle: "Binge-worthy content your buyers wants to see on social media every week.",
-      expandedDescription: "Build industry influence and scale revenue with a show engine that fuels every channel and gets Sales out of the low-quality-lead grind (podcast, webinar series, episodic video, etc.).",
+      initialTitle: "B2B Podcast Show",
+      expandedTitle: "Binge-worthy content that turns your buyers into fans",
+      expandedDescription: "B2B SaaS teams ready to build category authority at scale. We produce a brand show that becomes your company's primary demand engine. 2 x 60-minute recording becomes 20+ assets across LinkedIn, YouTube, and your newsletter.",
       link: "/services/podcast-revenue-system"
     }
   ],
