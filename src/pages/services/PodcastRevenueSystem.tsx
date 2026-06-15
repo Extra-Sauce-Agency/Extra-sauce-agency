@@ -494,41 +494,33 @@ const PodcastRevenueSystem = () => {
               </h2>
             </div>
 
-            {/* Results Grid */}
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
+            {/* Metrics Grid */}
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
               {results.map((result, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-5xl font-bold text-primary mb-4">
-                    {result.metric}
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">
-                    {result.label}
-                  </h3>
-                  <p className="text-slate-600">
-                    {result.description}
-                  </p>
+                <div key={index} className="bg-slate-50 p-8 rounded-xl border border-slate-200">
+                  <p className="text-4xl font-bold text-primary mb-2">{result.metric}</p>
+                  <p className="text-lg font-bold text-slate-900 mb-4">{result.label}</p>
+                  <p className="text-slate-600 text-sm leading-relaxed">{result.description}</p>
                 </div>
               ))}
             </div>
 
             {/* Testimonial */}
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-slate-900 text-white p-12 rounded-xl">
-                <p className="text-lg leading-relaxed mb-8">
-                  "{testimonial.quote}"
-                </p>
-                <div className="flex items-center gap-4">
-                  {testimonial.photo && (
-                    <img 
-                      src={testimonial.photo} 
-                      alt={testimonial.author}
-                      className="w-16 h-16 rounded-full object-cover"
-                    />
-                  )}
-                  <div>
-                    <p className="font-bold text-white">{testimonial.author}</p>
-                    <p className="text-slate-400">{testimonial.title}</p>
-                  </div>
+            <div className="bg-accent border-l-4 border-primary p-8 rounded-lg max-w-5xl mx-auto">
+              <p className="text-lg italic mb-8 leading-relaxed text-white">
+                "{testimonial.quote}"
+              </p>
+              <div className="flex items-center gap-4">
+                {testimonial.photo && (
+                  <img 
+                    src={testimonial.photo} 
+                    alt={testimonial.author}
+                    className="w-20 h-20 rounded-full object-cover flex-shrink-0"
+                  />
+                )}
+                <div>
+                  <p className="font-semibold text-white">{testimonial.author}</p>
+                  <p className="text-accent-foreground/80">{testimonial.title}</p>
                 </div>
               </div>
             </div>
