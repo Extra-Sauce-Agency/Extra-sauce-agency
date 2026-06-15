@@ -25,28 +25,23 @@ export const sauceRecipeContent = {
   steps: [
     {
       number: 1,
-      title: "MarketFit Spinner",
-      description: "Market-of-one positioning + company narrative that makes buying from you feel obvious."
+      title: "MarketFit Spinner™",
+      description: "We build your Market Of One positioning and company narrative — the strategic foundation that makes buying from you feel like the only logical decision for your exact buyer."
     },
     {
       number: 2,
-      title: "Scroll-Stopping Engine",
-      description: "Content built to earn attention and make buyers want to see you in their feed."
+      title: "Scroll-Stopping Engine™",
+      description: "With positioning locked, we build the content that earns trust with your exact buyers at scale, not content to fill a calendar, but content engineered to establish your executive as the most credible voice in your category."
     },
     {
       number: 3,
-      title: "Warm Outbound (Influence) System",
-      description: "Multi-touch sequences that drive ideal prospects into your realm of influence so reply rates go up and raving fans show up on discovery calls."
+      title: "Warm Outbound System™",
+      description: "Cold outbound fails because buyers ignore strangers. This phase converts the audience Phase 2 spent weeks building. We run targeted outbound sequences against those engaging with your executive's content and target lists."
     },
     {
       number: 4,
-      title: "Thought Leadership Paid Ads Strategy",
-      description: "Retargeting proven organic winners to reach high-intent personas and generate higher-quality demos at lower CAC."
-    },
-    {
-      number: 5,
-      title: "🌶️ Ready for more qualified sales opportunities?",
-      description: "Ready to take the next step in your content journey?"
+      title: "C-suite Paid Ads Strategy™",
+      description: "The final phase amplifies what's already proven to work — not cold product messaging at a cold audience, but your best-performing organic content retargeted to buyers who are actively researching solutions."
     }
   ],
 
