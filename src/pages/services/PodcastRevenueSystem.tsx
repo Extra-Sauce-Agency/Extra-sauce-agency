@@ -614,7 +614,27 @@ const PodcastRevenueSystem = () => {
         </section>
 
         {/* CTA Section */}
-        <CTASection />
+        <section className="py-16 lg:py-20 bg-slate-900 text-white text-center">
+          <div className="container-premium max-w-3xl mx-auto">
+            <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
+              Ready to build pipeline with content?
+            </p>
+            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              One step closer to reaching the next growth stage
+            </h2>
+            <p className="text-lg text-slate-300 mb-8 leading-relaxed">
+              Apply below to work with our team. If you're accepted for a strategy call, our team will present findings from our preliminary audit, identify the biggest content opportunities, and show you the best path to pipeline with content.
+            </p>
+            <Link to="/book-strategy-call">
+              <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold">
+                Apply Now
+              </Button>
+            </Link>
+            <p className="text-slate-400 text-sm mt-6">
+              No pitch. Just an honest conversation about your content efforts.
+            </p>
+          </div>
+        </section>
 
         {/* Footer */}
         <Footer />
