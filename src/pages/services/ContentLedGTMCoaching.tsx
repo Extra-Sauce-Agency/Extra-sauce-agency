@@ -31,7 +31,7 @@ const ContentLedGTMCoaching = () => {
     },
     {
       title: "The cost of inaction",
-      description: "<strong>You want to be able to run your own personal brand but it is overwhelming.</strong> Content revenue systems should be tailored to your unique situation to avoid burnout and ensure you have time for core business activities.",
+      description: "You want to be able to run your own personal brand but it is overwhelming",
       highlighted: true
     }
   ];
@@ -276,7 +276,7 @@ const ContentLedGTMCoaching = () => {
                     {problem.title}
                   </h3>
                   <p className={problem.highlighted ? "text-slate-300" : "text-slate-600"}>
-                    <span dangerouslySetInnerHTML={{ __html: problem.description }} />
+                    {problem.description}
                   </p>
                 </div>
               ))}
