@@ -62,7 +62,7 @@ export const sauceRecipeContent = {
       initialTitle: "Turn your executive brand into a 10x BDR",
       expandedTitle: "We handle the content like it's you but with our battle-tested system",
       expandedDescription: "We turn your executive team into trusted thought leaders—ghostwriting in your voice and aligning content with multi-channel outbound so it drives real conversations",
-      link: "/services/executive-ghostwriting"
+      link: "/services/linkedin-revenue-system"
     },
     {
       initialTitle: "B2B Brand Show (Done-for-you)",
