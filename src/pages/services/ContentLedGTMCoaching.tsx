@@ -8,7 +8,7 @@ import { organizationSchema } from "@/data/structured-data";
 
 const ContentLedGTMCoaching = () => {
   const heroMetrics = [
-    { value: "6 weeks", label: "From zero to pipeline engine" },
+    { value: "8 weeks", label: "From zero to pipeline engine" },
     { value: "1:1 calls", label: "White-glove coaching" },
     { value: "85%", label: "Time spent building systems" }
   ];
