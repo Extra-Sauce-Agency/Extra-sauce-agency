@@ -15,7 +15,7 @@ export const sauceRecipeContent = {
   ],
   audioLabel: "How Extra Sauce Started...",
   audioDuration: "06:30 / 13:25",
-  walkThroughTitle: "WALK THROUGH THE SAUCE® RECIPE",
+  walkThroughTitle: "WALK THROUGH THE SAUCE RECIPE™",
   walkThroughSubtitle: "Where Are You In Your Content Journey?",
   clickToLearn: "Click to find the best path to revenue for you",
   
@@ -68,7 +68,7 @@ export const sauceRecipeContent = {
   ],
 
   // Department Benefits
-  departmentBenefitsTitle: "HOW DOES THE SAUCE RECIPE® BENEFIT THE ORGANIZATION",
+  departmentBenefitsTitle: "HOW DOES THE SAUCE RECIPE™ BENEFIT THE ORGANIZATION",
   departments: ["C-SUITE", "SALES", "MARKETING", "FINANCE"],
   departmentBenefits: {
     "C-SUITE": [
