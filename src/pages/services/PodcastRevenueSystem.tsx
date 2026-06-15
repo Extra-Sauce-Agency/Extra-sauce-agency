@@ -23,7 +23,7 @@ const PodcastRevenueSystem = () => {
     {
       number: "3",
       title: "Binge-worthy & Insightful",
-      description: "Content that feels like it's trying to sell never works. Instead it gets buyers to quietly leave you out of their consideration set. Instead, having content they love to tune into daily that they find interesting and help them along their career is GOLD they will keep coming back to."
+      description: "The moment content feels like a sales pitch, buyers tune out and quietly leave you off their shortlist. Content they look forward to does the opposite. Make it interesting, make it useful to their career, and they'll come back daily without being chased."
     }
   ];
 
@@ -470,10 +470,10 @@ const PodcastRevenueSystem = () => {
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {benefits.map((benefit, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">
+                  <h3 className="text-lg font-bold text-slate-900 mb-4 leading-snug">
                     {benefit.title}
                   </h3>
-                  <p className="text-slate-600 leading-relaxed">
+                  <p className="text-slate-600 leading-relaxed text-sm">
                     {benefit.description}
                   </p>
                 </div>
