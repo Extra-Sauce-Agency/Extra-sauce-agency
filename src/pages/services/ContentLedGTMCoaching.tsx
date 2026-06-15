@@ -30,7 +30,7 @@ const ContentLedGTMCoaching = () => {
       highlighted: false
     },
     {
-      title: "The cost of inaction",
+      title: "Building a personal brand feels overwhelming",
       description: "Content revenue systems should be tailored to your unique situation to avoid burnout and ensure you have time for core business activities.",
       highlighted: true
     }
