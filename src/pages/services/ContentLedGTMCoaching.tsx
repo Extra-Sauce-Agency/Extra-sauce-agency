@@ -425,10 +425,10 @@ const ContentLedGTMCoaching = () => {
                 Pricing
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Content/Solopreneur Revenue Sprint
+                Content-To-Pipeline Sprint
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                One-time investment and get a content revenue system in 8 weeks.
+                Work 1:1 with us to build your own content revenue system in 8 weeks with the exact strategy, systems, and playbooks we use in The Sauce Recipe™
               </p>
             </div>
 
