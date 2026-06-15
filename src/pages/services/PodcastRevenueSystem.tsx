@@ -122,7 +122,15 @@ const PodcastRevenueSystem = () => {
       },
       {
         question: "What does the newsletter have to do with the podcast?",
-        answer: "The podcast is your demand creation engine. It keeps your brand in your buyers' feeds, builds familiarity with your executive's point of view, and earns trust with the 95% of your market that isn't ready to buy right now. The newsletter is your demand capture engine. It's how you own the audience the podcast builds, reach buyers directly in their inbox, and convert the people who are ready to buy now."
+        answer: "The podcast is your demand creation engine. It keeps your brand in your buyers' feeds, builds familiarity with your executive's point of view, and earns trust with the 95% of your market that isn't ready to buy right now.\n\nThe newsletter is your demand capture engine. It's how you own the audience the podcast builds, reach buyers directly in their inbox, and convert the people who are ready to buy now.\n\nMost B2B podcasts create demand and then leave it on the table. Together, they cover the full buying journey."
+      },
+      {
+        question: "How much time does this actually take from our executive team?",
+        answer: "Four hours per month. 60-minute recording sessions each. Everything else is ours.\n\nSelf-managing a podcast typically requires a monthly internal commitment of at least 30 hours."
+      },
+      {
+        question: "How is this different from hiring a podcast production agency?",
+        answer: "A podcast production agency delivers files. We build a revenue system that happens to use a podcast as its anchor. We don't stop at production.\n\nProduction agencies are accountable to content output. We're accountable to business outcomes. Those are different businesses."
       }
     ]
   };
