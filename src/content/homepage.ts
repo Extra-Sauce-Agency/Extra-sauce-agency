@@ -119,7 +119,7 @@ export const servicesOverviewSection = {
     {
       title: "LinkedIn Revenue System",
       price: "$5,500/mo",
-      descriptionTop: "Turn your executive’s LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.",
+      descriptionTop: "Turn your executive's LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.",
       features: [
         "Content Management",
         "Creative & Narrative Development",
@@ -130,7 +130,7 @@ export const servicesOverviewSection = {
       ],
       descriptionBottom: "You work with a demand gen manager, senior copywriter, and senior designer dedicated to your account.",
       cta: "See The LinkedIn Revenue System",
-      link: "/services/executive-ghostwriting"
+      link: "/services/linkedin-revenue-system"
     },
     {
       title: "Podcast Revenue System",
@@ -147,7 +147,7 @@ export const servicesOverviewSection = {
       ],
       descriptionBottom: "You work with a dedicated director of demand gen, show producer, senior video editors, a senior copywriter, and a senior designer.",
       cta: "See The Podcast Revenue System",
-      link: "/services/video-content-engine"
+      link: "/services/podcast-revenue-system"
     },
     {
       title: "Content-To-Pipeline Sprint",
