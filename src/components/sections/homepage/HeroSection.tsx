@@ -76,9 +76,17 @@ const HeroSection = () => {
           </h1>
 
           {/* Enhanced Subheadline */}
-          <p className="text-lg lg:text-xl text-muted-foreground mb-10 max-w-5xl mx-auto leading-relaxed">
+          <p className="text-lg lg:text-xl text-muted-foreground mb-8 max-w-5xl mx-auto leading-relaxed">
             {heroSection.subheadline}
           </p>
+
+          {/* Pop-up qualifier tag */}
+          <div className="max-w-2xl mx-auto mb-10 bg-[#FFF7F5] border border-[#FFE7E1] rounded-xl p-4 text-left">
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              <span className="font-bold text-foreground">{heroSection.popupTagLead}</span>{" "}
+              {heroSection.popupTagRest}
+            </p>
+          </div>
 
           {/* Enhanced CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-20">

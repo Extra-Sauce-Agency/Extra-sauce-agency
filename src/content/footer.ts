@@ -24,7 +24,7 @@ export const servicesLinks = {
   title: "SERVICES",
   links: [
     { name: "LinkedIn Revenue System", href: "/services/linkedin-revenue-system" },
-    { name: "Podcast Revenue System", href: "/services/podcast-revenue-system" },
+    { name: "Video Revenue System", href: "/services/video-revenue-system" },
     { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" }
   ]
 };

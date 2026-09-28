@@ -11,15 +11,18 @@ const WhoIsThisForSection = () => {
       </div>
       <div className="section-divider mb-20"></div>
       <div className="container-premium relative z-10">
-        <div className="text-center mb-20 animate-fade-in">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-            Content without a capture system doesn't generate pipeline.{" "}
+            {whoIsThisForSection.headline}{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              It generates views.
+              {whoIsThisForSection.headlineAccent}
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed">
-            {whoIsThisForSection.headline}
+          <p className="text-xl text-muted-foreground max-w-6xl mx-auto leading-relaxed mb-8">
+            {whoIsThisForSection.subheadline}
+          </p>
+          <p className="text-sm font-bold uppercase tracking-widest text-primary">
+            {whoIsThisForSection.label}
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

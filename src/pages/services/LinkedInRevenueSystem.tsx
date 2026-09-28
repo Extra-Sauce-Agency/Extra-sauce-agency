@@ -95,30 +95,30 @@ const LinkedInRevenueSystem = () => {
   };
 
   const pricingFeatures = [
-    "20 assets/month (Executive Ghostwriting)",
+    "Content Management",
+    "Sales Development Representative On Account",
     "Creative & Narrative Development",
     "Executive Brand Development",
-    "LinkedIn Outbound & social selling",
-    "ABM & pipeline funnel guidance",
-    "Performance Reporting",
-    "LinkedIn Management"
+    "LinkedIn Engagement & Social Selling",
+    "Account-based Marketing",
+    "Performance Reporting"
   ];
 
   const faqSection = {
-    headline: "Common Questions",
-    description: "Everything you need to know about the LinkedIn Revenue System",
+    headline: "Frequently Asked Questions",
+    description: "",
     questions: [
       {
         question: "We've tried LinkedIn content before and got zero pipeline. Why would this be different?",
-        answer: "Because what you tried before wasn't a revenue system. It was a content delivery service. And those are two completely different things. Most LinkedIn agencies — and most ghostwriters — do the same thing: they interview you, write posts, schedule them, and send you an impressions report at the end of the month. We pair insightful binge-worthy content with strategic outbound. Content without outbound is a billboard nobody drives past. Outbound without content is cold calling with a stranger's number."
+        answer: "What you tried might not have been a revenue system. It was a content delivery service. And those are two completely different things.\n\nMost LinkedIn agencies & most ghostwriters do the same thing: they interview you, write posts, schedule them, and send you an impressions report at the end of the month.\n\nThe difference is we create a fix of content formats to avoid content fatigue and pair it with strategic outbound.\n\nContent without outbound is a billboard nobody drives past.\nOutbound without content is cold calling with a stranger's number."
       },
       {
-        question: "Is $5,500/month worth it? How do I know I'll see ROI?",
-        answer: "Our clients with an average deal size of $20K–$50K typically recoup the investment within 3 months. One closed deal covers six months of the retainer. Two deals and you're profitable on the channel for the year (and it keeps compounding after that, because thought leadership doesn't stop working when you stop paying, the way paid ads do). Here's what that looks like in practice: PSII added $428K ARR within 8 months. A client in the automotive AI space closed $600K ARR within 4 months. Ice X booked 12 qualified meetings within 45 days of starting. These aren't outliers we lead with to impress you, they're the output of a LinkedIn system that generates pipeline."
+        question: "Is the cost worth it? How do I know I'll see ROI?",
+        answer: "Our clients with an average deal size of $20K–$50K typically recoup the investment within 3 months. One closed deal covers six months of the retainer. Two deals and you're profitable on the channel for the year (and it keeps compounding after that, because thought leadership doesn't stop working when you stop paying, the way paid ads do).\n\nHere's what that looks like in practice: PSII added $428K ARR within 8 months. A client in the automotive AI space closed $600K ARR within 4 months. Ice X booked 12 qualified meetings within 45 days of starting."
       },
       {
         question: "How do you make sure the content actually sounds like me?",
-        answer: "Most ghostwritten content is detectable in the first sentence. It's safe, surface-level, and clearly written by someone who read your website for 20 minutes. We understand you've spent years building your trust. This is why our proprietary system clones your technical expertise, POV, and tone of voice to write posts like you've spent 2 hours doing it yourself. From there, we run a content market fit sprint; testing different hooks, angles, and formats against your actual target account list. We find out what your specific buyers respond to before we commit to a full content calendar. No guessing."
+        answer: "Most ghostwritten content is detectable in the first sentence. It's safe, surface-level, and clearly written by someone who read your website for 20 minutes.\n\nWe understand you’ve spent years building your trust. This is why our proprietary system clones your technical expertise, POV, and tone of voice to write posts like you’ve spent 2 hours doing it yourself.\n\nFrom there, we run a content-market-fit sprint; testing different hooks, angles, and formats against your actual target account list. We find out what your specific buyers respond to before we commit to a full content calendar. No guessing."
       },
       {
         question: "When can I realistically expect to see qualified pipeline from this?",
@@ -130,7 +130,7 @@ const LinkedInRevenueSystem = () => {
       },
       {
         question: "Will this work on an audience that is niche and sophisticated?",
-        answer: "Mass reach is not our goal. We're not trying to get you viral. We're trying to get you known by the 200–500 decision-makers at the companies you actually want to close. When your buyers are sophisticated, generic content makes you look like a commodity solution. They are smart enough to find the best 1-2 options themselves. This discovery happens through content and LinkedIn outreach."
+        answer: "Mass reach is not our goal. We're not trying to get you viral. We're trying to get you known by the 200–500 decision-makers at the companies you actually want to close.\n\nWhen your buyers are sophisticated, generic content makes you look like a commodity solution.\n\nThey are smart enough to find the best 1-2 options themselves. This discovery happens through content and LinkedIn outreach."
       }
     ]
   };
@@ -371,43 +371,36 @@ const LinkedInRevenueSystem = () => {
           <div className="container-premium">
             <div className="text-center mb-16">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                Pricing
+                What's Included
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
                 LinkedIn Revenue System
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-                Turn your executive's LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.
+                Turn your executive’s LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.
               </p>
             </div>
 
             <div className="max-w-2xl mx-auto">
-              <div className="bg-white border-2 border-slate-900 rounded-2xl p-12">
-                <div className="text-center mb-8">
-                  <p className="text-6xl font-bold text-slate-900 mb-2">$5,500</p>
-                  <p className="text-slate-600">/month</p>
-                </div>
-
-                {/* Features */}
-                <div className="space-y-4 mb-8">
+              <div className="bg-white border-2 border-slate-900 rounded-2xl p-10 lg:p-12">
+                <div className="space-y-4 mb-8 text-left">
                   {pricingFeatures.map((feature, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                       <p className="text-slate-700">{feature}</p>
                     </div>
                   ))}
                 </div>
 
-                {/* CTA */}
+                <p className="text-center text-base text-slate-700 font-medium mb-8">
+                  You work with a demand gen manager, senior copywriter, SDR, and senior designer dedicated to your account.
+                </p>
+
                 <Link to="/book-strategy-call" className="block mb-4">
                   <Button className="w-full bg-primary hover:bg-primary/90 text-white py-6 text-base font-semibold">
                     Apply Now
                   </Button>
                 </Link>
-
-                <p className="text-center text-sm text-slate-600">
-                  Typical results: Client data shows 70-90 days to see traction.
-                </p>
               </div>
             </div>
           </div>
@@ -431,7 +424,7 @@ const LinkedInRevenueSystem = () => {
               </Button>
             </Link>
             <p className="text-slate-400 text-sm mt-6">
-              No pitch. Just an honest conversation about your content efforts.
+              Just an honest conversation about your content efforts.
             </p>
           </div>
         </section>

@@ -9,6 +9,7 @@ import FAQSection from "@/components/sections/homepage/FAQSection";
 import CTASection from "@/components/sections/homepage/CTASection";
 import Footer from "@/components/shared/Footer";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { faqSection as homepageFaqSection } from "@/content/homepage";
 import { homepageStructuredData } from "@/data/structured-data";
 
 const HomePage = () => {
@@ -48,7 +49,11 @@ const HomePage = () => {
           <Testimonials />
           <ProcessSection />
           <ServicesOverviewSection />
-          <FAQSection />
+          <FAQSection
+            headline={homepageFaqSection.headline}
+            description={homepageFaqSection.subheadline}
+            questions={homepageFaqSection.faqs}
+          />
           <CTASection />
         </main>
         <Footer />

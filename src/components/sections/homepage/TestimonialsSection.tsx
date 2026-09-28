@@ -13,7 +13,7 @@ const Testimonials = () => {
       author: "Vik Saini",
       title: "Head of Sales, PSII",
       avatar: "/viksoni.png",
-      impact: "Podcast Revenue System",
+      impact: "Video Revenue System",
       metrics: [
         { label: "ARR Added", value: "428K", icon: DollarSign },
         { label: "Qualified Meetings", value: "~16/mo", icon: Users }
@@ -87,13 +87,13 @@ const Testimonials = () => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            From "we need better leads" to{" "}
+            Go from "we need better leads" to{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              16 qualified meetings a month.
+              dream customers coming on sales calls already as raving fans sold through your content.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-6xl mx-auto">
-            Mid-market B2B SaaS teams. Measurable pipeline outcomes. Here's what The Sauce Recipe™ looks like when it's running.
+            Here's what our clients have to say about The Sauce Recipe™
           </p>
         </div>
 

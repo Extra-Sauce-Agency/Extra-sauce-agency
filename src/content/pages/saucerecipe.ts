@@ -63,7 +63,7 @@ export const sauceRecipeContent = {
       initialTitle: "B2B Podcast Show",
       expandedTitle: "Binge-worthy content that turns your buyers into fans",
       expandedDescription: "B2B SaaS teams ready to build category authority at scale. We produce a brand show that becomes your company's primary demand engine. 2 x 60-minute recording becomes 20+ assets across LinkedIn, YouTube, and your newsletter.",
-      link: "/services/podcast-revenue-system"
+      link: "/services/video-revenue-system"
     }
   ],
 

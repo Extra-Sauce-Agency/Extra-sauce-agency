@@ -38,7 +38,7 @@ const CTASection = () => {
             {ctaSection.description}
           </p>
           
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center">
             <Link to="/book-strategy-call">
               <Button className="group relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary/90 px-12 py-6 text-lg font-semibold rounded-2xl shadow-elegant hover:scale-105 transition-all duration-300">
                 <span className="relative z-10 flex items-center">
@@ -49,6 +49,9 @@ const CTASection = () => {
                 </span>
               </Button>
             </Link>
+            <p className="mt-6 text-lg text-muted-foreground italic max-w-3xl">
+              What if your CEO became the name your industry can't stop talking about
+            </p>
           </div>
         </div>
       </div>

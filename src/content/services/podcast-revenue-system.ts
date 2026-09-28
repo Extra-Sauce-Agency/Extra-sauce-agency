@@ -1,9 +1,9 @@
-// PODCAST REVENUE SYSTEM SERVICE PAGE CONTENT
-// Edit this file to change content for the Podcast Revenue System service page
+// VIDEO REVENUE SYSTEM SERVICE PAGE CONTENT
+// Edit this file to change content for the Video Revenue System service page
 
 export const heroSection = {
-  title: "Podcast Revenue System",
-  description: "Launch and monetize a podcast that builds your authority and generates revenue.",
+  title: "Video Revenue System",
+  description: "Launch and monetize a video-first content engine that builds your authority and generates revenue.",
   primaryButton: "Learn More"
 };
 
@@ -27,8 +27,8 @@ export const secondaryHeroSection = {
 };
 
 export const systemSection = {
-  headline: "THE PODCAST REVENUE SYSTEM",
-  description: "A complete framework to launch, grow, and monetize your podcast while building authority in your industry.",
+  headline: "THE VIDEO REVENUE SYSTEM",
+  description: "A complete framework to launch, grow, and monetize your video-first content engine while building authority in your industry.",
   steps: [
     {
       title: "Complete Podcast Setup",
@@ -53,8 +53,8 @@ export const testimonialSection = {
 };
 
 export const benefitsSection = {
-  headline: "BENEFITS: PODCAST REVENUE SYSTEM",
-  description: "Our Podcast Revenue System doesn't just build your presence—it establishes authority and generates qualified leads. Here's how we deliver value:",
+  headline: "BENEFITS: VIDEO REVENUE SYSTEM",
+  description: "Our Video Revenue System doesn't just build your presence—it establishes authority and generates qualified leads. Here's how we deliver value:",
   benefits: [
     {
       title: "Authority & Credibility",
@@ -81,7 +81,7 @@ export const benefitsSection = {
 
 export const faqSection = {
   headline: "Frequently Asked Questions",
-  description: "Everything you need to know about the Podcast Revenue System.",
+  description: "Everything you need to know about the Video Revenue System.",
   questions: [
     {
       question: "Do I need any technical skills to start a podcast?",

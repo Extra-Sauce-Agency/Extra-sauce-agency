@@ -13,17 +13,17 @@ const PodcastRevenueSystem = () => {
     {
       number: "1",
       title: "Targeted Buyer Lists",
-      description: "The goal is not to get mass views but instead qualified buyers infront of your content. This is why we map out key account lists and focus all of our efforts getting attention from them."
+      description: "The goal is not to get mass views but instead qualified buyers in front of your content. That is why we map out key account lists and focus all our efforts on getting their attention."
     },
     {
       number: "2",
-      title: "Demand Creation & Demand capture",
-      description: "Most teams don't do both and that's where they lose sale opportunities. Our video production keeps you top of mind on the feeds and then be able to capture that demand in-market through curated newsletters."
+      title: "Demand Creation & Demand Capture",
+      description: "Most teams don't do both and that's where they lose sales opportunities. Our video production keeps you top of mind in feeds, and we capture that in-market demand through curated outbound."
     },
     {
       number: "3",
       title: "Binge-worthy & Insightful",
-      description: "The moment content feels like a sales pitch, buyers tune out and quietly leave you off their shortlist. Content they look forward to does the opposite. Make it interesting, make it useful to their career, and they'll come back daily without being chased."
+      description: "Content that feels like it's trying to sell never works, it gets buyers to quietly leave you out of their consideration set. Instead, having content they love to tune into daily that they find interesting and help them along their career is GOLD they will keep tuning into."
     }
   ];
 
@@ -56,7 +56,7 @@ const PodcastRevenueSystem = () => {
       description: "We build value-based relationships with tier 1/2 target account lists via episode invites, co-marketing collaborations, and warm introductions."
     },
     {
-      title: "A video presence everywhere with little involvement",
+      title: "A trusted presence everywhere",
       description: "You will become discoverable across all platforms and unquestionable wherever a decision maker looks."
     },
     {
@@ -65,7 +65,7 @@ const PodcastRevenueSystem = () => {
     },
     {
       title: "Sales team wastes less time on low-quality leads",
-      description: "We grow a realm of influence around executives and shorter sale cycles with their exact targeted account list and have raving fans showing up on demo calls that already know your name from LinkedIn."
+      description: "We grow a realm of influence around executives and results in shorter sales cycles with their exact targeted account list and have raving fans showing up on demo calls that already know your name from social media."
     }
   ];
 
@@ -95,51 +95,47 @@ const PodcastRevenueSystem = () => {
   };
 
   const pricingFeatures = [
-    "Podcast Management",
-    "Newsletter growth management",
-    "High-Value Guest Sourcing",
+    "Brand Show Management (podcast, webinar, YouTube series)",
+    "Guest Sourcing",
     "Creative & Narrative Development",
-    "Content Flywheel Distribution",
-    "ABM & pipeline funnel guidance",
+    "Content Flywheel distribution",
+    "Community engagement",
+    "Account-Based Marketing",
     "Performance Measurement"
   ];
 
   const faqSection = {
     headline: "Common Questions",
-    description: "Everything you need to know about the Podcast Revenue System",
+    description: "Everything you need to know about the Video Revenue System",
     questions: [
       {
         question: "We already have a podcast and it's not generating leads. What would you do differently?",
-        answer: "First, we'd stop chasing downloads and start targeting decision-makers. We map your exact target account list before we record episode one. Every piece of content that comes out of the studio (the full episode, the short-form clips, the newsletter posts) gets distributed specifically to the companies you want to close. Second, we'd connect the podcast to your outbound motion; ABM nurturing, sales-ready assets, and establishing credibility through peers. Third, we'd build the demand capture layer you're missing. A podcast keeps you top of mind. A newsletter converts the audience when they're ready to buy."
+        answer: "First, we'd stop chasing downloads and start targeting decision-makers. We map your exact target account list before we record episode one. Every piece of content that comes out of the studio (the full episode, the short-form clips, the newsletter, the LinkedIn posts) gets distributed specifically to the companies you want to close.\n\nSecond, we'd connect the podcast to your outbound motion; ABM nurturing, sales-ready assets, and establishing credibility through peers.\n\nThird, we'd build the demand capture layer you're missing. A podcast keeps you top of mind. A newsletter converts the audience when they're ready to buy."
       },
       {
-        question: "Is $9,500/month worth it? How does this pay for itself?",
-        answer: "A demand gen manager, a senior video editor, a copywriter, a content strategist, an outreach coordinator, and a show producer (the team required to run a content flywheel at this level) runs $25,000–$42,000 per month in payroll alone. Before tools, before ramp-up time, before the six months it takes a new hire to understand your voice, your category, and your buyers. And when someone leaves, you start over. If your average deal size is $30,000–$100,000, a single closed opportunity more than covers a month of the retainer. Two deals in a quarter and the channel is profitable. Our deals in the $200–$500k range typically see the investment pay for itself within 6 months."
+        question: "Is the cost worth it? How does this pay for itself?",
+        answer: "A demand gen manager, senior video editor, copywriter, content strategist, outreach coordinator, and a show producer runs $25,000–$42,000 per month in payroll alone. Before tools, before ramp-up time, before the testing phase. We are a fraction of the cost."
       },
       {
-        question: "Our audience is small and niche. Can a podcast realistically generate pipeline for us?",
-        answer: "Here's the reality of your market: there are probably 200–1,000 companies that could realistically buy from you. Within those companies, there are 3–5 decision-makers per company. Your total addressable audience for pipeline purposes is somewhere between 600–5,000 people. That's not a podcast reach problem. That's a targeting opportunity. We don't publish and pray. We build your target account list before the first episode drops, and we drive every asset (clips, full episodes, newsletter, LinkedIn posts) directly to the decision-makers on that list."
-      },
-      {
-        question: "What does the newsletter have to do with the podcast?",
-        answer: "The podcast is your demand creation engine. It keeps your brand in your buyers' feeds, builds familiarity with your executive's point of view, and earns trust with the 95% of your market that isn't ready to buy right now.\n\nThe newsletter is your demand capture engine. It's how you own the audience the podcast builds, reach buyers directly in their inbox, and convert the people who are ready to buy now.\n\nMost B2B podcasts create demand and then leave it on the table. Together, they cover the full buying journey."
+        question: "Our audience is small and niche. Can a podcast or webinar realistically generate pipeline for us?",
+        answer: "Here's the reality of your market: there are probably 200–1,000 companies that could realistically buy from you. Within those companies, there are 1–3 decision-makers who matter. Your total addressable audience for pipeline purposes is somewhere between 200 and 3,000 people. Our system specializes in driving their eyeballs to your content.\n\nWe don't publish and pray. We build your target account list before the first episode drops, and we drive every asset (clips, full episodes, newsletter, LinkedIn posts) directly to the decision-makers on that list."
       },
       {
         question: "How much time does this actually take from our executive team?",
-        answer: "Four hours per month. 60-minute recording sessions each. Everything else is ours.\n\nSelf-managing a podcast typically requires a monthly internal commitment of at least 30 hours."
+        answer: "Four hours per month max. 60-minute recording sessions. Everything else is on us.\n\nSelf-managing a podcast, webinar, or YouTube series typically requires a monthly internal commitment of at least 180 team hours."
       },
       {
-        question: "How is this different from hiring a podcast production agency?",
-        answer: "A podcast production agency delivers files. We build a revenue system that happens to use a podcast as its anchor. We don't stop at production.\n\nProduction agencies are accountable to content output. We're accountable to business outcomes. Those are different businesses."
+        question: "How is this different from hiring a YouTube production agency?",
+        answer: "A YouTube production agency delivers good videos. Our team has YouTube experts as well as go-to-market alignment to make sure the content has a revenue system attached to it. We don't stop at production.\n\nProduction agencies are accountable to content output. We're accountable to business revenue."
       }
     ]
   };
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "Podcast Revenue System",
+    "name": "Video Revenue System",
     "description": "Turn your podcast into a predictable revenue engine with our strategic content distribution and demand capture system.",
-    "url": "https://www.extrasauceagency.com/services/podcast-revenue-system",
+    "url": "https://www.extrasauceagency.com/services/video-revenue-system",
     "provider": {
       "@id": "https://www.extrasauceagency.com/#organization"
     }
@@ -150,11 +146,11 @@ const PodcastRevenueSystem = () => {
   return (
     <>
       <EnhancedSEOHead
-        title="Podcast Revenue System - Turn Your Podcast Into Pipeline"
-        description="Transform your podcast into a predictable revenue engine. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
-        ogTitle="Podcast Revenue System - Turn Your Podcast Into Pipeline"
-        ogDescription="Transform your podcast into a predictable revenue engine. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
-        canonicalUrl="https://www.extrasauceagency.com/services/podcast-revenue-system"
+        title="Video Revenue System - Turn Your Video Into Pipeline"
+        description="Transform your video-first content engine into a predictable revenue system. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
+        ogTitle="Video Revenue System - Turn Your Video Into Pipeline"
+        ogDescription="Transform your video-first content engine into a predictable revenue system. Strategic content distribution, guest sourcing, and demand capture for B2B executives."
+        canonicalUrl="https://www.extrasauceagency.com/services/video-revenue-system"
         type="article"
         structuredData={structuredData}
       />
@@ -166,15 +162,15 @@ const PodcastRevenueSystem = () => {
           <div className="container-premium text-left relative z-10">
             <div className="max-w-3xl animate-scale-in">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                Podcast Revenue System
+                Video Revenue System
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
-                Video content flywheels that turn executive insight into pipeline
+                Put your executives on camera and get a pipeline full of buyers who already trust them.
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
-                There's a proven system modern B2B teams use to turn their podcast + newsletter system into a consistent stream of qualified buyers. We build and run that system for you.
+                Your buyers research you long before they talk to sales. We make sure your leadership is who they find.
               </p>
 
               {/* Tagline */}
@@ -276,7 +272,7 @@ const PodcastRevenueSystem = () => {
                 {/* Stage 01 - RECORD */}
                 <div className="flex-1 bg-accent text-white p-6 rounded-2xl">
                   <p className="text-primary text-xs font-bold tracking-widest mb-2 uppercase">01 · Record</p>
-                  <h3 className="text-lg font-bold mb-1">1 × 60-min session</h3>
+                  <h3 className="text-lg font-bold mb-1">1 60-min recording session (podcast, webinar, YT video)</h3>
                   <p className="text-slate-300 text-sm">The only step that needs you.</p>
                 </div>
                 <div className="text-primary text-2xl font-bold flex-shrink-0">→</div>
@@ -310,7 +306,7 @@ const PodcastRevenueSystem = () => {
                 {/* Stage 01 - RECORD */}
                 <div className="bg-accent text-white p-8 rounded-2xl">
                   <p className="text-primary text-xs font-bold tracking-widest mb-3 uppercase">01 · Record</p>
-                  <h3 className="text-2xl font-bold mb-2">1 × 60-min session</h3>
+                  <h3 className="text-2xl font-bold mb-2">1 60-min recording session (podcast, webinar, YT video)</h3>
                   <p className="text-slate-300 text-sm">The only step that needs you.</p>
                 </div>
 
@@ -362,8 +358,8 @@ const PodcastRevenueSystem = () => {
                   <div className="flex items-start gap-4">
                     <div className="text-primary font-bold text-3xl min-w-fit">1</div>
                     <div>
-                      <h4 className="font-bold text-slate-900 mb-1">Flagship episode</h4>
-                      <p className="text-slate-600 text-sm">YouTube / podcast · incl. cinematic trailer</p>
+                      <h4 className="font-bold text-slate-900 mb-1">Full-length flagship episode</h4>
+                      <p className="text-slate-600 text-sm">YouTube/podcast /live event, including a cinematic trailer</p>
                     </div>
                   </div>
                 </div>
@@ -401,13 +397,12 @@ const PodcastRevenueSystem = () => {
                   </div>
                 </div>
 
-                {/* ∞ Always-on engagement */}
+                {/* ∞ Social selling and account-based outreach */}
                 <div className="border border-slate-200 p-6 rounded-xl hover:shadow-lg hover:border-primary hover:-translate-y-1 transition-all duration-300">
                   <div className="flex items-start gap-4">
                     <div className="text-primary font-bold text-3xl min-w-fit flex items-center justify-center h-12">∞</div>
                     <div>
-                      <h4 className="font-bold text-slate-900 mb-1">Always-on engagement</h4>
-                      <p className="text-slate-600 text-sm">Social selling · ABM outreach · strategic commenting</p>
+                      <h4 className="font-bold text-slate-900 mb-1">Social selling and account-based outreach</h4>
                     </div>
                   </div>
                 </div>
@@ -436,9 +431,6 @@ const PodcastRevenueSystem = () => {
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
                 The reasoning behind content revenue systems
               </h2>
-              <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                We have monthly content calls with your CEO or c-suite member to extract their unique thought leadership and we pair this with strategic outbound to high-intent individuals that are ready to buy.
-              </p>
             </div>
 
             {/* Steps - Single Row */}
@@ -540,24 +532,19 @@ const PodcastRevenueSystem = () => {
           <div className="container-premium">
             <div className="text-center mb-16">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                Pricing
+                What's Included
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Podcast Revenue System
+                Video Revenue System
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                Build a binge-worthy content show & newsletter that becomes your company's primary demand engine that your buyers actively look forward to every week.
+                Build a binge-worthy content show that becomes your demand engine that your buyers actively look forward to seeing on their social feeds every week.
               </p>
             </div>
 
             {/* Pricing Card */}
             <div className="max-w-2xl mx-auto">
               <div className="bg-white border-2 border-slate-900 rounded-2xl p-12">
-                <div className="text-center mb-8">
-                  <p className="text-6xl font-bold text-slate-900 mb-2">$9,500</p>
-                  <p className="text-slate-600">/month</p>
-                </div>
-
                 {/* Features */}
                 <div className="space-y-4 mb-12">
                   {pricingFeatures.map((feature, index) => (
@@ -568,17 +555,16 @@ const PodcastRevenueSystem = () => {
                   ))}
                 </div>
 
+                <p className="text-center text-base text-slate-700 font-medium mb-8">
+                  You work with a dedicated director of demand gen, show producer, senior video editors, senior copywriter, and a senior designer.
+                </p>
+
                 {/* CTA */}
                 <Link to="/book-strategy-call" className="block">
                   <Button className="w-full bg-primary hover:bg-primary/90 text-white py-6 text-base font-semibold">
-                    Apply Now
+                    See The Video Revenue System
                   </Button>
                 </Link>
-
-                {/* Timeline */}
-                <p className="text-center text-slate-600 text-sm mt-8">
-                  Typical results: Client data shows 3-4 months to see traction.
-                </p>
               </div>
             </div>
           </div>
@@ -604,9 +590,11 @@ const PodcastRevenueSystem = () => {
                     {item.question}
                     <span className="text-primary group-open:rotate-180 transition-transform">▼</span>
                   </summary>
-                  <p className="text-slate-600 mt-4 leading-relaxed">
-                    {item.answer}
-                  </p>
+                  <div className="text-slate-600 mt-4 leading-relaxed space-y-4">
+                    {item.answer.split(/\n\s*\n/).map((paragraph, paragraphIndex) => (
+                      <p key={paragraphIndex}>{paragraph}</p>
+                    ))}
+                  </div>
                 </details>
               ))}
             </div>
@@ -631,7 +619,7 @@ const PodcastRevenueSystem = () => {
               </Button>
             </Link>
             <p className="text-slate-400 text-sm mt-6">
-              No pitch. Just an honest conversation about your content efforts.
+              Just an honest conversation about your content efforts.
             </p>
           </div>
         </section>

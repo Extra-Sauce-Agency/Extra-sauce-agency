@@ -23,6 +23,7 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("./pages/TermsOfService"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const SuccessStories = lazy(() => import("./pages/SuccessStories"));
+const SuccessStoryDetail = lazy(() => import("./pages/SuccessStoryDetail"));
 const Blogs = lazy(() => import("./pages/resources/Blogs"));
 const BlogPost = lazy(() => import("./pages/resources/BlogPost"));
 const Newsletters = lazy(() => import("./pages/resources/Newsletters"));
@@ -55,11 +56,12 @@ const App = () => (
             <Route path="/services/video-content-engine" element={<VideoContentEngine />} />
             <Route path="/services/content-led-gtm-coaching" element={<ContentLedGTMCoaching />} />
             <Route path="/services/linkedin-revenue-system" element={<LinkedInRevenueSystem />} />
-            <Route path="/services/podcast-revenue-system" element={<PodcastRevenueSystem />} />
+            <Route path="/services/video-revenue-system" element={<PodcastRevenueSystem />} />
             <Route path="/book-strategy-call" element={<BookingPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/success-stories" element={<SuccessStories />} />
+            <Route path="/success-stories/:slug" element={<SuccessStoryDetail />} />
             <Route path="/resources/blogs" element={<Blogs />} />
             <Route path="/resources/blogs/:slug" element={<BlogPost />} />
             <Route path="/resources/newsletters" element={<Newsletters />} />

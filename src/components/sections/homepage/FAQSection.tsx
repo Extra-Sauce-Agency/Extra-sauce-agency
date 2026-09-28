@@ -49,27 +49,38 @@ const FAQSection = ({
         </div>
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="space-y-6">
-            {questions.map((faq, index) => (
-              <AccordionItem 
-                key={index} 
-                value={`item-${index}`} 
-                className="group bg-white/50 backdrop-blur-sm rounded-3xl border border-border/30 hover:border-primary/30 transition-all duration-300 hover:shadow-xl overflow-hidden"
-              >
-                <AccordionTrigger className="text-left text-lg font-semibold text-foreground hover:text-primary transition-all duration-300 px-8 py-6 group-hover:bg-white/80 [&[data-state=open]]:bg-primary/5">
-                  <span className="flex items-center gap-4">
-                    <span className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm">
-                      {index + 1}
+            {questions.map((faq, index) => {
+              const answerParagraphs = faq.answer
+                .split(/\n\s*\n/)
+                .map((paragraph) => paragraph.trim())
+                .filter(Boolean);
+
+              return (
+                <AccordionItem 
+                  key={index} 
+                  value={`item-${index}`} 
+                  className="group bg-white/50 backdrop-blur-sm rounded-3xl border border-border/30 hover:border-primary/30 transition-all duration-300 hover:shadow-xl overflow-hidden"
+                >
+                  <AccordionTrigger className="text-left text-lg font-semibold text-foreground hover:text-primary transition-all duration-300 px-8 py-6 group-hover:bg-white/80 [&[data-state=open]]:bg-primary/5">
+                    <span className="flex items-center gap-4">
+                      <span className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm">
+                        {index + 1}
+                      </span>
+                      {faq.question}
                     </span>
-                    {faq.question}
-                  </span>
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed px-8 pb-6 bg-white/30">
-                  <div className="pl-12">
-                    {faq.answer}
-                  </div>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground leading-relaxed px-8 pb-6 bg-white/30">
+                    <div className="pl-12 space-y-4">
+                      {answerParagraphs.map((paragraph, paragraphIndex) => (
+                        <p key={`${index}-${paragraphIndex}`} className="m-0">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              );
+            })}
           </Accordion>
         </div>
       </div>

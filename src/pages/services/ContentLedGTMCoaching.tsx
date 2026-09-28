@@ -3,6 +3,7 @@ import Footer from "@/components/shared/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
+import FAQSection from "@/components/sections/homepage/FAQSection";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { organizationSchema } from "@/data/structured-data";
 
@@ -434,11 +435,6 @@ const ContentLedGTMCoaching = () => {
 
             <div className="max-w-2xl mx-auto">
               <div className="bg-white border-2 border-slate-900 rounded-2xl p-12">
-                <div className="text-center mb-8">
-                  <p className="text-6xl font-bold text-slate-900 mb-2">$6,000</p>
-                  <p className="text-slate-600">/one-time</p>
-                </div>
-
                 {/* Features */}
                 <div className="space-y-4 mb-8">
                   {pricingFeatures.map((feature, index) => (
@@ -465,32 +461,11 @@ const ContentLedGTMCoaching = () => {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 lg:py-20 bg-slate-50">
-          <div className="container-premium">
-            <div className="mb-16">
-              <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                Frequently Asked Questions
-              </p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Common Questions
-              </h2>
-            </div>
-
-            <div className="max-w-3xl mx-auto space-y-6">
-              {faqItems.map((item, index) => (
-                <div key={index} className="bg-white p-8 rounded-xl border border-slate-200">
-                  <h3 className="text-xl font-bold text-slate-900 mb-4">
-                    {item.question}
-                  </h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    {item.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <FAQSection
+          headline="Frequently Asked Questions"
+          description="Common Questions"
+          questions={faqItems}
+        />
 
         {/* Done-For-You Services Section */}
         <section className="py-16 lg:py-20 bg-white">
@@ -516,7 +491,7 @@ const ContentLedGTMCoaching = () => {
                   <p className="text-slate-600 leading-relaxed mb-6">
                     {service.description}
                   </p>
-                  <Link to={index === 0 ? "/services/linkedin-revenue-system" : "/services/podcast-revenue-system"}>
+                  <Link to={index === 0 ? "/services/linkedin-revenue-system" : "/services/video-revenue-system"}>
                     <Button className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg font-semibold">
                       Learn More
                     </Button>

@@ -2,39 +2,44 @@ import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 
 export const heroSection = {
   badge: "Content Revenue Agency for B2B Tech & SaaS",
-  headline: "Your Buyers Have Already Built Their Shortlist. Make Sure You're On It.",
+  headline: "A content revenue engine that fuels your go-to-market",
   subheadline: "We install executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers with only 4hrs/mo of their time.",
+  popupTagLead: "We work with mid-market B2B tech companies and beyond",
+  popupTagRest: "— teams that have budget and are looking to build their CEO or executive team's brand. If that's you, keep going.",
   primaryCTA: "Apply Now",
   secondaryCTA: "See The Sauce Recipe™",
   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder, replace with actual video URL if available
 };
 
 export const whoIsThisForSection = {
-  headline: "Most B2B content builds awareness and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
+  headline: "‘Boring-to-boring’ content falls flat.",
+  headlineAccent: "We deliver insightful, binge-worthy content.",
+  subheadline: "Most B2B content builds awareness (if that) and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
+  label: "Clients work with us for the following reasons ↓",
   items: [
     {
       title: "Your sales team is drowning in the wrong leads.",
       description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "Paid ads cost more every year. An in-house content team costs even more.",
-      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
+      title: "You're getting low-quality leads relying only on paid advertising and an in-house content team costs even more.",
+      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running, and your sales team is being fed MQLs that aren't qualified. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
     },
     {
-      title: "Your executive has expertise your buyers are actively searching for but they aren't visible.",
+      title: "Your C-suite team has expertise your buyers are actively searching for, but they aren't found in the buying journey.",
       description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise sits off LinkedIn, a competitor steps into the gap and earns the trust that should belong to you."
     },
     {
       title: "Your competitors are becoming the default choice in your category.",
-      description: "Martech categories have 94x more options than in 2011. With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
+      description: "Technology categories have 94x more options than in 2011! With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
     },
     {
-      title: "Your outbound is running cold. The reply rates prove it.",
-      description: "Three years ago, B2B outbound averaged a 7–8% reply rate. Today it sits between 3–5%, and the trend isn't reversing. Your buyers aren't unreachable. They're ignoring strangers."
+      title: "Your outbound reply rates are dropping because you don't pass the vetting process.",
+      description: "Three years ago, B2B outbound averaged a 7–8% reply rate. Today it sits between 3–5%, and the trend isn't reversing. Your buyers aren't unreachable. They're sophisticated and will vet you before replying."
     },
     {
-      title: "You're producing content. Your sales team can't point to a single deal it influenced.",
-      description: "Content that stops at the feed with no outbound alignment, no demand capture, and no pipeline attribution won't impact the bottom line. Clients running content and outbound together see qualified pipeline within 70-90 days."
+      title: "You're producing content that gets some views, but you can't link any deals to it.",
+      description: "Content requires a demand capture system to turn the attention into revenue. Strategic outbound and social selling is required to capitalize on the influence made on social media. Our clients running content and outbound together see qualified pipeline within 70-90 days."
     }
   ]
 };
@@ -118,46 +123,46 @@ export const servicesOverviewSection = {
   services: [
     {
       title: "LinkedIn Revenue System",
-      price: "$5,500/mo",
       descriptionTop: "Turn your executive's LinkedIn into your best-performing demand channel without taking more than 4 hours a month from their schedule.",
       features: [
         "Content Management",
+        "Sales Development Representative On Account",
         "Creative & Narrative Development",
         "Executive Brand Development",
-        "LinkedIn Outbound & social selling",
-        "ABM Guidance",
+        "LinkedIn Engagement & Social Selling",
+        "Account-based Marketing",
         "Performance Reporting"
       ],
-      descriptionBottom: "You work with a demand gen manager, senior copywriter, and senior designer dedicated to your account.",
+      descriptionBottom: "You work with a demand gen manager, senior copywriter, SDR, and senior designer dedicated to your account.",
       cta: "See The LinkedIn Revenue System",
       link: "/services/linkedin-revenue-system"
     },
     {
-      title: "Podcast Revenue System",
-      price: "$9,500/mo",
-      descriptionTop: "Build a binge-worthy content show & newsletter that becomes your company's primary demand engine that your buyers actively look forward to every week.",
+      title: "Video Revenue System",
+      descriptionTop: "Build a binge-worthy content show that becomes your demand engine that your buyers actively look forward to seeing on their social feeds every week.",
       features: [
-        "GTM Guidance",
-        "Brand Show Management",
-        "High-Value Guest Sourcing",
+        "Brand Show Management (podcast, webinar, YouTube series)",
+        "Guest Sourcing",
         "Creative & Narrative Development",
-        "Content Flywheel execution",
-        "ABM Guidance",
+        "Content Flywheel distribution",
+        "Community engagement",
+        "Account-Based Marketing",
         "Performance Measurement"
       ],
-      descriptionBottom: "You work with a dedicated director of demand gen, show producer, senior video editors, a senior copywriter, and a senior designer.",
-      cta: "See The Podcast Revenue System",
-      link: "/services/podcast-revenue-system"
+      descriptionBottom: "You work with a dedicated director of demand gen, show producer, senior video editors, senior copywriter, and a senior designer.",
+      cta: "See The Video Revenue System",
+      link: "/services/video-revenue-system"
     },
     {
-      title: "Content-To-Pipeline Sprint",
-      price: "$6,000/one-time payment",
-      descriptionTop: "Work 1:1 with us to build your own content revenue system in 6–8 weeks with the exact strategy, systems, and playbooks we use in The Sauce Recipe™",
+      title: "Content Sprint",
+      descriptionTop: "Work 1:1 with Manny to run your own content revenue system in 6-8 weeks with the exact strategy, systems, and playbooks we use in The Sauce Recipe™",
       features: [
-        "Weekly 1:1 implementation calls",
+        "1:1 implementation calls",
         "Templates, frameworks, and SOPs provided",
         "Access Extra Sauce proprietary resource library",
-        "Ongoing Slack support (Up to 60 days after completion)"
+        "Ongoing Slack support (Up to 60 days after completion)",
+        "Up to 3 team members included",
+        "4 Workshops included"
       ],
       descriptionBottom: "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, AI-powered Content Workflows, etc.",
       cta: "See The Content-To-Pipeline Sprint",
@@ -202,7 +207,7 @@ export const testimonialsSection = {
       author: "Vik Saini",
       title: "Head of Sales, PSII",
       avatar: "/viksoni.png",
-      impact: "Podcast Revenue System",
+      impact: "Video Revenue System",
       metrics: [
         { label: "ARR Added", value: "428K" },
         { label: "Qualified Meetings", value: "~16/mo" }
@@ -239,27 +244,27 @@ export const faqSection = {
   faqs: [
     {
       question: "How do we know if we're the right fit for Extra Sauce?",
-      answer: "We work best with B2B SaaS companies between $5M–$50M ARR that have an executive willing to show up for two content calls a month. If your sales team is wasting time on low-quality leads and your competitors are more visible than you, you're probably who we built this for. Apply and we'll tell you honestly within the first call."
+      answer: "We work best with B2B SaaS companies between $5M–$50M ARR that have an executive willing to show up for 4hrs/mo of content production. If your sales team is wasting time on low-quality leads and your competitors are more visible than you, you're probably who we built this for. Apply and we'll tell you honestly within the first call."
     },
     {
       question: "We're not sure which service is right for us. How do we choose?",
-      answer: "Simple rule: if you want your executive on LinkedIn generating pipeline, start with the LinkedIn Revenue System. If you're ready to build a full brand show with omnichannel distribution, the Podcast Revenue System is your play. If you want to own and run the system yourself, the Pipeline Sprint gives you the strategy and playbook to do it. Not sure? Apply anyway and we'll point you in the right direction."
+      answer: "If you want to start generating revenue from LinkedIn by building an executive brand, start with the LinkedIn Revenue System. If you're ready to build a full brand show with omnichannel distribution, the Video Revenue System is your play. If you want to run the system yourself, the Pipeline Sprint gives you the strategy and playbook to do it. Apply anyway and we'll point you in the right direction or to a partner that’s a better fit."
     },
     {
       question: "We've worked with content agencies before and got nothing. Why would this be different?",
-      answer: "We are a revenue agency. Every agency you've tried delivered posts. We build a revenue system through thought leadership and strategic outbound running together so content builds the audience and warm outbound converts it."
+      answer: "We are a revenue agency that is content-led. Every agency you've tried delivered posts. We align the content with sales outbound. We specialize in building a content revenue system through thought leadership. Our content builds influence and outbound converts it."
     },
     {
       question: "What results can we realistically expect and how quickly?",
-      answer: "Most clients see leading indicators within 45–60 days; engagement from target accounts, inbound connection requests, early outbound replies. Qualified pipeline typically follows within 70–90 days. On average, clients start generating revenue from their content system in under 4 months. We track pipeline contribution, not impressions."
+      answer: "Most clients see leading indicators within 45–60 days. This includes engagement from target accounts, inbound connection requests, and early outbound replies. Qualified pipeline typically follows within 70–90 days. On average, clients start generating revenue from their content system in under 4 months. We track pipeline contribution, not only impressions."
     },
     {
       question: "What happens after we apply?",
-      answer: "We run a preliminary audit of your current content presence and pipeline situation before the call. When we sit down, we share what we found, identify the biggest opportunities, and have an honest conversation about whether we're the right fit. No pitch. No pressure."
+      answer: "We jump on a call after our team runs a preliminary audit of your C-suite, content presence, and company brand. When we chat, we share what we found, identify content opportunities, and have an honest conversation about whether we're the right fit."
     },
     {
       question: "How selective are you about who you work with?",
-      answer: "We cap at eight active clients at a time. Not because we can't take on more, but because we won't. Every client works directly with our A-list team of senior marketers delivering a white-glove service because we want results we can stand behind. If we're at capacity when you apply, you'll be added to the queue."
+      answer: "We cap at eight active clients at a time because we are a group of marketers & creatives dedicated to delivering high-quality service rather than turnkey solutions. We only work with clients that fit our criteria. We aren’t looking to make AI slop and generic market updates, we want to make binge-worthy content. If we're at capacity when you apply, you'll be added to the queue and notified."
     }
   ]
 };

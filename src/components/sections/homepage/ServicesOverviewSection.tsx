@@ -38,9 +38,6 @@ const ServicesOverviewSection = () => {
                   <h3 className="text-2xl font-bold text-foreground mb-4">
                     {service.title}
                   </h3>
-                  {service.price && (
-                    <p className="text-lg font-semibold text-primary mb-4">{service.price}</p>
-                  )}
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     {service.descriptionTop}
                   </p>
