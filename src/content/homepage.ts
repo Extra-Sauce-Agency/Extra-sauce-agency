@@ -2,10 +2,10 @@ import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 
 export const heroSection = {
   badge: "Content Revenue Agency for B2B Tech & SaaS",
-  headline: "A content revenue engine that fuels your go-to-market",
-  subheadline: "We install executive content systems on LinkedIn and YouTube that put your C-suite in front of high-intent buyers with only 4hrs/mo of their time.",
-  popupTagLead: "We work with mid-market B2B tech companies and beyond",
-  popupTagRest: "— teams that have budget and are looking to build their CEO or executive team's brand. If that's you, keep going.",
+  headline: "Turn executive content into qualified pipeline in 90 days",
+  subheadline: "An in-house team that runs this costs upwards of $42K a month in payroll. We run it for about a fifth of that, with four hours a month from your executives.",
+  popupTagLead: "We partner up with a small group of mid-market B2B tech companies doing 5M to 100M ARR.",
+  popupTagRest: "If your executives have expertise worth hearing and the budget to build their brand, keep going.",
   primaryCTA: "Apply Now",
   secondaryCTA: "See The Sauce Recipe™",
   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder, replace with actual video URL if available
@@ -274,4 +274,3 @@ export const ctaSection = {
   description: "Your competitors aren't waiting. Every week they show up in your buyers' feeds, they get closer to becoming the default choice. Apply now and we'll build the system that puts you there instead.",
   primaryButton: "Apply Now"
 };
-

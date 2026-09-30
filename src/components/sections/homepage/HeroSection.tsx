@@ -83,8 +83,7 @@ const HeroSection = () => {
           {/* Pop-up qualifier tag */}
           <div className="max-w-2xl mx-auto mb-10 bg-[#FFF7F5] border border-[#FFE7E1] rounded-xl p-4 text-left">
             <p className="text-sm text-muted-foreground leading-relaxed">
-              <span className="font-bold text-foreground">{heroSection.popupTagLead}</span>{" "}
-              {heroSection.popupTagRest}
+              {heroSection.popupTagLead} {heroSection.popupTagRest}
             </p>
           </div>
 
