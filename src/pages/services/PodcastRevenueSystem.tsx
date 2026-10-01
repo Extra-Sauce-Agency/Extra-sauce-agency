@@ -166,7 +166,7 @@ const PodcastRevenueSystem = () => {
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
-                Put your executives on camera and get a pipeline full of buyers who already trust them.
+                Put your executives on camera and get meetings booked with buyers who are already fans
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
