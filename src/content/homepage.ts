@@ -106,12 +106,12 @@ export const processSection = {
     },
     {
       title: "Warm Outbound System™",
-      description: "We run targeted LinkedIn outbound sequences against buyers who already know your executive from the content. Reply rates move from the industry average of 3-5% to 10-30%.",
+      description: "We run targeted LinkedIn outbound sequences against buyers who already know your executive from the content and T1/T2 target account lists. Reply rates move from the industry average of 3-5% to 10-30%.",
       duration: "Phase 3"
     },
     {
       title: "C-suite Paid Ads Strategy™",
-      description: "We retarget your best-performing organic content as paid ads to reach in-market buyers and warm audiences at the moment they're ready to decide, at a fraction of cold CAC.",
+      description: "We retarget your best-performing organic content as paid ads to reach in-market buyers and warm audiences to drive a low CAC & high-quality lead form fills.",
       duration: "Phase 4"
     }
   ]
@@ -119,7 +119,6 @@ export const processSection = {
 
 export const servicesOverviewSection = {
   headline: "Three ways to access The Sauce Recipe™",
-  subheadline: "On average, clients start seeing qualified pipeline within 60 days and revenue from their content system in under 4 months. Choose the engagement that fits where your team is right now.",
   services: [
     {
       title: "LinkedIn Revenue System",
