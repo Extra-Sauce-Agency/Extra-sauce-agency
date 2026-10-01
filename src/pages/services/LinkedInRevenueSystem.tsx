@@ -170,7 +170,7 @@ const LinkedInRevenueSystem = () => {
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
-                LinkedIn content that builds a realm of influence. Outbound that books the meeting.
+                Get LinkedIn content that builds a realm of influence and outbound that books meetings in DMs.
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
