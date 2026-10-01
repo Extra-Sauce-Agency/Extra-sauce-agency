@@ -22,7 +22,7 @@ export const whoIsThisForSection = {
       description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "You're getting a lower ROI and losing profit margins as you scale with only on paid advertising",
+      title: "You're getting a lower ROI and losing profit margins as you scale with only paid advertising",
       description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running and creative begins to fatigue because you don't have enough. This results in higher CAC and your sales team being fed poor MQLs."
     },
     {
@@ -30,8 +30,8 @@ export const whoIsThisForSection = {
       description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise is searched for on LinkedIn and YouTube."
     },
     {
-      title: "Your competitors are becoming the default choice in your category.",
-      description: "Technology categories have 94x more options than in 2011! With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
+      title: "Your competitors that post content are becoming the default choice in your category.",
+      description: "With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
     },
     {
       title: "Your outbound reply rates are dropping because you don't pass the vetting process.",
