@@ -132,7 +132,7 @@ export const servicesOverviewSection = {
         "Account-based Marketing",
         "Performance Reporting"
       ],
-      descriptionBottom: "You work with a demand gen manager, senior copywriter, SDR, and senior designer dedicated to your account.",
+      descriptionBottom: "You work with a demand gen manager, senior copywriter, SDR, and a senior designer dedicated to your account.",
       cta: "See The LinkedIn Revenue System",
       link: "/services/linkedin-revenue-system"
     },
