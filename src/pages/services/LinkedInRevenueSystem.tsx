@@ -170,11 +170,11 @@ const LinkedInRevenueSystem = () => {
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
-                LinkedIn Revenue System for SaaS Founders & B2B Leaders
+                LinkedIn content that builds a realm of influence. Outbound that books the meeting.
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
-                You have the expertise. You don't have the time to turn it into consistent content and outbound. We turn your ideas into thought leadership that builds a realm of influence and fills your pipeline.
+                LinkedIn outreach stalls when nobody recognizes the sender. We build your executive's presence with ghostwritten content, then message high-intent buyers who engage with it without automation tools. 
               </p>
 
               {/* Tagline */}
