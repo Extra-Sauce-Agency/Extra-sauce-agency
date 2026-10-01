@@ -22,12 +22,12 @@ export const whoIsThisForSection = {
       description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "You're getting low-quality leads relying only on paid advertising and an in-house content team costs even more.",
-      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running, and your sales team is being fed MQLs that aren't qualified. An in-house content flywheel runs up to $42K per month in payroll alone - before tools, before ramp-up time, and before a single qualified lead comes in the door."
+      title: "You're getting a lower ROI and losing profit margins as you scale with only on paid advertising",
+      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running and creative begins to fatigue because you don't have enough. This results in higher CAC and your sales team being fed poor MQLs."
     },
     {
       title: "Your C-suite team has expertise your buyers are actively searching for, but they aren't found in the buying journey.",
-      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise sits off LinkedIn, a competitor steps into the gap and earns the trust that should belong to you."
+      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise is searched for on LinkedIn and YouTube."
     },
     {
       title: "Your competitors are becoming the default choice in your category.",
