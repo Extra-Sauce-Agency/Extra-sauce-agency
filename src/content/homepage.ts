@@ -3,7 +3,7 @@ import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 export const heroSection = {
   badge: "Content Revenue Agency for B2B Tech & SaaS",
   headline: "Turn executive content into qualified pipeline in 90 days",
-  subheadline: "An in-house team that runs this costs upwards of $42K a month in payroll. We run it for about a fifth of that, with four hours a month from your executives.",
+  subheadline: "An in-house content team that runs this costs upwards of $42K a month in payroll. We run it for about a fifth of that, with four hours a month from your executives.",
   popupTagLead: "We partner up with a small group of mid-market B2B tech companies doing 5M to 100M ARR.",
   popupTagRest: "If your executives have expertise worth hearing and the budget to build their brand, keep going.",
   primaryCTA: "Apply Now",
@@ -12,9 +12,9 @@ export const heroSection = {
 };
 
 export const whoIsThisForSection = {
-  headline: "‘Boring-to-boring’ content falls flat.",
-  headlineAccent: "We deliver insightful, binge-worthy content.",
-  subheadline: "Most B2B content builds awareness (if that) and stops. No outbound alignment. No demand capture. No pipeline. The Sauce Recipe™ connects all three.",
+  headline: "Insightful binge-worthy content builds trust.",
+  headlineAccent: "Outbound turns that trust into pipeline.",
+  subheadline: "Most B2B content programs stop at awareness and hope buyers find their way to sales. The Sauce Recipe™ pairs your executives' thought leadership with outbound to target accounts.",
   label: "Clients work with us for the following reasons ↓",
   items: [
     {
