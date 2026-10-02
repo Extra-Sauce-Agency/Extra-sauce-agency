@@ -16,23 +16,23 @@ const ContentLedGTMCoaching = () => {
 
   const problemStatements = [
     {
-      title: "Expecting results because you're posting on LinkedIn 3-5x/week and 2+ blogs/mo",
-      description: "Just because you're posting content doesn't mean inbound leads are going to come in. You need to have your push and pull motions in sync to convert the demand you build.",
+      title: "You're posting on social media & blogs 3–5 times a week but pipeline hasn't moved",
+      description: "Posting builds attention, and attention fades fast unless someone follows up. Without outreach to the target accounts engaging with your content, your sales team never hears about the buyers who were paying attention.",
       highlighted: false
     },
     {
-      title: "You have an internal marketer but not a battle-tested system",
-      description: "You can't keep burning more money jumping from one marketing tactic to another.",
+      title: "Your marketer is working hard, but they're improvising a system.",
+      description: "So every quarter brings a new tactic, a new tool, and another budget line with little to show for it. Your marketer needs a playbook that connects content to pipeline",
       highlighted: false
     },
     {
-      title: "You know how to make content but too busy with other parts of the business",
-      description: "Making content isn't the hard part. It's all the things that get it to work; outbound, a/b testing, social selling, personal branding, offer creation, etc.",
+      title: "Your executives have the expertise but not the hours",
+      description: "They know what buyers need to hear, but writing, posting, and engaging every week competes with running the company. Without a workflow that fits their schedule, their content stops after a month.",
       highlighted: false
     },
     {
-      title: "Building a personal brand feels overwhelming",
-      description: "Content revenue systems should be tailored to your unique situation to avoid burnout and ensure you have time for core business activities.",
+      title: "Your content doesn't say anything a competitor couldn't",
+      description: "Without clear positioning, posts drift toward safe, generic advice. Buyers scroll past because nothing tells them why you're different.",
       highlighted: true
     }
   ];
@@ -86,19 +86,19 @@ const ContentLedGTMCoaching = () => {
   const benefits = [
     {
       title: "Grow with a revenue system that compounds",
-      description: "Unlike outbound, paid ads, or tradeshows, content will keep bringing in leads even if you pause."
+      description: "Unlike outbound, paid ads, or tradeshows, content will keep bringing in leads a year later even if you pause."
     },
     {
-      title: "Get your Business economics to make sense",
-      description: "It becomes a challenge to scale or justify paid advertising costs when CAC prices are too high (60%+ YoY last 5 years for B2B)."
+      title: "Own the system outright",
+      description: "Everything we build together stays with you: your positioning, your content workflows, and your outbound playbook."
     },
     {
-      title: "Don't have to rely on anyone else to bring in pipeline",
+      title: "Learn the skills to build pipeline with the modern B2B buyer",
       description: "You don't have to rely on hiring more experts and external vendors when you have a battle-tested system tailored for your business that you can turn on/off."
     },
     {
       title: "Hands-on implementation calls",
-      description: "Work with our lead content strategist one-on-one and be ready for a hands-on call where you build the essentials together week after week until you walk away with a content revenue system."
+      description: "Every session works on your actual business, not hypotheticals. By the end, your positioning is set, your executives are posting, and your team is running outreach to real target accounts."
     }
   ];
 
@@ -253,10 +253,10 @@ const ContentLedGTMCoaching = () => {
                 The Problem
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Stop producing content daily that doesn't do anything and implement a battle-tested system
+                You're already doing the content work, but nothing connects it to revenue.
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-                You need a content engine that consistently drives pipeline with modern B2B buyers
+                Turn the work you're already doing into sales conversations.
               </p>
             </div>
 
