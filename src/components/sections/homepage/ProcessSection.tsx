@@ -31,7 +31,7 @@ const ProcessSection = () => {
             >
               {/* Connection Line */}
               {index < processSection.steps.length - 1 && (
-                <div className="hidden lg:block absolute top-10 -right-4 z-10">
+                <div className="hidden lg:flex absolute top-10 left-full ml-4 -translate-x-1/2 -translate-y-1/2 z-10">
                   <ArrowRight className="w-6 h-6 text-primary/30 group-hover:text-primary transition-colors duration-300" />
                 </div>
               )}

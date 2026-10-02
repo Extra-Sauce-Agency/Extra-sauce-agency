@@ -17,6 +17,10 @@ export const sauceRecipeContent = {
   audioDuration: "06:30 / 13:25",
   walkThroughTitle: "WALK THROUGH THE SAUCE RECIPE™",
   walkThroughSubtitle: "Where Are You In Your Content Journey?",
+  flowcharts: [
+    { label: "LinkedIn Revenue System Flowchart", href: "https://www.figma.com/board/pNo4SxDXLPk4bSn5S7l9MF/LinkedIn-Revenue-System?t=Sy27JDaa77MZIvxt-1" },
+    { label: "Video Revenue System Flowchart", href: "https://www.figma.com/board/sVn93PSpqhiNIeANN8nKG8/Video-Revenue-System?t=Sy27JDaa77MZIvxt-1" }
+  ],
   clickToLearn: "Click to find the best path to revenue for you",
   
   // Process Steps

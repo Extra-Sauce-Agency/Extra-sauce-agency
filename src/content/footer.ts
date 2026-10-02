@@ -3,7 +3,7 @@
 
 export const companyInfo = {
   name: "Extra Sauce",
-  description: "What if your executive online presence became your most powerful pipeline channel?",
+  description: "What if your CEO became the name your industry can't stop talking about?",
   ctaButton: {
     text: "Apply Now",
     link: "/book-strategy-call"
@@ -25,7 +25,7 @@ export const servicesLinks = {
   links: [
     { name: "LinkedIn Revenue System", href: "/services/linkedin-revenue-system" },
     { name: "Video Revenue System", href: "/services/video-revenue-system" },
-    { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" }
+    { name: "Content Sprint", href: "/services/content-led-gtm-coaching" }
   ]
 };
 
@@ -39,12 +39,12 @@ export const quickLinks = {
 
 export const location = {
   title: "HEADQUARTERS",
-  address: "Toronto, Canada 🇨🇦"
+  address: "Toronto, Canada"
 };
 
 export const email = {
   title: "EMAIL",
-  address: "manny@extrasauceagency.com"
+  address: "info@extrasauceagency.com"
 };
 
 export const socialMedia = {

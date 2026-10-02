@@ -166,11 +166,11 @@ const PodcastRevenueSystem = () => {
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
-                Book meetings with buyers who are already fans of your executive's show
+                Put your executives on camera and get a pipeline full of buyers who already trust them.
               </h1>
-            
+              
               <p className="text-lg lg:text-xl text-slate-300 mb-12 max-w-2xl leading-relaxed">
-                We build a video show around your executive, publish it on LinkedIn and YouTube, and turn the audience into warm sales conversations.
+                Your buyers research you long before they talk to sales. We make sure your leadership is who they find.
               </p>
 
               {/* Tagline */}

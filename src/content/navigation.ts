@@ -9,7 +9,7 @@ export const navigationItems = [
 export const servicesDropdown = [
   { name: "LinkedIn Revenue System", href: "/services/linkedin-revenue-system" },
   { name: "Video Revenue System", href: "/services/video-revenue-system" },
-  { name: "Content-to-Pipeline Sprint", href: "/services/content-led-gtm-coaching" },
+  { name: "Content Sprint", href: "/services/content-led-gtm-coaching" },
 ];
 
 export const resourcesDropdown = [

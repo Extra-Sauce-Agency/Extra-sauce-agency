@@ -21,9 +21,6 @@ const ServicesOverviewSection = () => {
               access The Sauce Recipe™
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-5xl mx-auto leading-relaxed">
-            {servicesOverviewSection.subheadline}
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto items-stretch">

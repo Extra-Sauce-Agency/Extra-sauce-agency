@@ -6,36 +6,11 @@ import { InlineWidget } from "react-calendly";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { trustedBySection } from "@/content/homepage";
 
-// Helper to get specialized custom scaling and padding classes for logos that need balancing
-const getLogoSizingClass = (name: string) => {
-  switch (name) {
-    case "Oracle":
-      return "h-4 sm:h-5 md:h-6 max-w-[70px] sm:max-w-[85px] md:max-w-[100px]"; // Wide, bold landscape logo
-    case "Goalcast":
-      return "h-6 sm:h-7 md:h-8 max-w-[70px] sm:max-w-[85px] md:max-w-[95px]"; // Wide logo
-    case "WISMOlabs":
-      return "h-4 sm:h-5 md:h-6 max-w-[70px] sm:max-w-[85px] md:max-w-[100px]"; // Landscape SVG
-    case "TBDC":
-      return "h-9 sm:h-11 md:h-12 max-w-[35px] sm:max-w-[45px] md:max-w-[50px] scale-90"; // Circular, tall logo
-    case "Bhive":
-      return "h-8 sm:h-10 md:h-11 max-w-[35px] sm:max-w-[45px] md:max-w-[50px]"; // Square/compact logo
-    case "City of Brampton":
-      return "h-7 sm:h-9 md:h-10 max-w-[50px] sm:max-w-[60px] md:max-w-[70px]"; // Balanced square logo
-    case "Icube UTM":
-      return "h-7 sm:h-9 md:h-10 max-w-[50px] sm:max-w-[60px] md:max-w-[70px]"; // Compact logo
-    case "Carleton University":
-      return "h-8 sm:h-10 md:h-11 max-w-[55px] sm:max-w-[65px] md:max-w-[75px]"; // Balanced shield logo
-    case "Alam Law Firm":
-      return "h-7 sm:h-9 md:h-10 max-w-[55px] sm:max-w-[65px] md:max-w-[75px]"; // Wide Law logo
-    case "Irani Law":
-      return "h-7 sm:h-9 md:h-10 max-w-[55px] sm:max-w-[65px] md:max-w-[75px]"; // Law logo
-    case "MBM Law Firm":
-      return "h-5 sm:h-6 md:h-7 max-w-[65px] sm:max-w-[80px] md:max-w-[90px]"; // Long landscape logo
-    case "Khalsa Aid":
-      return "h-8 sm:h-10 md:h-11 max-w-[40px] sm:max-w-[50px] md:max-w-[60px]"; // Tall emblem
-    default:
-      return "h-7 sm:h-9 md:h-10 max-w-[55px] sm:max-w-[70px] md:max-w-[85px]"; // Default safe balanced size
-  }
+// Balance optical weight: wide wordmarks get less height, compact marks get more
+const logoSizeClasses = {
+  wide: "h-4 sm:h-5 md:h-6 max-w-[100px] md:max-w-[120px]",
+  medium: "h-6 sm:h-7 md:h-8 max-w-[90px] md:max-w-[110px]",
+  compact: "h-8 sm:h-9 md:h-10 max-w-[50px] md:max-w-[60px]",
 };
 
 const BookingPage = () => {
@@ -141,27 +116,25 @@ const BookingPage = () => {
                   <h3 className="text-base sm:text-lg font-semibold text-foreground mb-3 sm:mb-4 text-center">
                     Trusted by
                   </h3>
-                  <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-white/30 backdrop-blur-sm border border-border/30 py-6 px-2 sm:px-4">
+                  <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-foreground py-6 px-2 sm:px-4">
+                    {/* Fade edges for seamless scroll */}
+                    <div className="absolute left-0 top-0 bottom-0 w-10 bg-gradient-to-r from-foreground to-transparent z-10 pointer-events-none"></div>
+                    <div className="absolute right-0 top-0 bottom-0 w-10 bg-gradient-to-l from-foreground to-transparent z-10 pointer-events-none"></div>
                     <div className="scrolling-logos-wrapper">
                       <div className="scrolling-logos animate-scroll">
                         {allCompanies.map((company, idx) => (
                           <div
                             key={idx}
-                            className="flex items-center justify-center opacity-60 hover:opacity-100 transition-all duration-300 group flex-shrink-0"
+                            className="flex items-center justify-center flex-shrink-0 h-10 md:h-12"
+                            aria-hidden={idx >= trustedBySection.companies.length}
                           >
-                            <div className="relative flex items-center justify-center rounded-xl bg-white/40 backdrop-blur-sm border border-white/20 shadow-sm group-hover:shadow-md group-hover:bg-white/70 transition-all duration-500 w-[100px] sm:w-[120px] md:w-[130px] h-[50px] sm:h-[60px] md:h-[65px]">
-                              <img
-                                src={company.logo}
-                                alt={company.name}
-                                className={`${getLogoSizingClass(company.name)} object-contain transition-all duration-300`}
-                                draggable="false"
-                                onError={(e) => {
-                                  console.log(`Failed to load image for ${company.name}:`, company.logo);
-                                  e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDgiIGZpbGw9IiNmM2Y0ZjYiLz48dGV4dCB4PSI2MCIgeT0iMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM2Yjc2ODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiI+TG9nbzwvdGV4dD48L3N2Zz4=";
-                                }}
-                              />
-                              <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"></div>
-                            </div>
+                            <img
+                              src={company.logo}
+                              alt={company.name}
+                              title={company.name}
+                              className={`${logoSizeClasses[company.size]} w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300`}
+                              draggable="false"
+                            />
                           </div>
                         ))}
                       </div>
@@ -259,7 +232,7 @@ const BookingPage = () => {
         }
         .scrolling-logos {
           display: flex;
-          gap: 1rem;
+          gap: 2.5rem;
           width: max-content;
           align-items: center;
         }
@@ -284,7 +257,7 @@ const BookingPage = () => {
         /* Responsive adjustments */
         @media (max-width: 768px) {
           .scrolling-logos {
-            gap: 0.75rem;
+            gap: 2rem;
           }
           .animate-scroll {
             animation-duration: 30s;

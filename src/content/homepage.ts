@@ -1,13 +1,12 @@
 import { DollarSign, Users, Target, ShieldCheck } from "lucide-react";
 
 export const heroSection = {
-  badge: "Content Revenue Agency for B2B Tech & SaaS",
   headline: "Turn executive content into qualified pipeline in 90 days",
   subheadline: "An in-house content team that runs this costs upwards of $42K a month in payroll. We run it for about a fifth of that, with four hours a month from your executives.",
   popupTagLead: "We partner up with a small group of mid-market B2B tech companies doing 5M to 100M ARR.",
   popupTagRest: "If your executives have expertise worth hearing and the budget to build their brand, keep going.",
   primaryCTA: "Apply Now",
-  secondaryCTA: "See The Sauce Recipe™",
+  secondaryCTA: "Introducing The Sauce Recipe™",
   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder, replace with actual video URL if available
 };
 
@@ -173,28 +172,24 @@ export const servicesOverviewSection = {
 export const trustedBySection = {
   headline: "Trusted by the world's most innovative B2B companies",
   subheadline: "We've helped these companies turn their executive teams into category-defining authorities.",
+  // All logos are single-color (white) and are shown on a dark band.
+  // Tech brands are listed first so they're the first to scroll into view.
+  // `size` balances optical weight: wide wordmarks get less height, compact marks more.
   companies: [
-    { name: "Oracle", logo: "/company images/oracle.webp" },
-    { name: "Goalcast", logo: "/company images/goalcast.png" },
-    { name: "WISMOlabs", logo: "/company images/wismolabs.svg" },
-    { name: "TBDC", logo: "/company images/tbdc.png" },
-    { name: "Bhive", logo: "/company images/bhive.png" },
-    { name: "City of Brampton", logo: "/company images/city-of-brampton.jpg" },
-    { name: "Icube UTM", logo: "/company images/icube-utm.png" },
-    { name: "Carleton University", logo: "/company images/carleton-university.png" },
-    { name: "Alam Law Firm", logo: "/company images/alam-law-firm.png" },
-    { name: "Irani Law", logo: "/company images/irani-law.png" },
-    { name: "MBM Law Firm", logo: "/company images/mbm-law-firm.svg" },
-    { name: "Khalsa Aid", logo: "/company images/khalsa-aid.png" },
-    { name: "Sterling Capital", logo: "/company images/sterling-capital.webp" },
-    { name: "True Ally", logo: "/company images/true-ally.webp" },
-    { name: "Maripsa", logo: "/company images/maripsa.png" },
-    { name: "Fuel+", logo: "/company images/fuelplus.png" },
-    { name: "CYMCorp", logo: "/company images/cymcorp.png" },
-    { name: "Depix", logo: "/company images/depix.png" },
-    { name: "Ice Exchange Inc", logo: "/company images/ice-exchange-inc.png" },
-    { name: "TVO Kids", logo: "/company images/tvo-kids.webp" }
-  ]
+    { name: "Oracle", logo: "/logos/oracle.png", size: "wide" },
+    { name: "Windscribe", logo: "/logos/windscribe.png", size: "wide" },
+    { name: "Control D", logo: "/logos/control-d.png", size: "wide" },
+    { name: "WISMO Labs", logo: "/logos/wismo-labs.png", size: "wide" },
+    { name: "Amaith", logo: "/logos/amaith.png", size: "wide" },
+    { name: "Ice Exchange", logo: "/logos/ice-exchange.png", size: "medium" },
+    { name: "PSII", logo: "/logos/psii.png", size: "compact" },
+    { name: "Goalcast", logo: "/logos/goalcast.png", size: "wide" },
+    { name: "BHIVE", logo: "/logos/bhive.png", size: "medium" },
+    { name: "Sterling", logo: "/logos/sterling.png", size: "medium" },
+    { name: "True Ally", logo: "/logos/true-ally.png", size: "medium" },
+    { name: "Depix", logo: "/logos/depix.png", size: "compact" },
+    { name: "Carmina Design Co.", logo: "/logos/carmina-design-co.png", size: "medium" }
+  ] as { name: string; logo: string; size: "wide" | "medium" | "compact" }[]
 };
 
 export const testimonialsSection = {
@@ -247,7 +242,7 @@ export const faqSection = {
     },
     {
       question: "We're not sure which service is right for us. How do we choose?",
-      answer: "If you want to start generating revenue from LinkedIn by building an executive brand, start with the LinkedIn Revenue System. If you're ready to build a full brand show with omnichannel distribution, the Video Revenue System is your play. If you want to run the system yourself, the Pipeline Sprint gives you the strategy and playbook to do it. Apply anyway and we'll point you in the right direction or to a partner that’s a better fit."
+      answer: "If you want to start generating revenue from LinkedIn by building an executive brand, start with the LinkedIn Revenue System. If you're ready to build a full brand show with omnichannel distribution, the Video Revenue System is your play. If you want to run the system yourself, the Content Sprint gives you the strategy and playbook to do it. Apply anyway and we'll point you in the right direction or to a partner that’s a better fit."
     },
     {
       question: "We've worked with content agencies before and got nothing. Why would this be different?",

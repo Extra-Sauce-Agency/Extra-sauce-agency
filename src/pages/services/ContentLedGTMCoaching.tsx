@@ -63,23 +63,23 @@ const ContentLedGTMCoaching = () => {
   const sprintPhases = [
     {
       number: "1",
-      title: "Establish Market Of One Positioning",
-      description: "Create a compelling first impression in your market by carving out a position through strategic narrative, visual branding that is memorable, and distinctive enough to separate from the competition."
+      title: "MarketFit Spinner™",
+      description: "On live working sessions, we build your Market of One positioning with you, using social listening data to sharpen your buyer personas and the point of view that sets you apart. You leave with a positioning document your whole team can write from."
     },
     {
       number: "2",
-      title: "Audience development & messaging",
-      description: "Collect data through social listening tools to craft actionable personas and build out a strategy to target them at different touchpoints in the audience's discoverable stage."
+      title: "Scroll-Stopping Engine™",
+      description: "We set up your content workflow and teach your team to run it, including AI workflows built with Claude Skills that keep every post in each executive's voice. You leave producing more content in less time, built to make your executives the most credible voice in your category."
     },
     {
       number: "3",
-      title: "Social Selling Infrastructure Setup",
-      description: "Setup sales & marketing tools to help find high-intent leads, manage conversations on social media, and distribute/analyze content, funnel setup to capture leads."
+      title: "Warm Outbound System™",
+      description: "We set up the tools your team needs to find high-intent leads, track who engages with your content, and manage LinkedIn conversations. Then we coach your team through live outreach until they can turn engagement into booked meetings on their own."
     },
     {
       number: "4",
-      title: "Scroll-Stopping Content Workflows",
-      description: "Learn to leverage various LLMs and specialty workflows via Claude Skills to 10x your content production, minimize burnout, content that sounds like you while getting you focused on the core parts of your business, learn the ins & outs of growing revenue on channels like LinkedIn & YouTube."
+      title: "C-suite Paid Ads Strategy™",
+      description: "Once your organic content has proven winners, we show you how to promote those posts to your target account list with LinkedIn Thought Leader Ads. You leave knowing which posts to amplify, which accounts to target, and how to measure the pipeline they bring in."
     }
   ];
 
@@ -138,7 +138,7 @@ const ContentLedGTMCoaching = () => {
 
   const faqItems = [
     {
-      question: "What is a content-to-pipeline sprint?",
+      question: "What is a Content Sprint?",
       answer: "We help founders implement a lean content system that drives real company revenue in the next 90 days. We ask busy executives to give us 8 weeks to build a content-led GTM engine that makes you look like a thought leader in your space and bring in 1 clients. Over these weeks, we develop your company narrative, brand identity, outbound motions, and content workflows that get meetings booked in your LinkedIn DMs."
     },
     {
@@ -176,7 +176,7 @@ const ContentLedGTMCoaching = () => {
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "Content-To-Pipeline Sprint",
+    "name": "Content Sprint",
     "description": "Build your own content revenue engine in under 8 weeks with our hands-on coaching program designed for SaaS founders and B2B leaders.",
     "url": "https://www.extrasauceagency.com/services/content-led-gtm-coaching",
     "provider": {
@@ -189,9 +189,9 @@ const ContentLedGTMCoaching = () => {
   return (
     <>
       <EnhancedSEOHead
-        title="Content-To-Pipeline Sprint - Build Your Content Revenue Engine"
+        title="Content Sprint - Build Your Content Revenue Engine"
         description="Build your own content revenue engine in under 8 weeks. Hands-on coaching for SaaS founders and B2B leaders to implement battle-tested content systems."
-        ogTitle="Content-To-Pipeline Sprint - Build Your Content Revenue Engine"
+        ogTitle="Content Sprint - Build Your Content Revenue Engine"
         ogDescription="Build your own content revenue engine in under 8 weeks. Hands-on coaching for SaaS founders and B2B leaders to implement battle-tested content systems."
         canonicalUrl="https://www.extrasauceagency.com/services/content-led-gtm-coaching"
         type="article"
@@ -205,7 +205,7 @@ const ContentLedGTMCoaching = () => {
           <div className="container-premium text-left relative z-10">
             <div className="max-w-3xl animate-scale-in">
               <p className="text-primary text-sm font-bold tracking-widest mb-4 uppercase">
-                Content-To-Pipeline Sprint
+                Content Sprint
               </p>
               
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
@@ -426,7 +426,7 @@ const ContentLedGTMCoaching = () => {
                 Pricing
               </p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Content-To-Pipeline Sprint
+                Content Sprint
               </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto">
                 Work 1:1 with us to build your own content revenue system in 8 weeks with the exact strategy, systems, and playbooks we use in The Sauce Recipe™
@@ -513,7 +513,7 @@ const ContentLedGTMCoaching = () => {
                 Let's get started
               </h2>
               <p className="text-lg text-slate-300 mb-8">
-                Apply now to schedule your strategy call and see if the Content-To-Pipeline Sprint is right for your business.
+                Apply now to schedule your strategy call and see if the Content Sprint is right for your business.
               </p>
               <Link to="/book-strategy-call">
                 <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold">

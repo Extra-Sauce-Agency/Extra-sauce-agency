@@ -22,13 +22,6 @@ const CaseStudyGrid = ({ stories }: CaseStudyGridProps) => {
       <div className="absolute bottom-0 right-[6%] w-72 h-72 lg:w-96 lg:h-96 bg-[#FFE4DF] rounded-full blur-3xl opacity-40 pointer-events-none" />
 
       <div className="container-premium relative z-10">
-        <div className="text-center mb-10">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">More success stories</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real results from real clients across LinkedIn, podcasts, and webinars.
-          </p>
-        </div>
-
         {/* Filter pills */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {caseStudyFilters.map((filter) => (

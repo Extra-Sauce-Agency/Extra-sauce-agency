@@ -10,8 +10,9 @@ const AtAGlanceCard = ({ story }: AtAGlanceCardProps) => {
     <div className="h-full rounded-3xl border border-neutral-200/80 bg-white p-6 md:p-8 shadow-xl shadow-neutral-100 flex flex-col">
       <div className="flex items-center gap-3 mb-5">
         {story.clientLogo ? (
-          <div className="w-12 h-12 rounded-xl border border-border bg-white flex items-center justify-center shrink-0 p-2">
-            <img src={story.clientLogo} alt={story.client} className="w-full h-full object-contain" />
+          // Logos are single-color white, so they sit on a dark tile sized to fit wide wordmarks
+          <div className="h-12 min-w-12 max-w-[140px] rounded-xl bg-foreground flex items-center justify-center shrink-0 px-3">
+            <img src={story.clientLogo} alt={story.client} className="max-h-6 max-w-full w-auto object-contain" />
           </div>
         ) : (
           <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white font-bold shrink-0">

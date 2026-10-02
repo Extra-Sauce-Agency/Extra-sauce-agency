@@ -49,9 +49,6 @@ const CTASection = () => {
                 </span>
               </Button>
             </Link>
-            <p className="mt-6 text-lg text-muted-foreground italic max-w-3xl">
-              What if your CEO became the name your industry can't stop talking about
-            </p>
           </div>
         </div>
       </div>

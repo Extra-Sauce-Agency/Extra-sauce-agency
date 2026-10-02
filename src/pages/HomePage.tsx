@@ -43,8 +43,11 @@ const HomePage = () => {
       <div className="min-h-screen bg-background">
         <Navigation />
         <main>
-          <HeroSection />
-          <TrustedBySection />
+          {/* Above the fold: hero fills the space, logo ticker sits flush at the bottom */}
+          <div className="min-h-[100svh] flex flex-col">
+            <HeroSection />
+            <TrustedBySection />
+          </div>
           <WhoIsThisForSection />
           <Testimonials />
           <ProcessSection />

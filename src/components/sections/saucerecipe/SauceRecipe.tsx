@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Play, Pause, Users, Target, TrendingUp, Building, MessageSquare, DollarSign, BarChart3, Handshake, Zap, Eye, FileText, Lightbulb, PieChart, Coins, MousePointerClick, ChevronDown, ChevronUp, Sparkles } from "lucide-react";
+import { Play, Pause, Users, Target, TrendingUp, Building, MessageSquare, DollarSign, BarChart3, Handshake, Zap, Eye, FileText, Lightbulb, PieChart, Coins, MousePointerClick, ChevronDown, ChevronUp, Sparkles, ExternalLink } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { sauceRecipeContent } from "@/content/pages/saucerecipe";
@@ -200,7 +200,7 @@ const SauceRecipe = () => {
           </div>
           
           {/* Embedded YouTube Video */}
-          <div className="max-w-4xl mx-auto bg-card border border-border rounded-2xl overflow-hidden shadow-elegant mb-12">
+          <div className="max-w-4xl mx-auto bg-card border border-border rounded-2xl overflow-hidden shadow-elegant mb-8">
             <div className="aspect-video bg-gradient-to-br from-muted/50 to-background flex items-center justify-center relative">
               <iframe
                 width="100%"
@@ -213,6 +213,22 @@ const SauceRecipe = () => {
                 className="w-full h-full"
               ></iframe>
             </div>
+          </div>
+
+          {/* Service flowchart links (Figma) */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            {sauceRecipeContent.flowcharts.map((flowchart) => (
+              <a
+                key={flowchart.href}
+                href={flowchart.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl border-2 border-primary/30 bg-primary/5 px-6 py-3 text-sm sm:text-base font-semibold text-primary shadow-sm transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground hover:shadow-md"
+              >
+                {flowchart.label}
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            ))}
           </div>
         </div>
 
@@ -307,7 +323,7 @@ const SauceRecipe = () => {
           </div>
         </div>
 
-        {/* Process Steps - Horizontal Scroller */}
+        {/* Process Steps */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -318,21 +334,18 @@ const SauceRecipe = () => {
             </p>
           </div>
 
-          {/* Horizontal Scroller */}
-          <div className="relative">
-            <div className="overflow-x-auto pb-8 scrollbar-hide">
-              <div className="flex gap-6 px-4 min-w-max">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
                 {steps.map((step, index) => (
                   <div
                     key={index}
-                    className="bg-gradient-to-br from-card/90 to-muted/50 backdrop-blur-sm border border-border/50 rounded-3xl p-8 shadow-elegant hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-80 flex-shrink-0"
+                    className="bg-gradient-to-br from-card/90 to-muted/50 backdrop-blur-sm border border-border/50 rounded-3xl p-6 xl:p-7 shadow-elegant hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                   >
                     <div className="mb-4">
                       <div className="inline-block bg-gradient-to-r from-primary to-secondary text-primary-foreground px-4 py-2 rounded-full text-sm font-bold mb-4">
                         Phase {step.number}
                       </div>
                     </div>
-                    <h4 className="text-2xl font-bold text-foreground mb-4">
+                    <h4 className="text-xl xl:text-2xl font-bold text-foreground mb-4">
                       {step.title}
                     </h4>
                     <p className="text-muted-foreground leading-relaxed">
@@ -351,8 +364,6 @@ const SauceRecipe = () => {
                     )}
                   </div>
                 ))}
-              </div>
-            </div>
           </div>
         </div>
 

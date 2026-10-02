@@ -41,7 +41,7 @@ const Testimonials = () => {
       author: "Sharlene Gumbs",
       title: "CEO & Founder, True Ally",
       avatar: "/sharlenegumbs.png",
-      impact: "Content-To-Pipeline Sprint",
+      impact: "Content Sprint",
       metrics: [
         { label: "LinkedIn Revenue System", value: "Setup Complete", icon: CheckCircle },
         { label: "Pipeline Impact", value: "6-7 weeks", icon: BarChart3 }
@@ -55,7 +55,7 @@ const Testimonials = () => {
       author: "Christian Khoury",
       title: "CEO & Founder, EasyAudit",
       avatar: "/christiankhoury.png", 
-      impact: "Content-To-Pipeline Sprint",
+      impact: "Content Sprint",
       metrics: [
         { label: "Business Impact", value: "Investor Meetings", icon: TrendingUp },
         { label: "Pipeline Impact", value: "4 weeks", icon: DollarSign }
