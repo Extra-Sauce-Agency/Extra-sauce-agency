@@ -48,21 +48,21 @@ export const sauceRecipeContent = {
   // Content Journey Stages
   journeyStages: [
     {
-      initialTitle: "Build your own content revenue system in 6-8 weeks",
+      initialTitle: "Build a content-to-pipeline system your team owns in 6–8 weeks",
       expandedTitle: "The Sauce Recipe™ installed in your business",
-      expandedDescription: "Over 6–8 weeks, you work directly with a senior demand gen strategist who builds The Sauce Recipe™ into your business. We sharpen your Market Of One positioning, build your scroll-stopping content engine, install your social selling infrastructure, and set up your outbound workflows. By the end, your team runs the full system independently.",
+      expandedDescription: "We build the system with you: your positioning, an executive voice guide, a content calendar, and the outbound playbook that turns engagement into meetings. After 6–8 weeks, your team runs it without us, and you keep every piece.",
       link: "/services/content-led-gtm-coaching"
     },
     {
-      initialTitle: "Turn your executive LinkedIn presence into a 10x BDR",
+      initialTitle: "Turn your executives' LinkedIn into qualified meetings every month",
       expandedTitle: "Content & outbound that sounds like you.",
-      expandedDescription: "We turn your executive team into visible and credible thought leaders on LinkedIn with only 2-4 content calls/mo. Most clients see leading indicators within 45–60 days and qualified pipeline conversations within 70–90.",
+      expandedDescription: "We write and publish your executives' LinkedIn content in their voice, then reach out to the target accounts who engage. Your executives give us four hours a month. Most clients see qualified pipeline within 70–90 days.",
       link: "/services/linkedin-revenue-system"
     },
     {
-      initialTitle: "B2B Podcast Show",
+      initialTitle: "Host a B2B video show where your guests & audience are dream accounts",
       expandedTitle: "Binge-worthy content that turns your buyers into fans",
-      expandedDescription: "B2B SaaS teams ready to build category authority at scale. We produce a brand show that becomes your company's primary demand engine. 2 x 60-minute recording becomes 20+ assets across LinkedIn, YouTube, and your newsletter.",
+      expandedDescription: "You invite the leaders you most want as customers. We produce the show, cut every episode into clips for LinkedIn and YouTube, and follow up with viewers from target accounts. Each episode builds a relationship and gives you a month of content.",
       link: "/services/video-revenue-system"
     }
   ],
