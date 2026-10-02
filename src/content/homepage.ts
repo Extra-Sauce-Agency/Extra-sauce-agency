@@ -22,24 +22,24 @@ export const whoIsThisForSection = {
       description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "You're getting a lower ROI and losing profit margins as you scale with only paid advertising",
-      description: "B2B customer acquisition costs have risen 60%+ year-over-year for five years running and creative begins to fatigue because you don't have enough. This results in higher CAC and your sales team being fed poor MQLs."
+      title: "Your paid ads stop performing when you scale because your team can't feed them fresh creative fast.",
+      description: "The median B2B SaaS company now spends $2.00 in sales and marketing to win $1.00 of new ARR, up 14% in a single year. Paid campaigns also burn through creative fast, and most teams can't produce new ads quickly enough to keep performance from sliding."
     },
     {
-      title: "Your C-suite team has expertise your buyers are actively searching for, but they aren't found in the buying journey.",
-      description: "77% of B2B buyers are more likely to purchase from a company whose executives are active on social media. Every week that expertise is searched for on LinkedIn and YouTube."
+      title: "Your best sales asset is your executives' expertise, and your buyers have never seen it.",
+      description: "Before they take a meeting, buyers want to see how a vendor's leaders think. 35% of hidden buyers say a senior executive encouraged them to consider a vendor because of its thought leadership."
     },
     {
-      title: "Your competitors that post content are becoming the default choice in your category.",
-      description: "With only 5% of buyers in-market at any given time, the other 95% are quietly forming opinions about who to trust through content before they're ready to buy."
+      title: "Your competitors who post consistently are becoming the default choice in your category.",
+      description: "Buyers don't contact a vendor until they're 61% of the way through their buying journey, and the winner almost always comes from the shortlist they built on day one. Competitors who publish every week give buyers a reason to put them on that list."
     },
     {
       title: "Your outbound reply rates are dropping because you don't pass the vetting process.",
-      description: "Three years ago, B2B outbound averaged a 7–8% reply rate. Today it sits between 3–5%, and the trend isn't reversing. Your buyers aren't unreachable. They're sophisticated and will vet you before replying."
+      description: "Cold email reply rates now average about 3.4%. When your buyers search you up on LinkedIn or YouTube, your outreach now arrives from a brand they can trust. Our content revenue systems sees reply rates between 10% and 30%."
     },
     {
-      title: "You're producing content that gets some views, but you can't link any deals to it.",
-      description: "Content requires a demand capture system to turn the attention into revenue. Strategic outbound and social selling is required to capitalize on the influence made on social media. Our clients running content and outbound together see qualified pipeline within 70-90 days."
+      title: "Your content gets views, but your CFO can't trace a single deal back to it.",
+      description: "Attention fades unless you nurture the people who engage. PSII paired executive content with targeted outbound and added $428K in ARR. We run both our clients and they see qualified pipeline within 70–90 days."
     }
   ]
 };
