@@ -20,8 +20,8 @@ export const sauceRecipeContent = {
   clickToLearn: "Click to find the best path to revenue for you",
   
   // Process Steps
-  processTitle: "Here's Our Approach",
-  processSubtitle: "Most agencies only do \"content.\" We align push + pull. That means we build strategic thought leadership, then connect it to outbound so your target buyers are pulled into a realm of influence",
+  processTitle: "Most agencies stop at content. We connect it to your pipeline.",
+  processSubtitle: "The Sauce Recipe™ runs thought leadership and outbound as one system. Your executives' content warms up target accounts, and our outreach reaches them while your name is still fresh.",
   steps: [
     {
       number: 1,
