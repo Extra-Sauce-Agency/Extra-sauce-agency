@@ -164,7 +164,7 @@ export const servicesOverviewSection = {
         "4 Workshops included"
       ],
       descriptionBottom: "Workshops included: Market Of One positioning, Audience Development, Strategic Narrative, Social Selling, AI-powered Content Workflows, etc.",
-      cta: "See The Content-To-Pipeline Sprint",
+      cta: "See The Content Sprint",
       link: "/services/content-led-gtm-coaching"
     }
   ]
