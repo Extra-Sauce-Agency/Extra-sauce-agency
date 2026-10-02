@@ -29,9 +29,9 @@ const CTASection = () => {
       <div className="container-premium relative z-10">
         <div className="text-center max-w-5xl mx-auto animate-fade-in">
           <h2 className="text-5xl lg:text-7xl font-bold text-foreground mb-8 leading-tight">
-            Big Content Wins,{" "}
+            Big Content Wins{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Backed By Customers
+              Backed By Real Clients
             </span>
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-4">
