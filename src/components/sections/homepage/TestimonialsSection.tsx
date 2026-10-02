@@ -89,7 +89,7 @@ const Testimonials = () => {
           <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
             Go from "we need better leads" to{" "}
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              dream customers coming on sales calls already as raving fans sold through your content.
+              dream accounts booking demos already sold on your expertise.
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-6xl mx-auto">
