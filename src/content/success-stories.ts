@@ -844,9 +844,9 @@ export interface Milestone {
 export const milestonesSection = {
   supportingText: "We are the content revenue engine busy marketing teams have been looking for.",
   milestones: [
-    { value: "16M", label: "Views in 4 Months, 500K+ subscribers", platform: "YouTube" },
-    { value: "1M", label: "Views in 1 Month", platform: "Instagram" },
-    { value: "1.5M", label: "Impressions in 3 Months", platform: "LinkedIn" },
+    { value: "16M", label: "Views in 4 Months, 500K+ subscribers on YouTube", platform: "YouTube" },
+    { value: "1M", label: "Views in 30 Days on Instagram", platform: "Instagram" },
+    { value: "1.5M", label: "Impressions in 3 Months on LinkedIn", platform: "LinkedIn" },
   ] as Milestone[],
 };
 
