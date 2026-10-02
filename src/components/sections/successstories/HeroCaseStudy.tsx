@@ -32,10 +32,10 @@ const HeroCaseStudy = ({ story }: HeroCaseStudyProps) => {
       <div className="container-premium relative z-10">
         <div className="text-center mb-12">
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 lg:whitespace-nowrap bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Customer Success Stories
+            Over $1M+ generated in pipeline through content
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            See how founders use The Sauce Recipe™ to turn content into pipeline.
+            See how B2B teams use The Sauce Recipe™ to turn content into pipeline.
           </p>
         </div>
 
