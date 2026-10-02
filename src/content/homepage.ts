@@ -91,7 +91,7 @@ export const problemSection = {
 };
 
 export const processSection = {
-  headline: "The four phases that take your executive team from invisible to in-demand.",
+  headline: "The four phases that make your executive team the talk of your category.",
   description: "A step-by-step look at how The Sauce Recipe™ installs a content revenue system that books qualified sales calls every week.",
   steps: [
     {
