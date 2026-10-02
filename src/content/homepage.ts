@@ -22,7 +22,7 @@ export const whoIsThisForSection = {
       description: "BDRs are burning hours every week on demos that go nowhere. They chase leads that don't convert, follow up with contacts who were never going to buy, and sit through calls that were dead before they started. That time should be spent talking to buyers who show up already convinced."
     },
     {
-      title: "Your paid ads stop performing when you scale because your team can't feed them fresh creative fast.",
+      title: "Your paid ads stall at scale because your team can't make creative fast enough.",
       description: "The median B2B SaaS company now spends $2.00 in sales and marketing to win $1.00 of new ARR, up 14% in a single year. Paid campaigns also burn through creative fast, and most teams can't produce new ads quickly enough to keep performance from sliding."
     },
     {
