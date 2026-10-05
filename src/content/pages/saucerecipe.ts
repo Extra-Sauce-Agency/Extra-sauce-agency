@@ -14,7 +14,7 @@ export const sauceRecipeContent = {
     "Today, we use that same playbook to help B2B founders and exec teams become the category voice - through executive content and brand shows that connect attention to revenue."
   ],
   audioLabel: "How Extra Sauce Started...",
-  audioDuration: "06:30 / 13:25",
+  audioDuration: "00:00 / 01:36",
   walkThroughTitle: "WALK THROUGH THE SAUCE RECIPE™",
   walkThroughSubtitle: "Where Are You In Your Content Journey?",
   flowcharts: [

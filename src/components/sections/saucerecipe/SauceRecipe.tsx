@@ -161,7 +161,7 @@ const SauceRecipe = () => {
               <div className="mt-8 flex items-center gap-4 bg-background/50 rounded-xl p-4">
                 <audio 
                   ref={audioRef}
-                  src="/howitstarted.mp3"
+                  src="/voice-note.mp3"
                   onTimeUpdate={handleTimeUpdate}
                   onLoadedMetadata={handleLoadedMetadata}
                   onEnded={handleAudioEnded}
