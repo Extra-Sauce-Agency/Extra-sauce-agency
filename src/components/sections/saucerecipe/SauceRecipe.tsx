@@ -199,19 +199,19 @@ const SauceRecipe = () => {
             </h3>
           </div>
           
-          {/* Embedded YouTube Video */}
+          {/* Sauce Recipe walkthrough video */}
           <div className="max-w-4xl mx-auto bg-card border border-border rounded-2xl overflow-hidden shadow-elegant mb-8">
             <div className="aspect-video bg-gradient-to-br from-muted/50 to-background flex items-center justify-center relative">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/uAaoV40NhuQ"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
+              <video
+                controls
+                preload="metadata"
+                poster="/VideoSS.png"
+                aria-label="The Sauce Recipe walkthrough"
                 className="w-full h-full"
-              ></iframe>
+              >
+                <source src="/agencydemo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
 
