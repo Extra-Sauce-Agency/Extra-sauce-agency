@@ -205,7 +205,7 @@ const SauceRecipe = () => {
               <video
                 controls
                 preload="metadata"
-                poster="/VideoSS.png"
+                poster="/VideoUpdatedSS.jpeg"
                 aria-label="The Sauce Recipe walkthrough"
                 className="w-full h-full"
               >
